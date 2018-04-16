@@ -39,3 +39,7 @@
   border: 1px solid #e3e3e3;
   padding: 19px;
 }
+
+.views-exposed-form label{
+  display:none;
+}
