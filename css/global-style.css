@@ -16,3 +16,20 @@
 	outline-color:#ffffff;
 	outline-width:1px;
 }
+
+.region-sidebar-first .block{
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.gray-box{
+  background: #888C8F;
+  color: #FFFFFF;
+  padding: 10px 5px 10px 5px;
+}
+
+.blue-box{
+  background: #002A5B;
+  color: #FFFFFF;
+  margin: 20px 25px 20px 15px;
+}
