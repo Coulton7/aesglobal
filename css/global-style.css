@@ -49,3 +49,7 @@
 	border-top: 1px #888c8f dotted;
 	padding-top: 10px;
 }
+
+.media__search-bar--widgets{
+  display:block;  
+}
