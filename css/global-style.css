@@ -1,8 +1,18 @@
-.action-menu__search-bar{
-  width: 19em;
-      display: inline-block;
-      padding-right: 0;
-      float: left;
-      margin-left: 1.25em;
-      height: 100%;
+.btn-primary{
+	list-style-type:none;
+	display:inline-block;
+	background:#dd1e25;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius:0;
+}
+
+.btn-primary:hover{
+	background:#fa010a;
+	margin-bottom:0;
+	color:#ffffff;
+	outline-offset:1px;
+	outline-style:solid;
+	outline-color:#ffffff;
+	outline-width:1px;
 }
