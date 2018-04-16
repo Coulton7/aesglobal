@@ -33,3 +33,9 @@
   color: #FFFFFF;
   margin: 20px 25px 20px 15px;
 }
+
+.entitytype-branch_disti_form-form{
+  background-color: :#f5f5f5;
+  border: 1px solid #e3e3e3;
+  padding:19px;
+}
