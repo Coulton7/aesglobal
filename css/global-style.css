@@ -82,6 +82,10 @@ blockquote{
   display:none;
 }
 
+.views-exposed-widgets{
+	display:block
+}
+
 .success-stories{
   background-color: :#ffffff!important;
 	border-top: 1px #888c8f dotted;
