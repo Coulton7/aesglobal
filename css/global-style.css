@@ -52,7 +52,8 @@
 .after-content{
 	border-top: 1px solid #f5f5f5;
 	margin-top: 10px;
-	padding-top: 10px
+	padding-top: 10px;
+	background-color:#ffffff;
 }
 
 .darkgrey-background{
