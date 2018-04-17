@@ -22,9 +22,24 @@
 	outline-width:1px;
 }
 
+.pagination>li>a{
+	color:#dd1e25;
+}
+
+.pagination>.active>a{
+	color:#b5b6b9;
+	cursor:default;
+	background-color:#f5f5f5
+}
+
 .region-sidebar-first .block{
   margin-bottom: 10px;
   padding-bottom: 10px;
+}
+
+.resource__video--padding-float{
+	float:right;
+	padding:10px 0 10px 10px;
 }
 
 .gray-box{
