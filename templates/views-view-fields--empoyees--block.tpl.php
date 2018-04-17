@@ -25,8 +25,6 @@
  */
 ?>
 
-
-
   <?php if (!empty($field->separator)): ?>
     <?php print $field->separator; ?>
   <?php endif; ?>
@@ -36,28 +34,28 @@
     <?php print $field->content; ?>
   <?php print $field->wrapper_suffix; ?>
 
-<div class="row-fluid">
+  <div class="row-fluid">
 
-  <div class="col-sm-8">
-<h3><?php print $fields['name']->content; ?></h3>
-<?php print $fields['field_job_role']->content; ?>
-<?php print $fields['field_telephone']->content; ?>
-<?php print $fields['contact']->content; ?>
+    <div class="col-sm-8">
+      <h3><?php print $fields['name']->content; ?></h3>
+      <?php print $fields['field_job_role']->content; ?>
+      <?php print $fields['field_telephone']->content; ?>
+      <?php print $fields['contact']->content; ?>
 
-<?php print $fields['field_employee']->content; ?>
+      <?php print $fields['field_employee']->content; ?>
 
+    </div>
+    <div class="col-sm-4">
+
+      <?php print $fields['picture']->content; ?>
+
+    </div>
   </div>
-  <div class="col-sm-4">
 
-<?php print $fields['picture']->content; ?>
+  <div class="row-fluid">
 
-</div>
-</div>
+    <div class="col-sm-12">
+      <?php print $fields['field_biography']->content; ?>
 
-<div class="row-fluid">
-
-<div class="col-sm-12">
-<?php print $fields['field_biography']->content; ?>
-
-</div>
-</div>
+    </div>
+  </div>
