@@ -54,6 +54,11 @@
 	margin-top: 15px;
 }
 
+.read-more{
+	float: right;
+	clear: left;
+}
+
 blockquote{
 	margin:0 5em 0 5em;
 	color:#002A5B;
