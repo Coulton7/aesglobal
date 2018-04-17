@@ -1,3 +1,8 @@
+.btn{
+	background-color:#e7e7e9;
+	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
+}
+
 .btn-primary{
 	list-style-type:none;
 	display:inline-block;
@@ -32,6 +37,16 @@
   background: #002A5B;
   color: #FFFFFF;
   margin: 20px 25px 20px 15px;
+}
+
+.sidebar-blue{
+	background: #002A5B;
+	color: #FFFFFF;
+	padding: 10px 5px 10px 5px;
+}
+
+.sidebar-blue .block-title{
+	color:#ffffff;
 }
 
 .entitytype-branch_disti_form-form{
