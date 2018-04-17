@@ -49,6 +49,11 @@
 	color:#ffffff;
 }
 
+.country-icon{
+	float: right;
+	margin-top: 15px;
+}
+
 blockquote{
 	margin:0 5em 0 5em;
 	color:#002A5B;
