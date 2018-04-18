@@ -42,6 +42,14 @@
 	padding:10px 0 10px 10px;
 }
 
+.table th, .table td{
+	padding: 8px;
+	line-height: 21px;
+	text-align: left;
+	vertical-align: top;
+	border-top: 1px solid #ddd
+}
+
 .gray-box{
   background: #888C8F;
   color: #FFFFFF;
