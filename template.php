@@ -1,4 +1,4 @@
-<?php
+This is a Change to the file for testing<?php
 /**
  * @file
  * The primary PHP file for this theme.
