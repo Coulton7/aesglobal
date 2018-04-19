@@ -132,6 +132,10 @@ blockquote{
 	display:block
 }
 
+.views-exposed-widget .btn{
+	margin-top: 0;
+}
+
 .success-stories{
   background-color: :#ffffff;
 	padding-top: 10px;
