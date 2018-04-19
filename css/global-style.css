@@ -136,6 +136,14 @@ blockquote{
   display:none;
 }
 
+.search-block .views-exposed-widgets{
+	display:flex;
+}
+
+.search-block .views-exposed-form .views-exposed-widget .btn{
+	margin-top: 0;
+}
+
 .views-exposed-widgets{
 	display:block
 }
