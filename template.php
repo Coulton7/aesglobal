@@ -36,8 +36,3 @@ function aesglobal_preprocess_node(&$variables) {
 function aesglobal_preprocess_image_style(&$vars) {
 	$vars['attributes']['class'][] = 'img-responsive';
 }
-
-
-function aesglobal_preprocess_image(&$vars) {
-	$vars['attributes']['class'][] = 'img-responsive';
-}
