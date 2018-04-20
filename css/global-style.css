@@ -205,6 +205,10 @@ blockquote{
 	background-color: #888c8f;
 }
 
+.search-block .btn{
+	background-color: #e7e7e9; 
+}
+
 .search-block .views-exposed-widgets{
 	display:flex;
 }
