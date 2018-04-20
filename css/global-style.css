@@ -67,17 +67,30 @@
 	border-top: 1px solid #ddd
 }
 
-.blue-background .block-title a{
+.blue-background a{
 	color:#ffffff;
 }
 
-.blue-background .block-title a:hover{
+.blue-background a:hover{
 	color:#e5e5e5;
 }
 
 .blue-background{
 	outline:1px solid #002a5b;
 	padding:1em 0.5em 1em 0.5em
+}
+
+.darkgrey-background{
+	outline:2px solid #888c8f
+	padding:1em 0.5em 1em 0.5em
+}
+
+.darkgrey-background a:hover{
+	color:#e5e5e5;
+}
+
+.darkgrey-background{
+	color:#ffffff;
 }
 
 .gray-box{
