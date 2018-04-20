@@ -188,6 +188,10 @@ blockquote{
   display:none;
 }
 
+.search-block{
+	background-color: #888c8f;
+}
+
 .search-block .views-exposed-widgets{
 	display:flex;
 }
@@ -210,6 +214,8 @@ blockquote{
 
 .lang-switch{
 	padding-top: 0.5em;
+	background-color: #888c8f
+	color:#ffffff
 }
 
 .success-stories{
