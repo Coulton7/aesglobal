@@ -121,12 +121,13 @@
 }
 
 blockquote{
-	margin:0 5em 0 5em;
 	color:#002A5B;
 	background-image:url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
 	background-position:-0.5% 0%,98.7% 100% ;
 	background-repeat:no-repeat;
 	padding:1.7em
+	border:none;
+	font-size:inherit;
 }
 
 .entitytype-branch_disti_form-form{
