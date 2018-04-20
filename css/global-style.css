@@ -70,6 +70,14 @@
 	color: #1c2f55
 }
 
+.group-logo a{
+	border-bottom: none;
+}
+
+.group-logo a:hover{
+	border-bottom: none;
+}
+
 .table th, .table td{
 	padding: 8px;
 	line-height: 21px;
