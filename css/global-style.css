@@ -221,15 +221,18 @@ blockquote{
   display:block;
 }
 
-.home-widget{
+.widget-width{
+margin: .5rem;
+width: 270px;
+padding: 10px;
+}
+
+.image-highlight{
 	text-align: center;
 	display: inline-block;
-	margin: .5rem;
 	position: relative;
-	width: 270px;
 	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
 	transition: .5s;
-	padding: 10px;
 	background: -moz-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
 	background: -webkit-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
 	background: linear-gradient(to bottom, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
@@ -240,7 +243,7 @@ blockquote{
 	color: black;
 }
 
-.home-widget:hover{
+.image-highlight:hover{
 	background: -moz-linear-gradient(top, #fff 0, #fff 70%, #fff 100%);
 	background: -webkit-linear-gradient(top, #fff 0, #fff 70%, #fff 100%);
 	background: linear-gradient(to bottom, #fff 0, #fff 70%, #fff 100%);
@@ -389,7 +392,7 @@ blockquote{
 }
 
 @media screen and (min-width: 992px){
-	.home-widget {
+	.widget-width {
 		width: 220px;
 		height: auto;
 	}
@@ -398,7 +401,7 @@ blockquote{
 	}
 }
 @media screen and (min-width: 768px) {
-	.home-widget {
+	.widget-width {
 		width: 320px;
 		height: auto;
 	}
@@ -407,7 +410,7 @@ blockquote{
 	}
 }
 @media screen and (max-width: 767px){
-	.home-widget {
+	.widget-width {
 	width: 100%;
 	height: auto;
 	}
