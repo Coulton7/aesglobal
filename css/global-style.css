@@ -30,6 +30,10 @@
 	color:#dd1e25;
 }
 
+.pagination>li>a:hover{
+	color:#fa010a;
+}
+
 .pagination>.active>a{
 	color:#b5b6b9;
 	cursor:default;
