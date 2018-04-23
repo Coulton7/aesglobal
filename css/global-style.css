@@ -79,11 +79,6 @@
 	background-color:#e5e5e7;
 }
 
-.item-list .nav li a.active{
-	color:#1c2f55;
-	cursor:default;
-}
-
 .group-logo a{
 	border-bottom: none;
 }
