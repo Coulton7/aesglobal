@@ -75,21 +75,11 @@
 	padding-left:0;
 }
 
-.item-list li{
-	padding:0.95em 1.1em;
-	border-bottom: 1px dashed #888c8f
-}
-
-.item-list li:hover{
-	border-bottom: 1px dashed #dd1e25;
+.item-list .nav li a:hover{
 	background-color:#e5e5e7;
 }
 
-.item-list li a{
-	border-bottom: none;
-}
-
-.item-list li a.active{
+.item-list .nav li a.active{
 	color:#1c2f55;
 	cursor:default;
 }
