@@ -71,23 +71,21 @@
   margin-bottom: 10px;
 }
 
-.product-menu li a{
-	display:block;
-	color:#535454;
-	padding: 0.95em 1.1em;
-	text-decoration:none;
+.item-list li{
+	padding:0.95em 1.1em;
+	border-bottom: 1px dashed #888c8f
 }
 
-.product-menu li a:hover{
-	color: #dd1e25;
-	margin-bottom:0;
-	border-bottom: 1px dashed #dd1e25;
-	text-decoration:none;
-
+.item-list li:hover{
+	border-bottom: 1px dashed #dd1e25
 }
 
-.product-menu li a.active{
-	color: #1c2f55
+.item-list li a{
+	border-bottom: none;
+}
+
+.item-list li a.active{
+	color:#1c2f55;
 }
 
 .group-logo a{
