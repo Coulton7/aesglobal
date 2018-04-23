@@ -39,6 +39,16 @@
 	outline-width:1px;
 }
 
+.btn-default{
+	border-bottom: none;
+	color:#535354
+}
+
+.btn-default a{
+	border-bottom: none;
+	color:#535354
+}
+
 .pagination>li>a{
 	color:#dd1e25;
 }
