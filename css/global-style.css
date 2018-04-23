@@ -203,6 +203,10 @@ blockquote{
 	background-color: #e7e7e9;
 }
 
+.search-block .btn:hover{
+	background-color: #cfcfd1;
+}
+
 .search-block .views-exposed-widgets{
 	display:flex;
 }
