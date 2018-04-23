@@ -210,7 +210,7 @@
           <div class="breadcrumb-wrap">
             <div class="container-fluid">
               <div class="row">
-                  <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!-- New breadcrumb location -->
+                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!-- New breadcrumb location -->
               </div>
             </div>
           </div>
