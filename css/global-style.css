@@ -71,6 +71,10 @@
   margin-bottom: 10px;
 }
 
+.item-list ul{
+	padding-left:0;
+}
+
 .item-list li{
 	padding:0.95em 1.1em;
 	border-bottom: 1px dashed #888c8f
