@@ -118,6 +118,10 @@
 	padding:1em 0.5em 1em 0.5em
 }
 
+.block-title{
+	text-align: left;
+}
+
 .darkgrey-background{
 	outline:2px solid #888c8f
 	padding:1em 0.5em 1em 0.5em
