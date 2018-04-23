@@ -226,7 +226,7 @@
 					<a id="main-content"></a>
 				<?php print render($title_prefix); ?>
 				<?php if (!empty($title)): ?>
-					<h1 class="page-header" id="page-main-heading"><php print $title; ?></h1>
+					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
 				<?php endif; ?>
 
 				<?php print render($title_suffix); ?>
