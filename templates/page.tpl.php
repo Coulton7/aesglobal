@@ -217,7 +217,6 @@
 					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
 
 			<div class="clearfix">
-				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 				<?php if (!empty($page['highlighted'])): ?>
 					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
 				<?php endif; ?>
@@ -240,15 +239,12 @@
 							</div>
 						</div>
 					</div>
-				</div>
 			</div>
 
 
 			<div class="clearfix">
 				<?php if (!empty($tabs)): ?>
-					<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 						<?php print render($tabs); ?>
-					</div>
 				<?php endif; ?>
 			</div>
 
