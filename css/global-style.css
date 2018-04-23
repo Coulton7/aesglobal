@@ -192,6 +192,14 @@ blockquote{
 .hs-recaptcha{
 	padding-top: 1em;
 	padding-bottom: 1em;
+	transform:scale(0.77);
+	-webkit-transform:scale(0.77);
+	-moz-transform:scale(0.77);
+	-o-transform:scale(0.77);
+	transform-origin: 0;
+	-webkit-transform-origin:0;
+	-moz-transform-origin:0;
+	-moz-transform-origin:0;
 }
 
 .views-exposed-form label{
