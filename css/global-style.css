@@ -7,6 +7,10 @@
 	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
 }
 
+.block-title{
+	text-align: left;
+}
+
 [class^="icon-"], [class*=" icon-"]
 {
 	display: inline-block;
@@ -116,10 +120,6 @@
 .blue-background{
 	outline:1px solid #002a5b;
 	padding:1em 0.5em 1em 0.5em
-}
-
-.block-title{
-	text-align: left;
 }
 
 .darkgrey-background{
