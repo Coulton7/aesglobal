@@ -237,6 +237,11 @@ blockquote{
 	padding-top: 0.5em;
 }
 
+.lang-switch .form-control{
+	background-color: #888c8f;
+	color:#ffffff;
+}
+
 .success-stories{
   background-color: #ffffff;
 	padding-top: 10px;
