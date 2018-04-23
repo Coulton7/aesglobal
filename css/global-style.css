@@ -188,6 +188,22 @@ blockquote{
   display:none;
 }
 
+.search-block input{
+	background-color: #888c8f
+	color:#FFFFFF;
+}
+
+.search-block .has-error .form-control{
+	border-color: #ccc;
+	color: #ffffff;
+}
+
+.search-block .has-error .input-group-addon{
+	background-color: #888c8f;
+	border-color: #ccc;
+	color: #ffffff;
+}
+
 .search-block .btn{
 	background-color: #e7e7e9;
 	border:1px solid #e7e7e9;
