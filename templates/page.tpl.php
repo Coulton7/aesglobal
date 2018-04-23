@@ -203,6 +203,19 @@
 					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
 					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
 
+
+		<?php if (!empty($page['sidebar_first'])): ?>
+			<aside class="col-sm-4 col-md-3" role="complementary">
+				<?php print render($page['sidebar_first']); ?>
+			</aside>  <!-- /#sidebar-first -->
+		<?php endif; ?>
+
+		<section class="
+
+				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
+					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
+
 			<div class="clearfix">
 				<?php if (!empty($page['highlighted'])): ?>
 					<div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
@@ -211,34 +224,12 @@
 				<!-- <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> old breadcrumb location -->
 					<a id="main-content"></a>
 				<?php print render($title_prefix); ?>
-
-        <?php if(!empty($page['sidebar-first']))?>
-        <aside class="col-sm-4 com-md-3 title-spacer" role="complementary">
-          <section class="col-sm-8 col-md-9">
-        </aside>  <!-- /#sidebar-first -->
-      <?php endif; ?>
-
-      <?php if (empty($page['sidebar_first'])): ?>
-          <section class="col-sm-12">
-      <?php endif; ?>
 				<?php if (!empty($title)): ?>
 					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
 				<?php endif; ?>
 
 				<?php print render($title_suffix); ?>
 					<?php print $messages; ?>
-
-          <?php if (!empty($page['sidebar_first'])): ?>
-            <aside class="col-sm-4 col-md-3" role="complementary">
-              <?php print render($page['sidebar_first']); ?>
-            </aside>  <!-- /#sidebar-first -->
-          <?php endif; ?>
-
-          <section class="
-
-              <?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-                else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-                else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
 
 
 					<div class="breadcrumb-wrap">
