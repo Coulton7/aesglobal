@@ -190,6 +190,7 @@ blockquote{
 
 .search-block .btn{
 	background-color: #e7e7e9;
+	border:1px solid #e7e7e9;
 }
 
 .search-block .btn:hover{
