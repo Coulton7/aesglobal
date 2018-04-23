@@ -90,6 +90,7 @@
 
 .item-list li a.active{
 	color:#1c2f55;
+	cursor:default;
 }
 
 .group-logo a{
