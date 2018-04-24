@@ -2,6 +2,14 @@
 	border:none!important;
 }
 
+.flex-header{
+	bottom: 4.8em;
+}
+
+.flex-caption{
+	bottom: 2em;
+}
+
 .btn{
 	background-color:#e7e7e9;
 	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
