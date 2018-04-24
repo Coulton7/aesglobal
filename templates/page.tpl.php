@@ -205,15 +205,18 @@
 
           <?php if (!empty($title)): ?>
   					<h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
-  				<?php endif; ?>
+						<div class="breadcrumb-wrap">
+						  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!-- New breadcrumb location -->
+						</div>
+					<?php endif; ?>
 
-          <div class="breadcrumb-wrap">
+          <!--<div class="breadcrumb-wrap">
             <div class="container-fluid">
               <div class="row">
-                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!-- New breadcrumb location -->
-              </div>
+                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> New breadcrumb location -->
+              <!--</div>
             </div>
-          </div>
+          </div>-->
 
 		<?php if (!empty($page['sidebar_first'])): ?>
 			<aside class="col-sm-4 col-md-3" role="complementary">
