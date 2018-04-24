@@ -28,9 +28,13 @@
 	list-style-type:none;
 	display:inline-block;
 	background:#dd1e25;
-	color:#ffffff!important;
+	color:#ffffff;
 	border:none!important;
 	border-radius:0;
+}
+
+.btn-primary a{
+	color:#ffffff;
 }
 
 .btn-primary:hover{
@@ -229,10 +233,12 @@ blockquote{
 .search-block .btn{
 	background-color: #e7e7e9;
 	border:1px solid #e7e7e9;
+	color:#535354!important;
 }
 
 .search-block .btn:hover{
 	background-color: #cfcfd1;
+	color:#535354!important
 }
 
 .search-block .views-exposed-widgets{
