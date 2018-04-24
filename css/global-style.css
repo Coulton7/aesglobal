@@ -167,6 +167,10 @@ blockquote{
 	font-size:inherit;
 }
 
+.view-global-national-news .view-content{
+	overflow: hidden;
+}
+
 .entitytype-branch_disti_form-form{
   background-color: :#f5f5f5;
   border: 1px solid #e3e3e3;
