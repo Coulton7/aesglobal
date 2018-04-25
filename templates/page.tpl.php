@@ -152,10 +152,8 @@
 		</div>
 		<?php if ($page['preface']): ?>
 		<div class="preface">
-			<div class= "gap flex_gradient">
+			<div class= "flex_gradient">
 				<?php print render($page['preface']);?>
-				<div id="blackOverlay">
-				</div>
 			</div>
 		</div>
 
