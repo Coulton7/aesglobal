@@ -57,9 +57,13 @@ a.btn:hover{
 	color:#535354
 }
 
-a .btn-default{
+a.btn-default{
 	border-bottom: none;
 	color:#535354
+}
+
+a.btn-default:hover{
+	border-bottom: none;
 }
 
 .pagination>li>a{
