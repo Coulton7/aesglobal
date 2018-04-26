@@ -303,6 +303,10 @@ blockquote{
 	margin-top: 0;
 }
 
+.hs-richtext h2{
+	display: none;
+}
+
 .views-exposed-form .views-exposed-widget .form-submit{
 	margin-top: 0;
 }
