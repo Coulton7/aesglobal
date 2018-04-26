@@ -14,6 +14,7 @@
 .btn{
 	background-color:#e7e7e9;
 	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
+	border-radius: 0;
 }
 
 .block-title{
@@ -261,7 +262,7 @@ blockquote{
 	margin-top: 0;
 }
 
-.view-api-plans .views-exposed-widgets{
+.view-api-plans, .view-all-case-study-resources .views-exposed-widgets{
 	width:45%;
 	min-height: 1em;
 	padding: 1em;
