@@ -17,6 +17,14 @@
 	border-radius: 0;
 }
 
+a.btn{
+	border-bottom: none;
+}
+
+a.btn:hover{
+	border-bottom: none;
+}
+
 .block-title{
 	text-align: left;
 }
