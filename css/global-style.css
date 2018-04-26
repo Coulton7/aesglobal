@@ -307,6 +307,10 @@ blockquote{
 	margin-top: 0;
 }
 
+.jumbotron{
+	border-radius: 0;
+}
+
 .lang-switch{
 	padding-top: 0.5em;
 }
