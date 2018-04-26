@@ -262,7 +262,8 @@ blockquote{
 	margin-top: 0;
 }
 
-.view-api-plans .views-exposed-widgets, .view-all-case-study-resources .views-exposed-widgets,
+.view-api-plans .views-exposed-widgets,
+.view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets{
 	width:45%;
 	min-height: 1em;
@@ -273,7 +274,9 @@ blockquote{
 	border-radius: 4px;
 }
 
-.view-api-plans .views-exposed-widgets .btn{
+.view-api-plans .views-exposed-widgets .btn,
+.view-all-case-study-resources .views-exposed-widgets .btn,
+.view-all-product-brochure-resources .views-exposed-widgets .btn{
 	list-style-type:none;
 	display:inline-block;
 	background:#dd1e25;
@@ -282,7 +285,9 @@ blockquote{
 	border-radius:0;
 }
 
-.view-api-plans .views-exposed-widgets .btn:hover{
+.view-api-plans .views-exposed-widgets .btn:hover,
+.view-all-case-study-resources .views-exposed-widgets .btn:hover,
+.view-all-product-brochure-resources .views-exposed-widgets .btn:hover{
 	display:inline-block;
 	background:#fa010a;
 	color:#ffffff!important;
