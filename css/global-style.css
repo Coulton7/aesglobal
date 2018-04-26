@@ -262,7 +262,8 @@ blockquote{
 	margin-top: 0;
 }
 
-.view-api-plans, .view-all-case-study-resources .views-exposed-widgets{
+.view-api-plans .views-exposed-widgets, .view-all-case-study-resources .views-exposed-widgets,
+.view-all-product-brochure-resources .views-exposed-widgets{
 	width:45%;
 	min-height: 1em;
 	padding: 1em;
