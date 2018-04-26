@@ -54,7 +54,11 @@ a.btn:hover{
 
 .btn-default{
 	border-bottom: none;
-	color:#535354
+	color:#535354;
+	overflow: hidden;
+	white-space: nowrap;
+	display: inline-block;
+	text-overflow: ellipsis;
 }
 
 a.btn-default{
@@ -216,6 +220,10 @@ blockquote{
 	overflow: hidden
 }
 
+.entitytype-product_enquiry_cloned_-form h2{
+	display:none;
+}
+
 .view-entityform-general-contact{
 	padding: 48px 60px 48px 60px;
 	margin-bottom: 20px;
@@ -306,6 +314,20 @@ blockquote{
 	color:#ffffff!important;
 	border:none!important;
 	border-radius:0;
+}
+
+.field-name-field-api--plan-types header h2{
+	display:none;
+}
+
+.field.field-name-field-api--plan-types{
+	width:25%;
+	margin-left:1em;
+	float:left;
+}
+
+.field-name-field-api--plan-types .node-readmore{
+	display:none;
 }
 
 .views-exposed-widgets{
