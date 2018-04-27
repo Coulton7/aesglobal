@@ -285,7 +285,8 @@ blockquote{
 
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
-.view-all-product-brochure-resources .views-exposed-widgets{
+.view-all-product-brochure-resources .views-exposed-widgets,
+.container-inline{
 	width:45%;
 	min-height: 1em;
 	padding: 1em;
@@ -295,9 +296,15 @@ blockquote{
 	border-radius: 0;
 }
 
+.container-inline .form-control{
+	display: inline-block;
+	width: 75%;
+}
+
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
-.view-all-product-brochure-resources .views-exposed-widgets .btn{
+.view-all-product-brochure-resources .views-exposed-widgets .btn,
+.container-inline .btn{
 	list-style-type:none;
 	display:inline-block;
 	background:#dd1e25;
