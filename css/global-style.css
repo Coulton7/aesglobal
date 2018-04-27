@@ -533,9 +533,7 @@ blockquote{
 }
 
 @media screen and (min-width: 1200px){
-	.search-block{
-		padding-top:0;
-	}
+
 }
 
 @media screen and (min-width: 992px){
@@ -543,25 +541,19 @@ blockquote{
 		width: 220px;
 		height: 95%;
 	}
-	.search-block{
-		padding-top:0;
-	}
+
 }
 @media screen and (min-width: 768px) {
 	.widget-width {
 		width: 320px;
 		height: 95%;
 	}
-	.search-block{
-		padding-top:0;
-	}
+
 }
 @media screen and (max-width: 767px){
 	.widget-width {
 	width: 100%;
 	height: auto;
 	}
-	.search-block{
-		padding-top:0;
-	}
+
 }
