@@ -23,6 +23,13 @@ if($('#general-contact-entityform-edit-form').length==0 && $('.alert-error').len
     <?php endif; ?>
     <?php print render($title_suffix); ?>
 
+    <?php if ($display_submitted): ?>
+      <span class="submitted">
+       <?php
+            print t("Published") . " " . format_date($node->created, 'custom', 'd/m/Y');
+        ?>
+      </span>
+    <?php endif; ?>
   </header>
 
   <?php
@@ -32,14 +39,6 @@ if($('#general-contact-entityform-edit-form').length==0 && $('.alert-error').len
     hide($content['field_tags']);
     print render($content);
   ?>
-
-  <?php if ($display_submitted): ?>
-    <span class="submitted">
-     <?php
-          print t("Published") . " " . format_date($node->created, 'custom', 'd/m/Y');
-      ?>
-    </span>
-  <?php endif; ?>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
     <footer>
