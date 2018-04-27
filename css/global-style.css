@@ -399,6 +399,8 @@ blockquote{
 
 .search-block{
 	margin: 0 0 0 1.25em!important;
+	padding-left: 1.1em;
+	padding-right: 1.1em;
 }
 
 .search-block .input-group-btn{
