@@ -323,6 +323,8 @@
 
 			<?php if ($page['footer_lower']): ?>
 				<footer class="footer_lower <?php print $container_class; ?> dark-grey-gradient">
-						<?php print render($page['footer_lower section-shadow']);?>
+					<div class="section-shadow">
+						<?php print render($page['footer_lower']);?>
+					</div>
 				</footer>
 			<?php endif; ?><!--added by Matt -->
