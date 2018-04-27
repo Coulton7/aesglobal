@@ -276,7 +276,9 @@
 
   	<?php if ($page['suffix']): ?>
 		<div class="suffix">
-			<?php print render($page['suffix']);?>
+			<div class="section-shadow">
+				<?php print render($page['suffix']);?>
+			</div>
 		</div>
 	<?php endif; ?> <!--added by Matt -->
 
