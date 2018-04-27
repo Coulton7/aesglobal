@@ -220,7 +220,7 @@ blockquote{
 	overflow: hidden
 }
 
-.entitytype-product_enquiry_cloned_-form h2{
+.entity.entity-entityform-type h2{
 	display:none;
 }
 
