@@ -319,6 +319,12 @@ margin-bottom:1em;
 	display:none;
 }
 
+.action-menu{
+	position: absolute;
+	top: 3em;
+	z-index:103;
+}
+
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
 .view-all-product-brochure-resources .views-exposed-widgets .btn,
