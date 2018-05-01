@@ -592,8 +592,7 @@ margin-bottom:1em;
 	display: block;
 }
 
-.node-article .field.field-name-field-image
-.field-type-image.field-label-hidden{
+.node-article .field.field-name-field-image.field-type-image.field-label-hidden{
 	margin-bottom: 1em;
 }
 
