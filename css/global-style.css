@@ -588,6 +588,9 @@ margin-bottom:1em;
 		width: 220px;
 		height: 95%;
 	}
+	.fit-menu{
+		width:90%;
+	}
 
 }
 @media screen and (min-width: 768px) {
