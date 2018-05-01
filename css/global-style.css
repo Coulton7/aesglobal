@@ -315,6 +315,10 @@ margin-bottom:1em;
 	width: 75%;
 }
 
+.download-field-wrapper{
+	display:none;
+}
+
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
 .view-all-product-brochure-resources .views-exposed-widgets .btn,
