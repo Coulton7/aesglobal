@@ -11,6 +11,10 @@
 	bottom: 2em;
 }
 
+.block-title{
+	text-align: left;
+}
+
 .btn{
 	background-color:#e7e7e9;
 	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
@@ -23,10 +27,6 @@ a.btn{
 
 a.btn:hover{
 	border-bottom: none;
-}
-
-.block-title{
-	text-align: left;
 }
 
 .btn-primary{
@@ -50,6 +50,21 @@ a.btn:hover{
 	outline-style:solid;
 	outline-color:#ffffff;
 	outline-width:1px;
+}
+
+.btn-info{
+	list-style-type:none;
+	display:inline-block;
+	background:#002A5B;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius:0;
+}
+
+.btn-info:hover{
+	background:#004a8c;
+	margin-bottom:0;
+	color:#ffffff;
 }
 
 .btn-default{
