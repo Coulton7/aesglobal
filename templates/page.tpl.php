@@ -140,16 +140,18 @@
 						</div>
 					<?php endif; ?>
 
-					<?php if ($page['navigation_col']): ?>
-						<div class="navigation_col">
-							<div class="action-menu text-center">
-								<?php print render($page['navigation_col']);?>
-							</div>
-						</div>
-					<?php endif; ?><!--added by Matt -->
 				</header>
 			</div>
 		</div>
+
+		<?php if ($page['navigation_col']): ?>
+			<div class="navigation_col">
+				<div class="action-menu text-center">
+					<?php print render($page['navigation_col']);?>
+				</div>
+			</div>
+		<?php endif; ?><!--added by Matt -->
+
 		<?php if ($page['preface']): ?>
 		<div class="preface">
 			<div class= "flex_gradient">
