@@ -135,6 +135,7 @@
 									<?php if (!empty($page['navigation'])): ?>
 										<?php print render($page['navigation']); ?>
 									<?php endif; ?>
+									<div class="section-shadow-menu"></div>
 								</nav>
 							</div>
 						</div>
