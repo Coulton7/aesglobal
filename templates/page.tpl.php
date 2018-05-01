@@ -73,7 +73,8 @@
  * @ingroup templates
  */
 ?>
-
+<script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider.js"></script>
 <script type="text/javascript" charset="utf-8">
@@ -107,11 +108,14 @@
 
 			<div class="col-sm-10 col-xs-10 fullscreen">
 				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
+
 							<?php if (!empty($site_name)): ?>
 								<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
 							<?php endif; ?>
+
 							<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
 								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 									<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
@@ -127,6 +131,7 @@
 
 						<div class="navbar-collapse collapse">
 							<div class="container-fluid navbar-container">
+
 								<nav role="navigation">
 									<?php if (!empty($primary_nav)): ?>
 										<?php print render($primary_nav); ?>
