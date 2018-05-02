@@ -642,12 +642,24 @@ margin-bottom:1em;
 		width: 320px;
 		height: 95%;
 	}
+	.view-global-national-news .view-content .views-row.views-row-odd{
+		clear:left;
+	}
 
+	.view-global-national-news .view-content .views-row.views-row-even{
+		clear:right;
+	}
 }
 @media screen and (max-width: 767px){
 	.widget-width {
 	width: 100%;
 	height: auto;
 	}
+	.view-global-national-news .view-content .views-row.views-row-odd{
+		clear:left;
+	}
 
+	.view-global-national-news .view-content .views-row.views-row-even{
+		clear:right;
+	}
 }
