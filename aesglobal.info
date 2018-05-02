@@ -11,6 +11,7 @@ base theme = aesbs337
 regions[navigation]     = 'Navigation'
 regions[navigation_col] = 'Navigation Collapsible'
 regions[preface]		= 'Preface'
+regions[wavelower]      = 'Wavelower'
 regions[header]         = 'Top Bar'
 regions[highlighted]    = 'Highlighted'
 regions[help]           = 'Help'
