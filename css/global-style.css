@@ -383,6 +383,10 @@ margin-bottom:1em;
 	border-radius:0;
 }
 
+.download-field-wrapper{
+	margin-top: 4em;
+}
+
 .field-name-field-api--plan-types header h2{
 	display:none;
 }
