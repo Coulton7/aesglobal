@@ -17,7 +17,7 @@
   </header>
 
 
-  <div class="row-fluid">
+  <div class="row">
 
     <div class="col-sm-9">
       <?php print render($content['body']); ?>
@@ -29,7 +29,7 @@
     </div>
   </div>
 
-  <div class="row-fluid">
+  <div class="row">
     <?php print render($content['employees_block']); ?>
 
   </div>
@@ -49,7 +49,7 @@
     print render($content);
     ?>
 
-  <div class="row-fluid location-details">
+  <div class="row location-details">
     <div class="col-sm-8">
         <?php print render($content['location_map_field'])?>
 
