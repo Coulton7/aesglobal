@@ -34,7 +34,7 @@
     <?php print $field->content; ?>
   <?php print $field->wrapper_suffix; ?>
 
-  <div class="row-fluid">
+  <div class="row">
 
     <div class="col-sm-8">
       <h3><?php print $fields['name']->content; ?></h3>
@@ -52,7 +52,7 @@
     </div>
   </div>
 
-  <div class="row-fluid">
+  <div class="row">
 
     <div class="col-sm-12">
       <?php print $fields['field_biography']->content; ?>
