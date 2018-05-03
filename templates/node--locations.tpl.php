@@ -19,11 +19,11 @@
 
   <div class="row">
 
-    <div class="col-sm-9">
+    <div class="span9 col-sm-9">
       <?php print render($content['body']); ?>
     </div>
 
-    <div class="col-sm-3">
+    <div class="span3 col-sm-3">
       <?php print render($content['field_logo']); ?>
 
     </div>
@@ -50,11 +50,11 @@
     ?>
 
   <div class="row location-details">
-    <div class="col-sm-8">
+    <div class="span8 col-sm-8">
         <?php print render($content['location_map_field'])?>
 
     </div>
-    <div class="col-sm-4">
+    <div class="span4 col-sm-4">
 
       <?php print render($content['field_location'])?>
       <?php print render($content['field_website']); ?>
