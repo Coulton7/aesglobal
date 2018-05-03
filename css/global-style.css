@@ -16,9 +16,17 @@
 	margin-right: 0.8em;
 }
 
+.socialmedia ul li:nth-child(1) a:hover{
+	color:#1a90d9;
+}
+
 .socialmedia ul li:nth-child(2) a{
 	color:#0077b5;
 	margin-right: 0.8em;
+}
+
+.socialmedia ul li:nth-child(2) a:hover{
+	color:#006ba2;
 }
 
 .socialmedia ul li:nth-child(3) a{
@@ -26,9 +34,17 @@
 	margin-right: 0.8em;
 }
 
+.socialmedia ul li:nth-child(3) a:hover{
+	color:#bd4030;
+}
+
 .socialmedia ul li:nth-child(4) a{
 	color: #d34836;
 	margin-right: 0.8em;
+}
+
+.socialmedia ul li:nth-child(4) a:hover{
+	color:#bd4030;
 }
 
 .socialmedia ul li:nth-child(5) a{
@@ -36,9 +52,17 @@
 	margin-right: 0.8em;
 }
 
+.socialmedia ul li:nth-child(5) a:hover{
+	color:#002551;
+}
+
 .socialmedia ul li:nth-child(6) a{
 	color: #d34836;
 	margin-right: 0.8em;
+}
+
+.socialmedia ul li:nth-child(6) a:hover{
+	color:#bd4030;
 }
 
 .block-title{
