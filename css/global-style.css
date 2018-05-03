@@ -12,23 +12,28 @@
 }
 
 .socialmedia ul li:nth-child(1) a{
-	color:#1da1f2
+	color:#1da1f2;
+	margin-right: 0.8em;
 }
 
 .socialmedia ul li:nth-child(2) a{
-	color:#007725
+	color:#007725;
+	margin-right: 0.8em;
 }
 
 .socialmedia ul li:nth-child(3) a{
-	color: #d34836
+	color: #d34836;
+	margin-right: 0.8em;
 }
 
 .socialmedia ul li:nth-child(4) a{
 	color: #002a5b;
+	margin-right: 0.8em;
 }
 
 .socialmedia ul li:nth-child(5) a{
 	color: #d34836;
+	margin-right: 0.8em;
 }
 
 .block-title{
