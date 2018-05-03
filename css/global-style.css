@@ -315,12 +315,14 @@ margin-bottom:1em;
 }
 
 .entitytype-branch_disti_form-form{
-  background-color: :#f5f5f5;
   border: 1px solid #e3e3e3;
-  padding: 19px;
 }
 
-.entitytype-product_enquiry_cloned_-form{
+.entitytype-product_enquiry_cloned_-form,
+.entitytype-branch_disti_form-form,
+.view-entityform-general-contact,
+.entitytype-content_gate-form,
+.field-name-field-hubspot-form{
 	background-color: #eeeeee;
 	padding: 48px 60px 48px 60px;
 	border-radius: 0;
@@ -333,10 +335,7 @@ margin-bottom:1em;
 }
 
 .view-entityform-general-contact{
-	padding: 48px 60px 48px 60px;
 	margin-bottom: 20px;
-	background-color: #eeeeee;
-	border-radius: 0;
 }
 
 .hs-recaptcha{
