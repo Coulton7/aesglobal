@@ -143,7 +143,7 @@ a.btn:hover{
 .btn-info:hover{
 	background:#004a8c;
 	margin-bottom:0;
-	color:#ffffff;
+	color:#ffffff!important;
 }
 
 .btn-default{
