@@ -3,6 +3,10 @@
 	margin:0!important;
 }
 
+.cust-portal-text{
+	vertical-align: 50%;
+}
+
 .flex-header{
 	bottom: 7.8em;
 }
