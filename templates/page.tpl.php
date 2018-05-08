@@ -92,7 +92,7 @@
 	<div class="row bannerimage">
 
 		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-2 fullscreen">
+			<div class="col-md-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
 						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo"></img>
@@ -106,7 +106,7 @@
 					<?php endif; ?>
 			</div>
 
-			<div class="col-sm-10 col-xs-10 fullscreen">
+			<div class="col-md-10 col-xs-12 fullscreen">
 				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
 
 					<div class="<?php print $container_class; ?>">
