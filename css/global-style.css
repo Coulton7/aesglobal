@@ -510,12 +510,6 @@ margin-bottom:1em;
   display:block;
 }
 
-.widget-width{
-	margin: .5rem;
-	width: 270px;
-	padding: 10px;
-}
-
 .image-highlight{
 	text-align: center;
 	display: inline-block;
@@ -537,6 +531,12 @@ margin-bottom:1em;
 	background: -webkit-linear-gradient(top, #fff 0, #fff 70%, #fff 100%);
 	background: linear-gradient(to bottom, #fff 0, #fff 70%, #fff 100%);
 	box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22)
+}
+
+.widget-width{
+	margin: .5rem;
+	width: 270px;
+	padding: 10px;
 }
 
 .search-block{
