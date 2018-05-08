@@ -426,11 +426,6 @@ margin-bottom:1em;
 	margin-right: 1em;
 }
 
-.grid-overflow{
-	white-space: nowrap;
-	text-align: center;
-}
-
 .action-menu{
 	position: absolute;
 	top: 3em;
