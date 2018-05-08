@@ -255,11 +255,14 @@
 					<?php print $messages; ?>
 			</div>
 
-
-			<div class="clearfix">
-				<?php if (!empty($tabs)): ?>
-						<?php print render($tabs); ?>
-				<?php endif; ?>
+			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
+				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12 fullscreen'; }
+				else { print 'col-sm-12 fullscreen'; } ?>">
+				<div class="clearfix">
+					<?php if (!empty($tabs)): ?>
+							<?php print render($tabs); ?>
+						<?php endif; ?>
+					</div>
 			</div>
 
 
