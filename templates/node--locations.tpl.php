@@ -32,7 +32,7 @@
 
   <div class="row">
     <?php
-			$block = module_invoke('views', 'block_view','employees_block');
+			$block = module_invoke('views', 'block_view','employees-block');
       print render($block['content'])
      ?>
   </div>
