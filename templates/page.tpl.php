@@ -153,9 +153,9 @@
 		<?php if ($page['navigation_col']): ?>
 			<div class="navigation_col">
 				<div class="action-menu text-center">
-					<div class="col-sm-2 col-xs-2 fullscreen">
+					<div class="col-sm-2 col-xs-0 fullscreen">
 					</div>
-					<div class="col-sm-10 col-xs-10 fullscreen">
+					<div class="col-sm-10 col-xs-12 fullscreen">
 					<?php print render($page['navigation_col']);?>
 				</div>
 				</div>
