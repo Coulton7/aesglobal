@@ -31,8 +31,10 @@
   </div>
 
   <div class="row">
-    <?php print render($content['employees_block']); ?>
-
+    <?php
+			$block = module_invoke('views', 'block_view',['employees_block']);
+      print render($block['content'])
+     ?>
   </div>
 
   <?php
