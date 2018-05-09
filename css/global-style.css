@@ -488,6 +488,14 @@ margin-bottom:1em;
 	margin-top: 0;
 }
 
+.field-name-field-location-type:after{
+	content:'|';
+}
+
+.field-name-field-location-type{
+	display: inline;
+}
+
 .jumbotron{
 	border-radius: 0;
 }
