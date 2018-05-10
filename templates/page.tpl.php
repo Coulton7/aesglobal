@@ -233,7 +233,7 @@
           </div>
 
 		<?php if (!empty($page['sidebar_first'])): ?>
-			<aside class="col-sm-4 col-md-3 hidden-xs" role="complementary">
+			<aside class="col-sm-4 col-md-3" role="complementary">
 				<?php print render($page['sidebar_first']); ?>
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
