@@ -340,12 +340,11 @@ margin-bottom:1em;
 }
 
 .field-name-field-hubspot-form .hs-button{
-	border-bottom: none;
 	color:#535354;
 	overflow: hidden;
-	white-space: nowrap;
-	display: inline-block;
-	text-overflow: ellipsis;
+	margin:1em auto;
+	display:block;
+
 }
 
 .entity.entity-entityform-type h2{
