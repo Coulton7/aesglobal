@@ -37,3 +37,14 @@ function aesglobal_preprocess_node(&$variables) {
 function aesglobal_preprocess_image_style(&$vars) {
 	$vars['attributes']['class'][] = 'img-responsive';
 }
+
+function aesglobal_preprocess_maintenance_page(&$variables) {
+  if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
+// Template suggestion for offline site
+    $variables['theme_hook_suggestion'] = 'maintenance_page__offline';
+  }
+else {
+// Template suggestion for live site (in maintenance mode)
+    $variables['theme_hook_suggestion'] = 'maintenance_page';
+ }
+}
