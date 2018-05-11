@@ -341,9 +341,14 @@ margin-bottom:1em;
 	overflow: hidden
 }
 
+.view-taxonomy-terms-for-industry-types .view-header .view-content{
+	display: block;
+}
+
 .view-featured-locations .view-content,
 .view-location-directory .view-content,
-.view-employees .view-content{
+.view-employees .view-content,
+.view-taxonomy-terms-for-industry-types .view-content{
 	display:flex;
 	flex-wrap: wrap;
 }
