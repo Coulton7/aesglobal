@@ -323,6 +323,8 @@ padding-right:0;
 margin-bottom:1em;
 }
 
+
+
 .entitytype-branch_disti_form-form{
   border: 1px solid #e3e3e3;
 }
@@ -337,6 +339,11 @@ margin-bottom:1em;
 	border-radius: 0;
 	color: inherit;
 	overflow: hidden
+}
+
+.view-featured-locations .view-content{
+	display:flex;
+	flex-wrap: wrap;
 }
 
 .field-name-field-hubspot-form .hs-button{
