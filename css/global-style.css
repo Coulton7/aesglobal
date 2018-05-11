@@ -757,6 +757,10 @@ div.user-picture > img{
 	.action-menu{
 		top:3.6em
 	}
+	.view-featured-locations .view-content{
+		display:block;
+		flex-wrap: initial;
+	}
 }
 
 @media screen and (min-width: 992px){
