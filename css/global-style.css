@@ -348,7 +348,8 @@ margin-bottom:1em;
 .view-featured-locations .view-content,
 .view-location-directory .view-content,
 .view-employees .view-content,
-.view-taxonomy-terms-for-industry-types .view-content{
+.view-taxonomy-terms-for-industry-types .view-content,
+.view-about-us-resources .view-content{
 	display:flex;
 	flex-wrap: wrap;
 }
@@ -764,9 +765,11 @@ div.user-picture > img{
 	.action-menu{
 		top:3.6em
 	}
-.view-featured-locations .view-content,
-.view-location-directory .view-content,
-.view-employees .view-content{
+	.view-featured-locations .view-content,
+	.view-location-directory .view-content,
+	.view-employees .view-content,
+	.view-taxonomy-terms-for-industry-types .view-content,
+	.view-about-us-resources .view-content{
 		display:block;
 		flex-wrap: initial;
 	}
