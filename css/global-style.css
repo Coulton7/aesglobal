@@ -313,18 +313,6 @@ blockquote{
 	margin-bottom: 0.8em;
 }
 
-.contact-col-left{
-padding-left:0;
-margin-bottom:1em;
-}
-
-.contact-col-right{
-padding-right:0;
-margin-bottom:1em;
-}
-
-
-
 .entitytype-branch_disti_form-form{
   border: 1px solid #e3e3e3;
 }
@@ -766,6 +754,14 @@ div.user-picture > img{
 		display:block;
 		flex-wrap: initial;
 	}
+
+	.contact-col-left{
+	padding-left:auto;
+	}
+
+	.contact-col-right{
+	padding-right:auto;
+	}
 }
 
 @media screen and (min-width: 992px){
@@ -798,6 +794,16 @@ div.user-picture > img{
 .view-resource-related-products .view-content{
 	display:flex;
 	flex-wrap: wrap;
+}
+
+.contact-col-left{
+padding-left:0;
+margin-bottom:1em;
+}
+
+.contact-col-right{
+padding-right:0;
+margin-bottom:1em;
 }
 }
 
