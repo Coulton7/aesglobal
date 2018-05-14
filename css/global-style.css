@@ -431,7 +431,7 @@ margin-bottom:1em;
 	border-radius: 0;
 }
 
-.container-inline .form-control{
+.container-inline .chosen-container-single .chosen-single{
 	display: inline-block;
 	width: 75%;
 	margin-right: 1em;
