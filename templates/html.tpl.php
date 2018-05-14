@@ -67,6 +67,18 @@
     <script src="https://cdn.jsdelivr.net/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
   <![endif]-->
   <?php print $scripts; ?>
+
+  <script type="text/javascript">
+
+$( document ).ready(function() {
+  $(".form-select").chosen({
+    disable_search_threshold: 10,
+    no_results_text: "Sorry, no results found."
+  })
+});
+
+
+</script>
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
