@@ -510,6 +510,22 @@ blockquote{
 	color:#ffffff;
 }
 
+.lang-switch .chosen-container-single .chosen-single:hover{
+	border-bottom: none;
+}
+
+.lang-switch .chosen-container .chosen-drop{
+	background:#888c8f;
+	color: #ffffff;
+}
+
+.lang-switch .chosen-container .chosen-results li.highlighted{
+	background-color:#ffffff;
+	background-image: none;
+	color: #535354;
+
+}
+
 .success-stories{
   background-color: #ffffff;
 	padding-top: 10px;
