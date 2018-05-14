@@ -46,7 +46,6 @@
     hide($content['body']);
     hide($content['field_logo']);
     hide($content['employees_block']);
-    hide($content['location_map_field']);
     hide($content['field_website']);
     hide($content['field_opening_hours']);
     print render($content);
