@@ -757,7 +757,6 @@ div.user-picture > img{
 		top:3.6em
 	}
 	.view-featured-locations .view-content,
-	.view-location-directory .view-content,
 	.view-employees .view-content,
 	.view-taxonomy-terms-for-industry-types .view-content,
 	.view-about-us-resources .view-content,
@@ -791,7 +790,6 @@ div.user-picture > img{
 	top:3.4em
 }
 .view-featured-locations .view-content,
-.view-location-directory .view-content,
 .view-employees .view-content,
 .view-taxonomy-terms-for-industry-types .view-content,
 .view-about-us-resources .view-content,
