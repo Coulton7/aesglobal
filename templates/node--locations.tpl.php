@@ -53,11 +53,7 @@
     ?>
 
   <div class="row location-details">
-    <div class="span8 col-sm-8">
-        <?php print render($content['location_map_field'])?>
-
-    </div>
-    <div class="span4 col-sm-4">
+    <div class="span12 col-sm-12">
 
       <?php print render($content['field_location'])?>
       <?php print render($content['field_website']); ?>
