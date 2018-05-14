@@ -345,16 +345,6 @@ margin-bottom:1em;
 	display: block;
 }
 
-.view-featured-locations .view-content,
-.view-location-directory .view-content,
-.view-employees .view-content,
-.view-taxonomy-terms-for-industry-types .view-content,
-.view-about-us-resources .view-content,
-.view-resource-related-products .view-content{
-	display:flex;
-	flex-wrap: wrap;
-}
-
 .field-name-field-hubspot-form .hs-button{
 	color:#535354;
 	overflow: hidden;
@@ -799,6 +789,15 @@ div.user-picture > img{
 }
 .action-menu{
 	top:3.4em
+}
+.view-featured-locations .view-content,
+.view-location-directory .view-content,
+.view-employees .view-content,
+.view-taxonomy-terms-for-industry-types .view-content,
+.view-about-us-resources .view-content,
+.view-resource-related-products .view-content{
+	display:flex;
+	flex-wrap: wrap;
 }
 }
 
