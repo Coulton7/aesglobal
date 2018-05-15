@@ -457,6 +457,10 @@ blockquote{
 	border-radius:0;
 }
 
+.container-inline div, .container-inline label{
+	vertical-align: -webkit-baseline-middle
+}
+
 .download-field-wrapper{
 	margin-top: 4em;
 }
