@@ -145,8 +145,8 @@ a.btn:hover{
 	border:none!important;
 	border-radius:0;
 	overflow: hidden;
-	white-space: nowrap;
 	text-overflow: ellipsis;
+	width: 100%;
 }
 
 .btn-info:hover{
