@@ -329,6 +329,10 @@ blockquote{
 	overflow: hidden
 }
 
+.field-name-field-zendesk-country{
+	display: none;
+}
+
 .view-taxonomy-terms-for-industry-types .view-header .view-content{
 	display: block;
 }
