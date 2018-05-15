@@ -426,7 +426,10 @@ blockquote{
 .container-inline .chosen-container-single .chosen-single{
 	display: inline-block;
 	width: 75%;
-	margin-right: 1em;
+}
+
+.container-inline .btn{
+	margin-left:1em;
 }
 
 .action-menu{
