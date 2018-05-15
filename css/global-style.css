@@ -809,6 +809,10 @@ div.user-picture > img{
 	width: 97%;
 }
 
+.entitytype-general_contact-form .chosen-container{
+	width:-webkit-fill-available!important;
+}
+
 @media screen and (min-width: 992px){
 	.widget-width {
 		width: 18em;
