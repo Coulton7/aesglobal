@@ -607,8 +607,9 @@ div.user-picture > img{
 }
 
 .location-details .gmap{
-	width: 66.67%;
+	width: 64.67%!important;
 	float: left;
+	height:31em!important;
 }
 
 .location-details .last-details{
