@@ -809,7 +809,8 @@ div.user-picture > img{
 	width: 97%;
 }
 
-.entitytype-general_contact-form .chosen-container{
+.entitytype-general_contact-form .chosen-container,
+.lang-switch .chosen-container{
 	width:-webkit-fill-available!important;
 }
 
