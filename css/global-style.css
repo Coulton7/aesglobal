@@ -233,7 +233,6 @@ a.btn-default:hover{
 	border-top: 1px solid #ddd
 }
 
-
 .blue-background a{
 	color:#ffffff;
 }
@@ -803,6 +802,11 @@ div.user-picture > img{
 		display:block;
 		flex-wrap: initial;
 	}
+}
+
+.view-location-directory .chosen-container-single
+.chosen-search input[type="text"]{
+	width: 97%;
 }
 
 @media screen and (min-width: 992px){
