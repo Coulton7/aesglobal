@@ -802,14 +802,6 @@ div.user-picture > img{
 		display:block;
 		flex-wrap: initial;
 	}
-
-	.contact-col-left{
-	padding-left:auto;
-	}
-
-	.contact-col-right{
-	padding-right:auto;
-	}
 }
 
 @media screen and (min-width: 992px){
