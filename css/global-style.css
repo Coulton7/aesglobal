@@ -782,6 +782,9 @@ div.user-picture > img{
 		display: block;
 		flex-wrap: initial;
 	}
+	.location-padding{
+		padding-bottom:2em;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -869,6 +872,9 @@ margin-bottom:1em;
 .contact-col-right{
 padding-right:0;
 margin-bottom:1em;
+}
+.location-padding{
+	padding-bottom:1em;
 }
 }
 
