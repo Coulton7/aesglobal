@@ -778,6 +778,10 @@ div.user-picture > img{
 	.action-menu{
 		top:4em
 	}
+	.view-about-us-resources .view-content{
+		display: block;
+		flex-wrap: initial;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -802,11 +806,15 @@ div.user-picture > img{
 	.view-featured-locations .view-content,
 	.view-employees .view-content,
 	.view-taxonomy-terms-for-industry-types .view-content,
-	.view-about-us-resources .view-content,
 	.view-resource-related-products .view-content{
 		display:block;
 		flex-wrap: initial;
 	}
+}
+
+.view-about-us-resources .view-content{
+	display: flex;
+	flex-wrap:wrap;
 }
 
 .view-location-directory .chosen-container-single
