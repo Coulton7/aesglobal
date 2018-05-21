@@ -238,6 +238,7 @@
 			</aside>  <!-- /#sidebar-first -->
 		<?php endif; ?>
 
+		<div class="tablet-fix">
 		<section class="
 
 				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
@@ -278,6 +279,7 @@
 			<?php print render($page['content']); ?>
 
 		</section>
+	</div>
 
 
 		<?php if (!empty($page['sidebar_second'])): ?>
