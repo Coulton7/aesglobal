@@ -427,6 +427,10 @@ blockquote{
 	width: 75%;
 }
 
+.lang-switch .chosen-container-single .chosen-single div b{
+	background: url(/sites/all/themes/aesbs337/css/chosen-sprite-white.png) no-repeat 0px 9px;
+}
+
 .container-inline .btn{
 	margin-left:1em;
 }
