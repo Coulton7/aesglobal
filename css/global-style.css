@@ -114,6 +114,15 @@ a.btn:hover{
 	border-bottom: none;
 }
 
+.field-name-field-hubspot-form .hs-button{
+	list-style-type:none;
+	display:inline-block;
+	background:#dd1e25;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius:0;
+}
+
 .btn-primary{
 	list-style-type:none;
 	display:inline-block;
