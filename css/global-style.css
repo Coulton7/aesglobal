@@ -814,7 +814,9 @@ div.user-picture > img{
 		display:block;
 		flex-wrap: initial;
 	}
-}
+	.location-padding{
+		padding-bottom:2em;
+	}
 
 .view-about-us-resources .view-content{
 	display: flex;
@@ -831,6 +833,7 @@ div.user-picture > img{
 	width:-webkit-fill-available!important;
 }
 
+}
 @media screen and (min-width: 992px){
 	.widget-width {
 		width: 18em;
