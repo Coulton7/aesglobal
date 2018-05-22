@@ -524,10 +524,6 @@ blockquote{
 	line-height: inherit;
 }
 
-.lang-switch .chosen-container{
-	width:112px!important;
-}
-
 .lang-switch .chosen-container-single .chosen-single a:hover{
 	border-bottom: 1px solid #ccc;
 }
