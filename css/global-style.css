@@ -522,10 +522,6 @@ blockquote{
 	border-radius: 0;
 }
 
-.lang-switch{
-	padding-top: 0.6em;
-}
-
 .lang-switch .chosen-container-single .chosen-single{
 	padding:6px 12px;
 	height:34px;
