@@ -439,6 +439,10 @@ blockquote{
 	background: url(/sites/all/themes/aesbs337/css/chosen-sprite-white.png) no-repeat 0px 8px;
 }
 
+.lang-switch .chosen-container-active.chosen-with-drop .chosen-single div b {
+  background-position: -18px 8px;
+}
+
 .container-inline .btn{
 	margin-left:1em;
 }
