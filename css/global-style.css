@@ -794,6 +794,9 @@ div.user-picture > img{
 	.location-padding{
 		padding-bottom:2em;
 	}
+	.lang-switch{
+		padding-top: 0.15em;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -841,7 +844,9 @@ div.user-picture > img{
 .lang-switch .chosen-container{
 	width:-webkit-fill-available!important;
 }
-
+.lang-switch{
+	padding-top: 0.3em;
+}
 }
 @media screen and (min-width: 992px){
 	.widget-width {
@@ -888,6 +893,9 @@ margin-bottom:1em;
 .location-padding{
 	padding-bottom:1em;
 }
+.lang-switch{
+	padding-top: 0.385em;
+}
 }
 
 @media screen and (min-width: 1200px){
@@ -897,5 +905,8 @@ margin-bottom:1em;
 	}
 	.action-menu{
 		top:3em;
+	}
+	.lang-switch{
+		padding-top: 0.6em;
 	}
 }
