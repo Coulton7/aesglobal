@@ -806,9 +806,10 @@ div.user-picture > img{
 	}
 	.lang-switch{
 		padding-top: 0.15em;
+		margin-left: 0;
 	}
 	.search-block{
-		width:20em;
+		width:19em;
 	}
 }
 
