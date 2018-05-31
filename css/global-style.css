@@ -580,7 +580,6 @@ blockquote{
 	background: -moz-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
 	background: -webkit-linear-gradient(top, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
 	background: linear-gradient(to bottom, #FCFCFC 0, #FCFCFC 70%, #e5e5e7 100%);
-	background-attachment: fixed;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
