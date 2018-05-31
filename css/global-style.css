@@ -843,7 +843,8 @@ div.user-picture > img{
 	.view-employees .view-content,
 	.view-taxonomy-terms-for-industry-types .view-content,
 	.view-resource-related-products .view-content,
-	.view-api-related-products .view-content{
+	.view-api-related-products .view-content,
+	.view-a-day-in-the-life .view-content{
 		display:block;
 		flex-wrap: initial;
 	}
@@ -897,7 +898,8 @@ div.user-picture > img{
 .view-taxonomy-terms-for-industry-types .view-content,
 .view-about-us-resources .view-content,
 .view-resource-related-products .view-content,
-.view-api-related-products .view-content{
+.view-api-related-products .view-content,
+.view-a-day-in-the-life .view-content{
 	display:flex;
 	flex-wrap: wrap;
 }
