@@ -3,6 +3,12 @@
 	margin:0!important;
 }
 
+.flexslider .slides > li:first-child {
+	display: block;
+	-webkit-backface-visibility: visible;
+}
+
+
 .cust-portal-text{
 	vertical-align: super;
 }
