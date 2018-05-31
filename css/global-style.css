@@ -311,6 +311,7 @@ blockquote{
 	padding:1.7em;
 	border:none;
 	font-size:inherit;
+	margin-bottom: 0;
 }
 
 .view-global-national-news .view-content{
