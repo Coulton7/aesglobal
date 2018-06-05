@@ -621,14 +621,13 @@ div.user-picture > img{
 
 .location-details .location.vcard{
 	width: 33.33%;
-	/*float: right;*/
+	float: right;
 }
 
 .location-details .gmap{
 	width: 64.67%!important;
 	float: left;
 	height:31em!important;
-	/*display: none;*/
 }
 
 .location-details .last-details{
