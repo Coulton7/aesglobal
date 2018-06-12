@@ -95,6 +95,7 @@ $( document ).ready(function() {
             hide($content['field_document']);
             hide($content['field_reference']);
             hide($content['field_download_form']);
+            hide($content['field_content_gate']);
             hide($content['field_hubspot_form']);
             print render($content);
         ?>
@@ -112,6 +113,7 @@ $( document ).ready(function() {
 <div class="row">
     <div class="col-md-12 resources-related-products">
         <?php print render($content['field_reference']);?>
+      <?php print render($content['field_content_gate']);?>
     </div>
 </div>
 
