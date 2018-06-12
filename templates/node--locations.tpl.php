@@ -24,7 +24,7 @@
       <?php print render($content['body']); ?>
     </div>
 
-    <div class="span3 col-sm-3">
+    <div class="span3 col-sm-3 float-right">
       <?php print render($content['field_logo']); ?>
 
     </div>
