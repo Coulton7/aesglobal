@@ -1,5 +1,5 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
+<script type="text/javascript" src="/js/hubspot-progressive-profile.js"></script>
 
 
 
@@ -37,6 +37,9 @@ $( document ).ready(function() {
   if($('.field-name-field-download-form').length>0){
       $('.download-field-wrapper').hide();
   }
+    if ($('.field-name-field-hubspot-form').length > 0) {
+        $('.download-field-wrapper').hide();
+    }
 
   //Check query string
   // Read a page's GET URL variables and return them as an associative array.
@@ -92,12 +95,14 @@ $( document ).ready(function() {
             hide($content['field_document']);
             hide($content['field_reference']);
             hide($content['field_download_form']);
+            hide($content['field_hubspot_form']);
             print render($content);
         ?>
     </div>
 
     <div class="col-md-6">
         <?php print render($content['field_download_form']);?>
+        <?php print render($content['field_hubspot_form']);?>
         <div class="download-field-wrapper">
             <?php print render($content['field_document']);?>
         </div>
