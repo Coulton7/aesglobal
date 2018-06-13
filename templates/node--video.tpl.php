@@ -82,6 +82,7 @@ $( document ).ready(function() {
     hide($content['field_reference']);
     hide($content['field_thumbnail']);
     hide($content['field_download_form']);
+    hide($content['field_hubspot_form']);
     print render($content);
   ?>
 
@@ -105,8 +106,9 @@ $( document ).ready(function() {
   <div class="span6 col-md-6">
 
   <?php print render($content['field_download_form']);?>
+  <?php print render($content['field_hubspot_form']);?>
 
-  </DIV>
+  </div>
 
 
 </div>
