@@ -18,6 +18,11 @@ $( document ).ready(function() {
     $('.oembed').hide();
     $('.field-name-field-thumbnail').show();
   }
+    
+  if($('.field-name-field-download-form').length>0){
+    $('.oembed').hide();
+    $('.field-name-field-thumbnail').show();
+  }
 
   // Read a page's GET URL variables and return them as an associative array.
   function getUrlVars()
