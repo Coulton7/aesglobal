@@ -624,6 +624,11 @@ div.user-picture > img{
 	float: right;
 }
 
+.location.vcard .country-name{
+	display:none;
+}
+/*Caching issue with country name translates to different language*/
+
 .location-details .gmap{
 	width: 64.67%!important;
 	float: left;
