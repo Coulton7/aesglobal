@@ -113,7 +113,7 @@ $( document ).ready(function() {
 <div class="row">
     <div class="col-md-12 resources-related-products">
         <?php print render($content['field_reference']);?>
-      <?php print render($content['field_content_gate']);?>
+      <?php print render($content['field_deliverable']);?>
     </div>
 </div>
 
