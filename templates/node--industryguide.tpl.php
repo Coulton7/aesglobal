@@ -95,7 +95,7 @@ $( document ).ready(function() {
             hide($content['field_document']);
             hide($content['field_reference']);
             hide($content['field_download_form']);
-            hide($content['field_content_gate']);
+            hide($content['field_deliverable']);
             hide($content['field_hubspot_form']);
             print render($content);
         ?>
