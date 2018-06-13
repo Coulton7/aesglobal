@@ -111,6 +111,7 @@ $( document ).ready(function() {
 
 <div class="row">
     <div class="col-md-12 resources-related-products">
+      <?php print render($content['field_deliverable']);?>
         <?php print render($content['field_reference']);?>
     </div>
 </div>
