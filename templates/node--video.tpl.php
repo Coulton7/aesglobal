@@ -15,12 +15,12 @@ $( document ).ready(function() {
   $('.field-name-field-thumbnail').hide();
 
   if($('.field-name-field-download-form').length>0){
-    $('.oembed').hide();
+    $('.field-name-field-api-stream').hide();
     $('.field-name-field-thumbnail').show();
   }
     
   if ($('.field-name-field-hubspot-form').length > 0) {
-    $('.oembed').hide();
+    $('.field-name-field-api-stream').hide();
     $('.field-name-field-thumbnail').show();
   }
 
