@@ -34,10 +34,6 @@ function aesglobal_preprocess_node(&$variables) {
   $variables['submitted'] = t('Submitted by !username on !datetime', array('!username' => $variables['name'], '!datetime' => $date));
 }
 
-function aesglobal_preprocess_image_style(&$vars) {
-	$vars['attributes']['class'][] = 'img-responsive';
-}
-
 function aesglobal_preprocess_maintenance_page(&$variables) {
   if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
 // Template suggestion for offline site
