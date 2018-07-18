@@ -364,6 +364,10 @@ blockquote{
 	color: inherit;
 }
 
+.view-a-day-in-the-life .view-header h2 a {
+	display: none;
+}
+
 .field-name-field-zendesk-country{
 	display: none;
 }
