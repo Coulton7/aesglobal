@@ -232,18 +232,12 @@
             </div>
           </div>
 
-		<?php if (!empty($page['sidebar_first'])): ?>
-			<aside class="col-sm-4 col-md-3" role="complementary">
-				<?php print render($page['sidebar_first']); ?>
-			</aside>  <!-- /#sidebar-first -->
-		<?php endif; ?>
-
 		<div class="tablet-fix">
 		<section id ="main-content" class="
 
-				<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
-					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9'; }
-					else { print 'col-sm-4 col-md-6'; } ?> fullscreen">
+		<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
+					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3'; }
+					else { print 'col-sm-4 col-md-6 col-md-push-3 col-sm-push-4'; } ?> fullscreen">
 
 			<div class="clearfix">
 				<?php if (!empty($page['highlighted'])): ?>
@@ -281,6 +275,12 @@
 		</section>
 	</div>
 
+	<?php if (!empty($page['sidebar_first'])): ?>
+		<aside class="<?php if (empty($page['sidebar_second'])) { print 'col-sm-4 col-md-3 col-md-pull-9'; }
+					else { print 'col-sm-4 col-md-3 col-md-pull-6 col-sm-pull-4'; } ?>" role="complementary">
+			<?php print render($page['sidebar_first']); ?>
+		</aside>  <!-- /#sidebar-first -->
+	<?php endif; ?>
 
 		<?php if (!empty($page['sidebar_second'])): ?>
 			<aside class="col-sm-4 col-md-3 hidden-xs hidden-sm" role="complementary">
