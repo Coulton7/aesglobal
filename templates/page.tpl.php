@@ -166,7 +166,6 @@
 
 		<?php if ($page['preface']): ?>
 		<div class="preface">
-			<div class= "flex_gradient">
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
@@ -268,7 +267,7 @@
 					<?php print render($page['help']); ?>
 				<?php endif; ?>
 			</div>
-			
+
 			<?php if (!empty($action_links)): ?>
 				<ul class="action-links"><?php print render($action_links); ?></ul>
 			<?php endif; ?>
