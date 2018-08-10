@@ -162,6 +162,9 @@
 	background-color:#bd4030;
 }
 
+.svg-inline--fa.fa-lg{
+	vertical-align: 0
+}
 
 .block-title{
 	text-align: left;
