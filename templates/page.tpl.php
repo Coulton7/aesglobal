@@ -73,9 +73,9 @@
  * @ingroup templates
  */
 ?>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/solid.js" integrity="sha384-652/z7yNdGONCCBu0u5h5uF9voJhBdgruAuIDVheEaQ7O/ZC9wyyV+yZsYb32Wy7" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/brands.js" integrity="sha384-BPIhZF7kZGuZzBS4SP/oIqzpxWuOUtsPLUTVGpGw+EtB1wKt1hv63jb2OCroS3EX" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.0.12/js/fontawesome.js" integrity="sha384-6AOxTjzzZLvbTJayrLOYweuPckqh0rrB4Sj+Js8Vzgr85/qm2e0DRqi+rBzyK52J" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/solid.js" integrity="sha384-YmNA3b9AQuWW8KZguYfqJa/YhKNTwGVD5pQc1cN0ZAVRudFFtR17HR7rooNcVXe4" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/brands.js" integrity="sha384-4BRtleJgTYsMKIVuV1Z7lNE29r4MxwKR7u88TWG2GaXsmSljIykt/YDbmKndKGID" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.2.0/js/fontawesome.js" integrity="sha384-QcnrgQuRmocjIBY6ByWMmDvUg3HO4MSdVjY7ynJwZfvTDhVPPQOUI9TRzc6/7ZO1" crossorigin="anonymous"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
