@@ -109,6 +109,11 @@
 	border-bottom: none;
 }
 
+.btn-social:hover{
+	color:#ffffff;
+	border-bottom: none;
+}
+
 .btn-social:nth-of-type(1){
 		color:#1da1f2;
 		margin-right:1.4em;
@@ -145,13 +150,6 @@
 	color:#bd4030;
 }
 
-.sociallinks li a{
-	border-bottom: none;
-}
-
-.sociallinks li a:hover{
-	border-bottom: none;
-}
 
 .block-title{
 	text-align: left;
