@@ -141,19 +141,19 @@
 }
 
 .btn-contact{
-
+	background-color: #002a5b;
 }
 
 .btn-contact:hover{
-
+	background-color: #003675;
 }
 
 .btn-website{
-
+background-color: #dd1e25;
 }
 
 .btn-website:hover{
-
+	background-color: #fa010a;
 }
 
 .svg-inline--fa.fa-lg{
