@@ -112,6 +112,7 @@
 .btn-social{
 	overflow: hidden;
 	text-overflow: ellipsis;
+	color: #ffffff;
 }
 
 .btn-social a{
