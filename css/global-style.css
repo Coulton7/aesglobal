@@ -109,6 +109,11 @@
 	color:#535354!important
 }
 
+.btn-social{
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
 .btn-social a{
 	color: #ffffff;
 	border-bottom: none;
