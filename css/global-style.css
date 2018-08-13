@@ -98,6 +98,17 @@
 	color:#bd4030;
 }
 
+.btn{
+	background-color:#e7e7e9;
+	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
+	border-radius: 0;
+}
+
+.btn:hover{
+	background-color: #cfcfd1;
+	color:#535354!important
+}
+
 .btn-social a{
 	color: #ffffff;
 	border-bottom: none;
@@ -174,17 +185,6 @@
 
 .field-name-field-document img.file-icon{
 	display:none;
-}
-
-.btn{
-	background-color:#e7e7e9;
-	border-color:#e7e7e8 #e7e7e8 #e7e7e9;
-	border-radius: 0;
-}
-
-.btn:hover{
-	background-color: #cfcfd1;
-	color:#535354!important
 }
 
 a.btn{
