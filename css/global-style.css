@@ -110,7 +110,6 @@
 
 .btn-twitter{
 		background-color:#1da1f2;
-		margin-right:1.4em;
 }
 
 .btn-twitter:hover{
@@ -119,7 +118,6 @@
 
 .btn-linkedin{
 	background-color:#0077b5;
-	margin-right:1.4em;
 }
 
 .btn-linkedin:hover{
@@ -128,7 +126,6 @@
 
 .btn-instagram{
 	 background-color:#125688;
-	 margin-right:1.4em;
 }
 
 .btn-instagram:hover{
@@ -137,7 +134,6 @@
 
 .btn-google{
 	background-color:#d34836;
-	margin-right:1.4em;
 }
 
 .btn-google:hover{
@@ -157,7 +153,7 @@
 }
 
 .btn-website:hover{
-	
+
 }
 
 .svg-inline--fa.fa-lg{
