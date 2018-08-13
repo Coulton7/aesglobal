@@ -238,6 +238,10 @@ a.btn:hover{
 	outline-width:1px;
 }
 
+.btn-primary.disabled:hover{
+	background:#fa010a;
+}
+
 .btn-info{
 	list-style-type:none;
 	display:inline-block;
