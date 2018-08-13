@@ -160,7 +160,7 @@
 }
 
 .svg-inline--fa.fa-lg{
-	vertical-align: 0
+	vertical-align: text-bottom;
 }
 
 .block-title{
