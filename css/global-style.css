@@ -120,12 +120,12 @@ a.disabled{
 	color: #ffffff;
 }
 
-.btn-social a{
+a .btn-social{
 	color: #ffffff;
 	border-bottom: none;
 }
 
-.btn-social a:hover{
+a .btn-social:hover{
 	color:#ffffff;
 	border-bottom: none;
 }
