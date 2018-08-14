@@ -111,7 +111,7 @@ a.disabled{
 
 .btn:hover{
 	background-color: #cfcfd1;
-	color:#535354!important
+	color:#535354!important;
 }
 
 .btn-social{
@@ -126,7 +126,7 @@ a .btn-social{
 }
 
 a .btn-social:hover{
-	color:#ffffff;
+	color:#ffffff!important;
 	border-bottom: none;
 }
 
