@@ -131,7 +131,8 @@ a .btn-social:hover{
 }
 
 .btn-social.disabled{
-	background-color: #e7e7e8;
+	background-color: #eeeeee;
+	opacity: 1;
 }
 
 .btn-twitter{
