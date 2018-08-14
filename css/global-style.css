@@ -130,6 +130,10 @@ a .btn-social:hover{
 	border-bottom: none;
 }
 
+.btn-social.disabled{
+	background-color: #e7e7e8;
+}
+
 .btn-twitter{
 		background-color:#1da1f2;
 }
