@@ -353,5 +353,5 @@
 						<?php print render($page['footer_lower']);?>
 					</div>
 				</div>
-				</footer>
 			<?php endif; ?><!--added by Matt -->
+		</footer>
