@@ -528,7 +528,7 @@ blockquote{
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
 .container-inline{
-	width:45%;
+	width:50%;
 	min-height: 1em;
 	padding: 1em;
 	margin-bottom: 20px;
@@ -538,7 +538,7 @@ blockquote{
 }
 
 .container-inline .chosen-container-single .chosen-single{
-	display: inline-block;
+	display: inline-flex;
 	width: 75%;
 }
 
@@ -580,10 +580,6 @@ blockquote{
 	color:#ffffff!important;
 	border:none!important;
 	border-radius:0;
-}
-
-.container-inline div, .container-inline label{
-	vertical-align: -webkit-baseline-middle
 }
 
 .download-field-wrapper{
