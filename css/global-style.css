@@ -966,6 +966,7 @@ div.user-picture > img{
 .entitytype-general_contact-form .chosen-container,
 .lang-switch .chosen-container{
 	width:-webkit-fill-available!important;
+	width:fill-available!important;
 }
 .lang-switch{
 	padding-top: 0.3em;
