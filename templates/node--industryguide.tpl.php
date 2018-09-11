@@ -34,9 +34,7 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 
 <script>
 $( document ).ready(function() {
-  if($('.field-name-field-download-form').length>0){
-      $('.download-field-wrapper').hide();
-  }
+
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.download-field-wrapper').hide();
     }
@@ -59,7 +57,7 @@ $( document ).ready(function() {
   var submitString = getUrlVars()["fs"];
   if(submitString=='y'){
     $('.download-field-wrapper').show();
-    $('.field-name-field-download-form').hide();
+    $('.field-name-field-hubspot-form').hide();
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
 
