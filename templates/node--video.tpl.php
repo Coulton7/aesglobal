@@ -14,14 +14,10 @@ $("#content-gate-entityform-edit-form").submit(function() {
 $( document ).ready(function() {
   $('.field-name-field-thumbnail').hide();
 
-  if($('.field-name-field-download-form').length>0){
-    $('.field-name-field-api-stream').hide();
-    $('.field-name-field-thumbnail').show();
-  }
-    
   if ($('.field-name-field-hubspot-form').length > 0) {
     $('.field-name-field-api-stream').hide();
     $('.field-name-field-thumbnail').show();
+    $('#block-block-166').hide();
   }
 
   // Read a page's GET URL variables and return them as an associative array.
@@ -43,9 +39,10 @@ $( document ).ready(function() {
   if(submitString=='y'){
     $('.oembed').show();
     $('.field-name-field-thumbnail').hide();
-    $('.field-name-field-download-form').hide();
+    $('.field-name-field-hubspot-form').hide();
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
+    $('#block-block-166').hide();
   }
 });
 
