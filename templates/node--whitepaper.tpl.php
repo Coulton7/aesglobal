@@ -37,7 +37,7 @@ $( document ).ready(function() {
 
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.download-field-wrapper').hide();
-        $('.#block-block-166').hide();
+        $('#block-block-166').hide();
     }
 
   //Check query string
@@ -61,7 +61,7 @@ $( document ).ready(function() {
     $('.field-name-field-hubspot-form').hide();
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
-    $('#block-block-166').hide();
+    $('#block-block-166').show();
 
   }
 });
