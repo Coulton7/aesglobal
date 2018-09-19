@@ -28,14 +28,6 @@ function aesglobal_theme(){
 	return $items;
 }
 
-function aesglobal_preprocess_field(&$vars){
-  if($vars['element']['#field_name'] == 'title'){
-    if($vars['items']['0']['#markup'] == 'WARMAN')){
-      $vars['items']['0']['#markup'] = 'WARMAN®';
-    }
-    return
-  }
-}
 
 function aesglobal_preprocess_node(&$variables) {
   $node = $variables['node'];
