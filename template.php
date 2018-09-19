@@ -33,6 +33,7 @@ function aesglobal_preprocess_field(&$vars){
     if(isset($vars['element']['#items']['0']['WARMAN'])){
       $vars['items']['0']['#markup'] = 'WARMAN®';
     }
+    return
   }
 }
 
