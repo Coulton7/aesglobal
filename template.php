@@ -28,6 +28,14 @@ function aesglobal_theme(){
 	return $items;
 }
 
+function aesglobal_preprocess_field(&$vars){
+  if($vars['element']['#field_name'] == 'title'){
+    if(isset($vars['element']['#items']['0']['WARMAN'])){
+      $vars['items']['0']['#markup'] = 'WARMAN®';
+    }
+  }
+}
+
 function aesglobal_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
