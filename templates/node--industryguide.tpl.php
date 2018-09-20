@@ -35,9 +35,10 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 <script>
 $( document ).ready(function() {
 
+        $('#block-block-166').hide();
+
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.download-field-wrapper').hide();
-        $('#block-block-166').hide();
     }
 
   //Check query string
