@@ -528,7 +528,7 @@ blockquote{
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
 .container-inline,
-.dropdown-menu{
+.filter-menu{
 	width:50%;
 	min-height: 1em;
 	padding: 1em;
@@ -565,7 +565,7 @@ blockquote{
 .view-all-case-study-resources .views-exposed-widgets .btn,
 .view-all-product-brochure-resources .views-exposed-widgets .btn,
 .container-inline .btn,
-.dropdown-menu .btn{
+.filter-menu .btn{
 	list-style-type:none;
 	display:inline-block;
 	background:#dd1e25;
@@ -577,7 +577,7 @@ blockquote{
 .view-api-plans .views-exposed-widgets .btn:hover,
 .view-all-case-study-resources .views-exposed-widgets .btn:hover,
 .view-all-product-brochure-resources .views-exposed-widgets .btn:hover
-.dropdown-menu .btn:hover{
+.filter-menu .btn:hover{
 	display:inline-block;
 	background:#fa010a;
 	color:#ffffff!important;
