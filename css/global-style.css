@@ -538,6 +538,18 @@ blockquote{
 	border-radius: 0;
 }
 
+.filter-menu{
+	width: 100%;
+}
+
+.filter-menu .chosen-container{
+	padding:0 1em 0 0;
+}
+
+.filter-button{
+	padding:0 1em 0 0;
+}
+
 .container-inline .chosen-container-single .chosen-single{
 	display: inline-flex;
 	width: 75%;
