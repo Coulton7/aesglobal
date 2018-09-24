@@ -481,7 +481,7 @@ blockquote{
 }
 
 .views-exposed-form label{
-  display:none;
+  margin-right: 1em;
 }
 
 .search-block input{
@@ -524,12 +524,17 @@ blockquote{
 	margin-top: 0;
 }
 
+.views-exposed-form .views-exposed-widget{
+	display: flex;
+	justify-content: center;
+}
+
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
 .container-inline,
 .filter-menu{
-	width:50%;
+	width:100%;
 	min-height: 1em;
 	padding: 1em;
 	margin-bottom: 20px;
