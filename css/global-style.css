@@ -898,6 +898,10 @@ div.user-picture > img{
 	text-align: center;
 }
 
+.view-employees .masonry-item{
+	padding: 0;
+}
+
 .node-article .field.field-name-field-image.field-type-image.field-label-hidden{
 	margin-bottom: 1em;
 }
