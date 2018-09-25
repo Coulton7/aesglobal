@@ -3,6 +3,14 @@ a.disabled{
 	cursor: default;
 }
 
+a.no-underline{
+	border-bottom: none;
+}
+
+a.no-underline :hover{
+	border-bottom:none;
+}
+
 .flexslider{
 	border:none!important;
 	margin:0!important;
@@ -524,7 +532,8 @@ blockquote{
 	margin-top: 0;
 }
 
-.views-exposed-form .views-exposed-widget{
+.views-exposed-form .views-exposed-widget,
+.filter-menu{
 	display: flex;
 	justify-content: center;
 }
