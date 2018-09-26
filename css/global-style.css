@@ -552,6 +552,11 @@ blockquote{
 	border-radius: 0;
 }
 
+.container-inline div{
+	display:inline-flex;
+	width: 90%;
+}
+
 .filter-menu{
 	width: 100%;
 }
@@ -566,7 +571,7 @@ blockquote{
 
 .container-inline .chosen-container-single .chosen-single{
 	display: inline-flex;
-	width: 75%;
+	width: 100%;
 }
 
 .lang-switch .chosen-container-single .chosen-single div b{
@@ -578,7 +583,7 @@ blockquote{
 }
 
 .container-inline .btn{
-	margin-left:0.25em;
+	margin-left:0.5em;
 }
 
 .action-menu{
@@ -590,10 +595,18 @@ blockquote{
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
 .view-all-product-brochure-resources .views-exposed-widgets .btn,
-.container-inline .btn,
 .filter-menu .btn{
 	list-style-type:none;
 	display:inline-block;
+	background:#dd1e25;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius:0;
+}
+
+.container-inline .btn{
+	list-style-type:none;
+	display:inline-flex;
 	background:#dd1e25;
 	color:#ffffff!important;
 	border:none!important;
@@ -609,6 +622,22 @@ blockquote{
 	color:#ffffff!important;
 	border:none!important;
 	border-radius:0;
+}
+
+.container-inline{
+	display: inline-flex;
+	background: #fa010a;
+	color:#ffffff!important;
+	border:none!important;
+	border-radius: 0;
+}
+
+.container-inline label{
+	width: 14em;
+}
+
+.fiter-menu label{
+	width: 18em;
 }
 
 .download-field-wrapper{
