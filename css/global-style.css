@@ -624,7 +624,7 @@ blockquote{
 	border-radius:0;
 }
 
-.container-inline{
+.container-inline .btn:hover{
 	display: inline-flex;
 	background: #fa010a;
 	color:#ffffff!important;
