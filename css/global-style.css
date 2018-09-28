@@ -532,8 +532,7 @@ blockquote{
 	margin-top: 0;
 }
 
-.views-exposed-form .views-exposed-widget,
-.filter-menu{
+.views-exposed-form .views-exposed-widget{
 	display: flex;
 	justify-content: center;
 }
@@ -541,8 +540,7 @@ blockquote{
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
-.container-inline,
-.filter-menu{
+.container-inline{
 	width:100%;
 	min-height: 1em;
 	padding: 1em;
@@ -557,21 +555,13 @@ blockquote{
 	width: 90%;
 }
 
-.filter-menu{
-	width: 100%;
-}
-
-.filter-menu .chosen-container{
-	padding:0 1em 0 0;
-}
-
-.filter-button{
-	padding:0 1em 0 0;
-}
-
 .container-inline .chosen-container-single .chosen-single{
 	display: inline-flex;
 	width: 100%;
+}
+
+.resource-label{
+	width: 17em;
 }
 
 .lang-switch .chosen-container-single .chosen-single div b{
@@ -594,8 +584,7 @@ blockquote{
 
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
-.view-all-product-brochure-resources .views-exposed-widgets .btn,
-.filter-menu .btn{
+.view-all-product-brochure-resources .views-exposed-widgets .btn{
 	list-style-type:none;
 	display:inline-block;
 	background:#dd1e25;
@@ -633,11 +622,7 @@ blockquote{
 }
 
 .container-inline label{
-	width: 14em;
-}
-
-.fiter-label{
-	width: 18em;
+	width: 15em;
 }
 
 .download-field-wrapper{
