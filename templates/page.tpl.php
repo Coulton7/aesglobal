@@ -97,10 +97,10 @@
 			<div class="col-md-2 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-						<img class="wavelogo" src = "/sites/all/themes/aesbs337/images/logos/logo.svg" img alt ="logo"/>
+						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt ="logo"/>
 					</div>
 				</a>
-				<img class= "uppercurve" src = "/sites/all/themes/aesbs337/images/logos/wave-upper.svg" img alt ="uppercurve"/>
+				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"/>
 					 <?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
 							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
