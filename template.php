@@ -35,15 +35,6 @@ function aesglobal_preprocess_node(&$variables) {
   $variables['submitted'] = t('Submitted by !username on !datetime', array('!username' => $variables['name'], '!datetime' => $date));
 }
 
-function aesglobal_preprocess_field(&$vars){
-   if($vars['element']['#field_name'] == 'title'){
-     if($vars['items']['0']['#markup'] == 'WARMAN'){
-       $vars['items']['0']['#markup'] = 'WARMAN®';
-     }
-     return
-   }
- }
-
 function aesglobal_preprocess_maintenance_page(&$variables) {
   if (isset($variables['db_is_active']) && !$variables['db_is_active']) {
 // Template suggestion for offline site
