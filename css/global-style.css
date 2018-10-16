@@ -961,10 +961,11 @@ div.user-picture > img{
 	}
 	.lang-switch{
 		padding-top: 0.15em;
-		margin-left: 0;
+		margin-left: 1em;
 	}
 	.search-block{
 		width:19em;
+		float:right!important;
 	}
 }
 
@@ -1018,6 +1019,9 @@ div.user-picture > img{
 .lang-switch{
 	padding-top: 0.3em;
 	margin-left: 1em;
+}
+.search-block{
+	float:left!important;
 }
 }
 @media screen and (min-width: 992px){
