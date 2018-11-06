@@ -79,6 +79,16 @@
  * @ingroup templates
  */
 ?>
+<script type="text/javascript">
+  (function($){
+    $(document).ready(function(){
+      $(".views-field-title").html(
+        $(".views-field-title").html().replace("®", "<sup>&reg;</sup>")
+      );
+    });
+  })(jQuery);
+</script>
+
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <?php if ((!$page && !empty($title)) || !empty($title_prefix) || !empty($title_suffix) || $display_submitted): ?>
   <header>
