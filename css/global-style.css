@@ -560,9 +560,6 @@ blockquote{
 	width: 100%;
 }
 
-.resource-label{
-	width: 17em;
-}
 
 .lang-switch .chosen-container-single .chosen-single div b{
 	background: url(/sites/all/themes/aesbs337/css/chosen-sprite-white.png) no-repeat 0px 8px;
@@ -623,6 +620,10 @@ blockquote{
 
 .container-inline label{
 	width: 15em;
+}
+
+.resource-label{
+	width: 17em;
 }
 
 .download-field-wrapper{
