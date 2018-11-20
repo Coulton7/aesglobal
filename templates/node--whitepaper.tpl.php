@@ -88,8 +88,8 @@ $( document ).ready(function() {
 
 
 <div class="row">
-    <div class="<?php if ($conetnt['field_hubspot_form']['#items']['0']['value']) { print 'col-md-12'; }
-         else { print 'col-md-6'; } ?>">
+  <div class="<?php if (!empty($conetnt['field_hubspot_form'])) { print 'col-md-6'; }
+         else { print 'col-md-12'; } ?>">
         <?php
             // Hide comments, tags, and links now so that we can render them later.
             hide($content['comments']);
