@@ -38,6 +38,8 @@ $( document ).ready(function() {
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.download-field-wrapper').hide();
         $('#block-block-166').hide();
+    }else{
+        $('#block-block-166').hide();
     }
 
   //Check query string
@@ -86,7 +88,8 @@ $( document ).ready(function() {
 
 
 <div class="row">
-    <div class="col-md-6">
+    <div class="<?php if (empty($conetnt['field_hubspot_form'])) { print 'col-md-12'; }
+         else { print 'col-md-6'; } ?>">
         <?php
             // Hide comments, tags, and links now so that we can render them later.
             hide($content['comments']);
