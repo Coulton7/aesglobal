@@ -89,8 +89,7 @@ $( document ).ready(function() {
 
 <div class="row">
 
-  <div class="<?php if ($content['field_hubspot_form'])==NULL):{ print 'col-md-6'; }
-         else { print 'col-md-12'; } ?>">
+  <div class="col-md-6">
 
         <?php
             // Hide comments, tags, and links now so that we can render them later.
