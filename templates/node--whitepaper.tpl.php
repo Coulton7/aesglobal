@@ -89,8 +89,7 @@ $( document ).ready(function() {
 
 <div class="row">
 
-  <div class="<?php if(!empty($node['download-field-wrapper'])) {print "col-md-6";}
-                    else {print"col-md-12";}?>">
+  <div class="col-md-6">
 
 
         <?php
