@@ -727,7 +727,11 @@ label.resource-label{
   display:block;
 }
 
-.image-highlight{
+.image-highlight, 
+.node-case-studies .field-name-field-thumbnail,
+.node-industryguide .field-name-field-thumbnail,
+.node-productbrochure .field-name-field-thumbnail,
+.node-whitepaper .field-name-field-thumbnail{
 	text-align: center;
 	display: inline-block;
 	position: relative;
