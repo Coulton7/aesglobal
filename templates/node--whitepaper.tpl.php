@@ -36,7 +36,7 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 $( document ).ready(function() {
 
     if ($('.field-name-field-hubspot-form').length > 0) {
-        $('.download-field-wrapper').hide();
+        $('.field-name-field-document').hide();
         $('#block-block-166').hide();
     }else{
         $('#block-block-166').hide();
@@ -59,7 +59,7 @@ $( document ).ready(function() {
 
   var submitString = getUrlVars()["fs"];
   if(submitString=='y'){
-    $('.download-field-wrapper').show();
+    $('.field-name-field-document').show();
     $('.field-name-field-hubspot-form').hide();
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
@@ -87,10 +87,10 @@ $( document ).ready(function() {
 </header>
 
 
-<div class="row">
+<div class="container-whitepaper">
+  <div class="row">
 
-  <div class="col-md-6">
-
+    <div class="left-half">
 
         <?php
             // Hide comments, tags, and links now so that we can render them later.
@@ -105,13 +105,13 @@ $( document ).ready(function() {
         ?>
     </div>
 
-    <div class="col-md-6">
+    <div class="right-half">
         <?php print render($content['field_download_form']);?>
         <?php print render($content['field_hubspot_form']);?>
-        <div class="download-field-wrapper">
-            <?php print render($content['field_document']);?>
-        </div>
+
+          <?php print render($content['field_document']);?>
     </div>
+  </div>
 </div>
 
 <div class="row">

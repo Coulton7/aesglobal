@@ -622,6 +622,19 @@ blockquote{
 	width: 15em;
 }
 
+.container-whitepaper{
+	display: table;
+	height: 100%;
+	width: 100%
+}
+
+.left-half, .right-half{
+	display: table-cell;
+	width: 50%;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
 label.resource-label{
 	width: 17em;
 }
@@ -975,6 +988,13 @@ div.user-picture > img{
 	.locations-map{
 		float:none;
 	}
+	.conatiner-whitepaper{
+		display: block;
+	}
+	.left-half, .right-half{
+		display: block;
+		width: 100%;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -1037,6 +1057,13 @@ div.user-picture > img{
 	}
 	.locations-map{
 		float:right;
+	}
+	.conatiner-whitepaper{
+		display: table;
+	}
+	.left-half, .right-half{
+		display: table-cell;
+		width: 50%;
 	}
 }
 
