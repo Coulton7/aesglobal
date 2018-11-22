@@ -635,6 +635,10 @@ blockquote{
 	padding-right: 15px;
 }
 
+.right-half .field-label{
+	display: none;
+}
+
 label.resource-label{
 	width: 17em;
 }
