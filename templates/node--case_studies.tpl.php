@@ -17,7 +17,7 @@
   </header>
 
 <div class="row">
-<div class="span6 col-md-6">
+<div class="span6 col-sm-6">
   <?php
     // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
@@ -29,7 +29,7 @@
 </div>
 
 
-      <div class="col-md-6">
+      <div class="col-sm-6">
           <div class="download-field-wrapper">
               <?php print render($content['field_document']);?>
           </div>
