@@ -88,7 +88,7 @@ $( document ).ready(function() {
 
 
 <div class="container-whitepaper">
-  <div class="row">
+  <div class="row-eq-height">
 
     <div class="left-half">
 

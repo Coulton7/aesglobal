@@ -999,6 +999,9 @@ div.user-picture > img{
 		display: block;
 		width: 100%;
 	}
+	.container-whitepaper .row-eq-height{
+		display: block;
+	}
 }
 
 @media screen and (min-width: 768px) {
@@ -1068,6 +1071,12 @@ div.user-picture > img{
 	.left-half, .right-half{
 		display: table-cell;
 		width: 50%;
+	}
+	.conatiner-whitepaper .row-eq-height{
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: -ms-flexbox;
+		display: flex;
 	}
 }
 
