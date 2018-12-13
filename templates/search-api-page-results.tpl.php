@@ -47,6 +47,11 @@
     </ol>
     <?php print render($pager); ?>
   <?php else : ?>
+    <h2>No Results</h2>
+    <p>Sorry we couldn’t find a result for your search.
+       Try to search again by, checking your search for spelling mistakes
+       and/or reducing the number of keywords used. You can also try using
+       a broader search phrase.</p>
     <h2><?php print t('Are you searching for a Part Number or Serial Number?');?></h2>
     <?php
       $block = module_invoke('views', 'block_view', 'search_part_number-block');
