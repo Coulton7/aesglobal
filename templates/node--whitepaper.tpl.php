@@ -108,8 +108,7 @@ $( document ).ready(function() {
     <div class="right-half">
         <?php print render($content['field_download_form']);?>
         <?php print render($content['field_hubspot_form']);?>
-
-          <?php print render($content['field_document']);?>
+        <?php print render($content['field_document']);?>
     </div>
   </div>
 </div>
