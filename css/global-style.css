@@ -623,13 +623,13 @@ blockquote{
 	width: 15em;
 }
 
-.conatiner-inline label:lang(fr),
-.conatiner-inline label:lang(de),
-.conatiner-inline label:lang(it),
-.conatiner-inline label:lang(es),
-.conatiner-inline label:lang(pl),
-.conatiner-inline label:lang(ru),
-.conatiner-inline label:lang(tr){
+.container-inline label:lang(fr),
+.container-inline label:lang(de),
+.container-inline label:lang(it),
+.container-inline label:lang(es),
+.container-inline label:lang(pl),
+.container-inline label:lang(ru),
+.container-inline label:lang(tr){
 width:18em;
 }
 
