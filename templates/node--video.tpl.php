@@ -20,7 +20,6 @@ $( document ).ready(function() {
     $('.field-name-field-thumbnail').show();
   }
 
-  // Read a page's GET URL variables and return them as an associative array.
   function getUrlVars()
   {
     var vars = [], hash;
@@ -71,7 +70,6 @@ $( document ).ready(function() {
 
 <div class="span12 col-md-12">
   <?php
-    // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
@@ -128,4 +126,4 @@ $( document ).ready(function() {
 
   <?php print render($content['comments']); ?>
 
-</article> <!-- /.node -->
+</article>

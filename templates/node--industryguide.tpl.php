@@ -1,31 +1,17 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
 
-
-
-
 <script>
 
 $( document ).ready(function() {
-  //$('.field-name-field-thumbnail').hide();
   if($('#content-gate-entityform-edit-form--2').length>0){
        $('.download-field-wrapper').hide();
-       //$('.field-name-field-thumbnail').show();
       }
-
     });
 
 $(document).ajaxSuccess(function(){
 
 if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').length==0){
-
-
-      // Following line was commented out after updating the Hubspot progressive profiling.
-      // It caused the gated content to show the download button before the form was filled in,
-      // commenting out this line solved the issue.
-      // - Ben. B 22/05/17
-
-     // $('.download-field-wrapper').show();
      $('.view-entityform-content-gate h2').text('Click below to Download');
 }});
 
@@ -34,15 +20,12 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 
 <script>
 $( document ).ready(function() {
-
         $('#block-block-166').hide();
-
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.download-field-wrapper').hide();
     }
 
-  //Check query string
-  // Read a page's GET URL variables and return them as an associative array.
+
   function getUrlVars()
   {
     var vars = [], hash;
@@ -63,7 +46,6 @@ $( document ).ready(function() {
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
     $('#block-block-166').show();
-
   }
 });
 
@@ -89,7 +71,6 @@ $( document ).ready(function() {
 <div class="row">
     <div class="col-sm-6">
         <?php
-            // Hide comments, tags, and links now so that we can render them later.
             hide($content['comments']);
             hide($content['links']);
             hide($content['field_tags']);
@@ -127,4 +108,4 @@ $( document ).ready(function() {
 
   <?php print render($content['comments']); ?>
 
-</article> <!-- /.node -->
+</article>

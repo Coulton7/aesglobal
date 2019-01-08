@@ -19,7 +19,6 @@
 <div class="row">
 <div class="span6 col-sm-6">
   <?php
-    // Hide comments, tags, and links now so that we can render them later.
     hide($content['comments']);
     hide($content['links']);
     hide($content['field_tags']);
@@ -51,4 +50,4 @@
 
     <?php print render($content['comments']); ?>
 
-  </article> <!-- /.node -->
+  </article> 
