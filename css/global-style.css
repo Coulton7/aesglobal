@@ -1109,6 +1109,7 @@ div.user-picture > img{
 		display: -webkit-flex;
 		display: -ms-flexbox;
 		display: flex;
+		flex: 1 0 auto;
 	}
 }
 
