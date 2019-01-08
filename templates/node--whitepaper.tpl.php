@@ -70,6 +70,9 @@ $( document ).ready(function() {
 
 </script>
 
+<script> if($('.right-half').is(':empty')){
+  $('.right-half').remove
+}</script>
 
 <header>
     <?php print render($title_prefix); ?>
