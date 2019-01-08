@@ -61,7 +61,7 @@ $( document ).ready(function() {
 $( document ).ready(function() {
     if($('.right-half').is(':empty')){
     $('.right-half').remove
-    })
+    }
 });
 </script>
 
