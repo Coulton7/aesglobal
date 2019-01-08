@@ -646,6 +646,10 @@ width:18em;
 	padding-right: 15px;
 }
 
+.right-half:empty{
+	width:0;
+}
+
 .right-half .field-label{
 	display: none;
 }
@@ -1095,6 +1099,10 @@ div.user-picture > img{
 	.left-half, .right-half{
 		display: table-cell;
 		width: 50%;
+	}
+
+.right-half:empty{
+		width:0;
 	}
 	.conatiner-whitepaper .row-eq-height{
 		display: -webkit-box;
