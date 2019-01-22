@@ -187,7 +187,7 @@
 					print render($build);
 				?>
 
-				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" img alt ="curve-down"/>
+				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"/>
 
 				<?php print render($page['wavelower']);?>
 
