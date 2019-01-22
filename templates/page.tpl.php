@@ -231,7 +231,7 @@
           </div>
 
 		<div class="tablet-fix">
-		<section id ="main-content" class="
+		<section id="main-content" class="
 
 		<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
