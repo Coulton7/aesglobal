@@ -29,22 +29,22 @@
   <?php endif; ?>
 
 <div class="row">
-  <div class="col-md-6 feature-content">
+  <div class="col-md-5 feature-content">
   	<?php print $fields['title']->content; ?>
-    <?php print $fields['body']->content; ?>
+    <?php print $fields['body']->content; ?><br>
+    <?php print $fields['created']->content; ?>
   </div>
 
-  <div class="col-md-6 featured-image">
+  <div class="col-md-7 featured-image">
     <?php print $fields['field_image']->content; ?>
   </div>
 </div>
 
 <div class="row">
-  <div class="col-md-6 featured-footer">
-		<?php print $fields['created']->content; ?><br>
+  <div class="col-md-5 featured-footer">
 	  <?php print $fields['view_node']->content; ?>
   </div>
 
-  <div class="col-md-6">
+  <div class="col-md-7">
   </div>
 </div>
