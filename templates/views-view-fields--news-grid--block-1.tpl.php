@@ -24,39 +24,27 @@
  * @ingroup views_templates
  */
 ?>
-
-
-
   <?php if (!empty($fields->separator)): ?>
     <?php print $fields->separator; ?>
   <?php endif; ?>
 
-
 <div class="row">
   <div class="col-md-6 feature-content">
   	<?php print $fields['title']->content; ?>
-<?php print $fields['body']->content; ?>
-
-
+    <?php print $fields['body']->content; ?>
   </div>
+
   <div class="col-md-6 featured-image">
-
-<?php print $fields['field_image']->content; ?>
-
+    <?php print $fields['field_image']->content; ?>
+  </div>
 </div>
-</div>
+
 <div class="row">
-<div class="col-md-6 featured-footer">
+  <div class="col-md-6 featured-footer">
 		<?php print $fields['created']->content; ?><br>
+	  <?php print $fields['view_node']->content; ?>
+  </div>
 
-	<?php print $fields['view_node']->content; ?>
-
-
-</div>
-
-<div class="col-md-6">
-
-</div>
-
-
+  <div class="col-md-6">
+  </div>
 </div>
