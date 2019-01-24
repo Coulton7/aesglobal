@@ -321,7 +321,7 @@ a.btn-default:hover{
 }
 
 .widget-flex{
-    display: flex;
+    display: flex!important;
     flex-direction: column;
 }
 
