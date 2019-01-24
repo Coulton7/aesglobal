@@ -320,6 +320,19 @@ a.btn-default:hover{
 	border:1px solid #ddd
 }
 
+.widget-flex{
+    display: flex;
+    flex-direction: column;
+    height:97%;
+}
+
+.center-vertical{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+}
+
 .region-sidebar-first .block{
   margin-bottom: 1em;
 }
