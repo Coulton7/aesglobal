@@ -323,7 +323,6 @@ a.btn-default:hover{
 .widget-flex{
     display: flex;
     flex-direction: column;
-    height:97%;
 }
 
 .center-vertical{
