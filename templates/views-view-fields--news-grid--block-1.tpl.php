@@ -33,27 +33,28 @@
 
 
 <div class="row">
-  <div class="span6 col-md-6 feature-content">
-  	   <?php print $fields['title']->content; ?>
-       <?php print $fields['body']->content; ?>
-    <?php endif; ?>
+  <div class="col-md-6 feature-content">
+  	<?php print $fields['title']->content; ?>
+<?php print $fields['body']->content; ?>
+
 
   </div>
-  <div class="span6 col-md-6 featured-image">
-      <?php print $fields['field_image']->content; ?>
-    <?php endif; ?>
+  <div class="col-md-6 featured-image">
 
-  </div>
+<?php print $fields['field_image']->content; ?>
+
+</div>
 </div>
 <div class="row">
-  <div class="span6 col-md-6 featured-footer">
-		  <?php print $fields['created']->content; ?><br>
-	    <?php print $fields['view_node']->content; ?>
-    <?php endif; ?>
+<div class="col-md-6 featured-footer">
+		<?php print $fields['created']->content; ?><br>
+
+	<?php print $fields['view_node']->content; ?>
+
 
 </div>
 
-<div class="span6 col-md-6">
+<div class="col-md-6">
 
 </div>
 
