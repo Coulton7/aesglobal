@@ -349,11 +349,11 @@ a.btn-default:hover {
 }
 
 .css-fade img {
-  -webkit-transition: all ease 1s;
-  -moz-transition: all ease 1s;
-  -o-transition: all ease 1s;
-  -ms-transition: all ease 1s;
-  transition: all ease 1s;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
 }
 
 .css-fade img:hover {
