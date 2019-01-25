@@ -332,23 +332,23 @@ a.btn-default:hover {
   justify-content: center;
 }
 
-#css-fade-linkedin {
+.css-fade-linkedin {
   background-image: url('/sites/aesseal.com/files/icon/linkedin-panel-over.png');
 }
 
-#css-fade-instagram {
+.css-fade-instagram {
   background-image: url('/sites/aesseal.com/files/icon/instagram-panel-over.png');
 }
 
-#css-fade-youtube {
+.css-fade-youtube {
   background-image: url('/sites/aesseal.com/files/icon/youtube-panel-over.png');
 }
 
-#css-fade-twitter {
+.css-fade-twitter {
   background-image: url('/sites/aesseal.com/files/icon/twitter-panel-over.png');
 }
 
-#css-fade img {
+.css-fade img {
   -webkit-transition: all ease 1s;
   -moz-transition: all ease 1s;
   -o-transition: all ease 1s;
@@ -356,7 +356,7 @@ a.btn-default:hover {
   transition: all ease 1s;
 }
 
-#css-fade img:hover {
+.css-fade img:hover {
   opacity: 0;
 }
 
