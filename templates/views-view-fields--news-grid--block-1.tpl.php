@@ -32,7 +32,9 @@
   <div class="col-md-5 feature-content">
   	<?php print $fields['title']->content; ?>
     <?php print $fields['body']->content; ?><br>
-    <?php print $fields['created']->content; ?>
+    <br>
+    <?php print $fields['created']->content; ?><br>
+    <?php print $fields['view_node']->content; ?>
   </div>
 
   <div class="col-md-7 featured-image">
@@ -42,7 +44,6 @@
 
 <div class="row">
   <div class="col-md-5 featured-footer">
-	  <?php print $fields['view_node']->content; ?>
   </div>
 
   <div class="col-md-7">
