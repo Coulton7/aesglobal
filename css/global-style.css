@@ -346,6 +346,16 @@ a.btn-default:hover {
 
 .css-fade-twitter {
   background-image: url('/sites/aesseal.com/files/icon/twitter-panel-over.png');
+	opacity:0;
+	-webkit-transition: opacity 1s ease-in-out;
+	-moz-transition: opacity 1s ease-in-out;
+	-o-transition: opacity 1s ease-in-out;
+	-ms-transition: opacity 1s ease-in-out;
+	transition: opacity 1s ease-in-out;
+}
+
+.css-fade-twitter:hover{
+	opacity: 1
 }
 
 .css-fade img {
