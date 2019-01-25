@@ -332,50 +332,92 @@ a.btn-default:hover {
   justify-content: center;
 }
 
+.css-fade {
+  position: relative;
+	background-color: #b5b6b9;
+}
+
 .css-fade-linkedin {
-  background-image: url('/sites/aesseal.com/files/icon/linkedin-panel-over.png');
-}
-
-.css-fade-instagram {
-  background-image: url('/sites/aesseal.com/files/icon/instagram-panel-over.png');
-}
-
-.css-fade-youtube {
-  background-image: url('/sites/aesseal.com/files/icon/youtube-panel-over.png');
-}
-
-.css-fade-twitter {
-  background-image: url('/sites/aesseal.com/files/icon/twitter-panel.png');
-}
-
-.css-fade-twitter{
-	opacity: 1;
-	-webkit-transition: opacity 1s ease-in-out;
-	-moz-transition: opacity 1s ease-in-out;
-	-o-transition: opacity 1s ease-in-out;
-	-ms-transition: opacity 1s ease-in-out;
-	transition: opacity 1s ease-in-out;
-	left:0;
-	position:absolute;
-	top:0;
-	height:100%;
-	width:100%;
-}
-
-.css-fade-twitter:hover{
-	opacity:1;
-}
-
-.css-fade img {
+  background-image: url('/js-safari-test/Images/linkedin-panel.png');
+	background-size: contain;
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+  opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
   -moz-transition: opacity 1s ease-in-out;
   -o-transition: opacity 1s ease-in-out;
   -ms-transition: opacity 1s ease-in-out;
   transition: opacity 1s ease-in-out;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
 }
 
-.css-fade img:hover {
+.css-fade-instagram {
+  background-image: url('/js-safari-test/Images/instagram-panel.png');
+	background-size: contain;
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.css-fade-youtube {
+  background-image: url('/js-safari-test/Images/youtube-panel.png');
+	background-size: contain;
+	background-color: #f5f5f5;
+	background-repeat: no-repeat;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.css-fade-twitter {
+  background-image: url('/js-safari-test/Images/twitter-panel.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-color: #f5f5f5;
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+
+.css-fade-twitter:hover,
+.css-fade-instagram:hover,
+.css-fade-youtube:hover,
+.css-fade-linkedin:hover {
   opacity: 0;
+}
+
+.panel .panel-heading .social-body{
+	margin-bottom: 0;
 }
 
 .region-sidebar-first .block {
