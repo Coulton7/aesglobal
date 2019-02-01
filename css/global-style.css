@@ -320,9 +320,21 @@ a.btn-default:hover {
   border: 1px solid #ddd
 }
 
+.panel-heading{
+  height: 100%;
+}
+
 .widget-flex {
   display: flex !important;
   flex-direction: column;
+  height: 97%
+}
+
+.widget-object{
+  height: 100%;
+  object-fit: contain;
+  vertical-align: bottom;
+  object-position: bottom;
 }
 
 .center-vertical {
