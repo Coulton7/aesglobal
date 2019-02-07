@@ -1098,6 +1098,10 @@ div.user-picture>img {
     height: auto;
   }
 
+  .location-btn-padding{
+    padding-bottom: 2em;
+  }
+
   .view-global-national-news .view-content .views-row.views-row-odd {
     clear: left;
   }
