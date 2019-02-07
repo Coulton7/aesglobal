@@ -2,7 +2,6 @@
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
 
 <script>
-
 $( document ).ready(function() {
   if($('#content-gate-entityform-edit-form--2').length>0){
        $('.download-field-wrapper').hide();
@@ -19,7 +18,6 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 
 </script>
 
-
 <script>
 $( document ).ready(function() {
 
@@ -29,7 +27,6 @@ $( document ).ready(function() {
     }else{
         $('#block-block-166').hide();
     }
-
 
   function getUrlVars()
   {
@@ -51,18 +48,9 @@ $( document ).ready(function() {
     $('#block-sharethis-sharethis-block').hide();
     $('.field-label').hide();
     $('#block-block-166').show();
-
   }
 });
 
-</script>
-
-<script>
-$( document ).ready(function() {
-    if($('.right-half').is(':empty')){
-    $('.right-half').remove
-    }
-});
 </script>
 
 <header>
@@ -80,39 +68,40 @@ $( document ).ready(function() {
     <?php endif; ?>
 </header>
 
-
-<div class="container-whitepaper">
-  <div class="row-eq-height">
-
-    <div class="left-half">
-
+  <div class="row">
+    <div class="col-sm-12">
         <?php
-            // Hide comments, tags, and links now so that we can render them later.
-            hide($content['comments']);
-            hide($content['links']);
-            hide($content['field_tags']);
-            hide($content['field_document']);
-            hide($content['field_reference']);
-            hide($content['field_download_form']);
-            hide($content['field_hubspot_form']);
-            print render($content);
+          hide($content['comments']);
+          hide($content['links']);
+          hide($content['field_tags']);
+          hide($content['field_document']);
+          hide($content['field_reference']);
+          hide($content['field_download_form']);
+          hide($content['field_hubspot_form']);
+          hide($content['field_thumbnail']);
+          print render($content);
         ?>
     </div>
+  </div>
 
-    <div class="right-half">
+  <div clas="row">
+    <div class="col-sm-6">
+      <?php print render($content[field_thumbnail]);?>
+    </div>
+
+    <div class="col-sm-6">
         <?php print render($content['field_download_form']);?>
         <?php print render($content['field_hubspot_form']);?>
         <?php print render($content['field_document']);?>
     </div>
   </div>
-</div>
 
-<div class="row">
+  <div class="row">
     <div class="col-md-12 resources-related-products">
       <?php print render($content['field_deliverable']);?>
-        <?php print render($content['field_reference']);?>
+      <?php print render($content['field_reference']);?>
     </div>
-</div>
+  </div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
     <footer>

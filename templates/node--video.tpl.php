@@ -21,34 +21,29 @@ $( document ).ready(function() {
   }
 
   function getUrlVars()
-  {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
     {
-      hash = hashes[i].split('=');
-      vars.push(hash[0]);
-      vars[hash[0]] = hash[1];
+      var vars = [], hash;
+      var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+      for(var i = 0; i < hashes.length; i++)
+      {
+        hash = hashes[i].split('=');
+        vars.push(hash[0]);
+        vars[hash[0]] = hash[1];
+      }
+      return vars;
     }
-    return vars;
-  }
 
   var submitString = getUrlVars()["fs"];
-
-  if(submitString=='y'){
-    $('.oembed').show();
-    $('.field-name-field-thumbnail').hide();
-    $('.field-name-field-hubspot-form').hide();
-    $('#block-sharethis-sharethis-block').hide();
-    $('.field-label').hide();
-    $('#block-block-166').show();
-  }
-});
-
+    if(submitString=='y'){
+      $('.oembed').show();
+      $('.field-name-field-thumbnail').hide();
+      $('.field-name-field-hubspot-form').hide();
+      $('#block-sharethis-sharethis-block').hide();
+      $('.field-label').hide();
+      $('#block-block-166').show();
+    }
+  });
 </script>
-
-
-
 
   <header>
     <?php print render($title_prefix); ?>
@@ -66,55 +61,40 @@ $( document ).ready(function() {
   </header>
 
 
-<div class="row">
-
-<div class="span12 col-md-12">
-  <?php
-    hide($content['comments']);
-    hide($content['links']);
-    hide($content['field_tags']);
-    hide($content['field_document']);
-    hide($content['field_reference']);
-    hide($content['field_thumbnail']);
-    hide($content['field_download_form']);
-    hide($content['field_hubspot_form']);
-    print render($content);
-  ?>
-
-
-
-</div>
-
-</div>
-
-<div class="row">
-  <div class="span6 col-md-6">
-
-
-
-    <div class="download-field-wrapper">
-      <?php print render($content['field_thumbnail']);?>
+  <div class="row">
+    <div class="span12 col-md-12">
+      <?php
+        hide($content['comments']);
+        hide($content['links']);
+        hide($content['field_tags']);
+        hide($content['field_document']);
+        hide($content['field_reference']);
+        hide($content['field_thumbnail']);
+        hide($content['field_download_form']);
+        hide($content['field_hubspot_form']);
+        print render($content);
+        ?>
+      </div>
   </div>
 
+  <div class="row">
+    <div class="span6 col-md-6">
+      <div class="download-field-wrapper">
+        <?php print render($content['field_thumbnail']);?>
+      </div>
+    </div>
+
+    <div class="span6 col-md-6">
+      <?php print render($content['field_download_form']);?>
+      <?php print render($content['field_hubspot_form']);?>
+    </div>
   </div>
 
-  <div class="span6 col-md-6">
-
-  <?php print render($content['field_download_form']);?>
-  <?php print render($content['field_hubspot_form']);?>
-
-  </div>
-
-
-</div>
-
-
-
-<div class="row">
-<div class="col-md-12 resources-related-products">
-<?php print render($content['field_deliverable']);?>
-<?php print render($content['field_reference']);?>
-</div>
+  <div class="row">
+    <div class="col-md-12 resources-related-products">
+      <?php print render($content['field_deliverable']);?>
+      <?php print render($content['field_reference']);?>
+    </div>
   </div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
@@ -123,7 +103,6 @@ $( document ).ready(function() {
       <?php print render($content['links']); ?>
     </footer>
   <?php endif; ?>
-
   <?php print render($content['comments']); ?>
 
 </article>
