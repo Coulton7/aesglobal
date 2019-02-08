@@ -327,7 +327,7 @@ a.btn-default:hover {
 .widget-flex {
   display: flex !important;
   flex-direction: column;
-  height: 97%
+  height: 100%
 }
 
 .widget-flex-pr{
@@ -358,7 +358,7 @@ a.btn-default:hover {
 }
 
 .css-fade-linkedin {
-  background-image: url('/js-safari-test/Images/linkedin-panel.png');
+  background-image: url('/sites/aesseal.com/files/icon/linkedin-panel.png');
 	background-size: contain;
 	background-color: #f5f5f5;
 	background-repeat: no-repeat;
@@ -376,7 +376,7 @@ a.btn-default:hover {
 }
 
 .css-fade-instagram {
-  background-image: url('/js-safari-test/Images/instagram-panel.png');
+  background-image: url('/sites/aesseal.com/files/icon/instagram-panel.png');
 	background-size: contain;
 	background-color: #f5f5f5;
 	background-repeat: no-repeat;
@@ -395,7 +395,7 @@ a.btn-default:hover {
 }
 
 .css-fade-youtube {
-  background-image: url('/js-safari-test/Images/youtube-panel.png');
+  background-image: url('/sites/aesseal.com/files/icon/youtube-panel.png');
 	background-size: contain;
 	background-color: #f5f5f5;
 	background-repeat: no-repeat;
@@ -414,7 +414,7 @@ a.btn-default:hover {
 }
 
 .css-fade-twitter {
-  background-image: url('/js-safari-test/Images/twitter-panel.png');
+  background-image: url('/sites/aesseal.com/files/icon/twitter-panel.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-color: #f5f5f5;
