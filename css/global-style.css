@@ -433,6 +433,13 @@ a.btn-default:hover {
   width: 100%;
 }
 
+.panel:hover .css-fade-twitter,
+.panel:hover .css-fade-youtube,
+.panel:hover .css-fade-linkedin,
+.panel:hover .css-fade-instagram{
+  opacity: 0;
+}
+
 .css-fade-twitter:hover,
 .css-fade-instagram:hover,
 .css-fade-youtube:hover,
