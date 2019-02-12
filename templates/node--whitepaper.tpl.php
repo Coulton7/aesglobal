@@ -62,8 +62,9 @@ $( document ).ready(function() {
 
     <?php if ($display_submitted): ?>
       <span class="submitted">
-        <?php print $user_picture; ?>
-        <?php print $submitted; ?>
+        <?php if($submitted){
+          print t("Published") . ": " . format_date($node->created, 'custom', 'd/m/Y');
+        }; ?>
       </span>
     <?php endif; ?>
 </header>
@@ -86,7 +87,7 @@ $( document ).ready(function() {
 
   <div clas="row">
     <div class="col-sm-6">
-      <?php print render($content[field_thumbnail]);?>
+      <?php print render($content['field_thumbnail']);?>
     </div>
 
     <div class="col-sm-6">
