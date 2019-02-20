@@ -179,14 +179,6 @@
 
 			<div class="col-sm-3 col-xs-10 fullscreen">
 
-
-				<?php
-					$block = block_load('block', '34');
-					$block_content = _block_render_blocks(array($block));
-					$build = _block_get_renderable_array($block_content);
-					print render($build);
-				?>
-
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"/>
 
 				<?php print render($page['wavelower']);?>
