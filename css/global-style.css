@@ -671,6 +671,7 @@ blockquote {
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
+.view-resources-search-nid-references .views-exposed-widgets,
 .container-inline {
   width: 100%;
   min-height: 1em;
@@ -711,7 +712,8 @@ blockquote {
 
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
-.view-all-product-brochure-resources .views-exposed-widgets .btn {
+.view-all-product-brochure-resources .views-exposed-widgets .btn,
+.view-resources-search-nid-references .views-exposed-widgets .btn {
   list-style-type: none;
   display: inline-block;
   background: #dd1e25;
@@ -732,6 +734,7 @@ blockquote {
 .view-api-plans .views-exposed-widgets .btn:hover,
 .view-all-case-study-resources .views-exposed-widgets .btn:hover,
 .view-all-product-brochure-resources .views-exposed-widgets .btn:hover,
+.view-resources-search-nid-references .views-exposed-widgets .btn:hover,
 .filter-menu .btn:hover {
   display: inline-block;
   background: #fa010a;
