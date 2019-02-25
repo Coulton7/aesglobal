@@ -61,7 +61,7 @@ $( document ).ready(function() {
     <?php print render($title_suffix); ?>
 
     <?php if ($display_submitted): ?>
-      <span class="submitted">
+      <span class="submitted whitepaper">
         <?php if($submitted){
           print t("Published") . ": " . format_date($node->created, 'custom', 'd/m/Y');
         }; ?>

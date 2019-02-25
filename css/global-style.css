@@ -320,6 +320,11 @@ a.btn-default:hover {
   border: 1px solid #ddd
 }
 
+.submitted.whitepaper{
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
 .panel-heading{
   height: 100%;
 }
