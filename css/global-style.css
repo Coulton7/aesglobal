@@ -212,6 +212,18 @@ a .btn-social:hover {
   display: none;
 }
 
+.bef-checkboxes .form-type-bef-checkbox{
+  display:inline-flex;
+}
+
+.bef-checkboxes .form-type-bef-checkbox .form-control{
+  height:auto;
+}
+
+.bef-checkboxes .form-type-bef-checkbox .form-control label{
+  margin-left: 0.4em;
+}
+
 a.btn {
   border-bottom: none;
 }
