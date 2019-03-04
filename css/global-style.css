@@ -213,16 +213,32 @@ a .btn-social:hover {
 }
 
 .bef-checkboxes .form-type-bef-checkbox{
-  display:inline-flex;
+  display:inline;
 }
 
 .bef-checkboxes .form-type-bef-checkbox .form-control{
-  height:auto;
+  width: 21%;
+  display: inline;
+  float: left;
+  margin: 0 5px 0 0
+}
+
+.bef-checkboxes{
+  display: grid;
 }
 
 .bef-checkboxes .form-type-bef-checkbox label{
-  margin-left: 0.4em;
   font-weight: normal;
+  margin-right: 0;
+  margin-bottom: 0;
+  float: left;
+  margin-top: 5px;
+}
+
+.views-widget .form-item .bef-select-as-checkboxes{
+  border:0;
+  box-shadow:0;
+  display: inline;
 }
 
 a.btn {
