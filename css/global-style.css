@@ -212,22 +212,23 @@ a .btn-social:hover {
   display: none;
 }
 
-.bef-checkboxes .form-type-bef-checkbox{
-  display:inline;
+.bef-checkboxes .form-type-bef-checkbox {
+  display: inline;
 }
 
-.bef-checkboxes .form-type-bef-checkbox .form-control{
+.bef-checkboxes .form-type-bef-checkbox .form-control {
   width: 21%;
   display: inline;
   float: left;
   margin: 0 5px 0 0
 }
 
-.bef-checkboxes{
+.bef-checkboxes {
   display: grid;
+  width: 105%;
 }
 
-.bef-checkboxes .form-type-bef-checkbox label{
+.bef-checkboxes .form-type-bef-checkbox label {
   font-weight: normal;
   margin-right: 0;
   margin-bottom: 0;
@@ -235,25 +236,26 @@ a .btn-social:hover {
   margin-top: 0.2em;
 }
 
-.views-widget .form-item .bef-select-as-checkboxes{
-  border:0;
+.views-widget .form-item .bef-select-as-checkboxes {
+  border: 0;
   box-shadow: none;
   display: inline;
+  background: none;
 }
 
-.views-widget .form-item .bef-select-as-checkboxes a{
+.views-widget .form-item .bef-select-as-checkboxes a {
   border-bottom: none;
 }
 
-.views-widget .form-item .bef-select-as-checkboxes a:hover{
+.views-widget .form-item .bef-select-as-checkboxes a:hover {
   border-bottom: none;
 }
 
-.form-radios .form-type-radio.radio label{
+.form-radios .form-type-radio.radio label {
   height: 2.5em;
 }
 
-.form-radios .radio .bef-select-as-radios{
+.form-radios .radio .bef-select-as-radios {
   margin-top: 0.5em;
 }
 
@@ -365,12 +367,12 @@ a.btn-default:hover {
   border: 1px solid #ddd
 }
 
-.submitted.whitepaper{
+.submitted.whitepaper {
   padding-left: 15px;
   padding-right: 15px;
 }
 
-.panel-heading{
+.panel-heading {
   height: 100%;
 }
 
@@ -380,12 +382,12 @@ a.btn-default:hover {
   height: 100%
 }
 
-.widget-flex-pr{
+.widget-flex-pr {
   display: flex !important;
   flex-direction: column;
 }
 
-.widget-object{
+.widget-object {
   object-fit: contain;
   vertical-align: bottom;
   object-position: bottom;
@@ -403,15 +405,15 @@ a.btn-default:hover {
 
 .css-fade {
   position: relative;
-	background-color: #b5b6b9;
+  background-color: #b5b6b9;
   height: 100%;
 }
 
 .css-fade-linkedin {
   background-image: url('/sites/aesseal.com/files/icon/linkedin-panel.png');
-	background-size: contain;
-	background-color: #f5f5f5;
-	background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
   background-position: bottom;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
@@ -428,9 +430,9 @@ a.btn-default:hover {
 
 .css-fade-instagram {
   background-image: url('/sites/aesseal.com/files/icon/instagram-panel.png');
-	background-size: contain;
-	background-color: #f5f5f5;
-	background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
   background-position: bottom;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
@@ -447,9 +449,9 @@ a.btn-default:hover {
 
 .css-fade-youtube {
   background-image: url('/sites/aesseal.com/files/icon/youtube-panel.png');
-	background-size: contain;
-	background-color: #f5f5f5;
-	background-repeat: no-repeat;
+  background-size: contain;
+  background-color: #f5f5f5;
+  background-repeat: no-repeat;
   background-position: bottom;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
@@ -466,9 +468,9 @@ a.btn-default:hover {
 
 .css-fade-twitter {
   background-image: url('/sites/aesseal.com/files/icon/twitter-panel.png');
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-color: #f5f5f5;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: #f5f5f5;
   background-position: bottom;
   opacity: 1;
   -webkit-transition: opacity 1s ease-in-out;
@@ -486,7 +488,7 @@ a.btn-default:hover {
 .panel:hover .css-fade-twitter,
 .panel:hover .css-fade-youtube,
 .panel:hover .css-fade-linkedin,
-.panel:hover .css-fade-instagram{
+.panel:hover .css-fade-instagram {
   opacity: 0;
 }
 
@@ -497,8 +499,8 @@ a.btn-default:hover {
   opacity: 0;
 }
 
-.panel .panel-heading .social-body{
-	margin-bottom: 0;
+.panel .panel-heading .social-body {
+  margin-bottom: 0;
 }
 
 .region-sidebar-first .block {
@@ -722,6 +724,8 @@ blockquote {
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
 .view-resources-search-nid-references .views-exposed-widgets,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
 .container-inline {
   width: 100%;
   min-height: 1em;
@@ -730,6 +734,11 @@ blockquote {
   background-color: #f5f5f5;
   border: 1px solid #e3e3e3;
   border-radius: 0;
+}
+
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n{
+  width: 50%;
 }
 
 .container-inline div {
@@ -1170,7 +1179,7 @@ div.user-picture>img {
     height: auto;
   }
 
-  .location-btn-padding{
+  .location-btn-padding {
     padding-bottom: 2em;
   }
 
