@@ -743,6 +743,13 @@ blockquote {
   width: 33%;
 }
 
+.view-packing-products-browser .views-exposed-widgets{
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .container-inline div {
   display: inline-flex;
   width: 90%;
