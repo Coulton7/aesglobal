@@ -741,6 +741,7 @@ blockquote {
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value{
   width: 33%;
+  display: block;
 }
 
 .view-packing-products-browser .views-exposed-widgets{
