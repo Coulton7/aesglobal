@@ -726,6 +726,7 @@ blockquote {
 .view-resources-search-nid-references .views-exposed-widgets,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value,
 .container-inline {
   width: 100%;
   min-height: 1em;
@@ -737,8 +738,9 @@ blockquote {
 }
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
-.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n{
-  width: 50%;
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value{
+  width: 33%;
 }
 
 .container-inline div {
