@@ -193,8 +193,6 @@
 			<div class="row-deep">
 			</div>
 		</div>
-
-<div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
