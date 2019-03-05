@@ -188,7 +188,11 @@
 		<?php endif; ?>
 	</div>
 
-
+	<div class="col-sm-12 fullscreen">
+		<div class="mobile-search">
+			<div class="row-deep">
+			</div>
+		</div>
 
 <div class="col-sm-12 fullscreen">
 			<?php if($page['header']):?>
