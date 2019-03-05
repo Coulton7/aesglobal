@@ -232,7 +232,7 @@ a .btn-social:hover {
   margin-right: 0;
   margin-bottom: 0;
   float: left;
-  margin-top: 5px;
+  margin-top: 0.2em;
 }
 
 .views-widget .form-item .bef-select-as-checkboxes{
@@ -251,6 +251,10 @@ a .btn-social:hover {
 
 .form-radios .form-type-radio.radio label{
   height: 2.5em;
+}
+
+.form-radios .radio .bef-select-as-radios{
+  margin-top: 0.5em;
 }
 
 a.btn {
