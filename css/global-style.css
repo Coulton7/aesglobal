@@ -237,8 +237,20 @@ a .btn-social:hover {
 
 .views-widget .form-item .bef-select-as-checkboxes{
   border:0;
-  box-shadow:0;
+  box-shadow: none;
   display: inline;
+}
+
+.views-widget .form-item .bef-select-as-checkboxes a{
+  border-bottom: none;
+}
+
+.views-widget .form-item .bef-select-as-checkboxes a:hover{
+  border-bottom: none;
+}
+
+.form-radios .form-type-radio.radio label{
+  height: 2.5em;
 }
 
 a.btn {
