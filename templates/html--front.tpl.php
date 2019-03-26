@@ -69,6 +69,19 @@
   <![endif]-->
   <meta name="google-site-verification" content="FBDXOqex8A6maxzsynEHSDGT0qrI3cHDyZQCs8H76P0" />
   <meta name="msvalidate.01" content="C094433EF328DC86828B78B3881ED6A0" />
+  <?php
+  if (preg_match('~MSIE|Internet Explorer~i', $_SERVER['HTTP_USER_AGENT']) || (strpos($_SERVER['HTTP_USER_AGENT'], 'Trident/7.0; rv:11.0') !== false)) {
+  $origin =$_SERVER['HTTP_ORIGIN'];
+  $allowed_domains= [
+    'https://api.hubspot.com',
+    'https://forms.hubspot.com',
+  ];
+
+  if(in_array($origin, $allowed_domains)){
+    header('Access-Control-Allow-Origin: ' . $origin);
+  }
+}
+?>
   <?php print $scripts; ?>
 
   <script type="text/javascript">
