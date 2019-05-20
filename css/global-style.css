@@ -726,7 +726,7 @@ blockquote {
 .view-resources-search-nid-references .views-exposed-widgets,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
-.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value,
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
 .container-inline {
   width: 100%;
   min-height: 1em;
