@@ -739,7 +739,7 @@ blockquote {
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
-.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i8n{
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n{
   width: 33%;
   display: block;
 }
