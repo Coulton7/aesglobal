@@ -87,6 +87,24 @@
 		});
 	})
 })(jQuery);
+
+(function($){
+	$window.load(function(){
+		$('.controlNav').flexslider({
+			controlNav: true,
+			directionNav: false
+		});
+	})
+})(jQuery);
+
+(function($){
+	$window.load(function(){
+		$('.directionNav').flexslider({
+			controlNav: false,
+			directionNav: true
+		});
+	})
+})(jQuery);
 </script>
 
 <div class="container-fluid bannercontainer">
