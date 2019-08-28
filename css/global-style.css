@@ -615,6 +615,11 @@ blockquote {
   color: #ffffff;
 }
 
+.form-item-keys-4{
+  width: 85%;
+  display: inline-block;
+}
+
 .search-block .form-item {
   width: 71%;
   display: inline-block;
