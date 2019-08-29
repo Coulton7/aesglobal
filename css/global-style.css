@@ -656,6 +656,8 @@ blockquote {
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
+.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value,
+.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_flooded_location_value,
 .container-inline {
   width: 100%;
   min-height: 1em;
@@ -668,7 +670,10 @@ blockquote {
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
-.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n{
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
+.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_flooded_location_value,
+.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value
+{
   width: 33%;
   display: block;
 }
