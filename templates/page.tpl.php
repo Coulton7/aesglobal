@@ -89,7 +89,7 @@
 })(jQuery);
 
 (function($){
-	$window.load(function(){
+	$(window).load(function(){
 		$('.controlNav').flexslider({
 			controlNav: true,
 			directionNav: false
@@ -98,7 +98,7 @@
 })(jQuery);
 
 (function($){
-	$window.load(function(){
+	$(window).load(function(){
 		$('.directionNav').flexslider({
 			controlNav: false,
 			directionNav: true
