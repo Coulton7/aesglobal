@@ -1174,6 +1174,18 @@ div.user-picture>img {
     bottom: 0;
   }
 
+  .directionNav:hover .flex-direction-nav li a{
+    opacity: 1;
+  }
+
+  .directionNav .flex-direction-nav .flex-prev{
+    left: 0;
+  }
+
+  .directionNav .flex-direction-nav .flex-next{
+    right: 0;
+  }
+
   .locations-map {
     float: none;
   }
