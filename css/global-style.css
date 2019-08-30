@@ -1131,7 +1131,15 @@ div.user-picture>img {
   left: 0;
 }
 
+.flexslider:hover .flex-direction-nav .flex-prev{
+  left: 0;
+}
+
 .directionNav .flex-direction-nav .flex-next {
+  right: 0;
+}
+
+.flexslider:hover .flex-direction-nav .flex-next{
   right: 0;
 }
 
