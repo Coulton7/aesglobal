@@ -679,6 +679,17 @@ blockquote {
   display: block;
 }
 
+.views-widget-filter-field_shaft_grounding_value .form-radios, .views-widget-filter-field_ingress_protection_value .form-radios,
+.views-widget-filter-field_flooded_location_value .form-radios{
+  display: inline-flex;
+}
+
+.views-widget-filter-field_shaft_grounding_value .form-radios .radio+.radio,
+.views-widget-filter-field_ingress_protection_value .form-radios .radio+.radio,
+.views-widget-filter-field_flooded_location_value .form-radios .radio+.radio{
+  margin-top: 0;
+}
+
 .view-packing-products-browser .views-exposed-widgets,
 .views-bearing-protection-browser .views-exposed-widgets {
   display: -webkit-box;
