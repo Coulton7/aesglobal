@@ -680,7 +680,8 @@ blockquote {
   display: block;
 }
 
-.view-packing-products-browser .views-exposed-widgets{
+.view-packing-products-browser .views-exposed-widgets,
+.views-bearing-protection-browser .views-exposed-widgets{
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
