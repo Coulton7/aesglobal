@@ -1170,6 +1170,10 @@ div.user-picture>img {
     display: none;
   }
 
+.controlNav .flex-control-nav{
+    bottom: 0;
+  }
+
   .locations-map {
     float: none;
   }
