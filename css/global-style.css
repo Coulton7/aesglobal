@@ -687,8 +687,14 @@ blockquote {
 .views-widget-filter-field_shaft_grounding_value .form-radios, .views-widget-filter-field_ingress_protection_value .form-radios,
 .views-widget-filter-field_flooded_location_value .form-radios{
   display: inline-flex;
+  width: 100%;
 }
 
+.views-widget-filter-field_shaft_grounding_value .form-radios .form-type-radio, .views-widget-filter-field_ingress_protection_value .form-radios .form-type-radio,
+.views-widget-filter-field_flooded_location_value .form-radios .form-type-radio
+{
+  width: 33%;
+}
 .views-widget-filter-field_shaft_grounding_value .form-radios .radio+.radio,
 .views-widget-filter-field_ingress_protection_value .form-radios .radio+.radio,
 .views-widget-filter-field_flooded_location_value .form-radios .radio+.radio{
