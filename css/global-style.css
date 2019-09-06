@@ -672,7 +672,7 @@ blockquote {
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
-{
+  {
   width: 33%;
   display: block;
 }
@@ -685,20 +685,19 @@ blockquote {
 }
 
 .views-widget-filter-field_shaft_grounding_value .form-radios, .views-widget-filter-field_ingress_protection_value .form-radios,
-.views-widget-filter-field_flooded_location_value .form-radios{
+.views-widget-filter-field_flooded_location_value .form-radios {
   display: inline-flex;
   width: 100%;
 }
 
 .views-widget-filter-field_shaft_grounding_value .form-radios .form-type-radio, .views-widget-filter-field_ingress_protection_value .form-radios .form-type-radio,
-.views-widget-filter-field_flooded_location_value .form-radios .form-type-radio
-{
+.views-widget-filter-field_flooded_location_value .form-radios .form-type-radio {
   width: 25%;
 }
 
 .views-widget-filter-field_shaft_grounding_value .form-radios .radio+.radio,
 .views-widget-filter-field_ingress_protection_value .form-radios .radio+.radio,
-.views-widget-filter-field_flooded_location_value .form-radios .radio+.radio{
+.views-widget-filter-field_flooded_location_value .form-radios .radio+.radio {
   margin-top: 0;
 }
 
@@ -1154,7 +1153,7 @@ div.user-picture>img {
   left: 0;
 }
 
-.flexslider:hover .flex-direction-nav .flex-prev{
+.flexslider:hover .flex-direction-nav .flex-prev {
   left: 0;
 }
 
@@ -1162,7 +1161,7 @@ div.user-picture>img {
   right: 0;
 }
 
-.flexslider:hover .flex-direction-nav .flex-next{
+.flexslider:hover .flex-direction-nav .flex-next {
   right: 0;
 }
 
@@ -1186,6 +1185,30 @@ div.user-picture>img {
 
   .search-block .form-item {
     width: 66%;
+  }
+
+  .socialmedia ul li:nth-child(1) a {
+    font-size: 3em;
+  }
+
+  .socialmedia ul li:nth-child(2) a {
+    font-size: 3em;
+  }
+
+  .socialmedia ul li:nth-child(3) a {
+    font-size: 3em;
+  }
+
+  .socialmedia ul li:nth-child(4) a {
+    font-size: 3em;
+  }
+
+  .socialmedia ul li:nth-child(5) a {
+    font-size: 3em;
+  }
+
+  .socialmedia ul li:nth-child6 a {
+    font-size: 3em;
   }
 
   .action-menu {
