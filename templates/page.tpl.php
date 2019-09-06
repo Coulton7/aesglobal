@@ -190,12 +190,12 @@
 
 		<?php if ($page['wavelower']): ?>
 		<div class="row wavelower row-eq-height">
-			<div class="col-sm-9 col-xs-1 fullscreen">
+			<div class="col-sm-9 col-xs-0 fullscreen">
 				<div class="bottom-gap">
 				</div>
 			</div>
 
-			<div class="col-sm-3 col-xs-10 fullscreen">
+			<div class="col-sm-3 col-xs-12 fullscreen">
 
 				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"/>
 
