@@ -1209,6 +1209,7 @@ div.user-picture>img {
   .search-block {
     width: 19em;
     float: right !important;
+    padding: 0;
   }
 
   .view-awards-slider .flexslider ol.flex-control-nav.flex-control-paging {
