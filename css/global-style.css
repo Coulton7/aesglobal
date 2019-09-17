@@ -785,6 +785,7 @@ blockquote {
 
 .container-inline label {
   width: 15em;
+  margin-right: 1em;
 }
 
 .container-inline label:lang(fr),
@@ -795,6 +796,7 @@ blockquote {
 .container-inline label:lang(ru),
 .container-inline label:lang(tr) {
   width: 18em;
+  margin-right: 1em;
 }
 
 .container-whitepaper {
