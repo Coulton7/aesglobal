@@ -711,12 +711,17 @@ blockquote {
 
 .container-inline div {
   display: inline-flex;
-  width: 90%;
+  width: 95%;
+  white-space: nowrap;
 }
 
 .container-inline .chosen-container-single .chosen-single {
   display: inline-flex;
   width: 100%;
+}
+
+.container-inline .chosen-conatiner-single .chosen-drop{
+  margin-top: -8px;
 }
 
 .lang-switch .chosen-container-single .chosen-single div b {
