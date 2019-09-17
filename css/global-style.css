@@ -1207,7 +1207,7 @@ div.user-picture>img {
     font-size: 3em;
   }
 
-  .socialmedia ul li:nth-child6 a {
+  .socialmedia ul li:nth-child(6) a {
     font-size: 3em;
   }
 
