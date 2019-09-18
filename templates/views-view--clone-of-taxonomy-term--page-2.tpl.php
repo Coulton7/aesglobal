@@ -27,6 +27,27 @@
  * @ingroup views_templates
  */
 ?>
+<script type="text/javascript" charset="utf-8">
+(function($){
+	$(window).load(function() {
+    $(function() {
+      var url = window.location.href;
+      if (/NONE/.test(url)) {
+        $('#none').addClass('bp-active');
+      } else if (/IP55/.test(url)) {
+        $('#ip55').addClass('bp-active');
+      } else if (/IP66/.test(url)) {
+        $('#ip66').addClass('bp-active');
+      } else if (/IP69K/.test(url)) {
+        $('#ip69k').addClass('bp-active');
+      } else {
+        $('#any').addClass('bp-active');
+      }
+    });
+  })
+})(jQuery);
+</script>
+
 <div class="<?php print $classes; ?>">
   <?php print render($title_prefix); ?>
   <?php if ($title): ?>
