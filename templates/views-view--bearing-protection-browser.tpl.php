@@ -37,7 +37,7 @@
     <div class="view-header">
       <?php
         $url = request_uri();
-        if(strpos($url, 'page'||'field') == false){
+        if(strpos($url, 'page') == false){
          print $header;
       }
       ?>
