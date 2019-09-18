@@ -33,15 +33,15 @@
     $(function() {
       var url = window.location.href;
       if (/NONE/.test(url)) {
-        $('#none').addClass('bp-active');
+        $('#none').addClass('img-50');
       } else if (/IP55/.test(url)) {
-        $('#ip55').addClass('bp-active');
+        $('#ip55').addClass('img-50');
       } else if (/IP66/.test(url)) {
-        $('#ip66').addClass('bp-active');
+        $('#ip66').addClass('img-50');
       } else if (/IP69K/.test(url)) {
-        $('#ip69k').addClass('bp-active');
+        $('#ip69k').addClass('img-50');
       } else {
-        $('#any').addClass('bp-active');
+        $('#any').addClass('img-50');
       }
     });
   })
