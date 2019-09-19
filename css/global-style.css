@@ -658,7 +658,6 @@ blockquote {
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
 .view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value_i18n,
 .view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_flooded_location_value_i18n,
-.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_ingress_protection_value_i18n,
 .container-inline {
   width: 100%;
   min-height: 1em;
@@ -678,25 +677,23 @@ blockquote {
 }
 
 .view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_flooded_location_value_i18n,
-.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value_i18n,
-.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_ingress_protection_value {
+.view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value_i18n {
   width: 100%;
   display: block;
 }
 
-.views-widget-filter-field_shaft_grounding_value_i18n .form-radios, .views-widget-filter-field_ingress_protection_value .form-radios,
+.views-widget-filter-field_shaft_grounding_value_i18n .form-radios,
 .views-widget-filter-field_flooded_location_value_i18n .form-radios {
   display: inline-flex;
   width: 100%;
 }
 
-.views-widget-filter-field_shaft_grounding_value_i18n .form-radios .form-type-radio, .views-widget-filter-field_ingress_protection_value .form-radios .form-type-radio,
+.views-widget-filter-field_shaft_grounding_value_i18n .form-radios .form-type-radio,
 .views-widget-filter-field_flooded_location_value_i18n .form-radios .form-type-radio {
   width: 25%;
 }
 
 .views-widget-filter-field_shaft_grounding_value_i18n .form-radios .radio+.radio,
-.views-widget-filter-field_ingress_protection_value .form-radios .radio+.radio,
 .views-widget-filter-field_flooded_location_value_i18n .form-radios .radio+.radio {
   margin-top: 0;
 }
@@ -707,6 +704,10 @@ blockquote {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
+}
+
+.view-clone-of-taxonomy-term .views-exposed-widgets .views-widget-filter-field_ingress_value{
+  display: none;
 }
 
 .container-inline div {
