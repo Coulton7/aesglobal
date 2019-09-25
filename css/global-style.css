@@ -668,8 +668,8 @@ blockquote {
   border-radius: 0;
 }
 
-.view-clone-of-taxonomy-term .views-exposed-widgets .views-widget-filter-field_ingress_value{
-  display: none;
+.view-clone-of-taxonomy-term .views-exposed-widgets .views-widget-filter-field_ingress_protection_value {
+display: none;
 }
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
