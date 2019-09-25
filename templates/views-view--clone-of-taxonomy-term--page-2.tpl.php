@@ -66,14 +66,10 @@
   <?php endif; ?>
 
   <?php
-	global $language
-	$lang_name = $language->language;
-	if($lang_name == 'en'){
       $block = block_load('block', '182');
 			$block_content = _block_render_blocks(array($block));
 			$build = _block_get_renderable_array($block_content);
 			print render($build);
-		}
     ?>
 
   <?php if ($exposed): ?>
