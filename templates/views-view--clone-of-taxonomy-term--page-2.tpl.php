@@ -58,8 +58,8 @@
     <div class="view-header">
       <?php
         $path = request_uri();
-        if(strpos($path, 'page') or strpos($path, 'field') == false){
-         print $header;
+        if(strpos($path, 'page') or strpos($path, 'field') ){
+         hide($header);
         }
       ?>
     </div>
