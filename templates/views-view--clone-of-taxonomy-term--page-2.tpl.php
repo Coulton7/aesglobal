@@ -58,9 +58,12 @@
     <div class="view-header">
       <?php
         $path = request_uri();
-        if(strpos($path, 'page') || strpos($path, 'field') == false){
+        if(strpos($path, 'page') == false){
          print $header;
         }
+				else if (strpos($path, 'field')==false){
+					print $header;
+				}
       ?>
     </div>
   <?php endif; ?>
