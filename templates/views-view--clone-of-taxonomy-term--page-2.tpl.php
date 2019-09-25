@@ -61,6 +61,9 @@
         if(strpos($path, 'page') or strpos($path, 'field') ){
          hide($header);
         }
+				else{
+					print $header;
+				}
       ?>
     </div>
   <?php endif; ?>
