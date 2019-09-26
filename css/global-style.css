@@ -712,14 +712,8 @@ display: none;
 
 .container-inline div {
   display: inline-flex;
-  width: 95%;
+  width: 92%;
   white-space: nowrap;
-}
-
-.view-location-directory .view-content .container-inline div{
-  display: inline-flex;
-  width: 90%;
-  white-space: initial;
 }
 
 .view-location-directory .view-content .container-inline label{
