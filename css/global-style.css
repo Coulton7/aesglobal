@@ -1349,6 +1349,14 @@ div.user-picture>img {
     width: 0;
   }
 
+  .contact-col-left {
+    padding: 0;
+  }
+
+  .contact-col-right {
+    padding: 0;
+  }
+
   .conatiner-whitepaper .row-eq-height {
     display: -webkit-box;
     display: -webkit-flex;
