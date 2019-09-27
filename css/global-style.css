@@ -1177,6 +1177,11 @@ div.user-picture>img {
   right: 0;
 }
 
+@media screen and (max-width:500px) {
+  .search-block{
+    margin: 0 0 0 -1.9em
+  }
+
 @media screen and (max-width: 767px) {
   .widget-width {
     width: 100%;
