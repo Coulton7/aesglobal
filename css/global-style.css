@@ -1408,7 +1408,7 @@ div.user-picture>img {
   }
 
   .contact-col-left {
-    padding-left: 0;
+    padding-left: 1em;
     margin-bottom: 1em;
   }
 
