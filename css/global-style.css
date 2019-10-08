@@ -1270,12 +1270,19 @@ div.user-picture>img {
   .container-whitepaper .row-eq-height {
     display: block;
   }
+  .bearing-ip .flex{
+    display: block;
+  }
 }
 
 @media screen and (min-width: 768px) {
   .widget-width {
     width: 22em;
     height: 95%;
+  }
+
+  .bearing-ip .flex{
+    display: flex;
   }
 
   .view-global-national-news .view-content .views-row.views-row-odd {
