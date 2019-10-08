@@ -41,6 +41,7 @@
     hide($content['links']);
     hide($content['field_tags']);
     hide($content['field_location']);
+    hide($content['field_location_type']);
     hide($content['body']);
     hide($content['field_logo']);
     hide($content['employees_block']);
