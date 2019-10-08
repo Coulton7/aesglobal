@@ -51,11 +51,11 @@
 
   <div class="row location-details">
     <div class="span12 col-sm-12">
-
       <?php print render($content['field_location'])?>
       <div class="last-details">
         <?php print render($content['field_website']); ?>
         <?php print render($content['field_opening_hours']); ?>
+        <?php print render($content['field_location_type']);?>
       </div>
 
     </div>
