@@ -1275,6 +1275,22 @@ div.user-picture>img {
   .bearing-ip .flex{
     display: block;
   }
+  .location-details .location.vcard {
+    width: 100%;
+    float: none;
+  }
+
+  /*Caching issue with country name translates to different language*/
+  .location-details .gmap {
+    width: 100%;
+    float: none;
+    height: 31em !important;
+  }
+
+  .location-details .last-details {
+    width: 100%;
+    float: left;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -1393,6 +1409,22 @@ div.user-picture>img {
     display: -ms-flexbox;
     display: flex;
     flex: 1 0 auto;
+  }
+  .location-details .location.vcard {
+    width: 33.33%;
+    float: right;
+  }
+
+  /*Caching issue with country name translates to different language*/
+  .location-details .gmap {
+    width: 64.67% !important;
+    float: left;
+    height: 31em !important;
+  }
+
+  .location-details .last-details {
+    width: 33.33%;
+    float: right;
   }
 }
 

@@ -51,7 +51,7 @@
     ?>
 
   <div class="row location-details">
-    <div class="span12 col-sm-12">
+    <div class="span12 col-sm-12 col-xs-12">
       <?php print render($content['field_location'])?>
       <div class="last-details">
         <?php print render($content['field_website']); ?>
