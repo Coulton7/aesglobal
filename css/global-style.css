@@ -1187,6 +1187,20 @@ div.user-picture>img {
     clear: right;
   }
 
+  .view-packing-products-browser .views-exposed-widgets,
+  .views-bearing-protection-browser .views-exposed-widgets {
+    display: block;
+  }
+
+  .container-inline div{
+    white-space: normal;
+    display: block;
+  }
+
+  .conatiner-inline .btn{
+    margin-top: 0.5em;
+  }
+
   .search-block .form-item {
     width: 66%;
   }
@@ -1289,6 +1303,15 @@ div.user-picture>img {
     top: 3.4em
   }
 
+  .container-inline div{
+    white-space: normal;
+    display: block;
+  }
+
+  .conatiner-inline .btn{
+    margin-top: 0.5em;
+  }
+
   .view-featured-locations .view-content,
   .view-employees .view-content,
   .view-taxonomy-terms-for-industry-types .view-content,
@@ -1297,6 +1320,14 @@ div.user-picture>img {
   .view-a-day-in-the-life .view-content {
     display: block;
     flex-wrap: initial;
+  }
+
+  .view-packing-products-browser .views-exposed-widgets,
+  .views-bearing-protection-browser .views-exposed-widgets {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 
   .location-padding {
@@ -1400,6 +1431,12 @@ div.user-picture>img {
   .view-a-day-in-the-life .view-content {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .container-inline div {
+    display: inline-flex;
+    width: 89%;
+    white-space: nowrap;
   }
 
   .contact-col-left {
