@@ -21,9 +21,12 @@ a.no-underline :hover {
   -webkit-backface-visibility: visible;
 }
 
+.front .flex-header{
+  padding-left: 0.4em
+}
 
 .front .flex-caption {
-  padding-left: 0.4em;
+  padding-left: 1em;
   color: #ffffff;
 }
 
