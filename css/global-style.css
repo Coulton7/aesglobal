@@ -21,7 +21,7 @@ a.no-underline :hover {
   -webkit-backface-visibility: visible;
 }
 
-.front .flex-header{
+.front .flex-header {
   padding-left: 0.4em
 }
 
@@ -636,7 +636,7 @@ blockquote {
 }
 
 .view-clone-of-taxonomy-term .views-exposed-widgets .views-widget-filter-field_ingress_protection_value {
-display: none;
+  display: none;
 }
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
@@ -683,7 +683,7 @@ display: none;
   white-space: nowrap;
 }
 
-.view-location-directory .view-content .container-inline label{
+.view-location-directory .view-content .container-inline label {
   width: 10em;
 }
 
@@ -692,7 +692,7 @@ display: none;
   width: 100%;
 }
 
-.prod-filter .container-inline .chosen-container .chosen-drop{
+.prod-filter .container-inline .chosen-container .chosen-drop {
   margin-top: -8px;
 }
 
@@ -834,8 +834,8 @@ label.resource-label {
   content: '|';
 }
 
-.field-name-field-location-type:last-child:after{
-  content:'';
+.field-name-field-location-type:last-child:after {
+  content: '';
 }
 
 .field-name-field-location-type {
@@ -869,7 +869,7 @@ label.resource-label {
   border: 1px solid #ccc;
 }
 
-.lang-switch .chosen-container .chosen-results{
+.lang-switch .chosen-container .chosen-results {
   color: #ffffff;
 }
 
@@ -957,6 +957,10 @@ div.user-picture>img {
 
 .location.vcard .country-name {
   display: none;
+}
+
+.gmap-popup .location.vcard {
+  width: auto;
 }
 
 /*Caching issue with country name translates to different language*/
@@ -1153,10 +1157,11 @@ div.user-picture>img {
 }
 
 @media screen and (max-width:500px) {
-  .search-block{
+  .search-block {
     margin: 0 0 0 -1.9em
   }
 }
+
 @media screen and (max-width: 767px) {
   .widget-width {
     width: 100%;
@@ -1180,12 +1185,12 @@ div.user-picture>img {
     display: block;
   }
 
-  .container-inline div{
+  .container-inline div {
     white-space: normal;
     display: block;
   }
 
-  .conatiner-inline .btn{
+  .conatiner-inline .btn {
     margin-top: 0.5em;
   }
 
@@ -1260,9 +1265,11 @@ div.user-picture>img {
   .container-whitepaper .row-eq-height {
     display: block;
   }
-  .bearing-ip .flex{
+
+  .bearing-ip .flex {
     display: block;
   }
+
   .location-details .location.vcard {
     width: 100%;
     float: none;
@@ -1287,7 +1294,7 @@ div.user-picture>img {
     height: 95%;
   }
 
-  .bearing-ip .flex{
+  .bearing-ip .flex {
     display: flex;
   }
 
@@ -1307,12 +1314,12 @@ div.user-picture>img {
     top: 3.4em
   }
 
-  .container-inline div{
+  .container-inline div {
     white-space: normal;
     display: block;
   }
 
-  .conatiner-inline .btn{
+  .conatiner-inline .btn {
     margin-top: 0.5em;
   }
 
@@ -1398,6 +1405,7 @@ div.user-picture>img {
     display: flex;
     flex: 1 0 auto;
   }
+
   .location-details .location.vcard {
     width: 33.33%;
     float: right;
