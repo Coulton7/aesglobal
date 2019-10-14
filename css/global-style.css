@@ -961,6 +961,7 @@ div.user-picture>img {
 
 .gmap-popup .location.vcard {
   width: auto;
+  float: none;
 }
 
 /*Caching issue with country name translates to different language*/
