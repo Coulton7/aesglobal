@@ -603,17 +603,6 @@ blockquote {
   display: inline-block;
 }
 
-.search-block .btn {
-  background-color: #e7e7e9;
-  border: 1px solid #e7e7e9;
-  color: #535354 !important;
-}
-
-.search-block .btn:hover {
-  background-color: #cfcfd1;
-  color: #535354 !important
-}
-
 .search-block .views-exposed-widgets {
   display: flex;
 }
