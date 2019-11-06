@@ -86,12 +86,14 @@
     <script src="/sites/all/themes/aesbs337/js/vfs_fonts.js"></script>
     <script type="text/javascript" src="/sites/all/themes/aesbs337js/pdfcreator.js"></script>
     <script>
-          function hideshow(){
-            document.getElementById(createPDF).classList.add('none');
-            document.getElementById(downloadPDF).classList.add('block');
-            document.getElementById(savePDF).classList.add('block');
-          }
-    </script>
+        $(document).ready(function (){
+          $('#createPDF').click(function(){
+            $('#createPDF').hide()
+            $('#downloadPDF').show()
+            $('#savePDF').show()
+          });
+          });
+  </script>
 
     <header>
         <?php print render($title_prefix); ?>
