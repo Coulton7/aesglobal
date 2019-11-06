@@ -1113,7 +1113,7 @@ div.user-picture>img {
   display: block;
 }
 
-.global-warming-form{
+.global-warming-form {
   background-color: #888c8f;
   color: #ffffff;
   background-image: url('https://s3-eu-west-1.amazonaws.com/aesweb/hostinggrabs/AES-climate-world.png');
@@ -1123,9 +1123,18 @@ div.user-picture>img {
   padding: 48px 60px 48px 60px;
 }
 
-.global-warming-form .form-control{
+.global-warming-form .form-control {
   width: 65%;
   color: #535354;
+}
+
+.fa-edit, .fa-save, .fa-share-square {
+  border-radius: 50%;
+  border: 1px solid #002a5b;
+  padding: 0.2em;
+  background-color: #002a5b;
+  color: white;
+  font-size: 1.5em;
 }
 
 .gallerygrid-frame {
@@ -1301,6 +1310,14 @@ div.user-picture>img {
   .location-details .last-details {
     width: 100%;
     float: left;
+  }
+
+  .global-warming-form {
+    background-image: none;
+  }
+
+  .global-warming-form .form-control {
+    width: 100%;
   }
 }
 
