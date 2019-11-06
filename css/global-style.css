@@ -1125,7 +1125,7 @@ div.user-picture>img {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: right center;
-  padding: 48px 60px 48px 60px;
+  padding: 1.5em;
 }
 
 .global-warming-form .form-control {
