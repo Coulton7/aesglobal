@@ -1113,6 +1113,11 @@ div.user-picture>img {
   display: block;
 }
 
+#node-3275 .field-name-field-hubspot-form{
+  padding: 0;
+  background-color: #ffffff;
+}
+
 .global-warming-form {
   background-color: #888c8f;
   color: #ffffff;
