@@ -1113,6 +1113,21 @@ div.user-picture>img {
   display: block;
 }
 
+.global-warming-form{
+  background-color: #888c8f;
+  color: #ffffff;
+  background-image: url('https://s3-eu-west-1.amazonaws.com/aesweb/hostinggrabs/AES-climate-world.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right center;
+  padding: 48px 60px 48px 60px;
+}
+
+.global-warming-form .form-control{
+  width: 65%;
+  color: #535354;
+}
+
 .gallerygrid-frame {
   width: 100%;
   position: absolute;
