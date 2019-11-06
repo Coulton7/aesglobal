@@ -53,7 +53,7 @@ if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').len
 
 <script src='/sites/all/themes/aesbs337/js/pdfmake.min.js'></script>
 <script src="/sites/all/themes/aesbs337/js/vfs_fonts.js"></script>
-<script type="text/javascript" src="/sites/all/themes/aesbs337js/pdfcreator.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdfcreator.js"></script>
 <script>
     $(document).ready(function (){
       $('#createPDF').click(function(){
