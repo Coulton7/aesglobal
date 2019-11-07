@@ -533,7 +533,7 @@ blockquote {
 .field-name-field-hubspot-form,
 .entitytype-part_number_search-form {
   background-color: #eeeeee;
-  padding: 48px 60px 48px 60px;
+  padding: 1.5em;
   border-radius: 0;
   color: inherit;
 }
