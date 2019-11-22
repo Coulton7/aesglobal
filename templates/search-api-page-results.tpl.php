@@ -35,6 +35,18 @@
  */
 
 ?>
+<script>
+(function($) {
+  $(document).ready(function() {
+    $('body :not(script)').contents().filter(function() {
+        return this.nodeType === 3;
+    }).replaceWith(function() {
+        return this.nodeValue.replace(/[™®©]/g, '<sup>$&</sup>');
+    });
+  });
+})(jQuery);
+</script>
+
 <div class="<?php print $classes;?>">
   <?php if ($result_count): ?>
     <?php print render($search_performance); ?>
