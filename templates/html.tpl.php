@@ -82,17 +82,7 @@
 ?>
   <?php print $scripts; ?>
 
-  <script type="text/javascript">
-
-$( document ).ready(function() {
-  $(".form-select").chosen({
-    disable_search_threshold: 10,
-    no_results_text: "Sorry, no results found."
-  })
-});
-
-
-</script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/chosen-init.js"></script>
 </head>
 <body<?php print $body_attributes; ?>>
   <div id="skip-link">
