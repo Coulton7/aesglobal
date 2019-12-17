@@ -1,19 +1,5 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-<script>
-
-
-$(document).ajaxSuccess(function(){
-
-if($('#general-contact-entityform-edit-form').length==0 && $('.alert-error').length==0){
-     $('#general-contact-entityform-edit-form').hide();
-     $('.entity-entityform-type h2').text('Thankyou for your message, we will be in touch shortly');
-      $('.entity-entityform-type h2').show()
-}});
-
-
-</script>
-
 <div class="span8 offset2 col-md-8 col-md-offset-2">
 
   <header>

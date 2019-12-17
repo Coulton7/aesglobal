@@ -2,15 +2,6 @@
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
 
 <script>
-$("#content-gate-entityform-edit-form").submit(function() {
-    $(this).submit(function() {
-        return false;
-    });
-    return true;
-});
-</script>
-
-<script>
 $( document ).ready(function() {
   $('#block-block-166').hide();
   $('.field-name-field-thumbnail').hide();

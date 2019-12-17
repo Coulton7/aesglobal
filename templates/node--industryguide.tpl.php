@@ -2,23 +2,6 @@
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
 
 <script>
-
-$( document ).ready(function() {
-  if($('#content-gate-entityform-edit-form--2').length>0){
-       $('.download-field-wrapper').hide();
-      }
-    });
-
-$(document).ajaxSuccess(function(){
-
-if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').length==0){
-     $('.view-entityform-content-gate h2').text('Click below to Download');
-}});
-
-</script>
-
-
-<script>
   $( document ).ready(function() {
     $('#block-block-166').hide();
     if ($('.field-name-field-hubspot-form').length > 0) {

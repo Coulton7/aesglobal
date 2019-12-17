@@ -3,23 +3,6 @@
 
 <script>
 $( document ).ready(function() {
-  if($('#content-gate-entityform-edit-form--2').length>0){
-       $('.download-field-wrapper').hide();
-      }
-
-    });
-
-$(document).ajaxSuccess(function(){
-
-if($('#content-gate-entityform-edit-form--2').length==0 && $('.alert-error').length==0){
-
-     $('.view-entityform-content-gate h2').text('Click below to Download');
-}});
-
-</script>
-
-<script>
-$( document ).ready(function() {
 
     if ($('.field-name-field-hubspot-form').length > 0) {
         $('.field-name-field-document').hide();
