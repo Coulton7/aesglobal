@@ -1,51 +1,10 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
-
-<script>
-  $( document ).ready(function() {
-    $('#block-block-166').hide();
-    if ($('.field-name-field-hubspot-form').length > 0) {
-        $('.download-field-wrapper').hide();
-    }
-
-
-  function getUrlVars()
-  {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
-    {
-      hash = hashes[i].split('=');
-      vars.push(hash[0]);
-      vars[hash[0]] = hash[1];
-    }
-    return vars;
-  }
-
-  var submitString = getUrlVars()["fs"];
-  if(submitString=='y'){
-    $('.download-field-wrapper').show();
-    $('.field-name-field-hubspot-form').hide();
-    $('#block-sharethis-sharethis-block').hide();
-    $('.field-label').hide();
-    $('#block-block-166').show();
-  }
-});
-
-</script>
-
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/form-fill.js"></script>
 <script src='/sites/all/themes/aesbs337/js/pdfmake.min.js'></script>
 <script src="/sites/all/themes/aesbs337/js/vfs_fonts.js"></script>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdfcreator.js"></script>
-<script>
-    $(document).ready(function (){
-      $('#createPDF').click(function(){
-        $('#createPDF').hide()
-        $('#downloadPDF').show()
-        $('#savePDF').show()
-      });
-      });
-</script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdf-button-hider.js"></script>
 
 <header>
     <?php print render($title_prefix); ?>
@@ -87,8 +46,7 @@
     <div class="col-sm-6">
       <?php print render($content['field_download_form']);?>
       <?php print render($content['field_hubspot_form']);?>
-      <div class="download-field-wrapper">
-          <?php print render($content['field_document']);?>
+      <?php print render($content['field_document']);?>
       </div>
     </div>
   </div>

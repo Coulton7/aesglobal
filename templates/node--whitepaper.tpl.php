@@ -1,40 +1,6 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
-
-<script>
-$( document ).ready(function() {
-
-    if ($('.field-name-field-hubspot-form').length > 0) {
-        $('.field-name-field-document').hide();
-        $('#block-block-166').hide();
-    }else{
-        $('#block-block-166').hide();
-    }
-
-  function getUrlVars()
-  {
-    var vars = [], hash;
-    var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
-    for(var i = 0; i < hashes.length; i++)
-    {
-      hash = hashes[i].split('=');
-      vars.push(hash[0]);
-      vars[hash[0]] = hash[1];
-    }
-    return vars;
-  }
-
-  var submitString = getUrlVars()["fs"];
-  if(submitString=='y'){
-    $('.field-name-field-document').show();
-    $('.field-name-field-hubspot-form').hide();
-    $('#block-sharethis-sharethis-block').hide();
-    $('.field-label').hide();
-    $('#block-block-166').show();
-  }
-});
-
-</script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/form-fill.js"></script>
 
 <header>
     <?php print render($title_prefix); ?>
