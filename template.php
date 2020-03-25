@@ -29,16 +29,6 @@ function aesglobal_theme(){
 	return $items;
 }
 
-function aesglobal_preprocess_page(&$variables) {
-  $settings = theme_get_settings('aesglobal');
-  if(!empty($settings['secondary_logo_path'])){
-    $vars['secondary_logo_path'] = $settings['secondary_logo_path'];
-  }
-  else{
-    $variables['secondary_logo_path'] = drupal_get_path('theme', 'aesbs337'). '/images/logos/textonlylogo.svg';
-  }
-}
-
 function aesglobal_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
