@@ -24,7 +24,7 @@ function aesglobal_settings($settings){
   if(!empty($settings['secondary_logo_path'])){
     $form['secondary_logo_preview'] = array(
       '#type' => 'markeup',
-      '#value' => !empty($settings['secondary_logo_path']) ? theme('image', $settings['secondary_logo_path']) : '' ,
+      '#value' => !empty($settings['secondary_logo_path']) ? theme('image', settings['secondary_logo_path']) : '' ,
     );
   }
   return $form;
