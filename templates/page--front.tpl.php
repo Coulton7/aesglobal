@@ -73,6 +73,20 @@
  * @ingroup templates
  */
 ?>
+<?php
+$file_url = '';
+$file_fid = theme_get_setting('secondary_logo');
+if(!empty($file_fid)) {
+    $file_loaded = file_load($file_fid);
+    if($file_loaded !== false) {
+        if(!empty($file_loaded->uri)) {
+            $file_url_raw = file_create_url($file_loaded->uri);
+            if($file_url_raw !== false) {
+                $file_url = $file_url_raw;
+            }
+        }
+    }
+}?>
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
@@ -96,13 +110,13 @@
 			<div class="col-sm-2 col-xs-1 fullscreen">
 				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
 					<div class="wavelogo">
-						<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt="logo">
+						<img class="wavelogo" src="<?php print $logo?>" alt="logo">
 					</div>
 				</a>
 				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt="uppercurve"></img>
 					<?php if ($logo): ?>
 						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-							<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+							<img src="<?php print $file_url ?>" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
 						</a>
 					<?php endif; ?>
 			</div>
