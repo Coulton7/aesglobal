@@ -692,6 +692,10 @@ blockquote {
   width: 100%;
 }
 
+.location-hidden{
+  display: none;
+}
+
 .prod-filter .container-inline .chosen-container .chosen-drop {
   margin-top: -8px;
 }
