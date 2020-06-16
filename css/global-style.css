@@ -547,6 +547,7 @@ blockquote {
 .view-entityform-general-contact .form-control{
   background-color: #eeeeee;
   border: 1px solid #66afe9;
+  border-radius: 4px;
 }
 
 .view-a-day-in-the-life .view-header h2 a {
