@@ -534,6 +534,9 @@ blockquote {
 .entitytype-part_number_search-form {
   padding: 1.5em;
   border-radius: 0;
+  background-color: #002a5b;
+  outline: 1px solid #002a5b;
+  color: #ffffff;
 }
 
 .entitytype-product_enquiry_cloned_-form .form-control,
