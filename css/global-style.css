@@ -21,6 +21,11 @@ a.no-underline :hover {
   -webkit-backface-visibility: visible;
 }
 
+.flex-header{
+  color: #ffffff;
+  font-weight: 700;
+}
+
 .front .flex-header {
   padding-left: 0.4em
 }
