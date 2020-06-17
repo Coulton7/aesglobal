@@ -24,15 +24,22 @@ a.no-underline :hover {
 .flex-header{
   color: #ffffff;
   font-weight: 700;
+  text-shadow: 1px 1px 1px #000;
+}
+
+.flex-caption{
+    text-shadow: 1px 1px 1px #000;
 }
 
 .front .flex-header {
-  padding-left: 0.4em
+  padding-left: 0.4em;
+  text-shadow: none;
 }
 
 .front .flex-caption {
   padding-left: 1em;
   color: #ffffff;
+  text-shadow: none;
 }
 
 .front .flexslider .slides li img {
