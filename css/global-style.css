@@ -551,6 +551,10 @@ blockquote {
   color: #ffffff;
 }
 
+.field-name-field-hubspot-form input{
+  color: #535354;
+}
+
 .entitytype-product_enquiry_cloned_-form .form-control,
 .entitytype-branch_disti_form-form .form-control,
 .entitytype-content_gate-form .form-control,
