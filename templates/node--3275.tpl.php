@@ -1,6 +1,10 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/form-fill.js"></script>
+<script src='/sites/all/themes/aesbs337/js/pdfmake.min.js'></script>
+<script src="/sites/all/themes/aesbs337/js/vfs_fonts.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdfcreator.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdf-button-hider.js"></script>
 
 <header>
     <?php print render($title_prefix); ?>
@@ -42,9 +46,7 @@
     <div class="col-sm-6">
       <?php print render($content['field_download_form']);?>
       <?php print render($content['field_hubspot_form']);?>
-      <div class="download-field-wrapper">
-        <?php print render($content['field_document']);?>
-      </div>
+      <?php print render($content['field_document']);?>
     </div>
   </div>
 
