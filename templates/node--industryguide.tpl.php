@@ -46,9 +46,11 @@
     <div class="col-sm-6">
       <?php print render($content['field_download_form']);?>
       <?php print render($content['field_hubspot_form']);?>
-      <?php print render($content['field_document']);?>
+      <div class="download-field-wrapper">
+        <?php print render($content['field_document']);?>
       </div>
     </div>
+  </div>
 
   <div class="row">
     <div class="col-md-12 resources-related-products">
