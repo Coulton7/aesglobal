@@ -1282,7 +1282,7 @@ div.user-picture>img {
   }
 
   .search-block .form-item {
-    width: 66%;
+    width: 55%;
   }
 
   .socialmedia ul li:nth-child(1) a {
@@ -1328,7 +1328,7 @@ div.user-picture>img {
   }
 
   .search-block {
-    width: 17.8em;
+    width: 19.8em;
     float: right !important;
   }
 
