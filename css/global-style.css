@@ -551,6 +551,12 @@ blockquote {
   color: #ffffff;
 }
 
+.search-block #search-api-page-search-form-full-node-search div:last-child::after{
+  font-family: 'Font Awesome 5 Free';
+  content: " \f002";
+  font-weight: 900;
+}
+
 .field-name-field-hubspot-form input{
   color: #535354;
 }
