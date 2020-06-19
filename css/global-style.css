@@ -558,6 +558,19 @@ blockquote {
   padding: 0 0.5em
 }
 
+.lang-switch .language:before {
+  font-family: 'Font Awesome 5 Free';
+  content: " \f1ab";
+  font-weight: 900;
+  float: left;
+  padding: 0 0.5em;
+  font-size: 1.5em;
+  }
+
+  .lang-switch .language div{
+    float: right;
+  }
+
 .field-name-field-hubspot-form input{
   color: #535354;
 }
