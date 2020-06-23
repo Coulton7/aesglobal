@@ -1328,8 +1328,16 @@ div.user-picture>img {
   }
 
   .search-block {
-    width: 19.8em;
+    width: 17.8em;
     float: right !important;
+  }
+
+  .search-block #search-api-page-search-form-full-node-search div:last-child::before{
+    content: "";
+  }
+
+  .lang-switch .language:before {
+    content: "";
   }
 
   .view-awards-slider .flexslider ol.flex-control-nav.flex-control-paging {
@@ -1404,6 +1412,14 @@ div.user-picture>img {
   .search-block .form-item {
     width: 67%;
   }
+
+  .search-block #search-api-page-search-form-full-node-search div:last-child::before{
+    content: " \f002";
+  }
+
+  .lang-switch .language:before {
+    content: " \f1ab";
+    }
 
   .action-menu {
     top: 3.4em
