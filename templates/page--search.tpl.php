@@ -201,23 +201,22 @@ if(!empty($file_fid)) {
 		</div>
 		<?php endif; ?>
 
-		<?php if ($page['wavelower']): ?>
-		<div class="row wavelower row-eq-height">
-			<div class="col-sm-9 col-xs-0 fullscreen">
-				<div class="bottom-gap">
-				</div>
-			</div>
+    <?php if ($page['wavelower']): ?>
+  	<div class="row wavelower row-eq-height">
+  		<div class="col-md-9 col-sm-8 col-xs-0 fullscreen">
+  			<div class="bottom-gap">
+  			</div>
+  		</div>
 
-			<div class="col-sm-3 col-xs-12 fullscreen">
+  		<div class="col-md-3 col-sm-4 col-xs-12 fullscreen">
 
+  			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
 
-				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+  			<?php print render($page['wavelower']);?>
 
-				<?php print render($page['wavelower']);?>
-
-			</div>
-		</div>
-		<?php endif; ?>
+  		</div>
+  	</div>
+  	<?php endif; ?>
 	</div>
 </div>
 
