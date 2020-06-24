@@ -1249,6 +1249,24 @@ div.user-picture>img {
   }
 }
 
+@media screen and (max-width: 500px) and (min-width:371px){
+    .search-block{
+        width: 74%;
+    }
+    .lang-switch{
+        width:30%;
+    }
+}
+
+@media screen and (max-width: 767px) and (min-width: 501px){
+    .search-block{
+        width:57%;
+    }
+    .lang-switch{
+        width: 23%;
+    }
+}
+
 @media screen and (max-width: 767px) {
   .widget-width {
     width: 100%;
@@ -1325,10 +1343,11 @@ div.user-picture>img {
   .lang-switch {
     padding-top: 0.65em;
     margin-left: 0.1em;
+    width:23%;
   }
 
   .search-block {
-    width: 16.8em;
+    width: 57%;
     float: right !important;
   }
 
