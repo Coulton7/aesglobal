@@ -92,6 +92,7 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
+<script src="/sites/all/themes/aesbs337/js/slider-optioons.js"></script>
 <script type="text/javascript" charset="utf-8">
 (function($){
 	$(window).load(function() {
