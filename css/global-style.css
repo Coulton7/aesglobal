@@ -955,6 +955,7 @@ label.resource-label {
   background: linear-gradient(to bottom,  #00428e 0%,#003675 70%,#002a5b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00428e', endColorstr='#002a5b',GradientType=0 ); /* IE6-9 */
   padding: 0;
+  margin-bottom: 0.5rem;
 }
 
 .blue-widget:hover{
