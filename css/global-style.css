@@ -1719,6 +1719,12 @@ a.prod-image-slider:hover{
     padding-top: 0.6em;
   }
   .prod-slider-row > [class*='col-']{
-  padding: 0 0.4em;
+   padding:0 0 0 0.4em
+  }
+  .col-lg-x8{
+    width: 12.5%;
+  }
+  a.prod-image-slider{
+    border: 1px solid
   }
 }
