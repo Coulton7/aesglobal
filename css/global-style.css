@@ -1005,11 +1005,17 @@ label.resource-label {
   padding: 0;
 }
 
-.widget-width {
+.margin-widget{
   margin: .5rem;
+}
+
+.int-widget-padding{
+  padding: 10px;
+}
+
+.widget-width {
   width: 100%;
   height: 100%;
-  padding: 10px;
 }
 
 .search-block {
