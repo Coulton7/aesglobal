@@ -270,7 +270,9 @@ if(!empty($file_fid)) {
 				<?php if (!empty($action_links)): ?>
 					<ul class="action-links"><?php print render($action_links); ?></ul>
 				<?php endif; ?>
-				<?php print render($page['content']); ?>
+        <div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
+				      <?php print render($page['content']); ?>
+        </div>
 
 			</section>
 		</div>
