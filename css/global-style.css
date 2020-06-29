@@ -1005,6 +1005,28 @@ label.resource-label {
   padding: 0;
 }
 
+.enquiry-icon{
+  color: #ffffff;
+  border-radius: 50%;
+  width: 3em;
+  height: 3em;
+  background-color: #002a5b;
+  position: fixed;
+  bottom: 0.5em;
+  right: 0.5em;
+  z-index: 1032;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+}
+
+.enquiry-icon:hover{
+  color: #e5e5e7;
+  background-color: #004a8c;
+}
+
 .margin-widget{
   margin: .5rem;
 }
