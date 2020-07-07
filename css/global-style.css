@@ -1323,6 +1323,39 @@ a.prod-image-slider:hover{
   right: 0;
 }
 
+.optionset-4panel-products .flex-direction-nav a {
+    top: 35%;
+    opacity: 0.7;
+    display: block;
+    border: 1px solid #e5e5e7;
+    border-radius: 50%;
+    background-color: #ffffff;
+    text-align: center;
+    box-shadow: 0 0 0 1px rgba(0,0,0,0.04), 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.optionset-4panel-products:hover .flex-direction-nav a.flex-prev{
+    left: 0;
+    opacity: 0.7;
+}
+
+.optionset-4panel-products .flex-direction-nav a.flex-prev {
+    left: 0;
+}
+
+.optionset-4panel-products:hover .flex-direction-nav a.flex-next{
+    right: 0;
+    opacity: 0.7;
+}
+
+.optionset-4panel-products .flex-direction-nav a.flex-next {
+    right: 0;
+}
+
+.optionset-4panel-products .flex-direction-nav a:before{
+    font-size: 30px;
+}
+
 @media screen and (max-width:500px) {
   .search-block {
     margin: 0 0 0 -1.9em
