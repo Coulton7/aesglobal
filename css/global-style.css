@@ -41,7 +41,7 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
-.page-serach .flex-caption {
+.page-search .flex-caption {
   margin-top: 0.2em;
   position: relative;
   bottom: unset;
@@ -1658,7 +1658,7 @@ a.prod-image-slider:hover{
 
 @media screen and (min-width: 768px) {
   .page-search .flex-header{
-  top: 4em;
+  top: 0.2em;
   text-align: left;
   display: block;
 }
@@ -1675,7 +1675,7 @@ a.prod-image-slider:hover{
 .page-search .flex-caption {
   font-size: 1em;
   line-height: 26px;
-  top: 3.7em;
+  top: 0em;
   display: block;
 }
 
@@ -1834,7 +1834,7 @@ a.prod-image-slider:hover{
     max-width: 87%;
 }
   .page-search .flex-header{
-  top: 1em;
+  top: 0.2em;
   text-align: left;
 }
 
@@ -1927,7 +1927,7 @@ a.prod-image-slider:hover{
   .page-search .flex-caption {
     font-size: 1em;
     line-height: 36px;
-    top:1em;
+    top: 0;
   }
 
   .page-search .breadcrumb>li:last-child{
