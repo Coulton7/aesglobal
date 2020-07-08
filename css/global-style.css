@@ -22,7 +22,7 @@ a.no-underline :hover {
 }
 
 
-.flex-header {
+.page-serach .flex-header {
   color: #ffffff;
   position: relative;
   bottom: unset;
@@ -31,11 +31,11 @@ a.no-underline :hover {
   text-shadow: 1px 1px 1px #000;
 }
 
-.flex-header h1{
+.page-search .flex-header h1{
   text-align: left;
 }
 
-.flex-caption {
+.page-serach .flex-caption {
   margin-top: 0.2em;
   position: relative;
   bottom: unset;
@@ -43,7 +43,7 @@ a.no-underline :hover {
   text-shadow: 1px 1px 1px #000;
 }
 
-.page-header{
+.page-serach .page-header{
   border-bottom: none;
   margin:0;
   padding:0
@@ -1480,7 +1480,7 @@ a.prod-image-slider:hover{
 }
 
 @media screen and (max-width: 767px) {
-  .flex-header{
+ .page-search .flex-header{
   top: 0;
   text-align: left;
   display: block;
@@ -1490,7 +1490,7 @@ a.prod-image-slider:hover{
     max-width: 87%;
 }
 
-.flex-caption{
+.page-search .flex-caption{
   top: 0;
   font-size: 16px;
   line-height: 26px
@@ -1642,7 +1642,7 @@ a.prod-image-slider:hover{
 }
 
 @media screen and (min-width: 768px) {
-  .flex-header{
+  .page-search .flex-header{
   top: 4em;
   text-align: left;
   display: block;
@@ -1652,12 +1652,12 @@ a.prod-image-slider:hover{
     max-width: 87%;
 }
 
-.flex-header h1 {
+.page-search .flex-header h1 {
   font-size: 3.25em;
   line-height: 52px;
 }
 
-.flex-caption {
+.page-search .flex-caption {
   font-size: 1em;
   line-height: 26px;
   top: 3.7em;
@@ -1817,17 +1817,17 @@ a.prod-image-slider:hover{
 .page-search .breadcrumb>li:last-child{
     max-width: 87%;
 }
-  .flex-header{
+  .page-search .flex-header{
   top: 1em;
   text-align: left;
 }
 
-.flex-header h1 {
+.page-search .flex-header h1 {
   font-size: 1.5em;
   line-height: 58px;
 }
 
-.flex-caption {
+.page-serach .flex-caption {
   font-size: 1em;
   line-height: 30px;
   top: 1em;
@@ -1903,12 +1903,12 @@ a.prod-image-slider:hover{
     padding-top: 6em;
   }
 
-  .flex-header h1 {
+  .page-search .flex-header h1 {
     font-size: 1.75em;
     line-height: 63px;
   }
 
-  .flex-caption {
+  .page-search .flex-caption {
     font-size: 1em;
     line-height: 36px;
     top:1em;
