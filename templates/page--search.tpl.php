@@ -167,8 +167,7 @@ if(!empty($file_fid)) {
 			</div>
 		<?php endif; ?>
 
-		<?php if ($page['preface']): ?>
-		<div class="preface front__flex-margin">
+    <div class="preface front__flex-margin">
       <div class="flex-gradient">
         <div class="row">
           <div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
@@ -183,7 +182,7 @@ if(!empty($file_fid)) {
               <div class="breadcrumb-wrap">
                 <div class="container-fluid">
                   <div class="row">
-                      <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
+                      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!--New breadcrumb location -->
                       <div class="breadcrumb-sitemap">
                         <li>
                           <a href="https://www.aesseal.com/en/sitemap">
@@ -198,6 +197,8 @@ if(!empty($file_fid)) {
           </div>
         </div>
       </div>
+
+		<?php if ($page['preface']): ?>
 
 				<?php print render($page['preface']);?>
 			</div>
