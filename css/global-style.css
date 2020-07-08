@@ -1488,6 +1488,7 @@ a.prod-image-slider:hover{
 @media screen and (max-width: 767px) and (min-width: 501px){
     .search-block{
         width:57%;
+        float: right !important;
     }
     .lang-switch{
         width: 23%;
