@@ -25,7 +25,7 @@ a.no-underline :hover {
   color: #ffffff;
 }
 
-.page-search .flex-header {
+.flex-header {
   color: #ffffff;
   position: relative;
   bottom: unset;
@@ -35,13 +35,13 @@ a.no-underline :hover {
   padding-left: 0;
 }
 
-.page-search .flex-header h1{
+.flex-header h1{
   color: #ffffff;
   text-align: left;
   border-bottom: none;
 }
 
-.page-search .flex-caption {
+.flex-caption {
   margin-top: 0.2em;
   position: relative;
   bottom: unset;
@@ -49,7 +49,7 @@ a.no-underline :hover {
   padding-left: 0;
 }
 
-.page-search .page-header{
+.page-header{
   border-bottom: none;
   margin:0;
   padding:0
@@ -61,25 +61,25 @@ a.no-underline :hover {
   list-style: none;
 }
 
-.page-search .breadcrumb-wrap {
+.breadcrumb-wrap {
   padding: 0.3em 0.3em 0.3em 0;
   background: transparent;
   margin-bottom: 0;
 }
 
-.page-search .breadcrumb {
+.breadcrumb {
   display: inline;
   background: transparent;
 }
 
-.page-search .breadcrumb {
+.breadcrumb {
   padding: 0;
   margin-bottom: 20px;
   list-style: none;
   border-radius: 4px;
 }
 
-.page-search .breadcrumb>li a{
+.breadcrumb>li a{
   display: inline-block;
   color: #667f9c;
   padding-right: 9px;
@@ -87,17 +87,17 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
-.page-search .breadcrumb>li a:hover{
+.breadcrumb>li a:hover{
     display: inline-block;
     color: #ffffff;
     border-bottom: none;
 }
 
-.page-search .breadcrumb>li a{
+.breadcrumb>li a{
   transform: skew(25deg);
 }
 
-.page-search .breadcrumb>li{
+.breadcrumb>li{
   display: inline-block;
   color: #667f9c;
   background-color: #004a8c;
@@ -107,7 +107,7 @@ a.no-underline :hover {
   overflow-wrap: break-word;
 }
 
-.page-search .breadcrumb>li:last-child{
+.breadcrumb>li:last-child{
   display: inline-block;
   background-color: transparent;
   color: #000000;
@@ -115,7 +115,7 @@ a.no-underline :hover {
   max-width: 87%;
 }
 
-.page-search .breadcrumb>li+li:before {
+.breadcrumb>li+li:before {
   padding: 0;
   color: #4c698c;
   content: " ";
@@ -1476,7 +1476,7 @@ a.prod-image-slider:hover{
     .lang-switch{
         width:30%;
     }
-    .page-search .front__flex-margin{
+.front__flex-margin{
       -ms-transform: none;
       -webkit-transform: none;
       transform: none;
@@ -1492,7 +1492,7 @@ a.prod-image-slider:hover{
     .lang-switch{
         width: 23%;
     }
-    .page-search .front__flex-margin{
+    .front__flex-margin{
       -ms-transform: none;
       -webkit-transform: none;
       transform: none;
@@ -1502,17 +1502,17 @@ a.prod-image-slider:hover{
 }
 
 @media screen and (max-width: 767px) {
- .page-search .flex-header{
+ .flex-header{
   top: 0;
   text-align: left;
   display: block;
 }
 
-.page-search .breadcrumb>li:last-child{
+.breadcrumb>li:last-child{
     max-width: 87%;
 }
 
-.page-search .flex-caption{
+.flex-caption{
   top: 0;
   font-size: 16px;
   line-height: 26px;
@@ -1659,22 +1659,22 @@ a.prod-image-slider:hover{
 }
 
 @media screen and (min-width: 768px) {
-  .page-search .flex-header{
+  .flex-header{
   top: 0.2em;
   text-align: left;
   display: block;
 }
 
-.page-search .breadcrumb>li:last-child{
+.breadcrumb>li:last-child{
     max-width: 87%;
 }
 
-.page-search .flex-header h1 {
+.flex-header h1 {
   font-size: 3em;
   line-height: 52px;
 }
 
-.page-search .flex-caption {
+.flex-caption {
   font-size: 1em;
   line-height: 26px;
   top: 0em;
@@ -1832,15 +1832,15 @@ a.prod-image-slider:hover{
   padding-top: 7em;
 }
 
-.page-search .breadcrumb>li:last-child{
+.breadcrumb>li:last-child{
     max-width: 87%;
 }
-  .page-search .flex-header{
+  .flex-header{
   top: 0.2em;
   text-align: left;
 }
 
-.page-search .flex-header h1 {
+.flex-header h1 {
   font-size: 1.1em;
   line-height: 58px;
 }
@@ -1921,18 +1921,18 @@ a.prod-image-slider:hover{
     padding-top: 6em;
   }
 
-  .page-search .flex-header h1 {
+  .flex-header h1 {
     font-size: 1.1em;
     line-height: 63px;
   }
 
-  .page-search .flex-caption {
+  .flex-caption {
     font-size: 1em;
     line-height: 36px;
     top: 0;
   }
 
-  .page-search .breadcrumb>li:last-child{
+  .breadcrumb>li:last-child{
     max-width: 100%;
   }
 
