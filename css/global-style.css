@@ -111,7 +111,7 @@ a.no-underline :hover {
 .page-search .breadcrumb>li:last-child{
   display: inline-block;
   background-color: transparent;
-  color: #000000;
+  color: #888C8F;
   transform: skew(0);
   max-width: 87%;
 }
@@ -1477,6 +1477,12 @@ a.prod-image-slider:hover{
     .lang-switch{
         width:30%;
     }
+    .page-search .front__flex-margin{
+      -ms-transform: none;
+      -webkit-transform: none;
+      transform: none;
+      transform-origin: none;
+    }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px){
@@ -1491,6 +1497,7 @@ a.prod-image-slider:hover{
       -webkit-transform: none;
       transform: none;
       transform-origin: none;
+      margin-bottom: 0;
     }
 }
 
@@ -1587,12 +1594,6 @@ a.prod-image-slider:hover{
   .lang-switch {
     padding-top: 0.65em;
     margin-left: 0.1em;
-    width:23%;
-  }
-
-  .search-block {
-    width: 57%;
-    float: right !important;
   }
 
   .search-block #search-api-page-search-form-full-node-search div:last-child::before{
@@ -1921,7 +1922,7 @@ a.prod-image-slider:hover{
   }
 
   .page-search .flex-header h1 {
-    font-size: 1.5em;
+    font-size: 1.1em;
     line-height: 63px;
   }
 
