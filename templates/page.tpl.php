@@ -194,8 +194,39 @@ if(!empty($file_fid)) {
 			</div>
 		<?php endif; ?>
 
+    <div class="preface front__flex-margin">
+      <div class="flex-gradient">
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="flex-header">
+              <?php if (!empty($title)): ?>
+                <h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1></h1>
+              <?php endif; ?>
+            </div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
+            <div class="flex-caption">
+              <div class="breadcrumb-wrap">
+                <div class="container-fluid">
+                  <div class="row">
+                      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!--New breadcrumb location -->
+                      <div class="breadcrumb-sitemap">
+                        <li>
+                          <a href="https://www.aesseal.com/en/sitemap">
+                            <i class="fas fa-sitemap"></i>
+                          </a>
+                        </li>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 		<?php if ($page['preface']): ?>
-		<div class="preface">
+
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
@@ -238,21 +269,10 @@ if(!empty($file_fid)) {
 					else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
 					else { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; } ?>">
 
-          <?php if (!empty($title)): ?>
-  					<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
-					<?php endif; ?>
-
 			<div class="<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2'; }
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12'; }
 											?>">
-          <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-              <div class="row">
-                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?>
-								</div>
-              </div>
-            </div>
           </div>
 
 		<div class="tablet-fix">
