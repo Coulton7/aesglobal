@@ -1482,6 +1482,7 @@ a.prod-image-slider:hover{
       -webkit-transform: none;
       transform: none;
       transform-origin: none;
+      margin-bottom: 0;
     }
 }
 
