@@ -46,7 +46,6 @@ a.no-underline :hover {
   position: relative;
   bottom: unset;
   width: auto;
-  text-shadow: 1px 1px 1px #000;
   padding-left: 0;
 }
 
@@ -111,7 +110,7 @@ a.no-underline :hover {
 .page-search .breadcrumb>li:last-child{
   display: inline-block;
   background-color: transparent;
-  color: #888C8F;
+  color: #000000;
   transform: skew(0);
   max-width: 87%;
 }
