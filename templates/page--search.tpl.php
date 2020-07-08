@@ -92,34 +92,7 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-
-(function($){
-	$(window).load(function(){
-		$('.controlNav').flexslider({
-			controlNav: true,
-			directionNav: false
-		});
-	})
-})(jQuery);
-
-(function($){
-	$(window).load(function(){
-		$('.directionNav').flexslider({
-			controlNav: false,
-			directionNav: true
-		});
-	})
-})(jQuery);
-</script>
+<script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
@@ -195,7 +168,37 @@ if(!empty($file_fid)) {
 		<?php endif; ?>
 
 		<?php if ($page['preface']): ?>
-		<div class="preface">
+		<div class="preface front__flex-margin">
+      <div class="flex-gradient">
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="flex-header">
+              <?php if (!empty($title)): ?>
+                <h1 class="page-header" id="page-main-heading"><?php print $title; ?></h1>
+              <?php endif; ?>
+            </div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
+            <div class="flex-caption">
+              <div class="breadcrumb-wrap">
+                <div class="container-fluid">
+                  <div class="row">
+                      <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
+                      <div class="breadcrumb-sitemap">
+                        <li>
+                          <a href="https://www.aesseal.com/en/sitemap">
+                            <i class="fas fa-sitemap"></i>
+                          </a>
+                        </li>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
@@ -249,13 +252,6 @@ if(!empty($file_fid)) {
 														else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-12'; }
 														else { print 'col-sm-12'; }
 											?>">
-          <div class="breadcrumb-wrap">
-            <div class="container-fluid">
-              <div class="row">
-                  <?php if (!empty($breadcrumb)): print t("You are here") . $breadcrumb; endif;?> <!--New breadcrumb location -->
-								</div>
-              </div>
-            </div>
           </div>
 
 		<div class="tablet-fix">
