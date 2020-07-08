@@ -64,7 +64,8 @@ a.no-underline :hover {
 
 .page-search .breadcrumb-wrap {
   padding: 0.3em 0.3em 0.3em 0;
-  background: transparent
+  background: transparent;
+  margin-bottom: 0;
 }
 
 .page-search .breadcrumb {
