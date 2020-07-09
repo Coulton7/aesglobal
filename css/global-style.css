@@ -806,6 +806,11 @@ blockquote {
   display: block;
 }
 
+ .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n, .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n, .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n{
+   display: flex;
+   flex-wrap: wrap;
+ }
+
 .view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_flooded_location_value_i18n,
 .view-bearing-protection-browser .views-exposed-widgets .views-widget-filter-field_shaft_grounding_value_i18n {
   width: 100%;
