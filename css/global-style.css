@@ -1470,11 +1470,11 @@ a.prod-image-slider:hover{
 
 @media screen and (max-width:500px) {
   .search-block {
-    margin: 0 0 0 -1.9em
+    margin: 0 0 0 -3.9em
   }
 }
 
-@media screen and (max-width: 500px) and (min-width:371px){
+@media screen and (max-width: 501px) and (min-width:371px){
     .search-block{
         width: 74%;
     }
