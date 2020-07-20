@@ -1938,6 +1938,12 @@ a.prod-image-slider:hover{
     top: 0;
   }
 
+  .front .flex-caption {
+    font-size: 1em;
+    line-height: 26px;
+    top: 10px;
+  }
+
   .breadcrumb>li:last-child{
     max-width: 100%;
   }
