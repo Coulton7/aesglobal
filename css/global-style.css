@@ -1665,6 +1665,11 @@ a.prod-image-slider:hover{
 }
 
 @media screen and (min-width: 768px) {
+
+.nav li a{
+  padding: 0.95em 0.95em;
+}
+
   .flex-header{
   top: 0.2em;
   text-align: left;
@@ -1836,6 +1841,10 @@ a.prod-image-slider:hover{
 @media screen and (min-width: 992px) {
   .flex-gradient{
   padding-top: 7em;
+}
+
+.nav li a{
+  padding: 0.95em 1.1em;
 }
 
 .breadcrumb>li:last-child{
