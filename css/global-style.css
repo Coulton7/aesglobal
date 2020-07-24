@@ -3,6 +3,12 @@
   cursor: default;
 }
 
+.navbar-header {
+  background-color: #ffffff;
+  z-index: 1030;
+  position: relative;
+}
+
 a.no-underline {
   border-bottom: none;
 }
