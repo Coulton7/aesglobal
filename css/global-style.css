@@ -1538,7 +1538,7 @@ a.prod-image-slider:hover {
   }
 
   .navbar-nav {
-    display: block;
+    display: none;
   }
 
   .flex-caption {
