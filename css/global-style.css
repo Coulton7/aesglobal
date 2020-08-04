@@ -501,7 +501,7 @@ a.btn-default:hover {
   object-position: bottom;
   position: relative;
   top: 100%;
-  transform: translateY(17%);
+  transform: translateY(-100%);
 }
 
 .center-vertical {
