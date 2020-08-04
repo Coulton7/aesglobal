@@ -515,6 +515,8 @@ a.btn-default:hover {
   position: relative;
   background-color: #b5b6b9;
   height: 100%;
+  display: flex;
+  align-items: flex-end;
 }
 
 .panel:hover .css-fade-twitter,
