@@ -311,6 +311,12 @@ a .btn-social:hover {
   text-align: center;
 }
 
+.field-name-field-document a:after{
+  font-family: 'Font Awesome 5 Free';
+  content: " \f019";
+  font-weight: 900;
+}
+
 .field-name-field-document a:hover {
   background: #fa010a;
   color: #ffffff !important;
