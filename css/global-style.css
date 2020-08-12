@@ -1430,6 +1430,15 @@ a.prod-image-slider:hover {
   color: #dd1e25;
 }
 
+.image-highlight + .views-field.views-field-field-description{
+    color: #535454;
+    transition: color .5s;
+}
+
+.image-highlight:hover + .views-field.views-field-field-description{
+    color: #dd1e25;
+}
+
 .prod-slider-row>[class*='col-'] {
   display: flex;
   flex-direction: column;
