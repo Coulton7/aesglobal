@@ -1432,6 +1432,7 @@ div.user-picture>img {
 a.prod-image-slider + .prod-image-slider-text p{
   color: #535454;
   transition: color .5s;
+  text-align: center;
 }
 
 a.prod-image-slider:hover + .prod-image-slider-text p{
@@ -1439,8 +1440,8 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
 }
 
 .prod-slide-padding{
-  padding-top: 21%;
-  padding-bottom: 21%;
+  padding-top: 21%!important;
+  padding-bottom: 21%!important;
 }
 
 .image-highlight + .views-field.views-field-field-description{
@@ -1723,8 +1724,8 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
     padding: 1em 0.5em;
   }
   .prod-slide-padding{
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
   }
 }
 
@@ -1910,8 +1911,8 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
     padding-bottom: 1em;
   }
   .prod-slide-padding{
-    padding-top: 0;
-    padding-bottom: 0;
+    padding-top: 0!important;
+    padding-bottom: 0!important;
   }
 }
 
@@ -2009,8 +2010,8 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
     padding-bottom: 1em;
   }
   .prod-slide-padding{
-    padding-top: 21%;
-    padding-bottom: 21%;
+    padding-top: 21%!important;
+    padding-bottom: 21%!important;
   }
 }
 
