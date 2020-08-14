@@ -1449,7 +1449,7 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
     transition: color .5s;
 }
 
-.image-highlight:hover + .views-field.views-field-field-description,.image-highlight + .views-field.views-field-title{
+.image-highlight:hover + .views-field.views-field-field-description,.image-highlight:hover + .views-field.views-field-title{
     color: #dd1e25;
 }
 
