@@ -711,6 +711,15 @@ blockquote {
   border-radius: 10px;
 }
 
+.entitytype-product_enquiry_cloned_-form .form-control.form-textarea,
+.entitytype-branch_disti_form-form .form-control.form-textarea,
+.entitytype-content_gate-form .form-control.form-textarea,
+.field-name-field-hubspot-form .form-control.form-textarea,
+.entitytype-part_number_search-form .form-control.form-textarea,
+.view-entityform-general-contact .form-control.form-textarea {
+  border-radius: 10px 10px 0 0
+}
+
 .view-a-day-in-the-life .view-header h2 a {
   display: none;
 }
