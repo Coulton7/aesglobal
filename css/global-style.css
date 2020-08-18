@@ -1524,6 +1524,10 @@ a.prod-image-slider:hover + .prod-image-slider-text p{
   font-size: 30px;
 }
 
+.node-type-product .grecaptcha-badge{
+  bottom: 6em!important;
+}
+
 @media screen and (max-width:500px) {
   .search-block {
     margin: 0 0 0 -3.9em
