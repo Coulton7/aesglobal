@@ -1846,6 +1846,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding: 0.95em 0.95em;
   }
 
+  .sustain-nav li a {
+    padding: 0;
+  }
+
   .navbar-nav {
     display: block;
   }
@@ -2040,6 +2044,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
   .nav li a {
     padding: 0.95em 1.1em;
+  }
+
+  .sustain-nav li a {
+    padding: 0;
   }
 
   .breadcrumb>li:last-child {
