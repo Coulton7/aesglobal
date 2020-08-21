@@ -1610,6 +1610,30 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   color: #5c9a31
 }
 
+#next {
+  float: right;
+  position: absolute;
+  right: 2%;
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+#prev {
+  text-align: center;
+  border: 1px solid #ddd;
+  padding: 1em;
+}
+
+#prev:hover, #next:hover {
+  background-color: #eee;
+}
+
+.next-arrow, .prev-arrow {
+  color: #5cabdf;
+  text-shadow: 0 0 3px #ffffff;
+}
+
 .reveal[aria-expanded="false"]~.full-details {
   display: none;
 }
@@ -1827,6 +1851,17 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     width: 100%;
   }
 
+  .sustain-nav {
+    overflow-x: auto;
+    overflow-y: hidden;
+    display: -webkit-box;
+    display: -moz-box;
+  }
+
+  #arrowNav {
+    display: flex;
+  }
+
   .row-flexrow {
     display: block;
   }
@@ -2025,6 +2060,17 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
   .row-flexrow {
     display: flex;
+  }
+
+  .sustain-nav {
+    overflow-x: initial;
+    overflow-y: initial;
+    display: initial;
+    display: initial;
+  }
+
+  #arrowNav {
+    display: none;
   }
 
   .prod-slider-row>[class*='col-'] {
