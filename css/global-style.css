@@ -1590,7 +1590,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   padding-right: 0.5em;
 }
 
-.instagram {
+.instagram-icon {
   color: transparent;
   background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
   background: -webkit-radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
@@ -1598,15 +1598,15 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   -webkit-background-clip: text;
 }
 
-.twitter {
+.twitter-icon {
   color: #1da1f2;
 }
 
-.article {
+.article-icon {
   color: #c45223;
 }
 
-.case-study {
+.case-study-icon {
   color: #5c9a31
 }
 
