@@ -1595,7 +1595,6 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  flex-wrap: wrap;
 }
 
 .icon-right-padding {
