@@ -672,6 +672,18 @@ blockquote {
   color: #ffffff;
 }
 
+.help-block{
+  color: #ffffff;
+}
+
+.help-block a{
+  color: #ffffff;
+}
+
+.help-block a:hover{
+  color: #e5e5e7;
+}
+
 .search-block #search-api-page-search-form-full-node-search div:last-child::before {
   font-family: 'Font Awesome 5 Free';
   content: " \f002";
