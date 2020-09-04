@@ -1536,7 +1536,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   font-size: 30px;
 }
 
-.node-type-product .grecaptcha-badge {
+.node-type-product .grecaptcha-badge, .node-type-locations .grecaptcha-badge, .node-type-bearing-protection .grecaptcha-badge, .node-type-gland-packing .grecaptcha-badge {
   bottom: 6em !important;
 }
 
