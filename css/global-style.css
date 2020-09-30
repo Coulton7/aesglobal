@@ -382,7 +382,7 @@ a.btn:hover {
   border-bottom: none;
 }
 
-.field-name-field-hubspot-form .hs-button {
+.field-hubspot-form .hs-button {
   list-style-type: none;
   display: inline-block;
   background: #dd1e25;
@@ -663,7 +663,7 @@ blockquote {
 .entitytype-branch_disti_form-form,
 .view-entityform-general-contact,
 .entitytype-content_gate-form,
-.field-name-field-hubspot-form,
+.field-hubspot-form,
 .entitytype-part_number_search-form {
   padding: 1.5em;
   border-radius: 0;
@@ -708,18 +708,18 @@ blockquote {
   float: right;
 }
 
-.field-name-field-hubspot-form input {
+.field-hubspot-form input {
   color: #535354;
 }
 
-.field-name-field-hubspot-form ul {
+.field-hubspot-form ul {
   list-style: none;
 }
 
 .entitytype-product_enquiry_cloned_-form .form-control,
 .entitytype-branch_disti_form-form .form-control,
 .entitytype-content_gate-form .form-control,
-.field-name-field-hubspot-form .form-control,
+.field-hubspot-form .form-control,
 .entitytype-part_number_search-form .form-control,
 .view-entityform-general-contact .form-control {
   background-color: #eeeeee;
@@ -730,7 +730,7 @@ blockquote {
 .entitytype-product_enquiry_cloned_-form .form-control.form-textarea,
 .entitytype-branch_disti_form-form .form-control.form-textarea,
 .entitytype-content_gate-form .form-control.form-textarea,
-.field-name-field-hubspot-form .form-control.form-textarea,
+.field-hubspot-form .form-control.form-textarea,
 .entitytype-part_number_search-form .form-control.form-textarea,
 .view-entityform-general-contact .form-control.form-textarea {
   border-radius: 10px 10px 0 0
@@ -748,7 +748,7 @@ blockquote {
   display: block;
 }
 
-.field-name-field-hubspot-form .hs-button {
+.field-hubspot-form .hs-button {
   color: #535354;
   overflow: hidden;
   margin: 1em auto;
@@ -1383,7 +1383,7 @@ div.user-picture>img {
   display: block;
 }
 
-#node-3275 .field-name-field-hubspot-form, #node-1271 .field-name-field-hubspot-form {
+#node-3275 .field-hubspot-form, #node-1271 .field-hubspot-form {
   padding: 0;
   background-color: #ffffff;
   color: #535454;
