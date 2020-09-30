@@ -299,7 +299,7 @@ a .btn-social:hover {
   text-align: left;
 }
 
-.field-name-field-document a {
+.field-document a {
   list-style-type: none;
   display: inline-block;
   background: #dd1e25;
@@ -311,19 +311,19 @@ a .btn-social:hover {
   text-align: center;
 }
 
-.field-name-field-document a:before {
+.field-document a:before {
   font-family: 'Font Awesome 5 Free';
   content: " \f019  ";
   font-weight: 900;
 }
 
-.field-name-field-document a:hover {
+.field-document a:hover {
   background: #fa010a;
   color: #ffffff !important;
   border: none !important;
 }
 
-.field-name-field-document img.file-icon {
+.field-document img.file-icon {
   display: none;
 }
 
@@ -670,6 +670,10 @@ blockquote {
   background-color: #002a5b;
   outline: 1px solid #002a5b;
   color: #ffffff;
+}
+
+.field-delivarble{
+  display: none;
 }
 
 .help-block{
