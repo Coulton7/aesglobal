@@ -482,6 +482,10 @@ a.btn-default:hover {
   border: 1px solid #ddd
 }
 
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+  background-color: #e5e5e7;
+}
+
 .submitted.whitepaper {
   padding-left: 15px;
   padding-right: 15px;
@@ -828,9 +832,13 @@ blockquote {
   min-height: 1em;
   padding: 1em;
   margin-bottom: 20px;
-  background-color: #f5f5f5;
+  background-color: #e5e5e7;
   border: 1px solid #e3e3e3;
   border-radius: 0;
+}
+
+.jumbotron{
+  background-color: #e5e5e7;
 }
 
 .view-clone-of-taxonomy-term .views-exposed-widgets .views-widget-filter-field_ingress_protection_value {
