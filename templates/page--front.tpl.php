@@ -93,16 +93,6 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-</script>
 
 
 <div class="container-fluid bannercontainer">

@@ -92,34 +92,7 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
-<script type="text/javascript" charset="utf-8">
-(function($){
-	$(window).load(function() {
-		$('.flexslider').flexslider({
-			controlNav: false,
-			directionNav: false
-		});
-	})
-})(jQuery);
-
-(function($){
-	$(window).load(function(){
-		$('.controlNav').flexslider({
-			controlNav: true,
-			directionNav: false
-		});
-	})
-})(jQuery);
-
-(function($){
-	$(window).load(function(){
-		$('.directionNav').flexslider({
-			controlNav: false,
-			directionNav: true
-		});
-	})
-})(jQuery);
-</script>
+<script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
