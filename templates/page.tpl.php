@@ -173,7 +173,7 @@ if(!empty($file_fid)) {
           <div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
             <div class="flex-header">
               <?php if (!empty($title)): ?>
-                <h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1></h1>
+                <h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
               <?php endif; ?>
             </div>
           </div>
