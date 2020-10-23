@@ -2208,6 +2208,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 21% !important;
     padding-bottom: 21% !important;
   }
+  .virtual-tour:hover{
+    width: 100%;
+    content: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
+  }
 }
 
 @media screen and (min-width: 1200px) {
