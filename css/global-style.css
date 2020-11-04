@@ -1019,7 +1019,7 @@ label.resource-label {
   display: none;
 }
 
-.field.field-api--plan-types {
+.field-api--plan-types {
   width: 25%;
   margin-left: 1em;
   float: left;
