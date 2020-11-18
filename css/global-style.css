@@ -1437,7 +1437,7 @@ div.user-picture>img {
   padding: 0;
 }
 
-.node-article .field.field-image.field-type-image.field-label-hidden {
+.node-article .field-image {
   margin-bottom: 1em;
 }
 
