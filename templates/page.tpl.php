@@ -199,7 +199,6 @@ if(!empty($file_fid)) {
       </div>
 
 		<?php if ($page['preface']): ?>
-
 				<?php print render($page['preface']);?>
 			</div>
 		</div>
