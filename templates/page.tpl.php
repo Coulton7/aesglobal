@@ -185,7 +185,7 @@ if(!empty($file_fid)) {
                       <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!--New breadcrumb location -->
                       <div class="breadcrumb-sitemap">
                         <li>
-                          <a href="https://www.aesseal.com/en/sitemap">
+                          <a href="/sitemap">
                             <i class="fas fa-sitemap"></i>
                           </a>
                         </li>
