@@ -1,3 +1,11 @@
+body.navbar-is-fixed-top.navbar-administration .navigation_col .action-menu {
+  margin-top: 2.4em;
+}
+
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navigation_col .action-menu {
+  margin-top: 4.6em;
+}
+
 .views-widget-filter-field_shaft_grounding_value_i18na.disabled {
   pointer-events: none;
   cursor: default;
