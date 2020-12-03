@@ -1,7 +1,6 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
-<div class="<?php if (empty($region['sidebar_first']) { print 'col-md-8 col-md-offset-2'; }
-       else { print 'col-sm-12'; } ?>">">
+<div class="span8 offset2 col-md-8 col-md-offset-2">
 
   <header>
     <?php print render($title_prefix); ?>
