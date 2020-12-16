@@ -1,6 +1,10 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
+  <?php if (!empty($region['sidebar_first'])): ?>
+    <div class="col-sm-12">
+  <?php else: ?>
   <div class="span8 offset2 col-md-8 col-md-offset-2">
+  <?php endif; ?>
 
   <header>
     <?php print render($title_prefix); ?>
