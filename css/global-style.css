@@ -307,7 +307,7 @@ a .btn-social:hover {
   text-align: left;
 }
 
-.field-document a {
+.field-document a, .field-download a {
   list-style-type: none;
   display: inline-block;
   background: #dd1e25;
@@ -319,19 +319,19 @@ a .btn-social:hover {
   text-align: center;
 }
 
-.field-document a:before {
+.field-document a:before, .field-download a:before {
   font-family: 'Font Awesome 5 Free';
   content: " \f019  ";
   font-weight: 900;
 }
 
-.field-document a:hover {
+.field-document a:hover, .field-download a:hover {
   background: #fa010a;
   color: #ffffff !important;
   border: none !important;
 }
 
-.field-document img.file-icon {
+.field-document img.file-icon, .field-download img.file-icon {
   display: none;
 }
 
