@@ -162,6 +162,10 @@ a.no-underline :hover {
   text-shadow: none;
 }
 
+.caption-shadow{
+  text-shadow: 1px 1px 1px #000
+}
+
 .front .flexslider .slides li img {
   margin-top: 0;
   margin-bottom: 0;
