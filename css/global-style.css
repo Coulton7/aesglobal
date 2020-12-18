@@ -1685,6 +1685,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: block;
 }
 
+.training-quotes{
+  margin-left: -32%;
+}
+
 @media screen and (max-width:500px) {
   .search-block {
     margin: 0 0 0 -3.9em
