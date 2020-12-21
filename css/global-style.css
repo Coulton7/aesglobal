@@ -1685,10 +1685,6 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: block;
 }
 
-.training-quotes{
-  margin-left: -32%;
-}
-
 @media screen and (max-width:500px) {
   .search-block {
     margin: 0 0 0 -3.9em
@@ -1917,6 +1913,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
+  .training-quotes{
+    margin-left: 0;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2124,6 +2123,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
+  .training-quotes{
+    margin-left: -40%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2232,6 +2234,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     width: 100%;
     content: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
   }
+  .training-quotes{
+    margin-left: -37%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2278,5 +2283,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
   .col-lg-x8 {
     width: 12.5%;
+  }
+
+  .training-quotes{
+    margin-left: -32%;
   }
 }
