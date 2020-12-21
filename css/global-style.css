@@ -663,7 +663,7 @@ blockquote {
   margin-bottom: 0;
 }
 
-.view-global-national-news .view-content {
+.view-global-national-news .view-content, .home-news .view-content {
   overflow: hidden;
 }
 
