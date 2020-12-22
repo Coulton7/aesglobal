@@ -162,6 +162,10 @@ a.no-underline :hover {
   text-shadow: none;
 }
 
+.front .caption-shadow{
+  text-shadow: 1px 1px 1px #000
+}
+
 .caption-shadow{
   text-shadow: 1px 1px 1px #000
 }
@@ -1916,7 +1920,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .training-quotes{
     margin-left: 0;
   }
-  .img-training-quote .flex{
+  .img-training-quote.flex{
     display: block;
   }
 }
@@ -2129,7 +2133,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .training-quotes{
     margin-left: -40%;
   }
-  .img-training-quote .flex{
+  .img-training-quote.flex{
     display: flex;
   }
 }
