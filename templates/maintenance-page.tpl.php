@@ -11,11 +11,6 @@
   <!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   <![endif]-->
-<!--IE7 conditional stylesheet-->
-<!--[if lte IE 7]>
-  <link rel="stylesheet" type="text/css" href="/sites/all/themes/aesseal_classic/css/ie7-and-down.css" />
-
-<![endif]-->
 </head>
 <?php
 $file_url = '';
