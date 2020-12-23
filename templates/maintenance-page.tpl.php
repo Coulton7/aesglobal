@@ -17,7 +17,20 @@
 
 <![endif]-->
 </head>
-
+<?php
+$file_url = '';
+$file_fid = theme_get_setting('secondary_logo');
+if(!empty($file_fid)) {
+    $file_loaded = file_load($file_fid);
+    if($file_loaded !== false) {
+        if(!empty($file_loaded->uri)) {
+            $file_url_raw = file_create_url($file_loaded->uri);
+            if($file_url_raw !== false) {
+                $file_url = $file_url_raw;
+            }
+        }
+    }
+}?>
 <body class="<?php print $classes; ?>">
 
   <div class="container-fluid bannercontainer">
@@ -25,14 +38,14 @@
       <div class="row waveupper row-eq-height">
         <div class="col-sm-2 col-xs-2 fullscreen">
           <div class="wavelogo">
-            <img class="wavelogo" src="/sites/aesreliability.com/files/logo/logo.svg" alt ="logo"></img>
+            <img class="wavelogo" src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" alt ="logo"></img>
           </div>
           <img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
           <?php if ($logo): ?>
-          <div class="logo navbar-btn pull-left" title="<?php print t('Home'); ?>">
-            <img src="/sites/aesreliability.com/files/secondary-logo/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
-          </div>
-          <?php endif; ?>
+						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+							<img src="<?php print $file_url ?>" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+						</a>
+					<?php endif; ?>
         </div>
 
         <div class="col-sm-10 col-xs-10 fullscreen">
