@@ -2118,7 +2118,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
   /*Caching issue with country name translates to different language*/
   .location-details .gmap {
-    width: 64.67% !important;
+    width: 64.67%;
     float: left;
     height: 31em !important;
   }
