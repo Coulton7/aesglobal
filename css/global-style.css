@@ -1697,9 +1697,22 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: block;
 }
 
-@media screen and (max-width:500px) {
+@media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
+  }
+  .front__flex-margin {
+    -ms-transform: none;
+    -webkit-transform: none;
+    transform: none;
+    transform-origin: none;
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (max-width:500px) and (min-width:371px) {
+  .search-block {
+    margin: 0 0 0 -1.9em
   }
 }
 
