@@ -1895,6 +1895,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     float: none;
   }
 
+  .location-details .email {
+    padding: 0.5em 0;
+  }
+
   /*Caching issue with country name translates to different language*/
   .location-details .gmap {
     width: 100%;
@@ -2114,6 +2118,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .location-details .location.vcard {
     width: 33.33%;
     float: right;
+  }
+
+  .location-details .email {
+    padding: 0
   }
 
   /*Caching issue with country name translates to different language*/
