@@ -2324,6 +2324,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     width: 12.5%;
   }
 
+  .col-lg-x7{
+    width: 14%;
+  }
+
   .training-quotes{
     margin-left: -32%;
   }
