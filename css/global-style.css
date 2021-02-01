@@ -1701,6 +1701,15 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: none!important;
 }
 
+.optionset-footer-image-slider{
+  background: transparent;
+}
+
+.optionset-footer-image-slider .slieds li img{
+  border-radius: 50%;
+  border: 15px solid #002A5B
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
