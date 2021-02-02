@@ -1702,12 +1702,10 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 }
 
 .optionset-footer-image-slider{
+  border-radius: 50%!important;
+  border: 15px solid #002a5b!important;
   background: transparent!important;
-}
-
-.optionset-footer-image-slider .slides li img{
-  border-radius: 50%;
-  border: 15px solid #002a5b;
+  overflow: hidden;
 }
 
 .lightblue-background{
