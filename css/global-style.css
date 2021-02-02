@@ -1711,6 +1711,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 .footer-testimonials {
   position: relative;
   transform: translate(30%, 40%);
+  z-index: 2
 }
 
 .footer-slider {
