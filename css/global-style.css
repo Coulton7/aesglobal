@@ -1720,7 +1720,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 }
 
 .slider-footer-contact {
-background-image: url(;/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
 position: relative;
 background-size: cover;
 background-repeat: no-repeat;
