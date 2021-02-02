@@ -1718,7 +1718,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   transform: translate(0, -16%);
 }
 
-.footer-btn-position{
+.slider-footer-contact{
+  background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+  background-size: cover;
   position: relative;
   transform: translate(0, 160%);
 }
@@ -2203,7 +2205,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     transform: translate(30%, 5%);
   }
   .slider-footer-contact{
-    background-image: url(/siest/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+    background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
     background-size: cover;
     position: relative;
     transform: translate(0, 60%);
@@ -2323,7 +2325,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     position: relative;
     transform: translate(30%, 5%);
   }
-  .footer-btn-position{
+  .slider-footer-contact{
+    background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+    background-size: cover;
     position: relative;
     transform: translate(0, 60%);
   }
@@ -2388,7 +2392,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     transform: translate(35%, 20%);
   }
 
-  .footer-btn-position{
+  .slider-footer-contact{
+    background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+    background-size: cover;
     position: relative;
     transform: translate(0, 115%);
   }
@@ -2400,7 +2406,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     transform: translate(30%, 40%);
   }
 
-  .footer-btn-position{
+  .slider-footer-contact{
+    background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+    background-size: cover;
     position: relative;
     transform: translate(0, 160%);
   }
