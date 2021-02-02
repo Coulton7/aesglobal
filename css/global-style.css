@@ -1702,7 +1702,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 }
 
 .optionset-footer-image-slider{
-  background: transparent;
+  background: transparent!important;
 }
 
 .optionset-footer-image-slider .slides li img{
