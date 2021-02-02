@@ -1707,7 +1707,13 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
 .optionset-footer-image-slider .slieds li img{
   border-radius: 50%;
-  border: 15px solid #002A5B
+  border: 15px solid #1e2857;
+}
+
+.lightblue-background{
+  background-color: #2d5194;
+  padding: 10px 15px;
+  color: #ffffff;
 }
 
 @media screen and (max-width:370px) {
