@@ -6,11 +6,11 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   margin-top: 4.6em;
 }
 
-body.navbar-is-fixed-top.navbar-administration .waveupper .col-sm-2 .logo .textlogo{
+body.navbar-is-fixed-top.navbar-administration .waveupper .col-sm-2 .logo .textlogo {
   top: 2.1em;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .waveupper .col-sm-2 .logo .textlogo{
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .waveupper .col-sm-2 .logo .textlogo {
   top: 4.1em;
 }
 
@@ -170,11 +170,11 @@ a.no-underline :hover {
   text-shadow: none;
 }
 
-.front .caption-shadow{
+.front .caption-shadow {
   text-shadow: 1px 1px 1px #000
 }
 
-.caption-shadow{
+.caption-shadow {
   text-shadow: 1px 1px 1px #000
 }
 
@@ -506,7 +506,7 @@ a.btn-default:hover {
   border: 1px solid #ddd
 }
 
-.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover{
+.pagination>li>a:focus, .pagination>li>a:hover, .pagination>li>span:focus, .pagination>li>span:hover {
   background-color: #e5e5e7;
 }
 
@@ -700,19 +700,19 @@ blockquote {
   color: #ffffff;
 }
 
-.field-deliverable{
+.field-deliverable {
   display: none;
 }
 
-.help-block{
+.help-block {
   color: #ffffff;
 }
 
-.help-block a{
+.help-block a {
   color: #ffffff;
 }
 
-.help-block a:hover{
+.help-block a:hover {
   color: #e5e5e7;
 }
 
@@ -865,7 +865,7 @@ blockquote {
   border-radius: 0;
 }
 
-.jumbotron{
+.jumbotron {
   background-color: #e5e5e7;
 }
 
@@ -1697,35 +1697,35 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   display: block;
 }
 
-.i4ewOd-pzNkMb-haAclf{
-  display: none!important;
+.i4ewOd-pzNkMb-haAclf {
+  display: none !important;
 }
 
-.optionset-footer-image-slider{
-  border-radius: 50%!important;
-  border: 15px solid #002a5b!important;
-  background: transparent!important;
+.optionset-footer-image-slider {
+  border-radius: 50% !important;
+  border: 15px solid #002a5b !important;
+  background: transparent !important;
   overflow: hidden;
 }
 
-.footer-testimonials{
+.footer-testimonials {
   position: relative;
   transform: translate(30%, 40%);
 }
 
-.footer-slider{
+.footer-slider {
   position: relative;
   transform: translate(0, -16%);
 }
 
-.slider-footer-contact{
+.slider-footer-contact {
   background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
   background-size: cover;
   position: relative;
   transform: translate(0, 160%);
 }
 
-.lightblue-background{
+.lightblue-background {
   background-color: #0B3B85;
   padding: 10px 15px;
   color: #ffffff;
@@ -1735,6 +1735,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .search-block {
     margin: 0 0 0 -3.9em
   }
+
   .front__flex-margin {
     -ms-transform: none;
     -webkit-transform: none;
@@ -1976,10 +1977,12 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  .training-quotes{
+
+  .training-quotes {
     margin-left: 0;
   }
-  .img-training-quote.flex{
+
+  .img-training-quote.flex {
     display: block;
   }
 }
@@ -2193,18 +2196,21 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
   }
-  .training-quotes{
+
+  .training-quotes {
     margin-left: -40%;
   }
-  .img-training-quote.flex{
+
+  .img-training-quote.flex {
     display: flex;
   }
 
-  .footer-testimonials{
+  .footer-testimonials {
     position: relative;
     transform: translate(30%, 5%);
   }
-  .slider-footer-contact{
+
+  .slider-footer-contact {
     background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
     background-size: cover;
     position: relative;
@@ -2314,18 +2320,22 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     padding-top: 21% !important;
     padding-bottom: 21% !important;
   }
-  .virtual-tour:hover{
+
+  .virtual-tour:hover {
     width: 100%;
     content: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
   }
-  .training-quotes{
+
+  .training-quotes {
     margin-left: -37%;
   }
-  .footer-testimonials{
+
+  .footer-testimonials {
     position: relative;
     transform: translate(30%, 5%);
   }
-  .slider-footer-contact{
+
+  .slider-footer-contact {
     background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
     background-size: cover;
     position: relative;
@@ -2379,20 +2389,20 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     width: 12.5%;
   }
 
-  .col-lg-x7{
+  .col-lg-x7 {
     width: 14%;
   }
 
-  .training-quotes{
+  .training-quotes {
     margin-left: -32%;
   }
 
-  .footer-testimonials{
+  .footer-testimonials {
     position: relative;
     transform: translate(35%, 20%);
   }
 
-  .slider-footer-contact{
+  .slider-footer-contact {
     background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
     background-size: cover;
     position: relative;
@@ -2401,12 +2411,12 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 }
 
 @media screen and (min-width: 1500px) {
-  .footer-testimonials{
+  .footer-testimonials {
     position: relative;
     transform: translate(30%, 40%);
   }
 
-  .slider-footer-contact{
+  .slider-footer-contact {
     background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
     background-size: cover;
     position: relative;
