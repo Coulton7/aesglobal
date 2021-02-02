@@ -1708,6 +1708,21 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   overflow: hidden;
 }
 
+.footer-testimonials{
+  position: relative;
+  transform: translate(30%, 40%);
+}
+
+.footer-slider{
+  position: relative;
+  transform: translate(0, -16%);
+}
+
+.footer-btn-position{
+  position: relative;
+  transform: translate(0, 160%);
+}
+
 .lightblue-background{
   background-color: #0B3B85;
   padding: 10px 15px;
@@ -2182,6 +2197,15 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .img-training-quote.flex{
     display: flex;
   }
+
+  .footer-testimonials{
+    position: relative;
+    transform: translate(30%, 5%);
+  }
+  .footer-btn-position{
+    position: relative;
+    transform: translate(0, 60%);
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2293,6 +2317,14 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   .training-quotes{
     margin-left: -37%;
   }
+  .footer-testimonials{
+    position: relative;
+    transform: translate(30%, 5%);
+  }
+  .footer-btn-position{
+    position: relative;
+    transform: translate(0, 60%);
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2347,5 +2379,27 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
   .training-quotes{
     margin-left: -32%;
+  }
+
+  .footer-testimonials{
+    position: relative;
+    transform: translate(35%, 20%);
+  }
+
+  .footer-btn-position{
+    position: relative;
+    transform: translate(0, 115%);
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  .footer-testimonials{
+    position: relative;
+    transform: translate(30%, 40%);
+  }
+
+  .footer-btn-position{
+    position: relative;
+    transform: translate(0, 160%);
   }
 }
