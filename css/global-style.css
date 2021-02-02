@@ -1719,8 +1719,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   transform: translate(0, -16%);
 }
 
-.slider-footer-contact::before{
-  content:"";
+.slider-footer-contact-bg-image{
   background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
   background-size: cover;
 }
