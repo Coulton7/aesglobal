@@ -2202,7 +2202,9 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
     position: relative;
     transform: translate(30%, 5%);
   }
-  .footer-btn-position{
+  .slider-footer-contact{
+    background-image: url(/siest/all/themes/aesbs337/images/logos/machine-sentry-swirl.png);
+    background-size: cover;
     position: relative;
     transform: translate(0, 60%);
   }
