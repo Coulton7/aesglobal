@@ -1724,7 +1724,6 @@ background-image: url(/sites/all/themes/aesbs337/images/logos/machine-sentry-swi
 position: relative;
 background-size: cover;
 background-repeat: no-repeat;
-transform: translate(0, 160%);
 }
 
 .footer-slider .view-header, .footer-slider .view-content, .footer-slider .view-footer{
