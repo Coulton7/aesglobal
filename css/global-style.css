@@ -1711,12 +1711,13 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 .footer-testimonials {
   position: relative;
   transform: translate(30%, 40%);
-  z-index: 2
+  z-index: 3;
 }
 
 .footer-slider {
   position: relative;
   transform: translate(0, -16%);
+  z-index: 2;
 }
 
 .slider-footer-contact {
@@ -1737,8 +1738,9 @@ background-repeat: no-repeat;
 .footer-swirl{
   margin-bottom: -100%!important;
   position: relative;
-  z-index: 2;
-  top: 15%;
+  z-index: 1;
+  top: 0%;
+  right: 23%;
 }
 
 .contact-text{
