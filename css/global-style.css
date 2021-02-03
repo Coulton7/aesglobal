@@ -1726,7 +1726,7 @@ background-size: cover;
 background-repeat: no-repeat;
 }
 
-.footer-slider .view-header, .footer-slider .view-content, .footer-slider .view-footer{
+.slider-footer .view-header, .slider-footer .view-content, .slider-footer .view-footer{
   width: 33.33%;
 }
 
