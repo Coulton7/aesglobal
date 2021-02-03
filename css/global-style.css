@@ -1716,7 +1716,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
 .footer-slider {
   position: relative;
-  transform: translate(0, -26%);
+  transform: translate(0, -16%);
 }
 
 .slider-footer-contact {
