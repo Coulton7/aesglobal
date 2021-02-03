@@ -1734,6 +1734,20 @@ background-repeat: no-repeat;
   width: 100%;
 }
 
+.footer-swirl{
+  margin-bottom: -100%;
+  position: relative;
+  z-index: 2;
+}
+
+.contact-text{
+  height: 100%;
+  width: 56%;
+  position: absolute;
+  top: 37%;
+  left: 24%;
+}
+
 .lightblue-background {
   background-color: #0B3B85;
   padding: 10px 15px;
