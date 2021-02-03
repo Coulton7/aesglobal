@@ -2217,7 +2217,7 @@ transform: translate(0, 160%);
 
   .footer-testimonials {
     position: relative;
-    transform: translate(30%, 5%);
+    transform: translate(25%, 5%);
   }
 }
 
@@ -2335,7 +2335,7 @@ transform: translate(0, 160%);
 
   .footer-testimonials {
     position: relative;
-    transform: translate(30%, 5%);
+    transform: translate(25%, 5%);
   }
 }
 
@@ -2395,13 +2395,13 @@ transform: translate(0, 160%);
 
   .footer-testimonials {
     position: relative;
-    transform: translate(35%, 20%);
+    transform: translate(22%, 20%);
   }
 }
 
 @media screen and (min-width: 1500px) {
   .footer-testimonials {
     position: relative;
-    transform: translate(30%, 40%);
+    transform: translate(25%, 25%);
   }
 }
