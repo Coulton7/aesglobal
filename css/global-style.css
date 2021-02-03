@@ -1731,6 +1731,14 @@ background-repeat: no-repeat;
   width: 33.33%;
 }
 
+.slider-footer .view-header{
+  background-image: url(/sites/all/themes/aesbs337/images/graphics/leading-quote-mark.png);
+  background-position: -1% -19%;
+  background-repeat: no-repeat;
+  padding: 1.7em;
+  margin: 0;
+}
+
 .footer-testimonials .view-content{
   width: 100%;
 }
