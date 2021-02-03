@@ -1727,6 +1727,14 @@ background-repeat: no-repeat;
 transform: translate(0, 160%);
 }
 
+.footer-slider .view-header, .footer-slider .view-content, .footer-slider .view-footer{
+  width: 33.33%;
+}
+
+.footer-testimonials .view-content{
+  width: 100%;
+}
+
 .lightblue-background {
   background-color: #0B3B85;
   padding: 10px 15px;
