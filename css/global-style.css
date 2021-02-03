@@ -2235,6 +2235,14 @@ background-repeat: no-repeat;
     position: relative;
     transform: translate(25%, 5%);
   }
+  .footer-swirl{
+    right: 11%;
+  }
+  .contact-text{
+    width: 71%;
+    top: 21%;
+    left: 18%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2353,6 +2361,14 @@ background-repeat: no-repeat;
     position: relative;
     transform: translate(25%, 5%);
   }
+  .footer-swirl{
+    right: 23%;
+  }
+  .contact-text{
+    width: 71%;
+    top: 32%;
+    left: 18%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2413,11 +2429,21 @@ background-repeat: no-repeat;
     position: relative;
     transform: translate(22%, 20%);
   }
+  .contact-text{
+    width: 70%;
+    top: 32%;
+    left: 19%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
   .footer-testimonials {
     position: relative;
     transform: translate(25%, 25%);
+  }
+  .contact-text{
+    width: 56%;
+    top: 37%;
+    left: 24%;
   }
 }
