@@ -1735,7 +1735,7 @@ background-repeat: no-repeat;
 }
 
 .footer-swirl{
-  margin-bottom: -100%;
+  margin-bottom: -100%!important;
   position: relative;
   z-index: 2;
   top: 15%;
