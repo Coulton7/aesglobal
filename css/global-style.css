@@ -2026,6 +2026,10 @@ background-repeat: no-repeat;
   .slider-footer .view-header{
     width: 100%;
   }
+  .slider-footer .view-header{
+    background-position: 0% 0%;
+    background-size: 30%;
+  }
   .footer-slider{
     transform: translate(0, 0);
   }
@@ -2256,6 +2260,11 @@ background-repeat: no-repeat;
 
   .img-training-quote.flex {
     display: flex;
+  }
+
+  .slider-footer .view-header{
+    background-position: -1% -19%;
+    background-size: 38%;
   }
 
   .footer-testimonials {
