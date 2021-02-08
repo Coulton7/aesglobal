@@ -2261,6 +2261,9 @@ background-repeat: no-repeat;
   .slider-footer .view-header, .slider-footer .view-content, .slider-footer .view-footer{
     width: 33.33%;
   }
+  .footer-testimonials .view-content{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 992px) {
