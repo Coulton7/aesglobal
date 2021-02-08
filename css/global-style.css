@@ -2030,6 +2030,13 @@ background-repeat: no-repeat;
     background-position: 0% 0%;
     background-size: 30%;
   }
+  .footer-testimonials .view-content{
+    width: 100%;
+  }
+  .footer-testimonials {
+    position: relative;
+    transform: translate(10%, 40%);
+  }
   .footer-slider{
     transform: translate(0, 0);
   }
