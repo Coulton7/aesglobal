@@ -2020,6 +2020,12 @@ background-repeat: no-repeat;
   .img-training-quote.flex {
     display: block;
   }
+  .slider-footer .view-content, .slider-footer .view-footer{
+    width: 50%;
+  }
+  .slider-footer .view-header{
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2251,6 +2257,9 @@ background-repeat: no-repeat;
     width: 71%;
     top: 21%;
     left: 18%;
+  }
+  .slider-footer .view-header, .slider-footer .view-content, .slider-footer .view-footer{
+    width: 33.33%;
   }
 }
 
