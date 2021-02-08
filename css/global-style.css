@@ -2029,6 +2029,10 @@ background-repeat: no-repeat;
   .footer-slider{
     transform: translate(0, 0);
   }
+  .footer-swirl{
+    right: 0;
+    top: -10%;
+  }
   .contact-text{
     width: 79%;
     top: 20%;
@@ -2260,6 +2264,7 @@ background-repeat: no-repeat;
   }
   .footer-swirl{
     right: 11%;
+    top: 0;
   }
   .footer-slider{
     transform: translate(0, -16%);
