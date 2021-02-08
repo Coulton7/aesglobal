@@ -2026,6 +2026,14 @@ background-repeat: no-repeat;
   .slider-footer .view-header{
     width: 100%;
   }
+  .footer-slider{
+    transform: translate(0, 0);
+  }
+  .contact-text{
+    width: 79%;
+    top: 20%;
+    left: 17%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2252,6 +2260,9 @@ background-repeat: no-repeat;
   }
   .footer-swirl{
     right: 11%;
+  }
+  .footer-slider{
+    transform: translate(0, -16%);
   }
   .contact-text{
     width: 71%;
