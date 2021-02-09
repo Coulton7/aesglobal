@@ -1788,8 +1788,8 @@ background-repeat: no-repeat;
   }
   .footer-swirl{
     right: 0;
-    top: -10%;
-    margin-bottom: -48%!important;
+    top: 0;
+    margin-bottom: -33%!important;
   }
 }
 
@@ -1825,7 +1825,7 @@ background-repeat: no-repeat;
   }
   .footer-swirl{
     right: 0;
-    top: -10%;
+    top: 0;
     margin-bottom: -100%!important;
   }
 }
@@ -1857,7 +1857,7 @@ background-repeat: no-repeat;
   }
   .footer-swirl{
     right: 0;
-    top: -10%;
+    top: 0;
     margin-bottom: -100%!important;
   }
 }
@@ -2306,8 +2306,8 @@ background-repeat: no-repeat;
     transform: translate(25%, 5%);
   }
   .footer-swirl{
-    right: 11%;
-    top: 0;
+    top: 18%;
+    right: 20%;
   }
   .footer-slider{
     transform: translate(0, -16%);
@@ -2442,7 +2442,8 @@ background-repeat: no-repeat;
     transform: translate(25%, 5%);
   }
   .footer-swirl{
-    right: 23%;
+    top: 18%;
+    right: 20%;
   }
   .contact-text{
     width: 71%;
@@ -2514,12 +2515,20 @@ background-repeat: no-repeat;
     top: 32%;
     left: 19%;
   }
+  .footer-swirl{
+    top: 18%;
+    right: 20%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
   .footer-testimonials {
     position: relative;
     transform: translate(25%, 25%);
+  }
+  .footer-swirl{
+    top: 18%;
+    right: 20%;
   }
   .contact-text{
     width: 56%;
