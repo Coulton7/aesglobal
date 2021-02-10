@@ -1703,7 +1703,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 
 .optionset-footer-image-slider {
   border-radius: 50% !important;
-  border: 15px solid #888C8F !important;
+  border: 25px solid #888C8F !important;
   background: transparent !important;
   overflow: hidden;
 }
