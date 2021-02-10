@@ -2063,8 +2063,8 @@ background-repeat: no-repeat;
     width: 100%;
   }
   .slider-footer .view-header{
-    background-position: 2% 1%;
-    background-size: 20%;
+    background-position: 0% 40%;
+    background-size: 13%;
   }
   .footer-testimonials .view-content{
     width: 100%;
