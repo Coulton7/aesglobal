@@ -356,7 +356,7 @@ if(!empty($file_fid)) {
 
 			<footer>
 				<?php if (!empty($page['footer'])): ?>
-			  	<div class="footer <?php print $container_class; ?> footer-background">
+			  	<div class="footer <?php print $container_class; ?>">
 						<?php print render($page['footer']); ?>
 					</div>
 				<?php endif; ?>
