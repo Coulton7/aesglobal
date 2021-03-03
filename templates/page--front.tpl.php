@@ -320,13 +320,15 @@ if(!empty($file_fid)) {
 		</div>
 	</div>
 
-			<?php if (!empty($page['postscript'])): ?>
-				<div class="postscript">
-					<div class="section">
-						<?php print render($page['postscript']); ?>
-					</div>
+  <?php if (!empty($page['footer_banner'])): ?>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="iceberg-bottomsea footer_banner">
+					<?php print render($page['footer_banner']); ?>
 				</div>
-			<?php endif; ?>
+			</div>
+		</div>
+	<?php endif; ?>
 </div>
 
 <footer>
