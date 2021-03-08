@@ -1787,6 +1787,10 @@ background-repeat: no-repeat;
   color: #ffffff;
 }
 
+#myModal .modal-header .modal-title{
+  color: #ffffff;
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
