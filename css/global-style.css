@@ -1770,6 +1770,23 @@ background-repeat: no-repeat;
   background-color: #002a5b;
 }
 
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-richtext{
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-form-field label:not(.hs-error-msg){
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .legal-consent-container .hs-richtext{
+  color: #ffffff;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file]){
+  background-color: #272d2d;
+  color: #ffffff;
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
