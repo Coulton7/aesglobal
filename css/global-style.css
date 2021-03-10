@@ -1816,6 +1816,10 @@ background-repeat: no-repeat;
   outline-width: 1px;
 }
 
+.hs-custom-style fieldset{
+  padding:0.5em;
+}
+
 #myModal .modal-header .modal-title{
   color: #ffffff;
 }
