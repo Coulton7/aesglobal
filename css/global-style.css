@@ -1796,6 +1796,26 @@ background-repeat: no-repeat;
   float: right;
 }
 
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button{
+  list-style-type: none;
+  display: inline-block;
+  background: #dd1e25;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 0;
+  padding: 6px 12px;
+}
+
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button:hover {
+  background: #ad1c1c;
+  margin-bottom: 0;
+  color: #ffffff !important;
+  outline-offset: 1px;
+  outline-style: solid;
+  outline-color: #ffffff;
+  outline-width: 1px;
+}
+
 #myModal .modal-header .modal-title{
   color: #ffffff;
 }
