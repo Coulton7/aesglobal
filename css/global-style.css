@@ -1796,6 +1796,9 @@ background-repeat: no-repeat;
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file]), .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9 .hs-input:not([type=file]){
   background-color: #272d2d;
   color: #ffffff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 0 15px
 }
 
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file]){
