@@ -1224,6 +1224,17 @@ label.resource-label {
   background-color: #004a8c;
 }
 
+.product-enquiry-icon{
+    background: #002a5b;
+    color:white;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.3em;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+}
+
 .margin-widget {
   margin: .5rem;
 }
