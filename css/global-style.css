@@ -1565,13 +1565,22 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
-.optionset-4panel-products:hover .flex-direction-nav a.flex-prev, .optionset-4panel-whitepaper .flex-direction-nav a.flex-prev {
+.optionset-4panel-products:hover .flex-direction-nav a.flex-prev {
   left: 0;
   opacity: 0.7;
 }
 
-.optionset-4panel-products .flex-direction-nav a.flex-prev, .optionset-4panel-whitepaper .flex-direction-nav a.flex-prev {
+ .optionset-4panel-whitepaper .flex-direction-nav a.flex-prev{
+   left: -15px;
+   opacity: 0.7;
+ }
+
+.optionset-4panel-products .flex-direction-nav a.flex-prev {
   left: 0;
+}
+
+.optionset-4panel-whitepaper .flex-direction-nav a.flex-prev{
+    left: -15px;
 }
 
 .optionset-4panel-products:hover .flex-direction-nav a.flex-next, .optionset-4panel-whitepaper:hover .flex-direction-nav a.flex-next {
