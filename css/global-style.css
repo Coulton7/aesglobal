@@ -1575,12 +1575,12 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 }
 
 .optionset-4panel-products:hover .flex-direction-nav a.flex-next, .optionset-4panel-whitepaper:hover .flex-direction-nav a.flex-next {
-  right: 0;
+  right: -15px;
   opacity: 0.7;
 }
 
 .optionset-4panel-products .flex-direction-nav a.flex-next, .optionset-4panel-whitepaper .flex-direction-nav a.flex-next {
-  right: 0;
+  right: -15px;
 }
 
 .optionset-4panel-products .flex-direction-nav a:before, .optionset-4panel-whitepaper .flex-direction-nav a:before {
