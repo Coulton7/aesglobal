@@ -1790,7 +1790,7 @@ background-repeat: no-repeat;
   background-color: #002a5b;
 }
 
-.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-richtext, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9 .hs-richtext{
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-richtext, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9 .hs-richtext, .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.submitted-message, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9.submitted-message{
   color: #ffffff;
 }
 
