@@ -1869,6 +1869,16 @@ background-repeat: no-repeat;
   top: 40%;
 }
 
+.field-product-image{
+  padding: 3em;
+  background-color: #e7e7e7;
+}
+
+.field-product-image .flex-control-thumbs{
+  padding-top: 1em;
+  background-color: #e7e7e7;
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
