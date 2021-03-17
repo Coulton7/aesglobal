@@ -309,6 +309,11 @@ if(!empty($file_fid)) {
   </div>
  </div>
 
+  <?php if ($page['base']): ?>
+    <div class="base row row-eq-center">
+      <?php print render($page['base']);?>
+    </div>
+  <?php endif; ?>
 
   	<?php if ($page['suffix']): ?>
 		<div class="suffix">
