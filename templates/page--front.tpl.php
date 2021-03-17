@@ -283,8 +283,10 @@ if(!empty($file_fid)) {
   </div>
 
   <?php if ($page['base']): ?>
-    <div class="base row row-eq-center">
-      <?php print render($page['base']);?>
+    <div class="container-fluid">
+      <div class="base row row-eq-center">
+        <?php print render($page['base']);?>
+      </div>
     </div>
   <?php endif; ?>
 
