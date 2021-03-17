@@ -1883,7 +1883,7 @@ background-repeat: no-repeat;
 }
 
 .field-product-image .flexslider{
-  /*background-color: #e7e7e7;*/
+  background-color: transparent;
 }
 
 @media screen and (max-width:370px) {
