@@ -1871,20 +1871,19 @@ background-repeat: no-repeat;
 
 .field-product-image{
   padding: 3em;
-  background-color: #e7e7e7;
+  padding-right: 7em;
   overflow: hidden;
 }
 
 .field-product-image .flex-control-thumbs{
   padding-top: 1em;
-  background-color: #e7e7e7;
   position: relative;
   bottom: 0;
   transform: translateX(25%);
 }
 
 .field-product-image .flexslider{
-  background-color: #e7e7e7;
+  /*background-color: #e7e7e7;*/
 }
 
 @media screen and (max-width:370px) {
