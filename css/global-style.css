@@ -1217,6 +1217,7 @@ label.resource-label {
   align-items: center;
   justify-content: center;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px, rgba(0, 0, 0, 0.2) 0px 2px 24px;
+  cursor: pointer;
 }
 
 .enquiry-icon:hover {
