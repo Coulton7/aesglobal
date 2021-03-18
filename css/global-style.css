@@ -1871,6 +1871,7 @@ background-repeat: no-repeat;
 
 .field-product-image{
   overflow: hidden;
+  padding-right: 3em;
 }
 
 .field-product-image .flex-control-thumbs{
