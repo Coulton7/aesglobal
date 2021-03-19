@@ -1517,6 +1517,25 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
   padding-bottom: 21% !important;
 }
 
+.prod-slide-horizontal-padding{
+  padding-top: 10%!important;
+  padding-bottom: 9%!important;
+}
+
+a.menu-box {
+    position: relative;
+    color: #535354;
+    transition: all 0.3s ease;
+}
+
+a.menu-box:hover{
+    color:#fa101a;
+}
+
+a.menu-box:hover img{
+   transform: scale(1.1);
+}
+
 .image-highlight+.views-field.views-field-field-description, .image-highlight+.views-field.views-field-title {
   color: #535454;
   transition: color .5s;
