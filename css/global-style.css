@@ -1520,6 +1520,7 @@ a.prod-image-slider:hover+.prod-image-slider-text p {
 .prod-slide-horizontal-padding{
   padding-top: 10%!important;
   padding-bottom: 9%!important;
+  background-color: #e4e4e4;
 }
 
 a.menu-box {
