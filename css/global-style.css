@@ -1954,6 +1954,19 @@ a .machine-sentry-btn:hover{
   color: #006ba2;;
 }
 
+.banner-news-padding{
+  padding-bottom: 15em;
+}
+
+.footer-positioning{
+  margin-top: -4em;
+  padding-top: 4em;
+}
+
+.machine-sentry-banner-news{
+  margin-top: -15em;
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
