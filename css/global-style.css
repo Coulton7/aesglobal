@@ -1946,6 +1946,14 @@ a .machine-sentry-btn:hover{
   background: #ffffff;
 }
 
+.linkedin-color a{
+  color: #0077b5;
+}
+
+.linkedin-color a:hover{
+  color: #006ba2;;
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
