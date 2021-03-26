@@ -1940,6 +1940,7 @@ background-repeat: no-repeat;
   position: absolute;
   top: 58%;
   left: 4%;
+  padding: 10px 16px;
 }
 
 a .machine-sentry-btn:hover{
@@ -2277,6 +2278,9 @@ a .machine-sentry-btn:hover{
   .footer-slider{
     transform: translate(0, 0);
   }
+  .machine-sentry-btn{
+    padding: 5px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2523,6 +2527,9 @@ a .machine-sentry-btn:hover{
   }
   .footer-testimonials .view-content{
     width: 100%;
+  }
+  .machine-sentry-btn{
+    padding: 10px 16px;
   }
 }
 
