@@ -2301,6 +2301,10 @@ a.menu-box:hover img {
     margin-top: -4em;
     padding-top: 4em;
   }
+
+  .machine-sentry-banner-news {
+    margin-top: -9em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2561,6 +2565,10 @@ a.menu-box:hover img {
 
   .machine-sentry-btn {
     padding: 10px 16px;
+  }
+
+  .machine-sentry-banner-news {
+    margin-top: -15em;
   }
 }
 
