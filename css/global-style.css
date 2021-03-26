@@ -1942,7 +1942,7 @@ a.menu-box:hover img {
   padding: 10px 16px;
 }
 
-a .machine-sentry-btn:hover {
+.footer-banner a:hover .machine-sentry-btn:hover {
   background: #ffffff;
 }
 
