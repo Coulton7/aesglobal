@@ -2788,4 +2788,29 @@ a.menu-box:hover img {
     top: 37%;
     left: 24%;
   }
+  .machine-sentry-banner-news {
+    margin-top: -23em;
+  }
+
+  .footer-positioning {
+   margin-top:-5em;
+  }
+
+  .banner-news-padding {
+    padding-bottom: 22em;
+  }
+}
+
+@media screen and (min-width: 2000px) {
+  .machine-sentry-banner-news {
+    margin-top: -26em;
+  }
+
+  .footer-positioning {
+    margin-top: -6em;
+  }
+
+  .banner-news-padding {
+    padding-bottom: 24em;
+  }
 }
