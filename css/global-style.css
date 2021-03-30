@@ -2298,12 +2298,16 @@ a.menu-box:hover img {
   }
 
   .footer-positioning {
-    margin-top: -2em;
+    margin-top: -0em;
     padding-top: 4em;
   }
 
   .machine-sentry-banner-news {
-    margin-top: -9em;
+    margin-top: -2em;
+  }
+
+  .banner-news-padding{
+    padding-bottom: 5em;
   }
 }
 
