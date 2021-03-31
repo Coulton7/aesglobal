@@ -1492,6 +1492,7 @@ div.user-picture>img {
   background-size: cover;
   color: #535354;
   padding: 0;
+  width: 100%;
 }
 
 .product-slider:hover {
