@@ -666,10 +666,15 @@ a.btn-default:hover {
 
 blockquote::before{
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
+  margin-right: -0.75em;
+  z-index: -1;
 }
 
 blockquote::after{
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
+  position: absolute;
+  margin-left: -0.5em;
+  z-index: -1;
 }
 
 blockquote {
@@ -677,6 +682,7 @@ blockquote {
   padding: 0;
   border: none;
   font-size: inherit;
+  position: relative;
 }
 
 .view-global-national-news .view-content, .home-news .view-content {
