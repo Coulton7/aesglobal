@@ -676,7 +676,9 @@ blockquote::before{
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
   margin-right: -0.75em;
   z-index: -1;
-  position: relative;
+  position: absolute;
+  left: -2.8em;
+  top: -1.9em;
 }
 
 blockquote::after{
@@ -2333,6 +2335,10 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   .banner-news-padding{
     padding-bottom: 5em;
   }
+  blockquote::before{
+    left: -3.5em;
+    top: -2.5em
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2598,6 +2604,10 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   .machine-sentry-banner-news {
     margin-top: -15em;
   }
+  blockquote::before{
+    left: -3.1em;
+    top: -1.9em
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -2727,6 +2737,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     top: 32%;
     left: 18%;
   }
+  blockquote::before{
+    left: -2.9em;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -2798,6 +2811,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     top: 18%;
     right: 20%;
   }
+  blockquote::before{
+    left: -2.9em;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -2826,6 +2842,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
   .banner-news-padding {
     padding-bottom: 22em;
+  }
+  blockquote::before{
+    left: -2.8em;
   }
 }
 
