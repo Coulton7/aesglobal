@@ -668,6 +668,7 @@ blockquote::before{
   content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
   margin-right: -0.75em;
   z-index: -1;
+  position: relative;
 }
 
 blockquote::after{
