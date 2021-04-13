@@ -664,12 +664,19 @@ a.btn-default:hover {
   float: right;
 }
 
+blockquote::before{
+  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
+  background-repeat: no-repeat;
+}
+
+blockquote::after{
+  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
+  background-repeat: no-repeat;
+}
+
 blockquote {
   color: #002A5B;
-  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png), url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
-  background-position: -0.5% 0%, 98.7% 100%;
-  background-repeat: no-repeat;
-  padding: 1.7em;
+  padding: 0;
   border: none;
   font-size: inherit;
   margin-bottom: 0;
