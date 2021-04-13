@@ -665,13 +665,11 @@ a.btn-default:hover {
 }
 
 blockquote::before{
-  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
-  background-repeat: no-repeat;
+  content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-top.png);
 }
 
 blockquote::after{
-  background-image: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
-  background-repeat: no-repeat;
+  content: url(/sites/all/themes/aesbs337/images/graphics/blockquote-bottom.png);
 }
 
 blockquote {
