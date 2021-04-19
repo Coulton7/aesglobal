@@ -2344,6 +2344,12 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     left: -3.5em;
     top: -2.5em
   }
+  .footer-social-icons a{
+    padding-left: 0;
+  }
+  .footer-social-icons a i {
+    font-size: 0.75em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2612,6 +2618,12 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   blockquote::before{
     left: -3.1em;
     top: -1.9em
+  }
+  .footer-social-icons a{
+    padding-left: 0.5em;
+  }
+  .footer-social-icons a i {
+    font-size: 1em;
   }
 }
 
