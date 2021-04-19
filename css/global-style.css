@@ -2135,11 +2135,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     padding-bottom: 2em;
   }
 
-  .view-global-national-news .view-content .views-row.views-row-odd {
+  .view-global-national-news .view-content .views-row.views-row-odd, .home-news .view-content .views-row.views-row-odd {
     clear: left;
   }
 
-  .view-global-national-news .view-content .views-row.views-row-even {
+  .view-global-national-news .view-content .views-row.views-row-even, .home-news .view-content .views-row.views-row-even {
     clear: right;
   }
 
@@ -2661,11 +2661,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     width: 56%;
   }
 
-  .view-global-national-news .view-content .views-row.views-row-odd {
+  .view-global-national-news .view-content .views-row.views-row-odd, .home-news .view-content .views-row.views-row-odd {
     clear: none;
   }
 
-  .view-global-national-news .view-content .views-row.views-row-even {
+  .view-global-national-news .view-content .views-row.views-row-even, .home-news .view-content .views-row.views-row-even {
     clear: none;
   }
 
