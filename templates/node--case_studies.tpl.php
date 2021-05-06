@@ -40,11 +40,6 @@
         <?php print render($content['field_document']);?>
       </div>
       <div class="margin-top">
-      <?php  $block = module_invoke('block', 'block_view', '203');
-             print render($block['content']);
-      ?>
-      </div>
-      <div class="margin-top">
         <?php print render($content['field_api__plan_types']); ?>
     </div>
   </div>
