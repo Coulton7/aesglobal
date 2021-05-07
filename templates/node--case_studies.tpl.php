@@ -40,13 +40,6 @@
         <?php print render($content['field_document']);?>
       </div>
       <div class="margin-top">
-        <?php $block = block_load('block', '203');
-              $block_element = _block_get_renderable_array(_block_render_blocks(array($block)));
-              $output = drupal_render($block_element);
-              print $output;
-        ?>
-      </div>
-      <div class="margin-top">
         <?php print render($content['field_api__plan_types']); ?>
     </div>
   </div>
