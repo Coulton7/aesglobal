@@ -14,7 +14,7 @@ body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-ope
   top: 4.1em;
 }
 
-body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
+body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .navbar, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .overlay-btn, body.navbar-is-fixed-top.navbar-administration.navbar-horizontal.navbar-tray-open .change:after {
   top: 4.2em;
 }
 
