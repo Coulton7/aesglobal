@@ -705,6 +705,11 @@ blockquote {
   overflow: hidden;
 }
 
+.view-global-national-news .view-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .pre-instructions {
   margin-bottom: 0.8em;
 }
