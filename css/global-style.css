@@ -1595,6 +1595,10 @@ a.menu-box:hover img {
   left: 0;
 }
 
+.bearing-blue-slider .flex-direction-nav .flex-prev{
+  left: -0.5em;
+}
+
 .flexslider:hover .flex-direction-nav .flex-prev {
   left: 0;
 }
@@ -1603,8 +1607,16 @@ a.menu-box:hover img {
   right: 0;
 }
 
+.bearing-blue-slider .flex-direction-nav .flex-next{
+  right: -0.5em
+}
+
 .flexslider:hover .flex-direction-nav .flex-next {
   right: 0;
+}
+
+.bearing-blue-slider .flex-direction-nav a{
+  top: 50%;
 }
 
 .optionset-4panel-products .flex-direction-nav a, .optionset-4panel-whitepaper .flex-direction-nav a {
