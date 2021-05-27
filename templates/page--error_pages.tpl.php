@@ -104,83 +104,116 @@ if(!empty($file_fid)) {
 					<?php endif; ?>
 			</div>
 
-			<div class="col-sm-10 col-xs-10 fullscreen">
+			<div class="col-md-10 col-xs-12 fullscreen">
 				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
+
+							<?php if (!empty($site_name)): ?>
+								<a class="name navbar-brand" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>"><?php print $site_name; ?></a>
+							<?php endif; ?>
+
+							<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+								<button type="button" id="mobile-overlay" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+									<span class="sr-only"><?php print t('Toggle navigation'); ?></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+									<span class="icon-bar"></span>
+								</button>
+							<?php endif; ?>
 						</div>
 					</div>
 
-					<div class="navbar-collapse">
-						<div class="container-fluid navbar-container">
-							<nav role="navigation">
-								<ul class="menu nav navbar-nav">
-									<li class="first leaf">
-										<a class="btn-disabled disabled" href="#">&nbsp;</a>
-									</li>
+					<?php if (!empty($primary_nav) || !empty($secondary_nav) || !empty($page['navigation'])): ?>
+
+						<div class="navbar-collapse collapse">
+							<div class="container-fluid navbar-container">
+
+								<nav role="navigation">
+									<?php if (!empty($primary_nav)): ?>
+										<?php print render($primary_nav); ?>
+									<?php endif; ?>
+
+									<?php if (!empty($page['navigation'])): ?>
+										<?php print render($page['navigation']); ?>
+									<?php endif; ?>
 								</nav>
 							</div>
 						</div>
-						<div class="section-shadow-menu">
-						</div>
+						<div class="section-shadow-menu"></div>
+					<?php endif; ?>
+
 				</header>
-
-				</div>
 			</div>
+		</div>
 
-			<?php if (!empty($header)): ?>
-				<div id="header-region">
-					<?php print $header; ?>
-				</div>
-			<?php endif; ?>
-
-			<div class="preface front__flex-margin">
-				<div class= "flex-gradient">
-					<div class="row">
-						<div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
-							<div class="flex-header">
-								<?php if(!empty($title)): ?>
-									<h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup?®</sup>", $title) : $title; ?></h1>
-								<?php endif ?>
-							</div>
-						</div>
-						<div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
-							<div class="flex-caption">
-								<div class="breadcrumb-wrap">
-									<div class="container-fluid">
-										<div class="row">
-											<?php if(!empty($breadcrumb)): print $breadcrumb; endif?>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+		<?php if ($page['navigation_col']): ?>
+			<div class="navigation_col">
+				<div class="action-menu text-center">
+					<div class="col-sm-2 col-xs-0 fullscreen">
 					</div>
+					<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+					<?php print render($page['navigation_col']);?>
 				</div>
-
 				</div>
 			</div>
+		<?php endif; ?>
 
-			<div class="row wavelower row-eq-height">
-  			<div class="col-sm-9 col-xs-0 fullscreen">
-  				<div class="bottom-gap">
-  				</div>
+    <div class="preface front__flex-margin">
+      <div class="flex-gradient">
+        <div class="row">
+          <div class="col-sm-10 col-md-10 col-md-offset-1 col-lg-8 col-lg-offset-2">
+            <div class="flex-header">
+              <?php if (!empty($title)): ?>
+                <h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
+              <?php endif; ?>
+            </div>
+          </div>
+          <div class="col-lg-7 col-lg-offset-2 col-md-7 col-md-offset-1 col-sm-8">
+            <div class="flex-caption">
+              <div class="breadcrumb-wrap">
+                <div class="container-fluid">
+                  <div class="row">
+                      <?php if (!empty($breadcrumb)): print $breadcrumb; endif;?> <!--New breadcrumb location -->
+                      <div class="breadcrumb-sitemap">
+                        <li>
+                          <a href="/sitemap">
+                            <i class="fas fa-sitemap"></i>
+                          </a>
+                        </li>
+                      </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+		<?php if ($page['preface']): ?>
+				<?php print render($page['preface']);?>
+			</div>
+		</div>
+		<?php endif; ?>
+
+    <?php if ($page['wavelower']): ?>
+  	<div class="row wavelower row-eq-height">
+  		<div class="col-md-9 col-sm-8 col-xs-0 fullscreen">
+  			<div class="bottom-gap">
   			</div>
+  		</div>
 
-  			<div class="col-sm-3 col-xs-12 fullscreen">
-  				<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-		      <div class="socialmedia text-center">
-		        <ul>
-		          <li> <a href="https://twitter.com/AESSEALplc" target="_self" title="AESSEAL Twitter"></a></li>
-		          <li> <a href="http://www.linkedin.com/company/aesseal" target="_self" title="AESEEAL Linkedin"></a></li>
-		          <li> <a href="https://www.aesseal.com/en/contact-us" target="_self" title="Contact Us"></a></li>
-		          <li> <a href="https://www.aesseal.com/en/locations" target="_self" title="Browse all Locations"></a></li>
-		          <li> <a href="https://www.aesseal.com/locations/europe/gb/syk/aesseal-plc-headquarters" target="_self" title="View Global Headquarters"> </a></li>
-		        </ul>
-		      </div>
-		  	</div>
-		  </div>
-</div>
+  		<div class="col-md-3 col-sm-4 col-xs-12 fullscreen">
+
+  			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+
+  			<?php print render($page['wavelower']);?>
+
+  		</div>
+  	</div>
+  	<?php endif; ?>
+	</div>
 
 <div class="main-container <?php print $container_class; ?>">
   <div class="container-fluid">
