@@ -5,6 +5,7 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/modernizr.custom.26633.js"></script>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/jquery.gridrotator.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/gridrotator-init.js"></script>
    <script type="text/javascript">
      $(function() {
 
