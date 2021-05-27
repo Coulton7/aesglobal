@@ -73,20 +73,35 @@
  * @ingroup templates
  */
 ?>
-
+<?php
+$file_url = '';
+$file_fid = theme_get_setting('secondary_logo');
+if(!empty($file_fid)) {
+    $file_loaded = file_load($file_fid);
+    if($file_loaded !== false) {
+        if(!empty($file_loaded->uri)) {
+            $file_url_raw = file_create_url($file_loaded->uri);
+            if($file_url_raw !== false) {
+                $file_url = $file_url_raw;
+            }
+        }
+    }
+}?>
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<div class="row waveupper row-eq-height">
-			<div class="col-sm-2 col-xs-2 fullscreen">
-				<div class="wavelogo">
-					<img class="wavelogo" src="/sites/all/themes/aesbs337/images/logos/logo.svg" alt ="logo"></img>
-				</div>
-				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt ="uppercurve"></img>
-				 <?php if ($logo): ?>
-					 <a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
- 						<img src="/sites/all/themes/aesbs337/images/logos/textonlylogo.svg" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
- 					</a>
-				 <?php endif; ?>
+			<div class="col-sm-2 col-xs-1 fullscreen">
+				<a title="<?php print t('Home'); ?>" class="logo-link" href="<?php print $front_page; ?>">
+					<div class="wavelogo">
+						<img class="wavelogo" src="<?php print $logo?>" alt="logo">
+					</div>
+				</a>
+				<img class= "uppercurve" src="/sites/all/themes/aesbs337/images/logos/wave-upper.svg" alt="uppercurve"></img>
+					<?php if ($logo): ?>
+						<a class="logo navbar-btn pull-left" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
+							<img src="<?php print $file_url ?>" alt="<?php print t('Home'); ?> " class="textlogo img-adaptive" alt="image responsive"/>
+						</a>
+					<?php endif; ?>
 			</div>
 
 			<div class="col-sm-10 col-xs-10 fullscreen">
