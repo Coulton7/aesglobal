@@ -2055,6 +2055,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 .home-slider-height{
   height: 80vh;
+  background-color: #002a5b;
 }
 
 @media screen and (max-width:370px) {
@@ -2686,7 +2687,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 @media screen and (min-width: 992px) {
-  .flex-gradient {
+  .flex-gradient, .home-slider-height {
     padding-top: 7em;
   }
 
@@ -2818,7 +2819,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 @media screen and (min-width: 1200px) {
-  .flex-gradient {
+  .flex-gradient, .home-slider-height {
     padding-top: 6em;
   }
 
