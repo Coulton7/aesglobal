@@ -2070,11 +2070,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
 }
 
-.item {
+#carousel-fade .carousel-inner .item {
   transition-duration: 1s !important
 }
 
-.item {
+#carousel-fade .carousel-inner .item {
   height: 100vh;
   background-repeat: no-repeat;
   background-position: center center;
