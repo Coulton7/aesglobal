@@ -2070,6 +2070,33 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
 }
 
+.item {
+  transition-duration: 1s !important
+}
+
+.item {
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  overflow: hidden;
+  -webkit-animation:kenburns 4000ms linear 0s infinite;
+  animation:kenburns 4000ms linear 0s infinite;
+}
+
+@keyframes kenburns {
+  0%
+  {
+    background-size: 100% auto;
+    transition: all 4s linear;
+  }
+  100%
+  {
+    background-size: 110% auto;
+    transition: all 4s linear;
+  }
+
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em
