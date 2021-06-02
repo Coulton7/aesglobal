@@ -2108,6 +2108,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   animation:kenburns 6000ms linear 0s infinite;
 }
 
+.pause-controls{
+  position: relative;
+  bottom: 5em;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
