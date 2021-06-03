@@ -312,9 +312,11 @@ if(!empty($file_fid)) {
 					else if (empty($page['postscript_fir']) || empty($page['postscript_last'])) { print 'col-sm-8 col-md-9'; }
 					else { print 'col-sm-4 col-md-6'; } ?>">
 
+      <?php if (!empty($page['postscript_mid'])): ?>
 				<div class="col-sm-10 col-sm-offset-1 col-lg-8 col-lg-offset-2">
 					<?php print render($page['postscript_mid']);?>
 				</div>
+      <?php endif; ?>  
 
 			</section>
 
