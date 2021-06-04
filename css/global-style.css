@@ -617,14 +617,6 @@ a.btn-default:hover {
   border-top: 1px solid #ddd
 }
 
-.blue-background a {
-  color: #ffffff;
-}
-
-.blue-background a:hover {
-  color: #e5e5e5;
-}
-
 .blue-background {
   outline: 1px solid #002a5b;
   padding: 1em 0.5em 1em 0.5em
