@@ -1,4 +1,8 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
+<script src='/sites/all/themes/aesbs337/js/pdfmake.min.js'></script>
+<script src="/sites/all/themes/aesbs337/js/vfs_fonts.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdfcreator.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/pdf-button-hider.js"></script>
 
 <header>
     <?php print render($title_prefix); ?>
