@@ -2115,6 +2115,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-image: url(/sites/all/themes/aesglobal/images/Comp-1.gif);
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
