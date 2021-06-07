@@ -2075,14 +2075,29 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-color: #002d59;
 }
 
-#carousel-fade .carousel-inner .item:nth-child(odd){
+#carousel-fade .carousel-inner .item:nth-child(1){
+  background-color: #226849;
   background-image: url(https://static.aesseal.com/3d/hero/CAPI-TXS_web%20banner-1.png);
   background-size: auto;
   background-repeat: no-repeat;
   padding-top: 5em;
 }
 
-#carousel-fade .carousel-inner .item:nth-child(even){
+#carousel-fade .carousel-inner .item:nth-child(2){
+  background-image: url(https://static.aesseal.com/3d/hero/CAPI-TXS_web%20banner-2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-top: 5em;
+}
+
+#carousel-fade .carousel-inner .item:nth-child(3){
+  background-image: url(https://static.aesseal.com/3d/hero/CAPI-TXS_web%20banner-2.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+  padding-top: 5em;
+}
+
+#carousel-fade .carousel-inner .item:nth-child(4){
   background-image: url(https://static.aesseal.com/3d/hero/CAPI-TXS_web%20banner-2.png);
   background-size: auto;
   background-repeat: no-repeat;
