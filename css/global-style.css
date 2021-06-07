@@ -2021,6 +2021,22 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   border: none;
 }
 
+.brodchure-slide-padding{
+  padding: 10% 5%;
+}
+
+.training-slide-padding{
+  padding: 41% 5%;
+}
+
+.product-slide-padding{
+  padding: 21% 5%;
+}
+
+.news-video-slide-padding{
+  padding: 42% 5%;
+}
+
 .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
