@@ -2132,6 +2132,16 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   min-width: 100%;
 }
 
+.advance-training-btn{
+  padding: 6px 16px;
+  border-radius: 6px;
+  background-color: #dd1e25;
+}
+
+.advance-training-btn:hover{
+  background-color: #fa101a;
+}
+
 .blue-wave{
   background: #002a5b;
   padding: 1em 0.5em 1em 0.5em;
