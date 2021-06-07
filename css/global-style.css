@@ -2067,7 +2067,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 
 .carousel-indicators{
   position: relative;
-  bottom: 0;
+  bottom: 5em;
 }
 
 .home-slider-height{
