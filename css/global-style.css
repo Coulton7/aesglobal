@@ -2097,8 +2097,8 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   height: 100%;
   background-repeat: no-repeat;
   overflow: hidden;
-  -webkit-animation:kenburns 6s linear 0s infinite;
-  animation:kenburns 6s linear 0s infinite;
+  -webkit-animation:kenburns 6s linear 0s 1;
+  animation:kenburns 6s linear 0s 1;
 }
 
 .pause-controls{
