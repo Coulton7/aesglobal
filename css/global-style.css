@@ -2190,23 +2190,17 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 @keyframes kenburns {
   0%
   {
-    -webkit-transform-origin: bottom;
-    -moz-transform-origin: bottom;
-    -ms-transform-origin: bottom;
-    -o-transform-origin: bottom;
-    transform-origin: bottom;
     background-size: 100% auto;
     transition: all 6s linear;
+    background-position: bottom center;
+
   }
   100%
   {
-    -webkit-transform-origin: bottom;
-    -moz-transform-origin: bottom;
-    -ms-transform-origin: bottom;
-    -o-transform-origin: bottom;
-    transform-origin: bottom;
     background-size: 110% auto;
     transition: all 6s linear;
+    background-position: bottom center;
+
   }
 
 }
