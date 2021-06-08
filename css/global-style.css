@@ -2550,15 +2550,34 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   .banner-news-padding{
     padding-bottom: 5em;
   }
+
   blockquote::before{
     left: -3.5em;
     top: -2.5em
   }
+
   .footer-social-icons a{
     padding-left: 0;
   }
+
   .footer-social-icons a i {
     font-size: 0.75em;
+  }
+
+  .brochure-slider-padding{
+    padding: 10% 5%!important;
+  }
+
+  .training-slider-padding{
+    padding: 41% 5%!important;
+  }
+
+  .product-slider-padding{
+    padding: 21% 5%!important;
+  }
+
+  .news-video-slider-padding{
+    padding: 42% 5%!important;
   }
 }
 
@@ -2825,15 +2844,34 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   .machine-sentry-banner-news {
     margin-top: -15em;
   }
+
   blockquote::before{
     left: -3.1em;
     top: -1.9em
   }
+
   .footer-social-icons a{
     padding-left: 0.5em;
   }
+
   .footer-social-icons a i {
     font-size: 1em;
+  }
+
+  .brochure-slider-padding{
+    padding: 10% 5%!important;
+  }
+
+  .training-slider-padding{
+    padding: 41% 5%!important;
+  }
+
+  .product-slider-padding{
+    padding: 21% 5%!important;
+  }
+
+  .news-video-slider-padding{
+    padding: 42% 5%!important;
   }
 }
 
@@ -2967,6 +3005,22 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   blockquote::before{
     left: -2.9em;
   }
+
+  .brochure-slider-padding{
+    padding: 10% 5%!important;
+  }
+
+  .training-slider-padding{
+    padding: 48% 5%!important;
+  }
+
+  .product-slider-padding{
+    padding: 21% 5%!important;
+  }
+
+  .news-video-slider-padding{
+    padding: 49% 5%!important;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3072,6 +3126,22 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   }
   blockquote::before{
     left: -2.8em;
+  }
+
+  .brochure-slider-padding{
+    padding: 10% 5%!important;
+  }
+
+  .training-slider-padding{
+    padding: 41% 5%!important;
+  }
+
+  .product-slider-padding{
+    padding: 21% 5%!important;
+  }
+
+  .news-video-slider-padding{
+    padding: 42% 5%!important;
   }
 }
 
