@@ -3092,8 +3092,25 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
     top: 18%;
     right: 20%;
   }
+
   blockquote::before{
     left: -2.9em;
+  }
+
+  .brochure-slider-padding{
+    padding: 10% 5%!important;
+  }
+
+  .training-slider-padding{
+    padding: 41% 5%!important;
+  }
+
+  .product-slider-padding{
+    padding: 21% 5%!important;
+  }
+
+  .news-video-slider-padding{
+    padding: 42% 5%!important;
   }
 }
 
