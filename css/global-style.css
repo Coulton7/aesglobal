@@ -2097,6 +2097,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-size: auto;
   background-repeat: no-repeat;
   padding-top: 5em;
+  background-position: bottom center;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2){
@@ -2104,6 +2105,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-size: auto;
   background-repeat: no-repeat;
   padding-top: 5em;
+  background-position: bottom center;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3){
@@ -2112,6 +2114,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-repeat: no-repeat;
   padding-top: 5em;
   background-color: #dd1e25;
+  background-position: bottom center;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4){
@@ -2119,6 +2122,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background-size: auto;
   background-repeat: no-repeat;
   padding-top: 5em;
+  background-position: bottom center;
 }
 
 #carousel-fade .carousel-inner .item {
