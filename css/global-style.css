@@ -2144,7 +2144,7 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 }
 
 .advance-training-banner{
-  background-image: url(/sites/all/themes/aesglobal/images/Comp-1.gif);
+  background-image: url(https://static.aesseal.com/banner/training/Banner3.gif);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
