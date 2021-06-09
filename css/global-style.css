@@ -2142,9 +2142,9 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
   height: 100%;
+  position: relative;
+  top: 12.5%;
 }
 
 .pause-controls{
