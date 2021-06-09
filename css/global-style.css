@@ -2182,6 +2182,14 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   cursor: pointer;
 }
 
+.useful-links-text a{
+  color: #007a3b;
+}
+
+.useful-links-text a{
+  color: #ffffff;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
