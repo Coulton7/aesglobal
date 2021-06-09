@@ -2192,6 +2192,18 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   color: #ffffff;
 }
 
+.btn-transparent{
+  background: transparent;
+  border: 1px solid #ffffff;
+  box-shadow: 0 0 5px #fff;
+  border-radius: 4px
+}
+
+.btn-transparent:hover{
+  background: #d7d7d7;
+  color: #535354;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
