@@ -2195,7 +2195,6 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
 .btn-transparent{
   background-color: transparent;
   border-color: #ffffff;
-  box-shadow: 0 0 5px #fff;
   border-radius: 4px
   color: #ffffff;
 }
@@ -2204,6 +2203,11 @@ filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%)
   background: #d7d7d7;
   color: #535354;
 }
+
+a.btn-transparent{
+  border-bottom:2px solid #ffffff;
+}
+
 
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
