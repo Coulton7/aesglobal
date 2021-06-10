@@ -2208,6 +2208,9 @@ a.btn-transparent{
   border-bottom:2px solid #ffffff;
 }
 
+.view-all-case-study-resources .views-exposed-widget.views-submit-button{
+  float: right;
+}
 
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
