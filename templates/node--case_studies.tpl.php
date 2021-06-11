@@ -24,12 +24,14 @@
         hide($content['field_tags']);
         hide($content['field_document']);
         hide($content['field_thumbnail']);
+        hide($content['field_case_ref']);
+        hide($content['field_country']);
         hide($content['field_api__plan_types']);
         print render($content);
       ?>
     </div>
   </div>
-
+  <hr />
   <div class="row">
     <div class="col-sm-6">
       <?php print render($content['field_thumbnail']);?>
@@ -39,6 +41,9 @@
       <div class="download-field-wrapper">
         <?php print render($content['field_document']);?>
       </div>
+      <div class="margin-top">
+        <?php print render($content['field_case_ref']);?>
+        <?php print render($content['field_country']);?>
       <div class="margin-top">
         <?php print render($content['field_api__plan_types']); ?>
     </div>
