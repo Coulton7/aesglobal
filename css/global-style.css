@@ -2555,6 +2555,10 @@ a.btn-transparent{
     padding-bottom: 0 !important;
   }
 
+  .mobile-hori-prod-slide-padding{
+    padding: 15%;
+  }
+
   .training-quotes {
     margin-left: 0;
   }
@@ -2931,6 +2935,10 @@ a.btn-transparent{
 
   .banner-title{
     top: 0;
+  }
+
+  .mobile-hori-prod-slide-padding{
+    padding: 0;
   }
 }
 
