@@ -1920,7 +1920,11 @@ a.menu-box:hover img {
 }
 
 .hs-form-6350b9c5-5701-42c2-8ec0-837214dda794_33231591-36c5-4a6c-8d89-09748e09b988 fieldset.form-columns-2 .hs-form-field {
-  width: 75%;
+  width: 100%;
+}
+
+.hs-form-6350b9c5-5701-42c2-8ec0-837214dda794_33231591-36c5-4a6c-8d89-09748e09b988 .hs-input:not([type=file]){
+  width: 95%;
 }
 
 .hs-error-msg {
