@@ -1080,6 +1080,10 @@ label.resource-label {
   float: left;
 }
 
+.field-api--plan-types:first-child {
+   margin-left: 0;
+ }
+
 .field-api--plan-types .node-readmore {
   display: none;
 }
