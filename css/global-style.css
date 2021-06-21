@@ -2259,21 +2259,21 @@ a.btn-transparent{
 }
 
 .caption-one{
-  animation: fadeText 2s;
+  animation: fadeText 2s infinite;
 }
 
 .caption-two{
-  animation: fadeText 2s;
+  animation: fadeText 2s infinite;
   animation-delay: 3s;
 }
 
 .caption-three{
-  animation: fadeText 2s;
+  animation: fadeText 2s infinite;
   animation-delay: 5s;
 }
 
 .cpation-four{
-  animation: fadeText 2s;
+  animation: fadeText 2s infinite;
   animation-delay: 7s;
 }
 
