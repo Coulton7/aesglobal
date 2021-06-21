@@ -2258,25 +2258,6 @@ a.btn-transparent{
     }
 }
 
-.caption-one{
-  animation: fadeText 3s infinite;
-}
-
-.caption-two{
-  animation: fadeText 3s infinite;
-  animation-delay: 4s;
-}
-
-.caption-three{
-  animation: fadeText 3s infinite;
-  animation-delay: 7s;
-}
-
-.cpation-four{
-  animation: fadeText 3s infinite;
-  animation-delay: 10s;
-}
-
 @keyframes kenburns {
   0%
   {
@@ -2293,18 +2274,6 @@ a.btn-transparent{
 
   }
 
-}
-
-@keyframes fadeText{
-  0%{
-    opacity: 0;
-  }
-  50%{
-    opacity: 1;
-  }
-  100%{
-    opacity: 0;
-  }
 }
 
 @media screen and (max-width:370px) {
