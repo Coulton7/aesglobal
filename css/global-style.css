@@ -2662,6 +2662,16 @@ a.btn-transparent{
   .banner-title{
     top: 0;
   }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -20.5em;
+    right: -8em;
+  }
+
+  .sustainability-advert img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2976,6 +2986,16 @@ a.btn-transparent{
   .sustainability-advert img{
     max-width: 75%;
   }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -16.5em;
+    right: -3em;
+  }
+
+  .sustainability-advert img{
+    max-width: 50%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3136,6 +3156,16 @@ a.btn-transparent{
   .sustainability-advert-home img{
     max-width: 75%;
   }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -19.5em;
+    right: 5%;
+  }
+
+  .sustainability-advert img{
+    max-width: 100%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3239,6 +3269,16 @@ a.btn-transparent{
   .sustainability-advert-home img{
     max-width: 75%;
   }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -17.5em;
+    right: 0;
+  }
+
+  .sustainability-advert img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -3298,6 +3338,16 @@ a.btn-transparent{
 
   .sustainability-advert-home img{
     max-width: 100%;
+  }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -19em;
+    right: 0;
+  }
+
+  .sustainability-advert img{
+    max-width: 75%;
   }
 }
 
