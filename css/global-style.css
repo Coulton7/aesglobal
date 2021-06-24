@@ -2236,12 +2236,16 @@ a.btn-transparent{
   background-color: #f7f7f7;
 }
 
-.sustainability-report {
+.sustainability-advert {
     position: absolute;
     z-index: 10;
     right: 5%;
     top: 40%;
     transform: translateY(-60%);
+}
+
+.sustainability-advert img{
+  max-width: 75%;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
