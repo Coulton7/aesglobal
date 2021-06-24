@@ -2237,11 +2237,11 @@ a.btn-transparent{
 }
 
 .sustainability-advert {
-    position: absolute;
-    z-index: 10;
-    right: 5%;
-    top: 40%;
-    transform: translateY(-60%);
+  position: absolute;
+  z-index: 10;
+  right: 5%;
+  top: 40%;
+  transform: translateY(-60%);
 }
 
 .sustainability-advert img{
@@ -2964,6 +2964,18 @@ a.btn-transparent{
   .mobile-hori-prod-slide-padding{
     padding: 0;
   }
+
+  .sustainability-advert {
+    position: absolute;
+    z-index: 10;
+    left: 15%;
+    top: 55%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3112,6 +3124,18 @@ a.btn-transparent{
   .news-video-slider-padding{
     padding: 49% 5%!important;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -5%;
+    top: 40%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert-home img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3203,6 +3227,18 @@ a.btn-transparent{
   .news-video-slider-padding{
     padding: 42% 5%!important;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -5%;
+    top: 40%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert-home img{
+    max-width: 75%;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -3250,6 +3286,18 @@ a.btn-transparent{
 
   .news-video-slider-padding{
     padding: 42% 5%!important;
+  }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: 2%;
+    top: 40%;
+    transform: translateY(-60%);
+  }
+
+  .sustainability-advert-home img{
+    max-width: 100%;
   }
 }
 
