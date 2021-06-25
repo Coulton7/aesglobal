@@ -2247,6 +2247,10 @@ a.btn-transparent{
   max-width: 75%;
 }
 
+.sustainability-advert-img:hover {
+  content: url(https://static.aesseal.com/banner/sustainability/SUSREPORT-lgover.png);
+}
+
 .sustainability-advert-home-img:hover {
   content: url(https://static.aesseal.com/banner/sustainability/SUSREPORT-homeover.png);
 }
