@@ -2255,6 +2255,10 @@ a.btn-transparent{
   content: url(https://static.aesseal.com/banner/sustainability/SUSREPORT-homeover.png);
 }
 
+.blue-background-no-padding{
+  background-color: #002a5b;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
