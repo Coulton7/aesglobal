@@ -2332,7 +2332,7 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
+  .sustainability-advert img, .sustainability-advert-home img{
     max-width: 50%;
   }
 }
@@ -2350,7 +2350,7 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
+  .sustainability-advert img, .sustainability-advert-home img{
     max-width: 50%;
   }
 }
