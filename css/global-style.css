@@ -2328,7 +2328,7 @@ a.btn-transparent{
     position: absolute;
     z-index: 10;
     right: -50%;
-    top: 60%;
+    top: 50%;
     transform: translateY(-50%);
   }
 
@@ -2431,7 +2431,7 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
+  .sustainability-advert img, .sustainability-advert img{
     max-width: 50%;
   }
 }
@@ -2714,18 +2714,6 @@ a.btn-transparent{
 
   .sustainability-advert img{
     max-width: 50%;
-  }
-
-  .sustainability-advert-home {
-    position: absolute;
-    z-index: 10;
-    right: -8%;
-    top: 60%;
-    transform: translateY(-50%);
-  }
-
-  .sustainability-advert-home img{
-    max-width: 75%;
   }
 }
 
