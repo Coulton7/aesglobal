@@ -2236,6 +2236,10 @@ a.btn-transparent{
   background-color: #f7f7f7;
 }
 
+.flex-container{
+  position: relative;
+}
+
 .sustainability-advert {
   position: absolute;
   z-index: 10;
