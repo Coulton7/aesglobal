@@ -170,7 +170,7 @@ if(!empty($file_fid)) {
 	<?php endif; ?>
 
 	<?php if ($page['preface']): ?>
-	<div class="preface front__flex-margin">
+	<div class="preface front__flex-margin blue-background-no-padding">
 			<?php print render($page['preface']);?>
 	</div>
 	<?php endif; ?>
