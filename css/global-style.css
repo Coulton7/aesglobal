@@ -2719,13 +2719,13 @@ a.btn-transparent{
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
-    right: -50%;
+    right: -8%;
     top: 60%;
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
-    max-width: 50%;
+  .sustainability-advert-home img{
+    max-width: 75%;
   }
 }
 
@@ -3034,11 +3034,11 @@ a.btn-transparent{
     position: absolute;
     z-index: 10;
     right: -10%;
-    top: 40%;
+    top: 28%;
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
+  .sustainability-advert img, .sustainability-advert-home img{
     max-width: 75%;
   }
 
