@@ -2666,11 +2666,11 @@ a.btn-transparent{
   .sustainability-advert{
     position: absolute;
     top: -16.5em;
-    right: -5em;
+    right: -11em;
   }
 
   .sustainability-advert img{
-    max-width: 75%;
+    max-width: 50%;
   }
 }
 
