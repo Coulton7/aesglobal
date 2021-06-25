@@ -2672,6 +2672,18 @@ a.btn-transparent{
   .sustainability-advert img{
     max-width: 50%;
   }
+
+  .sustainability-advert-home {
+    position: absolute;
+    z-index: 10;
+    right: -50%;
+    top: 60%;
+    transform: translateY(-50%);
+  }
+
+  .sustainability-advert img{
+    max-width: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -2975,11 +2987,11 @@ a.btn-transparent{
     padding: 0;
   }
 
-  .sustainability-advert {
+  .sustainability-advert-home {
     position: absolute;
     z-index: 10;
-    left: 15%;
-    top: 55%;
+    right: -10%;
+    top: 40%;
     transform: translateY(-50%);
   }
 
