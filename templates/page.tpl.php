@@ -170,7 +170,7 @@ if(!empty($file_fid)) {
     <div class="preface front__flex-margin">
       <div class="flex-gradient">
         <div class="row">
-          <div class="col-lg-7 col-lg-offset-2 col-md-9 col-md-offset-1 col-sm-10">
+          <div class="col-lg-7 col-lg-offset-2 col-md-8 col-md-offset-1 col-sm-9">
             <div class="flex-header">
               <?php if (!empty($title)): ?>
                 <h1 class="page-header" id="page-main-heading"><?php print strstr($title, "®") ? str_replace("®", "<sup>®</sup>", $title) : $title; ?></h1>
