@@ -3415,3 +3415,9 @@ a.btn-transparent{
     padding-bottom: 24em;
   }
 }
+
+@media (hover: none) {
+    .sustainability-advert-img:hover {
+        content: auto;
+    }
+}
