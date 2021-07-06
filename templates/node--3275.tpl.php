@@ -37,7 +37,7 @@
     </div>
   </div>
 
-  <div class="row">
+  <div class="row display-none">
     <div class="col-sm-6">
       <?php print render($content['field_thumbnail']);?>
     </div>
