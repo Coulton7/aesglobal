@@ -3191,23 +3191,15 @@ a.btn-transparent{
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
-    right: -5%;
+    right: 0;
     top: 40%;
     transform: translateY(-60%);
-  }
-
-  .sustainability-advert-home img{
-    max-width: 75%;
   }
 
   .sustainability-advert{
     position: absolute;
     top: -15.5em;
     right: 0;
-  }
-
-  .sustainability-advert img{
-    max-width: 100%;
   }
 }
 
@@ -3304,8 +3296,8 @@ a.btn-transparent{
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
-    right: -5%;
-    top: 40%;
+    right: 0;
+    top: 46%;
     transform: translateY(-60%);
   }
 
@@ -3370,13 +3362,9 @@ a.btn-transparent{
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
-    right: 2%;
-    top: 40%;
+    right: 0;
+    top: 57%;
     transform: translateY(-60%);
-  }
-
-  .sustainability-advert-home img{
-    max-width: 100%;
   }
 
   .sustainability-advert{
