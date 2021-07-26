@@ -2443,14 +2443,10 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img, .sustainability-advert img{
-    max-width: 50%;
-  }
-
   .sustainability-advert{
     position: absolute;
-    top: -13.75em;
-    right: -11em;
+    top: -20.75em;
+    right: 0;
   }
 }
 
@@ -2722,10 +2718,6 @@ a.btn-transparent{
 
   .banner-title{
     top: 0;
-  }
-
-  .sustainability-advert img{
-    max-width: 50%;
   }
 }
 
@@ -3038,14 +3030,14 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img, .sustainability-advert-home img{
+  .sustainability-advert-home img{
     max-width: 75%;
   }
 
   .sustainability-advert{
     position: absolute;
-    top: -14.5em;
-    right: -4em;
+    top: -16.5em;
+    right: 0;
   }
 }
 
@@ -3210,8 +3202,8 @@ a.btn-transparent{
 
   .sustainability-advert{
     position: absolute;
-    top: -14.5em;
-    right: 5%;
+    top: -15.5em;
+    right: 0;
   }
 
   .sustainability-advert img{
@@ -3323,12 +3315,8 @@ a.btn-transparent{
 
   .sustainability-advert{
     position: absolute;
-    top: -14.5em;
+    top: -16.5em;
     right: 0;
-  }
-
-  .sustainability-advert img{
-    max-width: 75%;
   }
 }
 
@@ -3393,12 +3381,8 @@ a.btn-transparent{
 
   .sustainability-advert{
     position: absolute;
-    top: -15em;
+    top: -17em;
     right: 0;
-  }
-
-  .sustainability-advert img{
-    max-width: 75%;
   }
 }
 
