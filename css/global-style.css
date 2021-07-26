@@ -2251,8 +2251,12 @@ a.btn-transparent{
   max-width: 75%;
 }
 
-.sustainability-advert-img:hover {
-  content: url(https://static.aesseal.com/banner/sustainability/SUSREPORT-homeover.png);
+.sustainability-advert-img-home:hover {
+  content: url(https://static.aesseal.com/graphics/sustainability-black-wave-over.svg);
+}
+
+.sustainability-advert-img-home:hover {
+  content: url(https://static.aesseal.com/graphics/sustainability-blue-wave-over.svg);
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
