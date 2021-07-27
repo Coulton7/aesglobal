@@ -2335,11 +2335,11 @@ a.btn-transparent{
   .sustainability-advert{
     position: absolute;
     top: 1.5em;
-    right: -6em;
+    right: -23.25%;
   }
 
   .sustainability-advert img, .sustainability-advert-home img{
-    max-width: 50%;
+    max-width: 75%;
   }
 }
 
@@ -2357,7 +2357,7 @@ a.btn-transparent{
   }
 
   .sustainability-advert img, .sustainability-advert-home img{
-    max-width: 50%;
+    max-width: 75%;
   }
 }
 
@@ -2397,7 +2397,7 @@ a.btn-transparent{
   .sustainability-advert{
     position: absolute;
     top: -1em;
-    right: -10%;
+    right: -5em%;
   }
 }
 
@@ -2443,9 +2443,13 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
+  .sustainability-advert img{
+    max-width: 75%;
+  }
+
   .sustainability-advert{
     position: absolute;
-    top: -20.75em;
+    top: -14.75em;
     right: 0;
   }
 }
