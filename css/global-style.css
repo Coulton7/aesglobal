@@ -2247,10 +2247,6 @@ a.btn-transparent{
   top: 40%;
 }
 
-.sustainability-advert img{
-  max-width: 75%;
-}
-
 .sustainability-advert-img-home:hover {
   content: url(https://static.aesseal.com/graphics/sustainability-black-wave-over.svg);
 }
@@ -3034,10 +3030,6 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert-home img{
-    max-width: 75%;
-  }
-
   .sustainability-advert{
     position: absolute;
     top: -16.5em;
@@ -3303,10 +3295,6 @@ a.btn-transparent{
     right: 0;
     top: 46%;
     transform: translateY(-60%);
-  }
-
-  .sustainability-advert-home img{
-    max-width: 75%;
   }
 
   .sustainability-advert{
