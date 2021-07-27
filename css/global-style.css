@@ -3192,8 +3192,15 @@ a.btn-transparent{
     position: absolute;
     z-index: 10;
     right: 0;
-    top: 40%;
+    top: 44%;
     transform: translateY(-60%);
+  }
+
+  .sustainability-advert-img-home{
+    max-width: 75%;
+    right: 0;
+    margin-right: ;
+    margin-left: auto;
   }
 
   .sustainability-advert{
@@ -3297,8 +3304,12 @@ a.btn-transparent{
     position: absolute;
     z-index: 10;
     right: 0;
-    top: 46%;
+    top: 51%;
     transform: translateY(-60%);
+  }
+
+  .sustainability-advert-img-home{
+    max-width: 100%;
   }
 
   .sustainability-advert{
