@@ -3314,7 +3314,7 @@ a.btn-transparent{
 
   .sustainability-advert{
     position: absolute;
-    top: -13em;
+    top: -14em;
     right: 0;
   }
 }
@@ -3376,7 +3376,7 @@ a.btn-transparent{
 
   .sustainability-advert{
     position: absolute;
-    top: -14.75em;
+    top: -16em;
     right: 0;
   }
 }
@@ -3392,6 +3392,12 @@ a.btn-transparent{
 
   .banner-news-padding {
     padding-bottom: 24em;
+  }
+
+  .sustainability-advert{
+    position: absolute;
+    top: -16.5em;
+    right: 0;
   }
 }
 
