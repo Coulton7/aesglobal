@@ -2297,7 +2297,11 @@ a.btn-transparent{
 
 @media screen and (max-width:370px) {
   .search-block {
-    margin: 0 0 0 -3.9em
+    margin: 0 0 0 -3.9em;
+  }
+
+  .front .search-block{
+    top: 20.2em;
   }
 
   .front__flex-margin {
