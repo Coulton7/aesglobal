@@ -3052,6 +3052,11 @@ a.btn-transparent{
     top: -13.5em;
     right: 0;
   }
+
+  .logged-in .sustainability-advert{
+    top: -14.5em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -3222,6 +3227,11 @@ a.btn-transparent{
     top: -13.5em;
     right: 0;
   }
+
+  .logged-in .sustainability-advert{
+    top: -14.5em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3331,6 +3341,12 @@ a.btn-transparent{
     top: -14em;
     right: 0;
   }
+
+  .logged-in .sustainability-advert{
+    position: absolute;
+    top: -15em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -3393,6 +3409,12 @@ a.btn-transparent{
     top: -16em;
     right: 0;
   }
+
+  .logged-in .sustainability-advert{
+    position: absolute;
+    top: -17em;
+    right: 0;
+  }
 }
 
 @media screen and (min-width: 2000px) {
@@ -3411,6 +3433,12 @@ a.btn-transparent{
   .sustainability-advert{
     position: absolute;
     top: -16.5em;
+    right: 0;
+  }
+
+  .logged-in .sustainability-advert{
+    position: absolute;
+    top: -17.5em;
     right: 0;
   }
 }
