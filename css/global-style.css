@@ -2247,12 +2247,20 @@ a.btn-transparent{
   top: 40%;
 }
 
-.sustainability-advert-img-home:hover {
-  content: url(https://static.aesseal.com/graphics/sustainability-black-wave-over.svg);
+.sustainability-advert-home:hover {
+    background-image: url(https://static.aesseal.com/graphics/sustainability-black-wave-over.svg);
 }
 
-.sustainability-advert-img:hover {
-  content: url(https://static.aesseal.com/graphics/sustainability-blue-wave-over.svg);
+.sustainability-advert-home:hover img{
+    opacity:0;
+}
+
+.sustainability-advert:hover {
+  background-image: url(https://static.aesseal.com/graphics/sustainability-blue-wave-over.svg);
+}
+
+.sustainability-advert:hover img{
+  opacity: 0;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
