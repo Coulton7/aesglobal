@@ -3445,6 +3445,10 @@ a.btn-transparent{
     top: -17em;
     right: 0;
   }
+
+  .rel-logos-wave{
+    max-width: 92%;
+  }
 }
 
 @media (hover: none) {
