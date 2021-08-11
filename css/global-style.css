@@ -2240,11 +2240,15 @@ a.btn-transparent{
   position: relative;
 }
 
-.sustainability-advert {
+.sustainability-advert, .rel-logos-wave {
   position: absolute;
   z-index: 10;
   right: 5%;
   top: 40%;
+}
+
+.rel-logos-wave:hover{
+  pointer-events: none;
 }
 
 .sustainability-advert-home:hover {
