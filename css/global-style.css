@@ -2247,10 +2247,6 @@ a.btn-transparent{
   top: 40%;
 }
 
-.rel-logos-wave:hover{
-  pointer-events: none;
-}
-
 .sustainability-advert-home:hover {
     background-image: url(https://static.aesseal.com/graphics/sustainability-black-wave-over.svg);
 }
