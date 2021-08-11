@@ -2349,13 +2349,13 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: 1.5em;
     right: -23.25%;
   }
 
-  .sustainability-advert img, .sustainability-advert-home img{
+  .sustainability-advert img, .sustainability-advert-home img, , .rel-logos-wave img{
     max-width: 75%;
   }
 }
@@ -2373,7 +2373,7 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img, .sustainability-advert-home img{
+  .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img{
     max-width: 75%;
   }
 }
@@ -2411,7 +2411,7 @@ a.btn-transparent{
     margin-bottom: -100% !important;
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -1em;
     right: -5em%;
@@ -2460,11 +2460,11 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert img{
+  .sustainability-advert img, .rel-logos-wave img{
     max-width: 75%;
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -14.75em;
     right: 0;
@@ -3051,13 +3051,13 @@ a.btn-transparent{
     transform: translateY(-50%);
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     top: -14.5em;
     right: 0;
   }
@@ -3226,13 +3226,13 @@ a.btn-transparent{
     margin-left: auto;
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     top: -14.5em;
     right: 0;
   }
@@ -3340,13 +3340,13 @@ a.btn-transparent{
     max-width: 100%;
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert{
+  .logged-in .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -15em;
     right: 0;
@@ -3408,13 +3408,13 @@ a.btn-transparent{
     transform: translateY(-60%);
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -14em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     position: absolute;
     top: -15em;
     right: 0;
@@ -3434,13 +3434,13 @@ a.btn-transparent{
     padding-bottom: 24em;
   }
 
-  .sustainability-advert{
+  .sustainability-advert, .rel-logos-wave{
     position: absolute;
     top: -13.5em;
     right: 0;
   }
 
-  .logged-in .sustainability-advert{
+  .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
     position: absolute;
     top: -17em;
     right: 0;
