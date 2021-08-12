@@ -3411,7 +3411,7 @@ a.btn-transparent{
   }
 
   .rel-logos-wave{
-    top: -13.5em;
+    top: -14.5em;
   }
 
   .logged-in .sustainability-advert, .logged-in .rel-logos-wave{
@@ -3447,7 +3447,14 @@ a.btn-transparent{
   }
 
   .rel-logos-wave{
-    top: -16.1em;
+    top: -15em;
+    max-width: 90%;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+  .rel-logos-wave{
+    top: -15.6em;
     max-width: 90%;
   }
 }
