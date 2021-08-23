@@ -3166,6 +3166,8 @@ a.btn-transparent{
     background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
     background-size:100%;
     opacity: 1;
+    background-repeat: no-repeat;
+    background-position: 100% 24%;
   }
 
   .training-quotes {
