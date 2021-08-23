@@ -6,43 +6,6 @@
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/modernizr.custom.26633.js"></script>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/jquery.gridrotator.js"></script>
 <script type="text/javascript" src="/sites/all/themes/aesbs337/js/gridrotator-init.js"></script>
-   <script type="text/javascript">
-     $(function() {
-
-       $( '#ri-grid' ).gridrotator( {
-         rows : 3,
-         columns : 4,
-         animType	: 'slideBottom',
-         animSpeed	: 1000,
-         interval	: 600,
-         step		: 1,
-         interval : 2000,
-         w1024 : {
-           rows : 3,
-           columns : 4
-         },
-         w768 : {
-           rows : 4,
-           columns : 3
-         },
-         w480 : {
-           rows : 4,
-           columns : 3
-         },
-         w320 : {
-           rows : 2,
-           columns : 4
-         },
-         w240 : {
-           rows : 1,
-           columns : 7
-         },
-       } );
-
-     });
-</script>
-
-
 
   <header>
     <?php print render($title_prefix); ?>
