@@ -27,6 +27,7 @@
         hide($content['field_case_ref']);
         hide($content['field_country']);
         hide($content['field_api__plan_types']);
+        hide($content['field_thumbnail_sq']);
         print render($content);
       ?>
     </div>

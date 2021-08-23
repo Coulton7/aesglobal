@@ -26,6 +26,7 @@
         hide($content['links']);
         hide($content['field_document']);
         hide($content['field_thumbnail']);
+        hide($content['field_thumbnail_sq']);
         print render($content);
       ?>
     </div>

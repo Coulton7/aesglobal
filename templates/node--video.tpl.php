@@ -29,6 +29,7 @@
         hide($content['field_thumbnail']);
         hide($content['field_download_form']);
         hide($content['field_hubspot_form']);
+        hide($content['field_thumbnail_sq']);
         print render($content);
         ?>
       </div>
