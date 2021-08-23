@@ -3170,6 +3170,10 @@ a.btn-transparent{
     background-position: 100% 24%;
   }
 
+  .virtual-tour:hover img{
+    opacity: 0;
+  }
+
   .training-quotes {
     margin-left: -37%;
   }
