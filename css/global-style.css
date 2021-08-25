@@ -2745,8 +2745,9 @@ a.btn-transparent{
   }
 
   blockquote.customer-focus-quote:before{
-    top: 6.5em;
-    left: -2.5em;
+    top: 0;
+    left: 0;
+    position: relative;
   }
 
   .customer-focus-quote {
@@ -3077,8 +3078,9 @@ a.btn-transparent{
   }
 
   blockquote.customer-focus-quote:before{
-    top: 7em;
-    left: -1.9em
+    top: 0;
+    left: 0;
+    position: relative;
   }
 
   .customer-focus-quote {
