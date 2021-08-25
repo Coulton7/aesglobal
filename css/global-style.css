@@ -2259,13 +2259,13 @@ a.btn-transparent{
   background-image: url(https://static.aesseal.com/graphics/sustainability-blue-wave-over.svg);
 }
 
-.sustainability-advert:hover img{
+.sustainability-advert:hover img {
   opacity: 0;
 }
 
-.customer-focus-quote{
-  padding-top: 15em;
-  padding-bottom: 13em;
+.customer-focus-quote {
+  padding-top: 8em;
+  padding-bottom: 8em;
   color: #ffffff;
   z-index: 1;
 }
@@ -2743,8 +2743,16 @@ a.btn-transparent{
   .banner-title{
     top: 0;
   }
+
   blockquote.customer-focus-quote:before{
-    top: 13em;
+    top: 6.5em;
+    left: -2.5em;
+  }
+
+  .customer-focus-quote {
+    font-size: 19px;
+    line-height:30px;
+    background-position: 85% 50%;
   }
 }
 
@@ -3067,8 +3075,16 @@ a.btn-transparent{
     top: -14.5em;
     right: 0;
   }
+
   blockquote.customer-focus-quote:before{
-    top: 13em;
+    top: 7em;
+    left: -1.9em
+  }
+
+  .customer-focus-quote {
+    font-size: 26px;
+    line-height: 28px;
+    background-position: right top;
   }
 }
 
@@ -3251,6 +3267,11 @@ a.btn-transparent{
     top: -14.5em;
     right: 0;
   }
+
+  .customer-focus-quote {
+    font-size: 27px;
+    line-height:29px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -3365,6 +3386,11 @@ a.btn-transparent{
     position: absolute;
     top: -15em;
     right: 0;
+  }
+
+  .customer-focus-quote {
+    font-size: 28px;
+    line-height:30px;
   }
 }
 
