@@ -1327,7 +1327,7 @@ div.user-picture>img {
 
 /* Animated Responsive Image Grid by Mary Lou https://tympanus.net/codrops/2012/08/02/animated-responsive-image-grid/ */
 .ri-grid {
-  margin: 30px auto 30px;
+  margin: 0;
   position: relative;
   height: auto;
 }
