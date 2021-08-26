@@ -2864,6 +2864,10 @@ a.btn-transparent-green-border:hover {
   right: 0.5em!important;
 }
 
+blockquote.transparent-50{
+  opacity: 50;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
