@@ -259,6 +259,30 @@ a.no-underline :hover {
   color: #bd4030;
 }
 
+a.twitter-color{
+  color: #1da1f2;
+}
+
+.twitter-color{
+  color: #1da1f2;
+}
+
+a.twitter-color:hover{
+  color: #1a90d9;
+}
+
+a.linkedin-color{
+  color: #0077b5;
+}
+
+.linkedin-color{
+  color: #0077b5;
+}
+
+a.linkedin-color:hover{
+  color: #006ba2;
+}
+
 .btn {
   background-color: #e7e7e9;
   border-color: #e7e7e8 #e7e7e8 #e7e7e9;
@@ -366,6 +390,25 @@ a .btn-social:hover {
 
 .field-document img.file-icon, .field-download img.file-icon {
   display: none;
+}
+
+.field-installation-guide a {
+  list-style-type: none;
+  display: inline-block;
+  background: #002A5B;
+  color: #ffffff !important;
+  border: none !important;
+  border-radius: 0;
+  padding: 5px 15px;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.field-installation-guide a:before, .field-installtion-guide a:before {
+  font-family: 'Font Awesome 5 Free';
+  content: " \f019  ";
+  font-weight: 900;
 }
 
 .bef-checkboxes .form-type-bef-checkbox {
