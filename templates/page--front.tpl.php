@@ -93,7 +93,9 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
-
+<script src="/sites/all/themes/aesbs337/js/carousel-options.js"></script>
+<script src="/sites/all/themes/aeseng/js/home-carousel-hider.js"></script>
+<script src="/sites/all/themes/aeseng/js/shadow-drop-mobile.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
@@ -160,22 +162,41 @@ if(!empty($file_fid)) {
 	<?php if ($page['navigation_col']): ?>
 		<div class="navigation_col">
 			<div class="action-menu text-center">
-				<div class="col-sm-2 col-xs-0 fullscreen">
+				<div class="col-md-2 col-sm-1 col-xs-0 fullscreen">
 				</div>
-				<div class="col-sm-10 col-sm-offset-2 col-xs-12 no-padding">
+				<div class="col-md-10 col-md-offset-2 col-sm-11 col-sm-offset-1 col-xs-12 no-padding">
 				<?php print render($page['navigation_col']);?>
 			</div>
 			</div>
 		</div>
 	<?php endif; ?>
 
-	<?php if ($page['preface']): ?>
-	<div class="preface front__flex-margin">
-			<?php print render($page['preface']);?>
-	</div>
-	<?php endif; ?>
+  <section class="preface front__flex-margin blue-background-np">
+    <div class="row row-flex-col">
+      <?php if ($page['preface']): ?>
+      <div class="<?php if (empty($page['preface_side'])) { print 'col-sm-12 fullscreen'; } else { print 'col-lg-9 col-md-8 col-sm-12 fullscreen'; } ?>">
+  	     <div class="preface-main full-height">
+  			      <?php print render($page['preface']);?>
+  	     </div>
+      </div>
+  	  <?php endif; ?>
 
-	<?php if ($page['wavelower']): ?>
+      <?php if (!empty($page['preface_side'])): ?>
+        <aside class="col-lg-3 col-md-4 col-sm-12 fullscreen">
+          <?php print render($page['preface_side']); ?>
+        </aside>  <!-- /#sidebar-first -->
+      <?php endif; ?>
+    </div>
+    <div class="row">
+      <?php if (!empty($page['preface_lower'])): ?>
+        <div class="col-sm-12 fullscreen">
+          <?php print render($page['preface_lower']); ?>
+        </div>  <!-- /#sidebar-first -->
+      <?php endif; ?>
+    </div>
+  </section>
+
+  <?php if ($page['wavelower']): ?>
 	<div class="row wavelower row-eq-height">
 		<div class="col-md-9 col-sm-8 col-xs-0 fullscreen">
 			<div class="bottom-gap">
@@ -183,11 +204,8 @@ if(!empty($file_fid)) {
 		</div>
 
 		<div class="col-md-3 col-sm-4 col-xs-12 fullscreen">
-
 			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
-
 			<?php print render($page['wavelower']);?>
-
 		</div>
 	</div>
 	<?php endif; ?>
@@ -195,10 +213,6 @@ if(!empty($file_fid)) {
 </div>
 
 <div class="col-sm-12 fullscreen">
-	<div class="mobile-search">
-		<div class="row-deep">
-		</div>
-	</div>
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
@@ -211,7 +225,7 @@ if(!empty($file_fid)) {
 	<div class="row">
 
 		<div class="tablet-fix">
-			<section class="
+			<section class="blue-background
 
 			<?php if (empty($page['sidebar_first']) && empty($page['sidebar_second'])) { print 'col-sm-12'; }
 				else if (empty($page['sidebar_first']) || empty($page['sidebar_second'])) { print 'col-sm-8 col-md-9 col-md-push-3 col-sm-push-4'; }
