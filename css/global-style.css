@@ -2750,7 +2750,7 @@ a.btn-transparent{
     position: relative;
   }
 
-  .customer-focus-quote {
+  .customer-focus-quote, .image-quote {
     font-size: 19px;
     line-height:30px;
     background-position: 85% 50%;
@@ -3083,7 +3083,7 @@ a.btn-transparent{
     position: relative;
   }
 
-  .customer-focus-quote {
+  .customer-focus-quote, .image-quote {
     font-size: 26px;
     line-height: 28px;
     background-position: right top;
@@ -3270,7 +3270,7 @@ a.btn-transparent{
     right: 0;
   }
 
-  .customer-focus-quote {
+  .customer-focus-quote, .image-quote {
     font-size: 27px;
     line-height:29px;
   }
@@ -3390,7 +3390,7 @@ a.btn-transparent{
     right: 0;
   }
 
-  .customer-focus-quote {
+  .customer-focus-quote, .image-quote {
     font-size: 28px;
     line-height:30px;
   }
