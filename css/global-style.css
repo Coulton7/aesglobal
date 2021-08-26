@@ -2509,6 +2509,13 @@ a.btn-transparent {
   text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
 }
 
+.thinner-title {
+  font-size: 3.5em;
+  line-height: 1em;
+  font-weight: 500;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+}
+
 .green-header {
   color: #03943e;
 }
@@ -3043,6 +3050,13 @@ a.btn-transparent-green-border:hover {
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
+  .thinner-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
   .media-carousel-block .item div {
     min-height: 15.25em;
   }
@@ -3128,6 +3142,13 @@ a.btn-transparent-green-border:hover {
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
+  .thinner-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 500;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
   .media-carousel-block .item div {
     min-height: 19em;
   }
@@ -3181,6 +3202,13 @@ a.btn-transparent-green-border:hover {
     font-size: 3.5em;
     line-height: 1em;
     font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
+  .thinner-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 500;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
@@ -4032,6 +4060,13 @@ a.btn-transparent-green-border:hover {
     font-size: 3.5em;
     line-height: 1em;
     font-weight: 700;
+    text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
+  }
+
+  .thinner-title {
+    font-size: 3.5em;
+    line-height: 1em;
+    font-weight: 500;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
   }
 
