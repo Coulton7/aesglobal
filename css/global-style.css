@@ -2864,7 +2864,7 @@ a.btn-transparent-green-border:hover {
   right: 0.5em!important;
 }
 
-blockquote.transparent-50{
+blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
