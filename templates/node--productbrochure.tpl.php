@@ -24,6 +24,7 @@
         hide($content['field_tags']);
         hide($content['field_document']);
         hide($content['field_thumbnail']);
+        hide($content['field_installation_guide']);
         hide($content['field_thumbnail_sq']);
         print render($content);
         ?>
@@ -38,6 +39,7 @@
     <div class="col-sm-6">
       <div class="download-field-wrapper">
         <?php print render($content['field_document']);?>
+        <?php print render($content['field_installation_guide']);?>
       </div>
     </div>
   </div>
