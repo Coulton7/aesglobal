@@ -4121,6 +4121,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     border: 1px solid #e5e5e7;
   }
 
+  .red-tile-height{
+    max-height: 68%;
+    height: 100%;
+  }
+
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
@@ -4395,6 +4400,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 20%;
   }
 
+  .red-tile-height{
+    max-height: 67%;
+    height: 100%;
+  }
+
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
@@ -4530,6 +4540,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 35%;
   }
 
+  .red-tile-height{
+    max-height: 70%;
+    height: 100%;
+  }
+
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
@@ -4617,6 +4632,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 35%;
   }
 
+  .red-tile-height{
+    max-height: 83%;
+    height: 100%;
+  }
+
   .sustainability-advert-home {
     position: absolute;
     z-index: 10;
@@ -4670,6 +4690,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .red-tile-text {
     position: relative;
     top: 35%;
+  }
+
+  .red-tile-height{
+    max-height: 88%;
+    height: 100%;
   }
 
   .sustainability-advert, .rel-logos-wave {
