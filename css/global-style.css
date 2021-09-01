@@ -3552,7 +3552,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
-    margin-bottom: 3em;
+    margin-bottom: 1em;
   }
 
   .carousel-inner.horizontal>.item.next,
