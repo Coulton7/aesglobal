@@ -2758,7 +2758,7 @@ a.btn-transparent-green-border:hover {
   right: 0.1em;
 }
 
-.carousel-text {
+.carousel-text, .overlay-link .carousel-text {
   color: #535354;
 }
 
