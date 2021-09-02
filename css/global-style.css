@@ -4379,13 +4379,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block .nav li a {
     color: #ffffff;
-    padding: 1em;
+    padding: 1em 0.25em;
     background-color: #e5e5e5;
   }
 
   .media-carousel-block .nav li a:hover {
     color: #ffffff;
-    padding: 1em;
+    padding: 1em 0.25em;
     background-color: #dd1e25;
   }
 
