@@ -2782,6 +2782,10 @@ a.btn-transparent-green-border:hover {
   border: 1px solid transparent;
 }
 
+.shadow-box-tabs .nav-tabs li.active a:hover{
+  border:1px solid transparent;
+}
+
 .shadow-box-tabs .nav-tabs li {
   padding: 0;
 }
