@@ -2786,7 +2786,16 @@ a.btn-transparent-green-border:hover {
   border-bottom: 1px solid #ddd;
 }
 
-.nav-tabs.nav-justified>li.dropdown {
+.shadow-box-tabs .nav-tabs li {
+  padding: 0;
+}
+
+.shadow-box-tabs ul {
+  border-bottom: none;
+  text-align: center;
+}
+
+.shadow-box-tabs .nav-tabs>li.dropdown {
   width: 100%;
 }
 
@@ -3605,6 +3614,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     float: left;
   }
 
+  .shadow-box-tabs ul {
+    margin-bottom: 0.5em;
+  }
+
   .media-carousel-block {
     position: relative;
     bottom: 0;
@@ -4122,6 +4135,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     border: 1px solid #e5e5e7;
   }
 
+  .shadow-box-tabs ul {
+    margin-bottom: 0.5em;
+  }
+
   .red-tile-height{
     max-height: 68%;
     height: 100%;
@@ -4360,6 +4377,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block .nav li a {
     color: #dd1e25;
+    padding: 1em;
+    background-color: #e5e5e5;
   }
 
   .media-carousel-block {
@@ -4404,6 +4423,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .red-tile-height{
     max-height: 67%;
     height: 100%;
+  }
+
+  .shadow-box-tabs ul {
+    margin-bottom: 0;
   }
 
   .sustainability-advert-home {
