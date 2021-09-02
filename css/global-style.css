@@ -2625,6 +2625,7 @@ a.btn-transparent-green-border:hover {
 .shadow-drop-menu {
   background-color: #000000;
   width: 100%;
+  text-align: center;
 }
 
 .dropdown-menu.shadow-drop-menu>li>a {
