@@ -2576,6 +2576,8 @@ a.btn-transparent-green-border:hover {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   position: relative;
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 12%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.5%,rgba(0,41,91,1) 48.5%,rgba(0,42,91,1) 100%);
+  padding: 1em 2em;
 }
 
 .flex-text-overflow-container {
@@ -4603,6 +4605,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     font-size: 28px;
     line-height:30px;
   }
+
+  .shadow-container{
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.5%,rgba(0,41,91,1) 48.5%,rgba(0,42,91,1) 100%)
+  }
 }
 
 @media screen and (min-width: 1500px) {
@@ -4689,6 +4695,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -15em;
     right: 0;
+  }
+
+  .shadow-container{
+    background: linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.65%,rgba(0,41,91,1) 48.65%,rgba(0,42,91,1) 100%)
   }
 }
 
