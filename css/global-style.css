@@ -2576,7 +2576,7 @@ a.btn-transparent-green-border:hover {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   position: relative;
-  background: linear-gradient(to bottom,rgba(255,255,255,1) 12%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.5%,rgba(0,41,91,1) 48.5%,rgba(0,42,91,1) 100%);
+  background: linear-gradient(to bottom,rgba(255,255,255,1) 12%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.35%,rgba(0,41,91,1) 48.35%,rgba(0,42,91,1) 100%);
   padding: 1em 2em;
 }
 
@@ -4609,7 +4609,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container{
-    background: linear-gradient(to bottom,rgba(255,255,255,1) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.5%,rgba(0,41,91,1) 48.5%,rgba(0,42,91,1) 100%)
+    background: linear-gradient(to bottom,rgba(255,255,255,1) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.35%,rgba(0,41,91,1) 48.35%,rgba(0,42,91,1) 100%)
   }
 }
 
