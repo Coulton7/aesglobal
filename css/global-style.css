@@ -4381,12 +4381,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     color: #ffffff;
     padding: 1em 0.25em;
     background-color: #e5e5e5;
+    height: 100%;
   }
 
   .media-carousel-block .nav li a:hover {
     color: #ffffff;
     padding: 1em 0.25em;
     background-color: #dd1e25;
+    height: 100%;
   }
 
   .media-carousel-block {
