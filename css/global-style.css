@@ -154,14 +154,6 @@ a.no-underline :hover {
   overflow-wrap: break-word;
 }
 
-.breadcrumb>li:last-child {
-  display: inline-block;
-  background-color: transparent;
-  color: #000000;
-  transform: skew(0);
-  max-width: 87%;
-}
-
 .breadcrumb>li+li:before {
   padding: 0;
   color: #4c698c;
