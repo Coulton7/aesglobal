@@ -2903,7 +2903,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .side-menu .nav li a:hover {
   color: #ffffff;
-  padding: 0.6em 0.25em;
   background-color: #dd1e25;
   height: 100%;
 }
