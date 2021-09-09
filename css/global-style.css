@@ -1952,18 +1952,17 @@ a.menu-box:hover img {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
-  padding: 6px 12px;
+  border-radius: 30px;
+  padding: 6px 16px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
 }
 
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button:hover {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
-  outline-offset: 1px;
-  outline-style: solid;
-  outline-color: #ffffff;
-  outline-width: 1px;
+  border: 2px solid #ffffff;!important;
 }
 
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9.hs-custom-style fieldset {
