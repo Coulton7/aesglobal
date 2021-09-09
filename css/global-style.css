@@ -403,6 +403,12 @@ a .btn-social:hover {
   margin-bottom: 1em;
 }
 
+.field-installation-guide a:hover {
+  background: #004a8c;
+  color: #ffffff !important;
+  border: none !important;
+}
+
 .field-installation-guide a:before {
   font-family: 'Font Awesome 5 Free';
   content: " \f7d9  ";
