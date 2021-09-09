@@ -288,7 +288,7 @@ a.linkedin-color:hover{
 .btn {
   background-color: #e7e7e9;
   border-color: #e7e7e8 #e7e7e8 #e7e7e9;
-  border-radius: 0;
+  border-radius: 30px;
 }
 
 .btn:hover {
@@ -483,7 +483,7 @@ a.btn:hover {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
 }
 
 .btn-primary a {
@@ -510,7 +510,7 @@ a.btn:hover {
   background: #002A5B;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
   overflow: hidden;
   text-overflow: ellipsis;
   width: 100%;
@@ -529,6 +529,7 @@ a.btn:hover {
   white-space: nowrap;
   display: inline-block;
   text-overflow: ellipsis;
+  border-radius: 30px
 }
 
 a.btn-default {
@@ -1038,7 +1039,8 @@ blockquote {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
+  padding: 6px 17px;
 }
 
 .container-inline .btn {
@@ -1047,7 +1049,7 @@ blockquote {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
 }
 
 .view-api-plans .views-exposed-widgets .btn:hover,
@@ -1059,7 +1061,6 @@ blockquote {
   background: #fa010a;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
 }
 
 .container-inline .btn:hover {
@@ -1067,7 +1068,6 @@ blockquote {
   background: #fa010a;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
 }
 
 .container-inline label {
@@ -2348,13 +2348,13 @@ a.menu-box:hover img {
 
 .advance-training-btn {
   padding: 6px 16px;
-  border-radius: 22px;
+  border-radius: 30px;
   background-color: #dd1e25;
 }
 
 .advance-training-btn:hover {
   background-color: #fa101a;
-  border-radius: 22px;
+  border-radius: 30px;
 }
 
 .blue-wave {
@@ -2375,7 +2375,7 @@ a.useful-links-text:hover {
 .btn-transparent {
   background-color: transparent;
   border-color: #ffffff;
-  border-radius: 4px;
+  border-radius: 30px;
   color: #ffffff;
 }
 
@@ -2425,6 +2425,7 @@ a.btn-transparent {
   color: #ffffff;
   background-color: #03943e;
   border: none;
+  border-radius: 30px
 }
 
 .green-btn:hover {
@@ -2516,6 +2517,7 @@ a.btn-transparent-green-border {
   background: #e5e5e7;
   border: 2px solid #03943e;
   color: #535354;
+  border-radius: 30px
 }
 
 a.btn-transparent-green-border:hover {
