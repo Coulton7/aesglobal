@@ -490,6 +490,8 @@ a.btn:hover {
   color: #ffffff !important;
   border: none !important;
   border-radius: 30px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
 }
 
 .btn-primary a {
@@ -500,7 +502,7 @@ a.btn:hover {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
-
+  border: 2px solid #ffffff!important;
 }
 
 .btn-primary.disabled:hover {
