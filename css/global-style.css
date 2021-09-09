@@ -409,7 +409,7 @@ a .btn-social:hover {
   font-weight: 900;
 }
 
-.field-document img.file-icon, .field-download img.file-icon, .field-installtion-guide img.file-icon {
+.field-document img.file-icon, .field-download img.file-icon, .field-installation-guide img.file-icon {
   display: none;
 }
 
