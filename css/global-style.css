@@ -2893,6 +2893,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #dd1e25;
   background-color: transparent;
   margin-bottom: 5px;
+  border-bottom: 1px solid transparent;
+}
+
+.side-menu .nav li a.active{
+  color: #dd1e25;
+  background-color: transparent;
+  margin-bottom: 5px;
   border: 1px solid transparent;
 }
 
