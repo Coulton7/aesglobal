@@ -1050,6 +1050,7 @@ blockquote {
   color: #ffffff !important;
   border: none !important;
   border-radius: 30px;
+  padding: 6px 16px
 }
 
 .view-api-plans .views-exposed-widgets .btn:hover,
