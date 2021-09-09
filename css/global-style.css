@@ -996,7 +996,7 @@ blockquote {
 
 .container-inline div {
   display: inline-flex;
-  width: 89%;
+  width: 88%;
   white-space: nowrap;
 }
 
@@ -4275,7 +4275,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .container-inline div {
     display: inline-flex;
-    width: 89%;
+    width: 88%;
     white-space: nowrap;
   }
 
