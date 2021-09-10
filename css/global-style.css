@@ -2879,6 +2879,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
+.side-menu .block-title:before{
+  font-family: 'Font Awesome 5 Free';
+  content: "\f142  ";
+  font-weight: 900;
+}
+
 .side-menu .nav li a{
   color: #535354;
   background-color: #e5e5e5;
