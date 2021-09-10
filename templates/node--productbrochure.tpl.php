@@ -26,6 +26,7 @@
         hide($content['field_thumbnail']);
         hide($content['field_installation_guide']);
         hide($content['field_thumbnail_sq']);
+        hide($cotnent)['field_range_brochure']);
         print render($content);
         ?>
       </div>
