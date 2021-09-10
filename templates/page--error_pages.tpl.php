@@ -87,6 +87,7 @@ if(!empty($file_fid)) {
         }
     }
 }?>
+<script src="https://kit.fontawesome.com/cd139cb838.js" crossorigin="anonymous"></script>
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
 		<div class="row waveupper row-eq-height">
