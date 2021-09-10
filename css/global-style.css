@@ -2883,6 +2883,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   font-family: 'Font Awesome 5 Free';
   content: "\f142  ";
   font-weight: 900;
+  font-size: 0.75em;
+  vertical-align: bottom;
 }
 
 .side-menu .nav li a{
