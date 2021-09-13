@@ -1911,7 +1911,7 @@ a.menu-box:hover img {
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
-  background-position: right top;
+  background-position: center;
 }
 
 .rrssb-buttons li.rrssb-linkedin a, .rrssb-buttons li.rrssb-email a, .rrssb-buttons li.rrssb-twitter a {
