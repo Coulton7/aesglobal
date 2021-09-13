@@ -1906,6 +1906,14 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
+.tomwetlands-background{
+  background-image: url(https://static.aesseal.com/photo/why/TOM_BROADBENT_9739.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: right top;
+}
+
 .rrssb-buttons li.rrssb-linkedin a, .rrssb-buttons li.rrssb-email a, .rrssb-buttons li.rrssb-twitter a {
   background-color: #002a5b;
 }
