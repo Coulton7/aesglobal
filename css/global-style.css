@@ -380,7 +380,7 @@ a .btn-social:hover {
 
 .field-document a:before, .field-download a:before {
   font-family: 'Font Awesome 5 Free';
-  content: "\f019";
+  content: "\f019    ";
   font-weight: 900;
 }
 
@@ -411,7 +411,7 @@ a .btn-social:hover {
 
 .field-installation-guide a:before {
   font-family: 'Font Awesome 5 Free';
-  content: " \f7d9  ";
+  content: " \f7d9   ";
   font-weight: 900;
 }
 
