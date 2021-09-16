@@ -2925,6 +2925,28 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   height: 100%;
 }
 
+.pause-play-btn{
+  padding-top: 0.5em;
+  color: #ffffff;
+  bottom: 10.75em;
+  z-index: 2
+}
+
+.pause-play-btn button{
+  background-color: transparent;
+  border: none;
+  opacity: 0.85
+}
+
+.pause-play-btn button:disabled{
+  color: #eeeeee;
+  opacity: 0.5;
+}
+
+.start, .stop {
+  font-size: 1.75em;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
