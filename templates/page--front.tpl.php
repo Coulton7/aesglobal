@@ -91,7 +91,6 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
-<script src="/sites/all/themes/aesbs337/js/carousel-options.js"></script>
 <script src="/sites/all/themes/aesglobal/js/home-carousel-hider.js"></script>
 <script src="/sites/all/themes/aesglobal/js/shadow-drop-mobile.js"></script>
 
@@ -368,3 +367,5 @@ if(!empty($file_fid)) {
 			</div>
 	<?php endif; ?>
 </footer>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/carousel-options.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/countdown-timer.js"></script>
