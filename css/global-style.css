@@ -2944,7 +2944,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .start, .stop {
-  font-size: 1.75em;
+  font-size: 2em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
