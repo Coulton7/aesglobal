@@ -2963,6 +2963,18 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   font-size: 2em;
 }
 
+#pillar-sliders .image-highlight+.views-field.views-field-title {
+  color: #ffffff;
+}
+
+#pillar-sliders .image-highlight:hover+.views-field.views-field-title {
+  color: #dd1e25;
+}
+
+#pillar-sliders{
+  background: transparent;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
