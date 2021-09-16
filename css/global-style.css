@@ -2964,11 +2964,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 #pillar-sliders .image-highlight+.views-field.views-field-title {
-  color: #ffffff;
+  color: #e7e7e7;
 }
 
 #pillar-sliders .image-highlight:hover+.views-field.views-field-title {
-  color: #dd1e25;
+  color: #ffffff;
 }
 
 #pillar-sliders{
