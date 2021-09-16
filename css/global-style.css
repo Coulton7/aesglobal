@@ -2972,7 +2972,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 #pillar-sliders{
-  background: transparent;
+  background: transparent!important;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
