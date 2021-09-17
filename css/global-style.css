@@ -480,7 +480,12 @@ a.btn:hover {
   background: #dd1e25;
   color: #ffffff !important;
   border: none !important;
-  border-radius: 0;
+  border-radius: 30px;
+  padding: 6px 16px
+}
+
+.field-hubspot-form .hs-button:hover {
+  background: #fa101a;
 }
 
 .btn-primary {
@@ -1977,7 +1982,7 @@ a.menu-box:hover img {
   border: 2px solid #ffffff;!important;
 }
 
-.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9.hs-custom-style fieldset {
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9.hs-custom-style fieldset, .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset {
   padding: 0.5em;
 }
 
@@ -1994,6 +1999,29 @@ a.menu-box:hover img {
     border: 1px solid #535354;
     padding: 0 8px;
     width: 100%;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset.form-columns-2 div:first-child .input {
+  margin-right: 0.5em;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset.form-columns-2 div:last-child .input {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca_d4836279-afcf-4b39-9f85-3ebd31255fc8 .hs-button{
+  color: #ffffff;
+  padding: 6px 16px;
+  background-color: #dd1e25;
+  border-radius: 30px;
+  margin-bottom: 1em;
+  border: 1px solid #dd1e25;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca_d4836279-afcf-4b39-9f85-3ebd31255fc8 .hs-button:hover{
+  background-color: #fa101a;
+  border: 1px solid #fa101a;
 }
 
 .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list{
