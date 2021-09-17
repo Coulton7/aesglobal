@@ -1989,6 +1989,25 @@ a.menu-box:hover img {
   width: 95%;
 }
 
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]) {
+    border-radius: 4px;
+    border: 1px solid #535354;
+    padding: 0 8px;
+    width: 100%;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list{
+  padding: 0 0.5em;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li::marker{
+  color: transparent;
+}
+
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li input[type=checkbox]{
+  margin: 0.4em 0 0;
+}
+
 .hs-error-msg {
   color: #dd1e25;
 }
