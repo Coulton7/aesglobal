@@ -2268,6 +2268,12 @@ a.btn-transparent{
   height: 100%;
 }
 
+.side-menu .nav li a.active{
+  color: #dd1e25;
+  background-color: transparent;
+  border: 1px solid transparent;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
