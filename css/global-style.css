@@ -2255,6 +2255,19 @@ a.btn-transparent{
   opacity: 0;
 }
 
+.side-menu .nav li a {
+  color: #535354;
+  background-color: #e5e5e5;
+  height: 100%;
+  border-bottom: 1px solid #ffffff;
+}
+
+.side-menu .nav li a:hover{
+  color: #ffffff;
+  background-color: #dd1e25;
+  height: 100%;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
     .carousel-fade .carousel-inner > .item.next,
     .carousel-fade .carousel-inner > .item.active.right {
