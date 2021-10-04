@@ -3282,6 +3282,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .sustainability-advert img, .sustainability-advert-home img, , .rel-logos-wave img {
     max-width: 75%;
   }
+
+  .slider-timer{
+    bottom: 4.25em;
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
