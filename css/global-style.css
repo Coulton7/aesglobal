@@ -2974,6 +2974,42 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   height: 100%;
 }
 
+.base-timer {
+  position: relative;
+  width: 150px;
+  height: 150px;
+}
+
+/* scaleX(1) = CLOCKWISE, scaleX(-1) = ANTI-CLOCKWISE */
+.base-timer__svg {
+  transform: scaleX(1);
+}
+
+.base-timer__circle {
+  fill: none;
+  stroke: none;
+}
+
+.base-timer__path-elapsed {
+  stroke-width: 7px;
+  stroke: #888C8F;
+}
+
+.base-timer__path-remaining {
+  stroke-width: 7px;
+  stroke-linecap: square;
+  -webkit-transform-origin: center;
+  transform-origin: center;
+  transform-box: fill-box;
+  transition: 1s linear all;
+  fill-rule: nonzero;
+  stroke: currentColor;
+}
+
+.base-timer__path-remaining.arc {
+  color: #002a5b;
+}
+
 .slider-timer{
   position: absolute;
   left: 1em;
