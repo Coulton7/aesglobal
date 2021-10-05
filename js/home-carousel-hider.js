@@ -1,6 +1,6 @@
 (function($) {
   $(document).ready(function() {
-    $('#carousel-fade').on('slid.bs.carousel', 'load', function() {
+    $('#carousel-fade').on('slid.bs.carousel', function() {
       var carouselData = $(this).data('bs.carousel');
       var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
       var total = carouselData.$items.length;
