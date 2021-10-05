@@ -5,7 +5,7 @@
       var currentIndex = carouselData.getItemIndex(carouselData.$element.find('.item.active'));
       var total = carouselData.$items.length;
       var slide = (currentIndex + 1);
-      if (slide === 4) {
+      if (slide === 1) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
           if ($(window).width() < 767) {
@@ -47,7 +47,7 @@
             $('.why-media-carousel').find('.mob-slide').removeClass('item active');
           }
         }
-      } else if (slide === 1) {
+      } else if (slide === 2) {
         if ($('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').removeClass('display-none');
           if ($(window).width() < 767) {
@@ -89,7 +89,7 @@
             $('.why-media-carousel').find('.mob-slide').removeClass('item active');
           }
         }
-      } else if (slide === 2) {
+      } else if (slide === 3) {
         if ($('.cust-media-carousel').hasClass('display-none')) {
           $('.cust-media-carousel').removeClass('display-none');
           if ($(window).width() < 767) {
@@ -131,7 +131,7 @@
             $('.why-media-carousel').find('.mob-slide').removeClass('item active');
           }
         }
-      } else if (slide === 3) {
+      } else if (slide === 4) {
         if ($('.why-media-carousel').hasClass('display-none')) {
           $('.why-media-carousel').removeClass('display-none');
           if ($(window).width() < 767) {
