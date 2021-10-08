@@ -285,6 +285,18 @@ a.linkedin-color:hover{
   color: #006ba2;
 }
 
+.youtube-color {
+  color: #FF0000;
+}
+
+a.youtube-color {
+  color: #FF0000;
+}
+
+a.youtube-color:hover {
+  color: #FF2727;
+}
+
 .btn {
   background-color: #e7e7e9;
   border-color: #e7e7e8 #e7e7e8 #e7e7e9;
