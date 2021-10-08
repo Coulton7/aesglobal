@@ -358,7 +358,7 @@ if(!empty($file_fid)) {
   <?php if (!empty($page['footer_banner'])): ?>
 		<div class="container-fluid">
 			<div class="row">
-				<div class="footer_banner">
+				<div class="iceberg-footer-banner footer_banner">
 					<?php print render($page['footer_banner']); ?>
 				</div>
 			</div>
