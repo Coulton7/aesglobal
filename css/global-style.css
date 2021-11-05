@@ -829,6 +829,14 @@ blockquote {
   float: right;
 }
 
+.lang-switch .chosen-container-single .chosen-single span {
+  margin-right: 26px;
+}
+
+.chosen-container-single .chosen-single span {
+  margin-right: 0;
+}
+
 .field-hubspot-form input {
   color: #535354;
 }
