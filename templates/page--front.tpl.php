@@ -91,6 +91,7 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
+<script src="/sites/all/themes/aesbs337/js/init-bs.js"></script>
 <script src="/sites/all/themes/aesglobal/js/home-carousel-hider.js"></script>
 <script src="/sites/all/themes/aesglobal/js/shadow-drop-mobile.js"></script>
 
