@@ -1075,6 +1075,14 @@ blockquote {
   padding: 6px 17px;
 }
 
+.view-all-product-brochure-resources .views-exposed-widgets .views-widget-filter-delta .views-widget .bef-select-as-radios {
+  display: flex;
+}
+
+.view-all-product-brochure-resources .views-exposed-widgets .views-widget-filter-delta .views-widget .bef-select-as-radios .radio+.radio {
+  margin-top: 0;
+}
+
 .container-inline .btn {
   list-style-type: none;
   display: inline-flex;
