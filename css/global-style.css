@@ -3027,8 +3027,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .base-timer__path-elapsed {
-  stroke-width: 7px;
-  stroke: #888C8F;
+  stroke-width: 6.5px;
+  stroke: #ffffff;
 }
 
 .base-timer__path-remaining {
@@ -3043,7 +3043,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .base-timer__path-remaining.arc {
-  color: #002a5b;
+  color: rgba(0, 0, 0, 0.8);
 }
 
 .slider-timer{
