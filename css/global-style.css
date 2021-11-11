@@ -3791,7 +3791,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active {
     width: 48%;
-    margin-right: 0;
+    margin-right: 0.25em;
+    margin-left: 0.25em;
     padding: 1em;
     justify-content: center;
   }
