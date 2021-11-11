@@ -3790,9 +3790,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active {
-    width: 49%;
+    width: 48%;
     margin-right: 0;
     padding: 1em;
+    justify-content: center;
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
