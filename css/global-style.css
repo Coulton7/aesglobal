@@ -3837,7 +3837,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mobile-carousel-caption {
-    bottom: 6em;
+    bottom: 8em;
     position: relative;
     transform: translateY(0);
   }
