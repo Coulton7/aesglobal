@@ -3956,6 +3956,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     left: -1.9em;
     top: -1.8em;
   }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-520.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+  }
+
+  .virtual-tour-logo {
+    max-width: 50%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4457,6 +4468,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .pause-play-btn{
     bottom: 5.25em;
   }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -4774,6 +4796,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .pause-play-btn{
     bottom: 6.2em;
   }
+
+  .virtual-tour-banner {
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-background-1920.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -4938,6 +4971,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .pause-play-btn{
     bottom: 5.75em;
+  }
+
+  .virtual-tour-logo {
+    max-width: 33%;
   }
 }
 
