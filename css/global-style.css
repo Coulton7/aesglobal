@@ -4585,11 +4585,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .virtual-tour:hover {
-    background-image: url(/sites/aesseal.com/files/sidebar/360-panel-desktop-over.png);
-    background-size: 100%;
+    background-image: url("/sites/all/themes/aesbs337/images/graphics/360-tour-inverse-over.svg");
+    background-size: 50%;
     opacity: 1;
     background-repeat: no-repeat;
-    background-position: 100% 24%;
+    background-position: 50%;
   }
 
   .virtual-tour:hover img {
