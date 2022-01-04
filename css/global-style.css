@@ -942,7 +942,7 @@ blockquote {
   margin-top: 0;
 }
 
-.search-block .btn {
+.search-block .btn, .views-search-block .btn, .page-search-block .btn {
   border-radius: 30px;
 }
 
