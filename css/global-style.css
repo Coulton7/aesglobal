@@ -946,6 +946,10 @@ blockquote {
   border-radius: 30px;
 }
 
+.views-search-block {
+  padding-top: 0.1em;
+}
+
 .page-search-block {
   float: initial!important;
   margin: 0;
@@ -3273,6 +3277,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 26.2em;
   }
 
+  .views-search-block {
+    top: 23.2em;
+  }
+
   .front .search-block {
     top: 5.2em;
   }
@@ -3993,6 +4001,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .virtual-tour-logo {
     max-width: 50%;
   }
+
+  .views-search-block {
+    padding-top: 0.1em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4508,6 +4520,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .virtual-tour-logo {
     max-width: 33%;
+  }
+
+  .views-search-block {
+    padding-top: 0.15em;
   }
 }
 
