@@ -3558,6 +3558,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-top: 0.5em;
   }
 
+  .views-search-block .form-item {
+    width: 80%;
+    float: right;
+  }
+
   .search-block .form-item {
     width: 55%;
   }
@@ -4040,6 +4045,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .view-global-national-news .view-content .views-row.views-row-even {
     clear: right;
+  }
+
+  .views-search-block .form-item {
+    width: 100%
   }
 
   .search-block .form-item {
