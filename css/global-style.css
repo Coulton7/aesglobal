@@ -2380,11 +2380,11 @@ a.menu-box:hover img {
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4) {
-  background-image: url(https://static.aesseal.com/photo/why/DJI_0011.jpg);
+  background-image: url(https://static.aesseal.com/photo/alt/Product-info3.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   padding-top: 9em;
-  background-position: bottom center;
+  background-position: center center;
 }
 
 #carousel-fade .carousel-inner .item {
