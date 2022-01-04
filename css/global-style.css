@@ -946,6 +946,31 @@ blockquote {
   border-radius: 30px;
 }
 
+.page-search-block {
+  float: initial!important;
+  margin: 0;
+  width: 100%;
+  display: block;
+  height: 100%;
+}
+
+.page-search-block .views-exposed-widgets{
+  display: block;
+}
+
+.page-search-block .form-item {
+  width: 100%;
+}
+
+.page-search-block .form-control {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.page-search-block .btn {
+  border-radius: 30px;
+}
+
 .views-exposed-form .views-exposed-widget {
   display: flex;
   justify-content: center;
