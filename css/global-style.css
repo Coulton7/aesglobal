@@ -967,10 +967,6 @@ blockquote {
   color: #ffffff;
 }
 
-.page-search-block .btn {
-  border-radius: 30px;
-}
-
 .views-exposed-form .views-exposed-widget {
   display: flex;
   justify-content: center;
