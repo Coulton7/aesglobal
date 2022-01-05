@@ -4033,7 +4033,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .front .fade_text {
-    color: #ffffff;
+    display: none;
   }
 }
 
