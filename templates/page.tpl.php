@@ -110,7 +110,7 @@ if(!empty($file_fid)) {
 			</div>
 
 			<div class="col-md-10 col-xs-12 fullscreen">
-				<header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
+				<header id="autocollapse" role="banner" class="<?php print $navbar_classes; ?>">
 
 					<div class="<?php print $container_class; ?>">
 						<div class="navbar-header">
