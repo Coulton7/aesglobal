@@ -976,6 +976,13 @@ blockquote {
   justify-content: center;
 }
 
+.views-search-block {
+  margin: 0 0 0 1.25em;
+  padding-left: 1.1em;
+  padding-right: 1.1em;
+  width: 25em;
+}
+
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
