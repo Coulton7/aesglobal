@@ -3126,6 +3126,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 100%;
 }
 
+.front .social-id{
+  position: absolute;
+  top: 3.8em;
+  z-index: 1034;
+  width: 100%;
+  right: 1em;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
@@ -4005,6 +4016,25 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .views-search-block {
     padding-top: 0.1em;
   }
+
+  .front .social-id p:nth-child(1) {
+    position: relative;
+    right: 62%;
+  }
+
+  .front .social-id p:nth-child(2) {
+    position: relative;
+    left: 52%;
+  }
+
+  .front .social-id p:nth-child(3) {
+    position: relative;
+    right: 13%;
+  }
+
+  .front .fade_text {
+    color: #ffffff;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4524,6 +4554,25 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .views-search-block {
     padding-top: 0.15em;
+  }
+
+  .front .social-id p:nth-child(1) {
+    position: relative;
+    right: auto;
+  }
+
+  .front .social-id p:nth-child(2) {
+    position: relative;
+    left: auto;
+  }
+
+  .front .social-id p:nth-child(3) {
+    position: relative;
+    right: auto;
+  }
+
+  .front .fade_text {
+    color: #ffffff;
   }
 }
 
