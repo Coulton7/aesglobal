@@ -983,6 +983,15 @@ blockquote {
   width: 25em;
 }
 
+.view-search .views-row-odd {
+  background-color: #f4f4f4;
+  padding: 0.5em;
+}
+
+.view-search .views-row-even {
+  padding: 0.5em;
+}
+
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
