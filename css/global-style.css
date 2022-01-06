@@ -554,7 +554,7 @@ a.btn:hover {
 }
 
 a.btn-default {
-  border-bottom: none;
+  border: none;
   color: #535354
 }
 
