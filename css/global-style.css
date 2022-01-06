@@ -559,7 +559,7 @@ a.btn-default {
 }
 
 a.btn-default:hover {
-  border-bottom: none;
+  border: none;
 }
 
 .pagination>li>a {
