@@ -4585,12 +4585,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .social-id p:nth-child(2) {
     position: relative;
+    right: 8%;
     left: auto;
   }
 
   .front .social-id p:nth-child(3) {
     position: relative;
-    right: auto;
+    right: 3%;
   }
 
   .front .fade_text {
