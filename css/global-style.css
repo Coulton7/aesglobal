@@ -983,6 +983,10 @@ blockquote {
   width: 25em;
 }
 
+.view-search .list-row {
+  border-bottom: 4px #e5e5e7 solid;
+}
+
 .view-search .views-row-odd {
   background-color: #f4f4f4;
   padding: 1em 0.5em;
