@@ -261,27 +261,27 @@ a.no-underline :hover {
   color: #bd4030;
 }
 
-a.twitter-color{
+a.twitter-color {
   color: #1da1f2;
 }
 
-.twitter-color{
+.twitter-color {
   color: #1da1f2;
 }
 
-a.twitter-color:hover{
+a.twitter-color:hover {
   color: #1a90d9;
 }
 
-a.linkedin-color{
+a.linkedin-color {
   color: #0077b5;
 }
 
-.linkedin-color{
+.linkedin-color {
   color: #0077b5;
 }
 
-a.linkedin-color:hover{
+a.linkedin-color:hover {
   color: #006ba2;
 }
 
@@ -506,7 +506,7 @@ a.btn:hover {
   background: #dd1e25;
   color: #ffffff !important;
   border-radius: 30px;
-  border: 2px solid transparent!important;
+  border: 2px solid transparent !important;
   box-shadow: none;
 }
 
@@ -518,7 +518,7 @@ a.btn:hover {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
-  border: 2px solid #ffffff!important;
+  border: 2px solid #ffffff !important;
 }
 
 .btn-primary.disabled:hover {
@@ -951,14 +951,14 @@ blockquote {
 }
 
 .page-search-block {
-  float: initial!important;
+  float: initial !important;
   margin: 0;
   width: 100%;
   display: block;
   height: 100%;
 }
 
-.page-search-block .views-exposed-widgets{
+.page-search-block .views-exposed-widgets {
   display: block;
 }
 
@@ -966,7 +966,7 @@ blockquote {
   width: 100%;
 }
 
-.page-search-block .form-control, .views-search-block .form-control{
+.page-search-block .form-control, .views-search-block .form-control {
   background-color: #000000;
   color: #ffffff;
 }
@@ -1988,7 +1988,7 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
-.tomwetlands-background{
+.tomwetlands-background {
   background-image: url(https://static.aesseal.com/photo/why/TOM_BROADBENT_9739.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -2048,7 +2048,7 @@ a.menu-box:hover img {
   border: none !important;
   border-radius: 30px;
   padding: 6px 16px;
-  border: 2px solid transparent!important;
+  border: 2px solid transparent !important;
   box-shadow: none;
 }
 
@@ -2056,7 +2056,8 @@ a.menu-box:hover img {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
-  border: 2px solid #ffffff;!important;
+  border: 2px solid #ffffff;
+   !important;
 }
 
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b.hs-custom-style fieldset, .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9.hs-custom-style fieldset, .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset {
@@ -2072,10 +2073,10 @@ a.menu-box:hover img {
 }
 
 .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset input:not([type=image]):not([type=submit]):not([type=button]):not([type=radio]):not([type=checkbox]):not([type=file]) {
-    border-radius: 4px;
-    border: 1px solid #535354;
-    padding: 0 8px;
-    width: 100%;
+  border-radius: 4px;
+  border: 1px solid #535354;
+  padding: 0 8px;
+  width: 100%;
 }
 
 .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset.form-columns-2 div:first-child .input {
@@ -2087,7 +2088,7 @@ a.menu-box:hover img {
   margin-right: 0;
 }
 
-.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca .hs-button{
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca .hs-button {
   color: #ffffff;
   padding: 6px 16px;
   background-color: #dd1e25;
@@ -2096,20 +2097,20 @@ a.menu-box:hover img {
   border: 1px solid #dd1e25;
 }
 
-.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca .hs-button:hover{
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca .hs-button:hover {
   background-color: #fa101a;
   border: 1px solid #fa101a;
 }
 
-.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list{
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list {
   padding: 0 0.5em;
 }
 
-.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li::marker{
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li::marker {
   color: transparent;
 }
 
-.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li input[type=checkbox]{
+.hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li input[type=checkbox] {
   margin: 0.4em 0 0;
 }
 
@@ -2719,7 +2720,7 @@ a.btn-transparent-green-border:hover {
   background-color: rgba(255, 255, 255, 1);
   border-radius: 20px;
   position: relative;
-  background: linear-gradient(to bottom,rgba(255,255,255,1) 12%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.35%,rgba(0,41,91,1) 48.35%,rgba(0,42,91,1) 100%);
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 48.35%, rgba(0, 41, 91, 1) 48.35%, rgba(0, 42, 91, 1) 100%);
   padding: 1em 2em;
 }
 
@@ -2754,7 +2755,7 @@ a.btn-transparent-green-border:hover {
   color: #dd1e25;
 }
 
-.mob-carousel .inner{
+.mob-carousel .inner {
   width: 100%;
   position: relative;
   overflow: hidden;
@@ -2892,13 +2893,13 @@ a.btn-transparent-green-border:hover {
   opacity: 1;
 }
 
-.carousel-btn-right{
+.carousel-btn-right {
   position: relative;
   top: 0em;
   left: 0.1em;
 }
 
-.carousel-btn-left{
+.carousel-btn-left {
   position: relative;
   top: 0em;
   right: 0.1em;
@@ -2927,8 +2928,8 @@ a.btn-transparent-green-border:hover {
   border: 1px solid transparent;
 }
 
-.shadow-box-tabs .nav-tabs li.active a:hover{
-  border:1px solid transparent;
+.shadow-box-tabs .nav-tabs li.active a:hover {
+  border: 1px solid transparent;
 }
 
 .shadow-box-tabs .nav-tabs li {
@@ -3004,7 +3005,7 @@ a.btn-transparent-green-border:hover {
   opacity: 0;
 }
 
-.customer-focus-quote{
+.customer-focus-quote {
   padding-top: 15em;
   padding-bottom: 13em;
   color: #ffffff;
@@ -3015,19 +3016,19 @@ a.btn-transparent-green-border:hover {
   transition: all ease-in-out 0.3s;
 }
 
-.media-carousel:hover + .carousel-controls .left {
+.media-carousel:hover+.carousel-controls .left {
   left: 0.5em;
 }
 
-.media-carousel:hover + .carousel-controls .right {
-  right: 0.5em!important;
+.media-carousel:hover+.carousel-controls .right {
+  right: 0.5em !important;
 }
 
 blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
-.side-menu .block-title:before{
+.side-menu .block-title:before {
   font-family: 'Font Awesome 5 Free';
   content: "\f142  ";
   font-weight: 900;
@@ -3035,7 +3036,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   vertical-align: bottom;
 }
 
-.side-menu .nav li a{
+.side-menu .nav li a {
   color: #535354;
   background-color: #e5e5e5;
   height: 100%;
@@ -3049,7 +3050,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   border-bottom: 1px solid transparent;
 }
 
-.side-menu .nav li a.active{
+.side-menu .nav li a.active {
   color: #dd1e25;
   background-color: transparent;
   border: 1px solid transparent;
@@ -3097,7 +3098,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: rgba(0, 0, 0, 0.8);
 }
 
-.slider-timer{
+.slider-timer {
   position: absolute;
   left: 1em;
   bottom: 0;
@@ -3110,23 +3111,22 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   position: relative;
 }
 
-.pause-play-btn{
+.pause-play-btn {
   padding-top: 0.5em;
   color: #ffffff;
   bottom: 10.75em;
   z-index: 2
 }
 
-.pause-play-btn button{
+.pause-play-btn button {
   background-color: transparent;
   color: #ffffff;
   border: none;
   left: 0.5em;
-  opacity: 0.5
-  padding: 0 0.25em;
+  opacity: 0.5 padding: 0 0.25em;
 }
 
-.pause-play-btn button:disabled{
+.pause-play-btn button:disabled {
   color: #ffffff;
   opacity: 0.85;
   cursor: not-allowed;
@@ -3144,15 +3144,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   color: #ffffff;
 }
 
-#pillar-sliders{
-  background: transparent!important;
+#pillar-sliders {
+  background: transparent !important;
 }
 
 .image-highlight img {
   width: 100%;
 }
 
-.front .social-id{
+.front .social-id {
   position: absolute;
   top: 3.8em;
   z-index: 1034;
@@ -3307,6 +3307,116 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
+.spin-1, .spin-2, .spin-3, .spin-4 {
+  animation: spin linear 3s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  position: absolute;
+  color: #fff;
+  bottom: 0;
+}
+
+.spin-2 {
+  animation-delay: 2.75s
+}
+
+.spin-3 {
+  animation-delay: 5.5s
+}
+
+.spin-4 {
+  animation-delay: 8.25s
+}
+
+@keyframes spin {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    ;
+  }
+
+  25% {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    ;
+  }
+
+  75% {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    ;
+  }
+
+  100% {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+  }
+}
+
+.title {
+  animation: title linear 3s;
+  animation-delay: 11s;
+  visibility: hidden;
+  animation-fill-mode: forwards;
+  position: relative;
+}
+
+@keyframes title {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+    position: relative;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+    position: relative;
+  }
+}
+
+.banner-fade, .banner-fade img {
+  animation: bannerFadeOut 14.25s;
+  -webkit-animation: bannerFadeOut 14.25s;
+  -moz-animation: bannerFadeOut 14.25s;
+  -ms-animation: bannerFadeOut 14.25s;
+  -o-animation: bannerFadeOut 14.25s;
+  visibility: hidden;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  height: 100%;
+  width: 100%;
+  mix-blend-mode: multiply;
+  filter: grayscale(100%);
+}
+
+@keyframes bannerFadeOut {
+  0% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  60% {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  85% {
+    opacity: 0;
+    visibility: hidden;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
 @media screen and (max-width:370px) {
   .search-block {
     margin: 0 0 0 -3.9em;
@@ -3386,7 +3496,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     max-width: 75%;
   }
 
-  .slider-timer{
+  .slider-timer {
     bottom: 4.25em;
   }
 }
@@ -3835,7 +3945,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     font-size: 1.5em;
   }
 
-  .footer-social-icons a i:first-child{
+  .footer-social-icons a i:first-child {
     padding-left: 0.5em
   }
 
@@ -3958,7 +4068,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     opacity: 0.5;
   }
 
-  .media-carousel .item img{
+  .media-carousel .item img {
     margin: 0 auto;
   }
 
@@ -3997,7 +4107,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 3em;
   }
 
-  blockquote.customer-focus-quote:before{
+  blockquote.customer-focus-quote:before {
     top: 0;
     left: 0;
     position: relative;
@@ -4005,11 +4115,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .customer-focus-quote, .image-quote {
     font-size: 19px;
-    line-height:30px;
+    line-height: 30px;
     background-position: 85% 50%;
   }
 
-  blockquote.image-quote{
+  blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
   }
@@ -4023,7 +4133,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 5.25em;
   }
 
-  blockquote.image-quote::before{
+  blockquote.image-quote::before {
     left: -1.9em;
     top: -1.8em;
   }
@@ -4507,7 +4617,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-bottom: 0.5em;
   }
 
-  .red-tile-height{
+  .red-tile-height {
     max-height: 68%;
     height: 100%;
   }
@@ -4531,7 +4641,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 0;
   }
 
-  blockquote.customer-focus-quote:before{
+  blockquote.customer-focus-quote:before {
     top: 0;
     left: 0;
     position: relative;
@@ -4543,12 +4653,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-position: right top;
   }
 
-  blockquote.image-quote{
+  blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
   }
 
-  blockquote.image-quote::before{
+  blockquote.image-quote::before {
     left: -1.8em;
     top: -1.3em;
   }
@@ -4563,7 +4673,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 7.5em;
   }
 
-  .pause-play-btn{
+  .pause-play-btn {
     bottom: 5.25em;
   }
 
@@ -4855,7 +4965,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 20%;
   }
 
-  .red-tile-height{
+  .red-tile-height {
     max-height: 67%;
     height: 100%;
   }
@@ -4892,15 +5002,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .customer-focus-quote {
     font-size: 27px;
-    line-height:29px;
+    line-height: 29px;
   }
 
-  blockquote.image-quote{
+  blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
   }
 
-  blockquote.image-quote::before{
+  blockquote.image-quote::before {
     left: -1.8em;
     top: -1.3em;
   }
@@ -4915,7 +5025,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 9em;
   }
 
-  .pause-play-btn{
+  .pause-play-btn {
     bottom: 6.2em;
   }
 
@@ -5034,7 +5144,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 35%;
   }
 
-  .red-tile-height{
+  .red-tile-height {
     max-height: 70%;
     height: 100%;
   }
@@ -5065,19 +5175,19 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .customer-focus-quote, .image-quote {
     font-size: 28px;
-    line-height:30px;
+    line-height: 30px;
   }
 
-  .shadow-container{
-    background: linear-gradient(to bottom,rgba(255,255,255,1) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.35%,rgba(0,41,91,1) 48.35%,rgba(0,42,91,1) 100%)
+  .shadow-container {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 48.35%, rgba(0, 41, 91, 1) 48.35%, rgba(0, 42, 91, 1) 100%)
   }
 
-  blockquote.image-quote{
+  blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
   }
 
-  blockquote.image-quote::before{
+  blockquote.image-quote::before {
     left: -1.8em;
     top: -1.3em;
   }
@@ -5091,7 +5201,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 8.5em;
   }
 
-  .pause-play-btn{
+  .pause-play-btn {
     bottom: 5.75em;
   }
 
@@ -5129,7 +5239,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-bottom: 22em;
   }
 
-  blockquote.image-quote::before{
+  blockquote.image-quote::before {
     left: -1.8em;
     top: -1.3em;
   }
@@ -5162,7 +5272,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 35%;
   }
 
-  .red-tile-height{
+  .red-tile-height {
     max-height: 83%;
     height: 100%;
   }
@@ -5191,11 +5301,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 0;
   }
 
-  .shadow-container{
-    background: linear-gradient(to bottom,rgba(255,255,255,1) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 48.45%,rgba(0,41,91,1) 48.45%,rgba(0,42,91,1) 100%)
+  .shadow-container {
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 48.45%, rgba(0, 41, 91, 1) 48.45%, rgba(0, 42, 91, 1) 100%)
   }
 
-  blockquote.image-quote{
+  blockquote.image-quote {
     left: -1.9em;
     top: -1.1em;
   }
@@ -5231,7 +5341,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 35%;
   }
 
-  .red-tile-height{
+  .red-tile-height {
     max-height: 88%;
     height: 100%;
   }
@@ -5271,7 +5381,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .aspect-ratio-padding {
     padding-bottom: 62.5%;
   }
-  .aspect-ratio-padding-even{
+
+  .aspect-ratio-padding-even {
     padding-top: 31.25%;
     padding-bottom: 31.25%;
   }
@@ -5281,7 +5392,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .aspect-ratio-padding {
     padding-bottom: 66.66%;
   }
-  .aspect-ratio-padding-even{
+
+  .aspect-ratio-padding-even {
     padding-top: 33.33%;
     padding-bottom: 33.33%;
   }
@@ -5291,7 +5403,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .aspect-ratio-padding {
     padding-bottom: 75%;
   }
-  .aspect-ratio-padding-even{
+
+  .aspect-ratio-padding-even {
     padding-top: 32.5%;
     padding-bottom: 32.5%;
   }
@@ -5301,7 +5414,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .aspect-ratio-padding {
     padding-bottom: 56.25%;
   }
-  .aspect-ratio-padding-even{
+
+  .aspect-ratio-padding-even {
     padding-top: 28.13%;
     padding-bottom: 28.12%;
   }
