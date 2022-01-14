@@ -980,6 +980,15 @@ blockquote {
   justify-content: center;
 }
 
+.page-search-block .views-exposed-form .views-exposed-widget .form-submit {
+  padding: 6px 12px;
+  height: 34px;
+  display: inline;
+  bottom: 1px;
+  line-height: 5px;
+  left: 0.3em;
+}
+
 .views-search-block {
   margin: 0 0 0 1.25em;
   padding-left: 1.1em;
