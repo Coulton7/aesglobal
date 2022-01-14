@@ -62,6 +62,15 @@ function aesglobal_theme(){
 	return $items;
 }
 
+function aesglobal_form_alter(&$form, &$form_state, &$form_id){
+  if($form_id = 'search_api_views_fulltext') {
+    $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Enter your keywords');
+  }
+  if($form_id = 'search_api_views_fulltext') {
+    $form['search_api_views_fulltext']['#attributes']['placeholder'] = t('Enter your keywords');
+  }
+}
+
 function aesglobal_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
