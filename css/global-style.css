@@ -971,6 +971,10 @@ blockquote {
   color: #ffffff;
 }
 
+.search-block .views-exposed-form .views-exposed-widget {
+  padding: 0.25em 1em 0 0;
+}
+
 .views-exposed-form .views-exposed-widget {
   display: flex;
   justify-content: center;
