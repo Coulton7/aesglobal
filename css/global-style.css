@@ -3713,7 +3713,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-top: 0.5em;
   }
 
-  .views-search-block .form-item {
+  .search-block.views-search-block .form-item {
     width: 80%;
     float: right;
   }
@@ -4225,7 +4225,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     clear: right;
   }
 
-  .views-search-block .form-item {
+  .search-block.views-search-block .form-item {
     width: 100%
   }
 
