@@ -989,6 +989,11 @@ blockquote {
   left: 0.3em;
 }
 
+.page-search-block .views-exposed-form .views-exposed-widget .form-submit:hover {
+  border: 2px solid #fa010a!important;
+  background-color: #fa010a;
+}
+
 .views-search-block {
   margin: 0 0 0 1.25em;
   padding-left: 1.1em;
