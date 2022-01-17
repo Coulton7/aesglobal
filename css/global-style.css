@@ -3731,13 +3731,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-top: 0.5em;
   }
 
+  .search-block .form-item {
+    width: 55%;
+  }
+
   .search-block.views-search-block .form-item {
     width: 80%;
     float: right;
-  }
-
-  .search-block .form-item {
-    width: 55%;
   }
 
   .social-media ul li {
@@ -4777,6 +4777,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 56%;
   }
 
+  .views-search-block .form-item {
+    width: 100%;
+  }
+
   .view-global-national-news .view-content .views-row.views-row-odd, .home-news .view-content .views-row.views-row-odd {
     clear: none;
   }
@@ -5087,6 +5091,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .search-block .form-item {
     width: 57%;
+  }
+
+  .views-search-block .form-item {
+    width: 100%;
   }
 
   .action-menu {
