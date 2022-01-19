@@ -91,6 +91,7 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
+<script src="/sites/all/themes/aesglobal/js/facet-empty-hider.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
