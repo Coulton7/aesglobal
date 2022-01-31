@@ -3384,7 +3384,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
-.title {
+.page-title {
   animation: title linear 3s;
   animation-delay: 11s;
   visibility: hidden;
