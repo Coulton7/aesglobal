@@ -3171,6 +3171,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   flex-wrap: wrap;
 }
 
+.view-pillar-sliders .views-exposed-form .views-widget .bef-select-as-radios .radio+.radio{
+  margin-top: 0;
+}
+
 .image-highlight img {
   width: 100%;
 }
