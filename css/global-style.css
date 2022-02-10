@@ -3190,11 +3190,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   flex-wrap: wrap;
 }
 
-.article-link-adress {
+.Article-link-adress {
   display: none;
 }
 
-.announcements-link {
+.Announcements-link {
   display: none;
 }
 
