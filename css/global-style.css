@@ -3190,6 +3190,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   flex-wrap: wrap;
 }
 
+.article-link-adress {
+  display: none;
+}
+
+.announcements-link {
+  display: none;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
