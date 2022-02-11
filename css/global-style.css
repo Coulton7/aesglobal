@@ -3204,6 +3204,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .Announcements-body {
   background-color: #efefef;
+  padding: 0.5em 1em 0.5em 1em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
