@@ -3198,6 +3198,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   display: none;
 }
 
+.masonry-item .views-field-title .field-content.Announcements-title {
+  background-color: #efefef;
+}
+
+.Announcements-body {
+  background-color: #efefef;
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
