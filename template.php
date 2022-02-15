@@ -63,10 +63,10 @@ function aesglobal_theme(){
 }
 
 function aesglobal_form_alter(&$form, &$form_state, &$form_id){
-  if($form_id = 'search_api_views_fulltext') {
+  if($form_id = 'qs') {
     $form['qs']['#attributes']['placeholder'] = t('Enter your keywords');
   }
-  if($form_id = 'search_api_views_fulltext') {
+  if($form_id = 'qs') {
     $form['qs']['#attributes']['placeholder'] = t('Enter your keywords');
   }
 }
