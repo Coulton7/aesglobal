@@ -3188,6 +3188,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   flex-wrap: wrap;
 }
 
+.front .region-preface-lower {
+  background: linear-gradient(linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%));
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#002a5b',GradientType=0);
+}
+
 .Article-link-adress {
   display: none;
 }
@@ -4577,7 +4584,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     transform: translate(8%, -50%);
     position: relative;
-    bottom: 4em;
+    bottom: 6.5em;
     z-index: 1032;
   }
 
@@ -4871,6 +4878,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .virtual-tour:hover img {
     opacity: 0;
+  }
+
+  .envirologo-container {
+    transform: translate(8%, -50%);
+    position: relative;
+    bottom: 4em;
+    z-index: 1032;
   }
 
   .net-zero-container:hover {
