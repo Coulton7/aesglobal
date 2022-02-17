@@ -966,7 +966,7 @@ blockquote {
   width: 100%;
 }
 
-.page-search-block .form-control, .views-search-block .form-control {
+ .views-search-block .form-control {
   background-color: #000000;
   color: #ffffff;
 }
