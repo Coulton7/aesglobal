@@ -4876,13 +4876,18 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .net-zero-container:hover {
-    background-image: url(/sites/all/themes/aesbs337/images/logos/Net-Zero-Logo.svg);
+    background-image: url(https://static.aesseal.com/graphics/net-zero-logo.svg);
     background-repeat: no-repeat;
     background-position: 24% 100%;
-    background-size: 64%;
   }
 
-  .net-zero-container:hover img {
+  .container-29by29:hover {
+    background-image: url(https://static.aesseal.com/graphics/29x29-logo.svg);
+    background-repeat: no-repeat;
+    background-position: 24% 100%;
+  }
+
+  .net-zero-container:hover img, .container-29by29:hover img {
     opacity: 0;
   }
 
