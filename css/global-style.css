@@ -4759,6 +4759,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .front .fade_text {
     color: #ffffff;
   }
+
+  .page-search-block .views-exposed-form .views-exposed-widget {
+    display: block;
+    width: 78%;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -5094,6 +5099,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .virtual-tour-logo {
     max-width: 33%;
+  }
+
+  .page-search-block .views-exposed-form .views-exposed-widget {
+    display: block;
+    width: 80%;
   }
 }
 
