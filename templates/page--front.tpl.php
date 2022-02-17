@@ -170,7 +170,7 @@ if(!empty($file_fid)) {
 		</div>
 	<?php endif; ?>
 
-  <section class="preface front__flex-margin blue-background-np">
+  <section class="preface front__flex-margin white-background no-padding">
     <div class="row row-flex-col">
       <?php if ($page['preface']): ?>
       <div class="<?php if (empty($page['preface_side'])) { print 'col-sm-12 fullscreen'; } else { print 'col-lg-9 col-md-8 col-sm-12 fullscreen'; } ?>">
