@@ -2761,11 +2761,9 @@ a.btn-transparent-green-border:hover {
 }
 
 .media-carousel-block {
-  margin-top: -6.5em;
+  margin-top: -6.85em;
   padding-bottom: 2em;
   z-index: 2;
-  position: -webkit-sticky;
-  position: sticky;
   bottom: 0;
 }
 
@@ -4573,7 +4571,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 0;
+    bottom: 3.3em;
   }
 
   .envirologo-container {
@@ -4979,9 +4977,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    position: -webkit-sticky;
-    position: sticky;
-    bottom: 0;
+    position: relative;
+    bottom: 6em;
   }
 
   .envirologo-container {
