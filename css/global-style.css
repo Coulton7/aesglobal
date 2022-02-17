@@ -4585,7 +4585,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translate(8%, -50%);
     position: relative;
     bottom: 6.5em;
-    z-index: 1032;
+    z-index: 10;
   }
 
   .carousel-control {
@@ -4992,7 +4992,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 100%;
     position: relative;
     bottom: 6.75em;
-    z-index: 1032;
+    z-index: 10;
   }
 
   .social-media {
@@ -5191,7 +5191,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 100%;
     position: relative;
     bottom: 6.75em;
-    z-index: 1032;
+    z-index: 10;
   }
 
   .media-carousel-block .carousel-controls .carousel-control {
@@ -5319,7 +5319,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 100%;
     position: relative;
     bottom: 6em;
-    z-index: 1032;
+    z-index: 10;
   }
 
   .media-carousel-block .carousel-controls .carousel-control {
@@ -5393,7 +5393,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 100%;
     position: relative;
     bottom: 4em;
-    z-index: 1032;
+    z-index: 10;
   }
 
   .red-tile-text {
