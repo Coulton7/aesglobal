@@ -4880,13 +4880,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     opacity: 0;
   }
 
-  .envirologo-container {
-    transform: translate(8%, -50%);
-    position: relative;
-    bottom: 4em;
-    z-index: 1032;
-  }
-
   .net-zero-container:hover {
     background-image: url(https://static.aesseal.com/graphics/net-zero-logo.svg);
     background-repeat: no-repeat;
