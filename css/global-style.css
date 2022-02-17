@@ -2727,7 +2727,7 @@ a.btn-transparent-green-border:hover {
   margin-bottom: 1em;
 }
 
-.net-zero-container {
+.envirologo-container {
   height: 100%;
   position: relative;
   bottom: 4em;
@@ -4086,7 +4086,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 0;
   }
 
-  .net-zero-container {
+  .envirologo-container {
     bottom: 9em;
     z-index: 10;
   }
@@ -4576,8 +4576,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 0;
   }
 
-  .net-zero-container {
-    transform: translate(25%, -120%);
+  .envirologo-container {
+    transform: translate(8%, -50%);
     position: relative;
     bottom: 4em;
     z-index: 1032;
@@ -4979,7 +4979,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     bottom: 0;
   }
 
-  .net-zero-container {
+  .envirologo-container {
     height: 100%;
     position: relative;
     bottom: 6.75em;
@@ -5178,7 +5178,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-right: 0;
   }
 
-  .net-zero-container {
+  .envirologo-container {
     height: 100%;
     position: relative;
     bottom: 6.75em;
@@ -5306,7 +5306,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-right: 0;
   }
 
-  .net-zero-container {
+  .envirologo-container {
     height: 100%;
     position: relative;
     bottom: 6em;
@@ -5380,7 +5380,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
   }
 
-  .net-zero-container {
+  .envirologo-container {
     height: 100%;
     position: relative;
     bottom: 4em;
