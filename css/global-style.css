@@ -2510,6 +2510,11 @@ a.menu-box:hover img {
   top: 12.5%;
 }
 
+.advance-training-banner.lazy-back {
+  background-image: none;
+  background-color: #efefef
+}
+
 .advance-training-banner {
   background-image: url(https://static.aesseal.com/banner/training/ezgifmaker.gif);
   background-size: 100%;
