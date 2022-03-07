@@ -2772,6 +2772,7 @@ a.btn-transparent-green-border:hover {
 
 .media-carousel-block {
   margin-top: -6.85em;
+  padding-bottom: 2em;
   z-index: 2;
   bottom: 0;
 }
