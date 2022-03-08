@@ -94,7 +94,6 @@ if(!empty($file_fid)) {
 <script src="/sites/all/themes/aesbs337/js/init-bs.js"></script>
 <script src="/sites/all/themes/aesbs337/js/enviro-logo.js"></script>
 <script src="/sites/all/themes/aesglobal/js/home-carousel-hider.js"></script>
-<script src="/sites/all/themes/aesglobal/js/shadow-drop-mobile.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
