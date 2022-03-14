@@ -207,6 +207,10 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
+.front .socialmedia ul li:nth-child(1) a {
+  color: #ffffff
+}
+
 .socialmedia ul li:nth-child(1) a:hover {
   color: #1a90d9;
 }
@@ -215,6 +219,10 @@ a.no-underline :hover {
   color: #0077b5;
   margin-right: 0.4em;
   font-size: 2.5em;
+}
+
+.front .socialmedia ul li:nth-child(2) a {
+  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(2) a:hover {
@@ -227,6 +235,10 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
+.front .socialmedia ul li:nth-child(3) a {
+  color: #ffffff
+}
+
 .socialmedia ul li:nth-child(3) a:hover {
   color: #bd4030;
 }
@@ -235,6 +247,10 @@ a.no-underline :hover {
   color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
+}
+
+.front .socialmedia ul li:nth-child(4) a {
+  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(4) a:hover {
@@ -247,6 +263,10 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
+.front .socialmedia ul li:nth-child(5) a {
+  color: #ffffff
+}
+
 .socialmedia ul li:nth-child(5) a:hover {
   color: #004a8c;
 }
@@ -255,6 +275,10 @@ a.no-underline :hover {
   color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
+}
+
+.front .socialmedia ul li:nth-child(6) a {
+  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(6) a:hover {
