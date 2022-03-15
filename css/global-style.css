@@ -2823,15 +2823,19 @@ a.btn-transparent-green-border:hover {
 
 .shadow-drop {
   width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  color: #dd1e25;
-  border: 1px solid #dd1e25;
+  background-color: #464645;
+  color: #ffffff;
+  border: 1px solid #ffffff;
 }
 
 .shadow-drop-menu {
-  background-color: #000000;
+  background-color: #5F5D5C;
   width: 100%;
   text-align: center;
+  border: 1px solid #ccc;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  -webkit-box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  margin-top: -1em;
 }
 
 .dropdown-menu.shadow-drop-menu>li>a {
