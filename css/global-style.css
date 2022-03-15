@@ -4273,17 +4273,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0.4em;
   }
 
-  .social-id p.front-fade:nth-child(1) {
+  .front .social-id p.front-fade:nth-child(1) {
     position: relative;
     right: 62%;
   }
 
-  .social-id p.front-fade:nth-child(2) {
+  .front .social-id p.front-fade:nth-child(2) {
     position: relative;
     left: 52%;
   }
 
-  .social-id p.front-fade:nth-child(3) {
+  .front .social-id p.front-fade:nth-child(3) {
     position: relative;
     right: 13%;
   }
