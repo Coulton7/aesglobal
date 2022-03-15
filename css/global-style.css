@@ -3627,6 +3627,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img {
     max-width: 75%;
   }
+  .lang-switch {
+    margin-left: 1.1em;
+  }
+
+  .lang-switch .language:before {
+    padding: 0;
+    font-size: 2em;
+    right: 5%;
+    top: 0.15em;
+    position: relative;
+  }
 }
 
 @media screen and (max-width: 501px) and (min-width:371px) {
@@ -3710,6 +3721,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .lang-switch {
     width: 63%;
+  }
+
+  .lang-switch .language:before {
+    padding: 0;
+    font-size: 2em;
+    right: -16%;
+    top: 0.15em;
+    position: relative;
   }
 
   .front__flex-margin {
