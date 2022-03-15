@@ -2846,9 +2846,9 @@ a.btn-transparent-green-border:hover {
   color: #ffffff;
 }
 
-.shadow-drop-btn:hover {
+.shadow-drop-btn:hover, .shadow-drop-btn:focus {
   background-color: #464645;
-  color: #e5e5e7;
+  color: #ffffff;
 }
 
 .dropdown-menu.shadow-drop-menu>li>a:focus, .dropdown-menu>.shadow-drop-menuli>a:hover {
