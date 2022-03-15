@@ -4328,6 +4328,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #002a5b;
     padding-top: 0;
   }
+
+  .front .fade_text {
+    color: #ffffff;
+  }
 }
 
 @media screen and (min-width: 768px) {
