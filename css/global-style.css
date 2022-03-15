@@ -4272,19 +4272,56 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 0.4em;
   }
 
-  .front .social-id p.front-fade:nth-child(1) {
+  .social-id p.front-fade:nth-child(1) {
     position: relative;
     right: 62%;
   }
 
-  .front .social-id p.front-fade:nth-child(2) {
+  .social-id p.front-fade:nth-child(2) {
     position: relative;
     left: 52%;
   }
 
-  .front .social-id p.front-fade:nth-child(3) {
+  .social-id p.front-fade:nth-child(3) {
     position: relative;
     right: 13%;
+  }
+
+  .fade_text {
+    display: none;
+  }
+
+  .carousel-indicators li {
+    background-color: transparent;
+    display: block;
+  }
+
+  .carousel-indicators li:hover {
+    background-color: transparent;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: none;
+    background-color: #002a5b;
+    padding-top: 0;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: none;
+    background-color: #002a5b;
+    padding-top: 0;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: none;
+    background-color: #002a5b;
+    padding-top: 0;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: none;
+    background-color: #002a5b;
+    padding-top: 0;
   }
 }
 
