@@ -4099,7 +4099,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-right: 0.15em;
     margin-left: 0.15em;
     padding: 1em;
-    justify-content: center;
+    margin: 0 auto;
+  }
+
+  .carousel-indicators li.dropdown:hover {
+    box-shadow: none;
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
