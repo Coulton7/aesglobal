@@ -3726,9 +3726,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .lang-switch .language:before {
     padding: 0;
     font-size: 2em;
-    right: -16%;
+    right: 2%;
     top: 0.15em;
     position: relative;
+  }
+
+  ..lang-switch .language div {
+    float: left;
   }
 
   .front__flex-margin {
