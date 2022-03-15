@@ -4099,7 +4099,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
-    margin-bottom: 1em;
+    margin-bottom: 0;
   }
 
   .carousel-inner.horizontal>.item.next,
