@@ -2444,7 +2444,7 @@ a.menu-box:hover img {
 .home-slider-height {
   height: 100%;
   background-color: #e5e5e7;
-  min-height: 35em
+  min-height: 32em
 }
 
 #sus-cover-slider {
@@ -3548,7 +3548,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 3em;
+    font-size: 2.4em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3644,7 +3644,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 3.5em;
+    font-size: 2.5em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3711,7 +3711,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 3.5em;
+    font-size: 2.5em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
