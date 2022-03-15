@@ -4356,6 +4356,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .front .fade_text {
     color: #ffffff;
   }
+
+  .mobile-fade-white-top-blue-bottom-background {
+    background-image: linear-gradient(to bottom,rgba(255,255,255,1) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 20%,rgba(0,42,91,1) 20%,rgba(0,42,91,1) 100%);
+  }
 }
 
 @media screen and (min-width: 768px) {
