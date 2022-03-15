@@ -35,7 +35,7 @@ function aesglobal_preprocess_page(&$vars) {
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/reg-mark.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/prod-enq-bg-img.js');
   drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/menu-collapse.js');
-  drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/lazy-background-img.js');
+  drupal_add_js(drupal_get_path('theme', 'aesbs337').'/js/lazyload-background-img.js');
 }
 
 function aesglobal_css_alter(&$css){
