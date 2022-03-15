@@ -854,7 +854,7 @@ blockquote {
 }
 
 .lang-switch .language div {
-  float: right;
+  float: left;
 }
 
 .lang-switch .chosen-container-single .chosen-single span {
@@ -3631,6 +3631,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img {
     max-width: 75%;
   }
+
   .lang-switch {
     margin-left: 1.1em;
   }
@@ -3943,7 +3944,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .lang-switch {
     padding-top: 0.65em;
-    margin-left: 0.1em;
+    margin-left: 1.1em;
   }
 
   .search-block #search-api-page-search-form-full-node-search div:last-child::before {
