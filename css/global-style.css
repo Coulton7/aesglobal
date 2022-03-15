@@ -2448,7 +2448,8 @@ a.menu-box:hover img {
 .home-slider-height {
   height: 100%;
   background-color: #002a5b;;
-  min-height: 32em
+  min-height: 32em;
+  position: relative;
 }
 
 #sus-cover-slider {
@@ -3611,7 +3612,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 4.25em;
+    bottom: 3.25em;
   }
 }
 
@@ -3714,7 +3715,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 4.25em;
+    bottom: 3.25em;
   }
 }
 
@@ -3812,7 +3813,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 4.25em;
+    bottom: 3.25em;
   }
 }
 
@@ -4868,8 +4869,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 5em;
-    transform: translateY(-15%);
+    bottom: 1em;
   }
 
   .base-timer {
@@ -5237,8 +5237,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: -1em;
-    transform: translateY(-75%);
+    bottom: 1em;
   }
 
   .base-timer {
@@ -5427,7 +5426,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 0;
+    bottom: 1em;
   }
 
   .base-timer {
