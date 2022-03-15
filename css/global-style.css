@@ -2854,8 +2854,9 @@ a.btn-transparent-green-border:hover {
 }
 
 .dropdown-menu.shadow-drop-menu>.active>a, .dropdown-menu.shadow-drop>.active>a:hover, .dropdown-menu.shadow-drop>.active>a:focus, .shadow-box-tabs .nav-tabs li.dropdown li.active a {
-  background-color: #002a5b;
+  background-color: #ffffff;
   background-image: none;
+  color: #535354
 }
 
 .social-media {
