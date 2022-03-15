@@ -4137,9 +4137,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mobile-carousel-caption {
-    bottom: 8em;
+    bottom: 5em;
     position: relative;
     transform: translateY(0);
+    padding: 0 3px;
   }
 
   .media-carousel-block .nav li a {
