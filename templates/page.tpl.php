@@ -221,10 +221,6 @@ if(!empty($file_fid)) {
 	</div>
 
 	<div class="col-sm-12 fullscreen">
-		<div class="mobile-search">
-			<div class="row-deep">
-			</div>
-		</div>
 			<?php if($page['header']):?>
 				<div class="header">
 					<?php print render($page['header']); ?>
