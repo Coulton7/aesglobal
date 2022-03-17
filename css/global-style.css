@@ -4375,6 +4375,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .front .social-id {
     position: relative;
   }
+
+  .flex-gradient {
+    padding-top: 4em;
+    padding-bottom: 3em
+  }
 }
 
 @media screen and (min-width: 768px) {
