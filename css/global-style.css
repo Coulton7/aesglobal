@@ -4356,7 +4356,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-col-placement {
-    bottom: 2.9em;
+    bottom: 0;
   }
 
   .flex-gradient {
