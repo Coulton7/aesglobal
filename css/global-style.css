@@ -4721,7 +4721,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 0;
+    bottom: 0.25em;
+    margin-top: -5.85em;
   }
 
   .envirologo-container {
@@ -5151,7 +5152,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 2.25em;
+    bottom: 0.25em;
+    margin-bottom: -8.85em
   }
 
   .envirologo-container {
@@ -5368,6 +5370,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     z-index: 10;
   }
 
+  .media-carousel {
+    bottom: 0.25em;
+    position: relative;
+    margin-top: -8.85em;
+  }
+
   .media-carousel-block .carousel-controls .carousel-control {
     width: 3em;
     height: 3em;
@@ -5541,7 +5549,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 3.25em;
+    bottom: 0.25em;
+    margin-top: -8.85em;
   }
 
   blockquote.image-quote {
@@ -5608,7 +5617,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 4.5em;
+    bottom: 0.25em;
+    margin-top: -9.85em;
   }
 }
 
