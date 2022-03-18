@@ -1426,6 +1426,29 @@ label.resource-label {
   vertical-align: middle;
 }
 
+.block-labtectaenquiry{
+ width: 100%;
+ background-repeat: no-repeat;
+ background-size: 60%;
+ background-position: left;
+ position: relative;
+ background-image: url('https://www.aesseal.com/sites/aesseal.com/files/productimage/bearing/LabTecta-BV2.jpg')
+}
+
+.block-labtectaenquiry::before {
+ content: " ";
+ height: 100%;
+ position: absolute;
+ top: 0px;
+ right: 0px;
+ bottom: 0px;
+ left: 0px;
+ background-color: #888C8F;
+ width: 100%;
+ opacity: 0.5;
+ display: block;
+}
+
 .margin-widget {
   margin: .5rem;
 }
