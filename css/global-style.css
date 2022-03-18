@@ -211,10 +211,6 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
-:lang(en) .front .socialmedia ul li:nth-child(1) a {
-  color: #ffffff
-}
-
 .socialmedia ul li:nth-child(1) a:hover {
   color: #1a90d9;
 }
@@ -223,10 +219,6 @@ a.no-underline :hover {
   color: #0077b5;
   margin-right: 0.4em;
   font-size: 2.5em;
-}
-
-:lang(en) .front .socialmedia ul li:nth-child(2) a {
-  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(2) a:hover {
@@ -239,10 +231,6 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
-:lang(en) .front .socialmedia ul li:nth-child(3) a {
-  color: #ffffff
-}
-
 .socialmedia ul li:nth-child(3) a:hover {
   color: #bd4030;
 }
@@ -251,10 +239,6 @@ a.no-underline :hover {
   color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
-}
-
-:lang(en) .front .socialmedia ul li:nth-child(4) a {
-  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(4) a:hover {
@@ -267,10 +251,6 @@ a.no-underline :hover {
   font-size: 2.5em;
 }
 
-:lang(en) .front .socialmedia ul li:nth-child(5) a {
-  color: #ffffff
-}
-
 .socialmedia ul li:nth-child(5) a:hover {
   color: #004a8c;
 }
@@ -279,10 +259,6 @@ a.no-underline :hover {
   color: #d34836;
   margin-right: 0.4em;
   font-size: 2.5em;
-}
-
-:lang(en) .front .socialmedia ul li:nth-child(6) a {
-  color: #ffffff
 }
 
 .socialmedia ul li:nth-child(6) a:hover {
@@ -2529,7 +2505,7 @@ a.menu-box:hover img {
 
 .carousel-indicators li.active {
   color: #535454;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #efefef;
   padding-bottom: 0.6em;
   margin-left: 0.35em;
 }
@@ -2785,11 +2761,9 @@ a.btn-transparent-green-border:hover {
 
 .shadow-container {
   width: 100%;
-  background-color: rgba(255, 255, 255, 1);
-  border-radius: 20px;
+  background-color: #efefef;
   position: relative;
-  background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 12%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 43%, rgba(0, 41, 91, 1) 43%, rgba(0, 42, 91, 1) 100%);
-  padding: 1em 2em;
+  padding: 2em;
 }
 
 .flex-text-overflow-container {
@@ -2859,7 +2833,7 @@ a.btn-transparent-green-border:hover {
 }
 
 .dropdown-menu.shadow-drop-menu>.active>a, .dropdown-menu.shadow-drop>.active>a:hover, .dropdown-menu.shadow-drop>.active>a:focus, .shadow-box-tabs .nav-tabs li.dropdown li.active a {
-  background-color: #ffffff;
+  background-color: #efefef;
   background-image: none;
   color: #535354
 }
@@ -3244,10 +3218,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .front .region-preface-lower {
-  background: linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
-  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
-  background: -moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#002a5b',GradientType=0);
+  background-color: #efefef;
 }
 
 .Article-link-adress {
@@ -3270,6 +3241,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .front-fade {
   display: none;
   color: #ffffff;
+}
+
+.carousel-col-placement {
+  bottom: 2.85em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -4365,7 +4340,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .front .fade_text {
-    color: #ffffff;
+    color: #535354;
   }
 
   .mobile-fade-white-top-blue-bottom-background {
@@ -4374,6 +4349,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .social-id {
     position: relative;
+  }
+
+  .carousel-indicators li:hover {
+    box-shadow: none;
+  }
+
+  .carousel-col-placement {
+    bottom: 2.9em;
   }
 
   .flex-gradient {
@@ -4738,7 +4721,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 3.3em;
+    bottom: 0;
   }
 
   .envirologo-container {
@@ -4782,7 +4765,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    border-radius: 20px;
+    border-radius: 0;
   }
 
   .social-media {
@@ -4932,7 +4915,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 43%, rgba(0, 41, 91, 1) 43%, rgba(0, 42, 91, 1) 100%)
+    background-color: #efefef;
+  }
+
+  .carousel-col-placement {
+    bottom: 2.9em;
   }
 
   .front .social-id {
@@ -5164,7 +5151,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 6em;
+    bottom: 2.25em;
   }
 
   .envirologo-container {
@@ -5280,7 +5267,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 42.35%, rgba(0, 41, 91, 1) 42.35%, rgba(0, 42, 91, 1) 100%)
+    background-color: #efefef;
   }
 }
 
@@ -5426,7 +5413,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 48.35%, rgba(0, 41, 91, 1) 48.35%, rgba(0, 42, 91, 1) 100%)
+    background-color: #efefef;
   }
 
   blockquote.image-quote {
@@ -5549,7 +5536,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 43.45%, rgba(0, 41, 91, 1) 42.45%, rgba(0, 42, 91, 1) 100%)
+    background-color: #efefef;
+  }
+
+  .media-carousel-block {
+    position: relative;
+    bottom: 3.25em;
   }
 
   blockquote.image-quote {
@@ -5611,7 +5603,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .shadow-container {
-    background: linear-gradient(to bottom, rgba(255, 255, 255, 1) 1%, rgba(255, 255, 255, 1) 20%, rgba(255, 255, 255, 1) 45%, rgba(0, 41, 91, 1) 45%, rgba(0, 42, 91, 1) 100%)
+    background-color: #efefef;
+  }
+
+  .media-carousel-block {
+    position: relative;
+    bottom: 4.5em;
   }
 }
 
@@ -5619,6 +5616,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .rel-logos-wave {
     top: -15.6em;
     max-width: 90%;
+  }
+
+  .media-carousel-block {
+    position: relative;
+    bottom: 5.8em;
   }
 }
 
