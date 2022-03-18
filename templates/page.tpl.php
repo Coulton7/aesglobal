@@ -126,6 +126,7 @@ if(!empty($file_fid)) {
 									<span class="icon-bar"></span>
 									<span class="icon-bar"></span>
 								</button>
+                <p class="navbar-text visible-xs-inline-block float-right margin-right"><?php print t("Menu")?></p>
 							<?php endif; ?>
 						</div>
 					</div>
