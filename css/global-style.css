@@ -3244,7 +3244,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .front .region-preface-lower {
-  background-color: #efefef;
+  background: linear-gradient(to bottom,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
+  background: -webkit-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
+  background: -moz-linear-gradient(top,rgba(255,255,255,0) 1%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 50%,rgba(0,42,91,1) 50%,rgba(0,42,91,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00ffffff',endColorstr='#002a5b',GradientType=0);
 }
 
 .Article-link-adress {
