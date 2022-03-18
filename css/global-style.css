@@ -2164,6 +2164,10 @@ a.menu-box:hover img {
   margin: 0.4em 0 0;
 }
 
+.hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736_24fb0678-8796-43a5-af9c-ea6266236981 .legal-consent-container .hs-richtext, .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736_24fb0678-8796-43a5-af9c-ea6266236981 .legal-consent-container label:not(.hs-error-msg), .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736_24fb0678-8796-43a5-af9c-ea6266236981 .hs-form-field label:not(.hs-error-msg) {
+  color: #ffffff!important;
+}
+
 .hs-error-msg {
   color: #dd1e25;
 }
