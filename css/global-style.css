@@ -2090,7 +2090,7 @@ a.menu-box:hover img {
   float: right;
 }
 
-.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button, .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736 .hs-button:hover {
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-button, .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736 .hs-button {
   list-style-type: none;
   display: inline-block;
   background: #dd1e25;
@@ -2162,6 +2162,14 @@ a.menu-box:hover img {
 
 .hs-form-de82606b-106f-4a0f-a086-6162fbcd54ca.hs-custom-style fieldset .legal-consent-container ul.inputs-list li input[type=checkbox] {
   margin: 0.4em 0 0;
+}
+
+.hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736_b0e320e7-1700-4ad8-9d7b-1e9cad22acc5 .hs-richtext {
+  color: #ffffff;
+}
+
+.hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736_b0e320e7-1700-4ad8-9d7b-1e9cad22acc5 ul {
+  list-style: none;
 }
 
 .hs-error-msg {
