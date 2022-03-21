@@ -2070,6 +2070,10 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
+.legal-consent-container .hs-form-booleancheckbox-display input {
+  margin: 8px 0 0;
+}
+
 .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736.hs-custom-style fieldset select {
   min-height: 29px
 }
