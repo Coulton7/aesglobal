@@ -2074,6 +2074,14 @@ a.menu-box:hover img {
   margin: 8px 0 0;
 }
 
+.hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b ul {
+  list-style: none;
+}
+
+.legal-consent-container ul {
+  list-style: none;
+}
+
 .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736.hs-custom-style fieldset select {
   min-height: 29px
 }
