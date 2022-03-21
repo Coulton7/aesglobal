@@ -323,7 +323,7 @@ a .btn-social {
   border-bottom: none;
 }
 
-a .btn-social:hover {
+a .btn-social:hover, a .btn-social:focus {
   color: #ffffff !important;
   border-bottom: none;
 }
@@ -337,7 +337,7 @@ a .btn-social:hover {
   background-color: #1da1f2;
 }
 
-.btn-twitter:hover {
+.btn-twitter:hover, .btn-twitter:focus {
   background-color: #1a90d9;
 }
 
@@ -345,7 +345,7 @@ a .btn-social:hover {
   background-color: #0077b5;
 }
 
-.btn-linkedin:hover {
+.btn-linkedin:hover, .btn-linkedin:focus {
   background-color: #006ba2;
 }
 
@@ -353,7 +353,7 @@ a .btn-social:hover {
   background-color: #125688;
 }
 
-.btn-instagram:hover {
+.btn-instagram:hover, .btn-instagram:focus {
   background-color: #0c3a5b;
 }
 
@@ -361,7 +361,7 @@ a .btn-social:hover {
   background-color: #d34836;
 }
 
-.btn-google:hover {
+.btn-google:hover, .btn-google:focus {
   background-color: #bd4030;
 }
 
@@ -369,7 +369,7 @@ a .btn-social:hover {
   background-color: #002a5b;
 }
 
-.btn-contact:hover {
+.btn-contact:hover,.btn-contact:focus {
   background-color: #004a8c;
 }
 
@@ -518,14 +518,14 @@ a.btn:hover {
   color: #ffffff;
 }
 
-.btn-primary:hover {
+.btn-primary:hover, .btn-primary:focus {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
   border: 2px solid #ffffff !important;
 }
 
-.btn-primary.disabled:hover {
+.btn-primary.disabled:hover, .btn-primary.disabled:focus {
   background: #fa010a;
 }
 
@@ -541,7 +541,7 @@ a.btn:hover {
   width: 100%;
 }
 
-.btn-info:hover {
+.btn-info:hover, .btn-info:focus {
   background: #004a8c;
   margin-bottom: 0;
   color: #ffffff !important;
@@ -562,7 +562,7 @@ a.btn-default {
   color: #535354
 }
 
-a.btn-default:hover {
+a.btn-default:hover, a.btn-default:focus {
   border: none;
 }
 
@@ -2612,7 +2612,7 @@ a.useful-links-text:hover {
   color: #ffffff;
 }
 
-.btn-transparent:hover {
+.btn-transparent:hover, .btn-transparent:focus {
   background: #d7d7d7;
   color: #535354;
 }
@@ -2760,7 +2760,7 @@ a.btn-transparent-green-border {
   border-radius: 30px
 }
 
-a.btn-transparent-green-border:hover {
+a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
   background: #ffffff;
   border: 2px solid #03943e;
   color: #000000;
