@@ -2070,6 +2070,10 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
+.hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736.hs-custom-style fieldset select {
+  min-height: 29px
+}
+
 .hs-form-b0dff973-4804-41c0-bb6f-c6ff8b88ce2b .hs-input:not([type=file]), .hs-form-6ba850d1-2c4d-401b-a8e1-64eb8682b4f9 .hs-input:not([type=file]), .hs-form-d16ac890-b2c4-4c86-bf29-824d15c67736 .hs-input:not([type=file]){
   background-color: #000;
   color: #ffffff;
