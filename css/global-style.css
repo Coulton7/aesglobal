@@ -3737,7 +3737,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 4.25em;
+    bottom: 5em;
   }
 }
 
@@ -4310,7 +4310,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .pause-play-btn {
-    bottom: 5.25em;
+    bottom: 5em;
   }
 
   blockquote.image-quote::before {
