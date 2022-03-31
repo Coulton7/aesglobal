@@ -2455,7 +2455,7 @@ a.menu-box:hover img {
 
 .indicators-container .carousel-indicators {
   text-align: center;
-  bottom: -0.05em;
+  bottom: 0.5em;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -3310,13 +3310,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .enviro-wave {
-  height: 7.65em;
+  height: 7.55em;
   position: absolute;
   z-index: 10;
   bottom: 0;
   background-color: #efefef;
   width: 100%;
-  margin-bottom: 1.5em;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -4797,8 +4796,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 0.25em;
-    margin-top: -2.85em;
+    bottom: 0;
+    margin-top: -1em;
   }
 
   .envirologo-container {
@@ -5241,7 +5240,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .media-carousel-block {
     position: relative;
     bottom: 0.25em;
-    margin-top: -2.9em
+    margin-top: -0.9em
   }
 
   .envirologo-container {
@@ -5459,9 +5458,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .media-carousel-block {
-    bottom: 0.25em;
+    bottom: 0;
     position: relative;
-    margin-top: -2.75em;
+    margin-top: -1em;
   }
 
   .media-carousel-block .carousel-controls .carousel-control {
@@ -5637,8 +5636,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 0.25em;
-    margin-top: -2.75em;
+    bottom: 0;
+    margin-top: -1em;
   }
 
   blockquote.image-quote {
@@ -5656,6 +5655,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     width: 85%;
   }
+}
 
 @media screen and (min-width: 2000px) {
   .machine-sentry-banner-news {
@@ -5716,8 +5716,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 0.25em;
-    margin-top: 2.75em;
+    margin-top: -1em;
   }
 }
 
