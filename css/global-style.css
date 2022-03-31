@@ -5040,6 +5040,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 100%;
     padding: 1em;
   }
+
+  .dropdown .shadow-drop-menu li.active {
+    background-color: #efefef;
+  }
 }
 
 @media screen and (min-width: 992px) {
