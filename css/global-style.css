@@ -3309,6 +3309,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   background-color: #efefef;
 }
 
+.enviro-wave {
+  height: 7.65em;
+  position: absolute;
+  z-index: 10;
+  bottom: 0;
+  background-color: #efefef;
+  width: 100%;
+  margin-bottom: 1.5em
+}
+
 @media all and (transform-3d), (-webkit-transform-3d) {
 
   .carousel-fade .carousel-inner>.item.next,
