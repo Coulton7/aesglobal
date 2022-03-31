@@ -5019,7 +5019,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active{
     width: 51%;
-    padding: 0;
     background: transparent;
     box-shadow: none;
   }
@@ -5034,6 +5033,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-drop-menu{
     margin-top: 0;
+  }
+
+  .dropdown .shadow-drop-menu li, .dropdown .shadow-drop-menu li.active {
+    display: block;
+    width: 100%;
+    padding: 0.6em 1.1em;
   }
 }
 
