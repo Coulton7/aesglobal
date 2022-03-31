@@ -5380,16 +5380,16 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 0.6em 1.1em;
   }
 
-  .media-carousel-block .carousel-indicators li.active {
-    background-color: #efefef;
-    padding: 0.6em 1.1em;
-    width: auto;
-  }
-
   .media-carousel-block .carousel-indicators li:hover {
     box-shadow: inset 0px 5px #dd1e25;
     padding: 0.6em 1.1em;
     background: rgba(0,0,0,0.8);
+    width: auto;
+  }
+
+  .media-carousel-block .carousel-indicators li.active {
+    background-color: #efefef;
+    padding: 0.6em 1.1em;
     width: auto;
   }
 }
