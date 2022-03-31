@@ -4442,6 +4442,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .indicators-container .carousel-indicators {
     bottom: 0.5em
   }
+
+  .shadow-drop-menu{
+    margin-top: -1em;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -5022,6 +5026,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .indicators-container .carousel-indicators {
     bottom: -1em
+  }
+
+  .media-carousel-block .carousel-indicators ul li {
+    margin: 0 auto;
+  }
+
+  .shadow-drop-menu{
+    margin-top: 0;
   }
 }
 
