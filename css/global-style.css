@@ -5387,7 +5387,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: auto;
   }
 
-  .media-carousel-block .carousel-indicators li.active {
+  .media-carousel-block .carousel-indicators li.active, .media-carousel-block .carousel-indicators li.active:hover {
     background-color: #efefef;
     padding: 0.6em 1.1em;
     width: auto;
