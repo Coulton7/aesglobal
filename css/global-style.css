@@ -4438,6 +4438,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-top: 4em;
     padding-bottom: 3em
   }
+
+  .indicators-container .carousel-indicators {
+    bottom: 0.5em
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4733,11 +4737,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-right: 0em;
   }
 
-  .carousel-indicators li, .carousel-indicators li.active {
-    width: auto;
-    height: auto;
-  }
-
   .carousel-inner.horizontal>.item.next,
   .carousel-inner.horizontal>.item.active.right {
     -webkit-transform: translate3d(33%, 0, 0);
@@ -5012,6 +5011,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .social-id {
     position: absolute;
+  }
+
+  .media-carousel-block .carousel-indicators li, .media-carousel-block .carousel-indicators li:hover, .media-carousel-block .carousel-indicators li.active{
+    width: 51%;
+    padding: 0;
+    background: transparent;
+
+  }
+
+  .indicators-container .carousel-indicators {
+    bottom: -1em
   }
 }
 
@@ -5357,6 +5367,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+  }
+
+  .indicators-container .carousel-indicators {
+    bottom: 0.5em
   }
 }
 
