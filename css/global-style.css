@@ -5041,8 +5041,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 1em;
   }
 
-  .dropdown .shadow-drop-menu li.active {
+  .dropdown .shadow-drop-menu li.active a{
     background-color: #efefef;
+    padding: 1em
   }
 }
 
