@@ -5017,7 +5017,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 51%;
     padding: 0;
     background: transparent;
-
+    box-shadow: none;
   }
 
   .indicators-container .carousel-indicators {
@@ -5371,6 +5371,23 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .indicators-container .carousel-indicators {
     bottom: 0.5em
+  }
+
+  .media-carousel-block .carousel-indicators li {
+    background: rgba(0,0,0,0.8);
+    height: auto;
+    width: auto;
+    padding: 0.6em 1.1em;
+  }
+
+  .media-carousel-block .carousel-indicators li.active {
+    background-color: #efefef;
+    padding: 0.6em 1.1em;
+  }
+
+  .media-carousel-block .carousel-indicators li:hover {
+    box-shadow: inset 0px 5px #dd1e25;
+    padding: 0.6em 1.1em;
   }
 }
 
