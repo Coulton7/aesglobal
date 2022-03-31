@@ -179,19 +179,6 @@ if(!empty($file_fid)) {
   	     </div>
       </div>
   	  <?php endif; ?>
-
-      <?php if (!empty($page['preface_side'])): ?>
-        <aside class="col-lg-3 col-md-4 col-sm-12 fullscreen">
-          <?php print render($page['preface_side']); ?>
-        </aside>  <!-- /#sidebar-first -->
-      <?php endif; ?>
-    </div>
-    <div class="row">
-      <?php if (!empty($page['preface_lower'])): ?>
-        <div class="col-sm-12 fullscreen">
-          <?php print render($page['preface_lower']); ?>
-        </div>  <!-- /#sidebar-first -->
-      <?php endif; ?>
     </div>
   </section>
 
@@ -203,11 +190,20 @@ if(!empty($file_fid)) {
 		</div>
 
 		<div class="col-md-3 col-sm-4 col-xs-12 fullscreen">
-			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lower.svg" alt ="curve-down"></img>
+			<img class="curve-down" src = "/sites/all/themes/aesbs337/images/logos/wave-lowgrey.svg" alt ="curve-down"></img>
 			<?php print render($page['wavelower']);?>
 		</div>
 	</div>
 	<?php endif; ?>
+
+  <div class="row">
+    <?php if (!empty($page['preface_lower'])): ?>
+      <div class="col-sm-12 fullscreen">
+        <?php print render($page['preface_lower']); ?>
+      </div>
+    <?php endif; ?>
+  </div>
+
 	</div>
 </div>
 
