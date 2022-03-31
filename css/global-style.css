@@ -4989,8 +4989,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: #efefef;
   }
 
-  .carousel-col-placement {
+  :lang(en) .carousel-col-placement {
     bottom: 2.9em;
+  }
+
+  .carousel-col-placement {
+    bottom: 3.9em;
   }
 
   .indicators-container .carousel-indicators {
