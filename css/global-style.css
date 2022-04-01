@@ -4250,6 +4250,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mob-envirologo-container {
     bottom: 7em;
     z-index: 10;
+    position: relative;
   }
 
   .carousel-control {
