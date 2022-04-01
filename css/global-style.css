@@ -5414,6 +5414,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 0.6em 1.1em;
     width: auto;
   }
+
+  .front .caption-container {
+    top: 14%;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -5592,6 +5596,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .virtual-tour-logo {
     max-width: 33%;
+  }
+
+  .front .caption-container {
+    top: 21%;
   }
 }
 
