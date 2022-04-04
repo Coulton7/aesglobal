@@ -4442,6 +4442,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .shadow-drop-menu{
     margin-top: -1em;
   }
+
+  .block-labtectaenquiry{
+   background-size: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -5040,6 +5044,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .dropdown .shadow-drop-menu li.active a{
     background-color: #efefef;
     padding: 1em
+  }
+
+  .block-labtectaenquiry{
+   background-size: 60%;
   }
 }
 
