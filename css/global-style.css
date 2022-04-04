@@ -613,11 +613,6 @@ a.btn-default:hover, a.btn-default:focus {
   height: 100%
 }
 
-.widget-flex-pr {
-  display: flex !important;
-  flex-direction: column;
-}
-
 .widget-object {
   object-fit: contain;
   vertical-align: bottom;
