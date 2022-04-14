@@ -301,13 +301,17 @@ a.youtube-color:hover {
   color: #FF2727;
 }
 
-.btn {
+.btn-navbar_classes {
   background-color: #e7e7e9;
   border-color: #e7e7e8 #e7e7e8 #e7e7e9;
   border-radius: 30px;
 }
 
-.btn:hover {
+.btn {
+  border-radius: 30px;
+}
+
+.btn-base:hover {
   background-color: #cfcfd1;
   color: #535354;
 }
