@@ -311,6 +311,11 @@ a.youtube-color:hover {
   border-radius: 30px;
 }
 
+.btn-base {
+  background-color: #e5e5e5;
+  color: #535354;
+}
+
 .btn-base:hover {
   background-color: #cfcfd1;
   color: #535354;
