@@ -2407,6 +2407,7 @@ a.menu-box:hover img {
   text-align: left;
   text-shadow: none;
   display: inline-block;
+  padding-bottom: 0;
 }
 
 .carousel-control.right, .carousel-control.left {
