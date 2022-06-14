@@ -104,7 +104,8 @@ a.no-underline :hover {
 .page-header {
   border-bottom: none;
   margin: 0;
-  padding: 0 color: #ffffff;
+  padding: 0;
+  color: #ffffff;
 }
 
 .breadcrumb-sitemap {
@@ -182,7 +183,6 @@ a.no-underline :hover {
 
 .front .flex-header {
   color: #ffffff;
-  padding-left: 0.4em;
   text-shadow: none;
 }
 
@@ -380,6 +380,24 @@ a .btn-social:hover, a .btn-social:focus {
 
 .btn-contact:hover,.btn-contact:focus {
   background-color: #004a8c;
+}
+
+.btn-lightblue {
+  list-style-type: none;
+  display: inline-block;
+  background-color: #338FBC;
+  color: #ffffff;
+  border-radius: 30px;
+  border: 2px solid transparent!important;
+  box-shadow: none;
+}
+
+.btn-lightblue:hover, .btn-lightblue:focus {
+  background-color: #2e80a8;
+  margin-bottom: 0;
+  color: #ffffff;
+  border: 2px solid #ffffff!important;
+  white-space: normal;
 }
 
 .svg-inline--fa.fa-lg {
@@ -1331,15 +1349,10 @@ label.resource-label {
   color: #ffffff;
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00428e+0,003675+70,002a5b+100 */
   background: #00428e;
-  /* Old browsers */
   background: -moz-linear-gradient(top, #00428e 0%, #003675 70%, #002a5b 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #00428e 0%, #003675 70%, #002a5b 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #00428e 0%, #003675 70%, #002a5b 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00428e', endColorstr='#002a5b', GradientType=0);
-  /* IE6-9 */
   padding: 0;
   margin-bottom: 0.5rem;
 }
@@ -1348,15 +1361,10 @@ label.resource-label {
   box-shadow: 0 2px 7px rgba(0, 0, 0, 0.25), 0 5px 5px rgba(0, 0, 0, 0.22);
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00428e+0,003675+70,002a5b+100 */
   background: #00428e;
-  /* Old browsers */
   background: -moz-linear-gradient(top, #00428e 0%, #00428e 70%, #00428e 100%);
-  /* FF3.6-15 */
   background: -webkit-linear-gradient(top, #00428e 0%, #003675 70%, #00428e 100%);
-  /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(to bottom, #00428e 0%, #00428e 70%, #00428e 100%);
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00428e', endColorstr='#002a5b', GradientType=0);
-  /* IE6-9 */
 }
 
 .image-highlight {
@@ -1499,7 +1507,6 @@ div.user-picture>img {
   float: none;
 }
 
-/*Caching issue with country name translates to different language*/
 .location-details .gmap {
   width: 64.67% !important;
   float: left;
@@ -2486,38 +2493,27 @@ a.menu-box:hover img {
 }
 
 #carousel-fade .carousel-inner .item:nth-child(1) {
-  background-image: url(https://static.aesseal.com/photo/sustainability/Wetlands-April09_5053-crop.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(2) {
-  background-image: url(https://static.aesseal.com/photo/technology/LDTR_2017_01_014213-31.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(3) {
-  background-image: url(https://static.aesseal.com/photo/service/Chem-Against-tanks7.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 9em;
-  background-position: bottom center;
   background-color: #002a5b;
 }
 
 #carousel-fade .carousel-inner .item:nth-child(4) {
-  background-image: url(https://static.aesseal.com/photo/alt/Product-info3.jpg);
-  background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 9em;
-  background-position: center center;
+  background-color: #002a5b;
+}
+
+#carousel-fade .carousel-inner .item:nth-child(5) {
+  background-repeat: no-repeat;
   background-color: #002a5b;
 }
 
@@ -2733,7 +2729,7 @@ a.btn-transparent {
 }
 
 .carousel-title {
-  font-size: 3.5em;
+  font-size: 3em;
   line-height: 1em;
   font-weight: 700;
   text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -2772,11 +2768,6 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 
 .position-rel {
   position: relative;
-}
-
-.front .preface .region-preface-side {
-  height: 100%;
-  display: flex;
 }
 
 .front .preface .region-preface {
@@ -3122,6 +3113,122 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   opacity: 0.5;
 }
 
+.oil-drip {
+  position: relative;
+  display: flex;
+  z-index: 2;
+}
+
+.oil-drip p:nth-child(2)::before {
+  content: "";
+  float: left;
+  height: 6em;
+  width: 20%;
+  shape-outside: polygon( 0% 0, 98% 0, 78% 23%, 55% 51%, 31% 85%, 22% 100%, 50% 100%, 98% 100%, 0 100%);
+  shape-margin: 7%;
+}
+
+.oil-drip p:nth-child(2) span::before {
+  content: "";
+  float: right;
+  height: 6em;
+  width: 20%;
+  shape-outside: polygon(0% 0%, 100% 0%, 100% 100%, 2% 100%, 50% 100%, 77.6% 100%, 100% 100%, 77.6% 100%, 57% 68%);
+  shape-margin: 7%;
+}
+
+.oil-drip p:nth-child(3)::before {
+  content: "";
+  float: left;
+  height: 7em;
+  width: 15%;
+  shape-outside: polygon(
+    0 0,
+    98% 0,
+    50% 6%,
+    23.4% 17.3%,
+    6% 32.6%,
+    0 50%,
+    6% 65.6%,
+    23.4% 82.7%,
+    50% 94%,
+    98% 100%,
+    0 100%
+  );
+  shape-margin: 7%;
+}
+
+.oil-drip p:nth-child(3) span::before {
+  content: "";
+  float: right;
+  height: 7em;
+  width: 15%;
+  shape-outside: polygon(
+    2% 0%,
+    100% 0%,
+    100% 100%,
+    2% 100%,
+    50% 94%,
+    76.6% 82.7%,
+    94% 65.6%,
+    100% 50%,
+    94% 32.6%,
+    76.6% 17.3%,
+    50% 6%
+    );
+  shape-margin: 7%;
+}
+
+.oil-drip p:nth-child(2) {
+  color: #ffffff;
+  position: absolute;
+  top: 40%;
+  text-align: center;
+}
+
+.oil-drip p:nth-child(3) {
+  color: #ffffff;
+  position: absolute;
+  top: 65%;
+  text-align: center;
+}
+
+.oil-splash {
+  position: relative;
+  background: rgb(29, 29, 28);
+  padding: 1em;
+}
+
+.oil-splash p {
+  color: #ffffff;
+}
+
+.oil-splash::before{
+  content: "";
+  width: 8em;
+  height: 3em;
+  position: absolute;
+  z-index: 1;
+  top: -30%;
+  left: 13.5%;
+  background: #fff;
+  border-bottom-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.oil-splash::after{
+  content: "";
+  width: 8em;
+  height: 3em;
+  position: absolute;
+  z-index: 1;
+  top: -30%;
+  left: 26.5%;
+  background: #fff;
+  border-bottom-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+}
+
 .side-menu .block-title:before {
   font-family: 'Font Awesome 5 Free';
   content: "\f142  ";
@@ -3298,7 +3405,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .front-fade {
   display: none;
-  color: #ffffff;
+  color: #338FBC;
 }
 
 .carousel-col-placement {
@@ -3320,6 +3427,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   bottom: 0;
   background-color: #efefef;
   width: 100%;
+}
+
+.slider-img {
+  position: absolute;
+  bottom: 0;
+  max-height: 100%;
 }
 
 @media all and (transform-3d), (-webkit-transform-3d) {
@@ -3373,13 +3486,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 0;
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
-  }
+    box-shadow: none
+  };
 
   .carousel-horizontal .carousel-inner>.item.prev,
   .carousel-horizontal .carousel-inner>.item.active.left {
     top: 0;
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
+    box-shadow: none;
   }
 
   .carousel-horizontal .carousel-inner>.item.next.left,
@@ -3388,6 +3503,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: 0;
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    box-shadow: none;
   }
 
   .carousel-inner.vertical>.item {
@@ -3434,6 +3550,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(-25%, 0, 0);
     transform: translate3d(-25%, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.prev,
@@ -3441,6 +3558,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.next.left,
@@ -3449,6 +3567,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 }
 
@@ -3665,6 +3784,15 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 4.25em;
   }
+
+  .mob-envirologo-container {
+    top: -10.5em;
+  }
+
+  .find-out-more {
+    position: absolute;
+    top: 9.5em
+  }
 }
 
 @media screen and (max-width:500px) and (min-width:371px) {
@@ -3694,6 +3822,19 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: 5%;
     top: 0.15em;
     position: relative;
+  }
+
+  .mob-envirologo-container {
+    top: -10.5em;
+  }
+
+  .find-out-more {
+    position: absolute;
+    top: 9.5em
+  }
+
+  .net-zero, .by29 {
+    max-width: 100%;
   }
 }
 
@@ -3731,7 +3872,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3768,6 +3909,25 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 5em;
   }
+
+  .mob-envirologo-container {
+    top: -10.5em;
+  }
+
+  .find-out-more {
+    position: absolute;
+    top: 9.5em
+  }
+
+  .nav-help {
+    margin-top: 1em;
+    display: block;
+    color: #338FBC;
+  }
+
+  .net-zero, .by29 {
+    max-width: 100%;
+  }
 }
 
 @media screen and (max-width: 767px) and (min-width: 501px) {
@@ -3788,7 +3948,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
   }
 
-  ..lang-switch .language div {
+  .lang-switch .language div {
     float: left;
   }
 
@@ -3817,7 +3977,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 2.5em;
+    font-size: 2em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -3865,6 +4025,24 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .slider-timer {
     bottom: 4.25em;
+  }
+
+  .mob-envirologo-container {
+    top: -13em;
+  }
+
+  .net-zero, .by29 {
+    max-width: 75%;
+  }
+
+  .nav-help {
+    margin-top: 2em;
+    display: block;
+    color: #338FBC;
+  }
+
+  .item .standard-text {
+    text-align: center;
   }
 }
 
@@ -4041,7 +4219,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 0.5em 0;
   }
 
-  /*Caching issue with country name translates to different language*/
   .location-details .gmap {
     width: 100%;
     float: none;
@@ -4187,7 +4364,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     box-shadow: none;
   }
 
-  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2), .carousel-indicators li:nth-child(3), .carousel-indicators li:nth-child(4), .carousel-indicators li:nth-child(5) {
     margin-bottom: 0;
   }
 
@@ -4196,6 +4373,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(100%, 0, 0);
     transform: translate3d(100%, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.prev,
@@ -4203,6 +4381,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(-100%, 0, 0);
     transform: translate3d(-100%, 0, 0);
     right: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.next.left,
@@ -4211,6 +4390,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .flex-col {
@@ -4219,17 +4399,17 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-fill {
-    padding-top: 6em;
+    padding-top: 0em;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
   }
 
   .mobile-carousel-caption {
-    bottom: 5em;
+    bottom: 0em;
     position: relative;
     transform: translateY(0);
-    padding: 0 3px;
+    padding: 0 15px;
   }
 
   .media-carousel-block .nav li a {
@@ -4252,9 +4432,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .mob-envirologo-container {
-    bottom: 7em;
     z-index: 10;
     position: relative;
+    left: 2em;
   }
 
   .carousel-control {
@@ -4391,30 +4571,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-color: transparent;
   }
 
-  #carousel-fade .carousel-inner .item:nth-child(1) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(2) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(3) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
-  #carousel-fade .carousel-inner .item:nth-child(4) {
-    background-image: none;
-    background-color: #002a5b;
-    padding-top: 0;
-  }
-
   .front .fade_text {
     color: #535354;
   }
@@ -4425,6 +4581,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .social-id {
     position: relative;
+    z-index: 1029;
   }
 
   .indicators-container .carousel-indicators {
@@ -4445,11 +4602,111 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .indicators-container .carousel-indicators {
-    bottom: 0.5em
+    bottom: 2em
   }
 
   .shadow-drop-menu{
     margin-top: -1em;
+  }
+
+  .home-slider-height {
+    min-height: 29em;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  #carousel-fade {
+    display: flex;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/news-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #066b2e;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/sustainability-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/technology-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/service-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/product-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    animation: none;
+    background-position: bottom right;
+    padding-top: 3em;
+  }
+
+  .nav-help {
+    display: block;
+    color: #338FBC;
+  }
+
+  .oil-drip p:nth-child(2) {
+    top: 35%;
+  }
+
+  .oil-splash::before{
+    content: "";
+    width: 10em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 11%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .oil-splash::after{
+    content: "";
+    width: 10em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 49%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
   }
 
   .block-labtectaenquiry{
@@ -4755,6 +5012,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(33%, 0, 0);
     transform: translate3d(33%, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.prev,
@@ -4762,6 +5020,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(-33%, 0, 0);
     transform: translate3d(-33%, 0, 0);
     right: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.next.left,
@@ -4770,6 +5029,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .active>div:first-child+div {
@@ -4792,14 +5052,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding-right: 0;
   }
 
-  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2) {
+  .carousel-indicators li:nth-child(1), .carousel-indicators li:nth-child(2), .carousel-indicators li:nth-child(3), .carousel-indicators li:nth-child(4), .carousel-indicators li:nth-child(5) {
     margin-bottom: 1px;
   }
 
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(-75%);
+    transform: translateY(20%);
   }
 
   .media-carousel-block .nav li a {
@@ -4832,7 +5092,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-title {
-    font-size: 3.5em;
+    font-size: 3em;
     line-height: 1em;
     font-weight: 700;
     text-shadow: 0 1px 2px rgb(0 0 0 / 60%)
@@ -4950,7 +5210,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 0;
+    left: 40%;
+    transform: translateY(65%;);
   }
 
   .base-timer {
@@ -5055,8 +5317,108 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 1em
   }
 
+  #carousel-fade {
+    display: flex;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/Images/news-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #066b2e;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/sustainability-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/technology-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/serivce-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/product-hero-sm.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: #002a5b;
+    background-blend-mode: multiply;
+    background-position: bottom right;
+    animation: none;
+    padding-top: 3em;
+  }
+
+  .home-slider-height {
+    min-height: 26em;
+    display: flex;
+  }
+
+  .nav-help {
+    margin-top: 1em;
+    display: block;
+    color: #338FBC;
+  }
+
+  .oil-drip p:nth-child(2) {
+    top: 40%;
+  }
+
+  .oil-splash::before{
+    content: "";
+    width: 13em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 23.5%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .oil-splash::after{
+    content: "";
+    width: 13em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 48.5%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+
   .block-labtectaenquiry{
-   background-size: 60%;
+    background-size: 60%;
   }
 }
 
@@ -5229,6 +5591,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(25%, 0, 0);
     transform: translate3d(25%, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.prev,
@@ -5236,6 +5599,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(-25%, 0, 0);
     transform: translate3d(-25%, 0, 0);
     right: 0;
+    box-shadow: none;
   }
 
   .carousel-inner.horizontal>.item.next.left,
@@ -5244,6 +5608,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
     left: 0;
+    box-shadow: none;
   }
 
   .active>div:first-child+div {
@@ -5291,7 +5656,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     height: 100%;
     position: relative;
-    bottom: -2.75em;
+    bottom: -3.25em;
     z-index: 10;
   }
 
@@ -5372,7 +5737,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 0;
+    transform: translateY(65%);
+    left: 35%;
   }
 
   .base-timer {
@@ -5402,10 +5769,24 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+    margin-left: 10%;
+    margin-top: 3px;
+  }
+
+  .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(32%);
+  }
+
+  .nav-help {
+    position: absolute;
+    color: #338FBC;
   }
 
   .indicators-container .carousel-indicators {
-    bottom: 0.5em
+    bottom: 0.45em;
+    margin-bottom: -10px;
   }
 
   .media-carousel-block .carousel-indicators li {
@@ -5430,6 +5811,76 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .front .caption-container {
     top: 14%;
+  }
+
+  .oil-splash::before{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 15.5%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .oil-splash::after{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 32.5%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+
+  .home-slider-height {
+    min-height: 32em;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(1) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/news-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #066b2e;
+    background-blend-mode: unset;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(2) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/sustainability-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #002a5b;
+    background-blend-mode: unset;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(3) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/technology-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #002a5b;
+    background-blend-mode: unset;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(4) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/service-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #002a5b;
+    background-blend-mode: unset;
+  }
+
+  #carousel-fade .carousel-inner .item:nth-child(5) {
+    background-image: url(https://static.aesseal.com/photo/wavehead/product-backfull.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: #002a5b;
+    background-blend-mode: unset;
   }
 }
 
@@ -5517,7 +5968,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-fill {
-    padding-top: 7em;
+    padding-top: 0em;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -5526,8 +5977,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     height: 100%;
     position: relative;
-    bottom: -3.5em;
+    bottom: -3.75em;
     z-index: 10;
+  }
+
+  .indicators-container .carousel-indicators {
+    bottom: 0.525em;
+    margin-bottom: -10px;
   }
 
   .media-carousel-block {
@@ -5582,6 +6038,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .shadow-container {
     background-color: #efefef;
+    margin-left: 0;
+    margin-top: auto;
   }
 
   blockquote.image-quote {
@@ -5595,7 +6053,9 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .slider-timer {
-    bottom: 1em;
+    bottom: 0;
+    transform: translateY(94%);
+    left: 35%;
   }
 
   .base-timer {
@@ -5611,8 +6071,53 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     max-width: 33%;
   }
 
+  .oil-splash::before{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 21.5%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .oil-splash::after{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -2em;
+    left: 35.5%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+
+  .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(28%);
+  }
+
   .front .caption-container {
     top: 21%;
+  }
+
+  .find-out-more {
+    position: absolute;
+    transform: translateY(20%);
+  }
+
+  .nav-help {
+    margin-top: 1em;
+    display: none;
+    position: absolute;
+    transform: translateY(75%);
+    color: #338FBC;
   }
 }
 
@@ -5664,7 +6169,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .envirologo-container {
     height: 100%;
     position: relative;
-    bottom: -3.5em;
+    bottom: -3.25em;
     z-index: 10;
   }
 
@@ -5722,15 +6227,51 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -1.1em;
   }
 
-  .caption-container {
+  .oil-splash::before{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -30%;
+    left: 34.5%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
 
+  .oil-splash::after{
+    content: "";
+    width: 11em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -30%;
+    left: 24.5%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
+
+  .find-out-more {
+    position: absolute;
+    transform: translateY(80%);
+  }
+
+  .nav-help {
+    margin-top: 1em;
+    display: none;
+    position: absolute;
+    transform: translateY(280%);
+    color: #338FBC;
+  }
   }
 }
 
 @media screen and (min-width: 1800px) {
-
   .envirologo-container {
-    width: 85%;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -5795,6 +6336,32 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: relative;
     margin-top: -1em;
   }
+
+  .oil-splash::before{
+    content: "";
+    width: 12em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -35%;
+    left: 15%;
+    background: #fff;
+    border-bottom-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+  }
+
+  .oil-splash::after{
+    content: "";
+    width: 12em;
+    height: 3em;
+    position: absolute;
+    z-index: 1;
+    top: -35%;
+    left: 28%;
+    background: #fff;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+  }
 }
 
 @media screen and (min-width: 2500px) {
@@ -5805,7 +6372,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .media-carousel-block {
     position: relative;
-    bottom: 5.8em;
+    bottom: 0;
   }
 }
 
@@ -5862,5 +6429,49 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 @media (aspect-ratio: 97/32) {
   .aspect-ratio-padding {
     padding-bottom: 32.99%
+  }
+}
+
+@keyframes screenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -3000px;
+  }
+}
+
+@-webkit-keyframes screenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -3000px;
+  }
+}
+
+@keyframes bigScreenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -4000px;
+  }
+}
+
+@-webkit-keyframes bigScreenFloat {
+
+  0% {
+      background-position: 50% 0;
+  }
+
+  100% {
+      background-position: 50% -4000px;
   }
 }

@@ -6,85 +6,126 @@
       var total = carouselData.$items.length;
       var slide = (currentIndex + 1);
       if (slide === 1) {
+        if ($('.news-media-carousel').hasClass('display-none')) {
+          $('.news-media-carousel').removeClass('display-none');
+          $('#news').find('.text-slider').flexslider({
+            slideToStart: 0
+          });
+        }
+
+        if (!$('.sus-media-carousel').hasClass('display-none')) {
+          $('.sus-media-carousel').addClass('display-none');
+        }
+
+        if (!$('.tech-media-carousel').hasClass('display-none')) {
+          $('.tech-media-carousel').addClass('display-none');
+        }
+
+        if (!$('.cust-media-carousel').hasClass('display-none')) {
+          $('.cust-media-carousel').addClass('display-none');
+        }
+
+        if (!$('.prod-media-carousel').hasClass('display-none')) {
+          $('.prod-media-carousel').addClass('display-none');
+        }
+
+      }
+      else if (slide === 2) {
         if ($('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').removeClass('display-none');
-          $('.sus-media-carousel').find('#sus-main').addClass('active');
+          $('#esg').find('.text-slider').flexslider({
+            slideToStart: 0
+          });
         }
+
+        if (!$('.news-media-carousel').hasClass('display-none')) {
+          $('.news-media-carousel').addClass('display-none');
+        }
+
         if (!$('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').addClass('display-none');
-          $('.tech-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.cust-media-carousel').hasClass('display-none')) {
           $('.cust-media-carousel').addClass('display-none');
-          $('.cust-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.prod-media-carousel').hasClass('display-none')) {
           $('.prod-media-carousel').addClass('display-none');
-          $('.prod-media-carousel').find('.media-tab').removeClass('active');
         }
-      } else if (slide === 2) {
+
+      } else if (slide === 3) {
         if ($('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').removeClass('display-none');
-          $('.tech-media-carousel').find('#tech-main').addClass('active');
+          $('#tech').find('.text-slider').flexslider({
+            slideToStart: 0
+          });
         }
+
+        if (!$('.news-media-carousel').hasClass('display-none')) {
+          $('.news-media-carousel').addClass('display-none');
+        }
+
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
-          $('.sus-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.cust-media-carousel').hasClass('display-none')) {
           $('.cust-media-carousel').addClass('display-none');
-          $('.cust-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.prod-media-carousel').hasClass('display-none')) {
           $('.prod-media-carousel').addClass('display-none');
-          $('.prod-media-carousel').find('.media-tab').removeClass('active');
-
         }
-      } else if (slide === 3) {
+
+      } else if (slide === 4) {
         if ($('.cust-media-carousel').hasClass('display-none')) {
           $('.cust-media-carousel').removeClass('display-none');
-          $('.cust-media-carousel').find('#cust-main').addClass('active');
-
+          $('#cust-service').find('.text-slider').flexslider({
+            slideToStart: 0
+          });
         }
+
+        if (!$('.news-media-carousel').hasClass('display-none')) {
+          $('.news-media-carousel').addClass('display-none');
+        }
+
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
-          $('.sus-media-carousel').find('.media-tab').removeClass('active');
         }
+
         if (!$('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').addClass('display-none');
-          $('.tech-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.prod-media-carousel').hasClass('display-none')) {
           $('.prod-media-carousel').addClass('display-none');
-          $('.prod-media-carousel').find('.media-tab').removeClass('active');
-
         }
-      } else if (slide === 4) {
+
+      } else if (slide === 5) {
         if ($('.prod-media-carousel').hasClass('display-none')) {
           $('.prod-media-carousel').removeClass('display-none');
-          $('.prod-media-carousel').find('#prod-main').addClass('active');
-
+          $('#prod').find('.text-slider').flexslider({
+            slideToStart: 0
+          });
         }
+
+        if (!$('.news-media-carousel').hasClass('display-none')) {
+          $('.news-media-carousel').addClass('display-none');
+        }
+
         if (!$('.sus-media-carousel').hasClass('display-none')) {
           $('.sus-media-carousel').addClass('display-none');
-          $('.sus-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.tech-media-carousel').hasClass('display-none')) {
           $('.tech-media-carousel').addClass('display-none');
-          $('.tech-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
         if (!$('.cust-media-carousel').hasClass('display-none')) {
           $('.cust-media-carousel').addClass('display-none');
-          $('.cust-media-carousel').find('.media-tab').removeClass('active');
-
         }
+
       }
     });
   });
