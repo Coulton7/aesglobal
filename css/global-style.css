@@ -3430,7 +3430,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 }
 
 .slider-img {
-  position: absolute;
   bottom: 0;
   max-height: 100%;
 }
