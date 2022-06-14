@@ -3042,7 +3042,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 }
 
 .carousel-fill {
-  padding-top: 10em;
+  padding-top: 0em;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
@@ -5046,7 +5046,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-fill {
-    padding-top: 10em;
+    padding-top: 0em;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
@@ -5629,7 +5629,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-fill {
-    padding-top: 8em;
+    padding-top: 0em;
     padding-bottom: 0;
   }
 
@@ -6160,7 +6160,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   .carousel-fill {
-    padding-top: 10em;
+    padding-top: 0em;
     padding-bottom: 0;
     padding-left: 0;
     padding-right: 0;
