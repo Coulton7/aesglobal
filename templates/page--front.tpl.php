@@ -364,4 +364,4 @@ if(!empty($file_fid)) {
 			</div>
 	<?php endif; ?>
 </footer>
-<script type="text/javascript" src="/sites/all/themes/aesbs337/js/carousel-options.js"></script>
+<script type="text/javascript" src="/sites/all/themes/aesbs337/js/carousel-options-v2.js"></script>
