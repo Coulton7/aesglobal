@@ -92,7 +92,7 @@ if(!empty($file_fid)) {
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
 <script src="/sites/all/themes/aesbs337/js/init-bs.js"></script>
-<script src="/sites/all/themes/aesglobal/js/home-carousel-hider.js"></script>
+<script src="/sites/all/themes/aesglobal/js/home-carousel-hider-v2.js"></script>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
