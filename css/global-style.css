@@ -3210,7 +3210,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   height: 3em;
   position: absolute;
   z-index: 1;
-  top: -13%;
+  top: -2em;
   left: 48.5%;
   background: #fff;
   border-bottom-right-radius: 50%;
@@ -3223,7 +3223,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   height: 3em;
   position: absolute;
   z-index: 1;
-  top: -13%;
+  top: -2em;
   left: -1.5%;
   background: #fff;
   border-bottom-left-radius: 50%;
@@ -6078,7 +6078,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -11.5%;
+    top: -2em;
     left: -1.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
@@ -6091,7 +6091,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -11.5%;
+    top: -2em;
     left: 48.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
@@ -6234,7 +6234,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -18%;
+    top: -2em;
     left: 48.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
@@ -6247,7 +6247,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -18%;
+    top: -2em;
     left: -1.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
@@ -6344,7 +6344,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -16%;
+    top: -2em;
     left: 48.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
@@ -6357,7 +6357,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -16%;
+    top: -2em;
     left: -1.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
