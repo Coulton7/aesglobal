@@ -4686,12 +4686,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 10em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
     top: -2em;
-    left: 11%;
+    left: -1.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -4699,12 +4699,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 10em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
     top: -2em;
-    left: 49%;
+    left: 48.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
