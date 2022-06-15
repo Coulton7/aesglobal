@@ -3206,12 +3206,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .oil-splash::before{
   content: "";
-  width: 8em;
+  width: 53%;
   height: 3em;
   position: absolute;
   z-index: 1;
-  top: -30%;
-  left: 13.5%;
+  top: -13%;
+  left: 48.5%;
   background: #fff;
   border-bottom-right-radius: 50%;
   border-bottom-left-radius: 50%;
@@ -3219,12 +3219,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .oil-splash::after{
   content: "";
-  width: 8em;
+  width: 53%;
   height: 3em;
   position: absolute;
   z-index: 1;
-  top: -30%;
-  left: 26.5%;
+  top: -13%;
+  left: -1.5%;
   background: #fff;
   border-bottom-left-radius: 50%;
   border-bottom-right-radius: 50%;
@@ -5394,12 +5394,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 13em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
     top: -2em;
-    left: 23.5%;
+    left: -1.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -5407,7 +5407,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 13em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
@@ -5816,12 +5816,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
     top: -2em;
-    left: 15.5%;
+    left: -1.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -5829,12 +5829,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
     top: -2em;
-    left: 32.5%;
+    left: 48.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -6074,12 +6074,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -2em;
-    left: 21.5%;
+    top: -11.5%;
+    left: -1.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -6087,12 +6087,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -2em;
-    left: 35.5%;
+    top: -11.5%;
+    left: 48.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -6230,12 +6230,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -30%;
-    left: 34.5%;
+    top: -18%;
+    left: 48.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -6243,12 +6243,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 11em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -30%;
-    left: 24.5%;
+    top: -18%;
+    left: -1.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
@@ -6340,12 +6340,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::before{
     content: "";
-    width: 12em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -35%;
-    left: 15%;
+    top: -16%;
+    left: 48.5%;
     background: #fff;
     border-bottom-right-radius: 50%;
     border-bottom-left-radius: 50%;
@@ -6353,12 +6353,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .oil-splash::after{
     content: "";
-    width: 12em;
+    width: 53%;
     height: 3em;
     position: absolute;
     z-index: 1;
-    top: -35%;
-    left: 28%;
+    top: -16%;
+    left: -1.5%;
     background: #fff;
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
