@@ -3315,7 +3315,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 100%;
 }
 
-.front .social-id {
+:lang(en) .front .social-id {
   position: relative;
   top: 3em;
   z-index: 1034;
