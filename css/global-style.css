@@ -5814,6 +5814,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
+    background-position: 0% 75%;
   }
 
   #carousel-fade .carousel-inner .item:nth-child(2) {
