@@ -5811,7 +5811,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(https://static.aesseal.com/photo/wavehead/AESSEAL-in-the-BHAG.jpg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
   }
