@@ -4584,7 +4584,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url(https://static.aesseal.com/photo/wavehead/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(9, 107, 50);
+    background-color: #012e58;
     background-blend-mode: multiply;
     animation: none;
     background-position: bottom right;
@@ -5286,7 +5286,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url(https://static.aesseal.com/photo/wavehead/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: rgb(9, 107, 50);
+    background-color: #012e58;
     background-blend-mode: multiply;
     background-position: bottom right;
     animation: none;
@@ -5812,7 +5812,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-image: url(https://static.aesseal.com/photo/wavehead/AESSEAL-in-the-BHAG.jpg);
     background-repeat: no-repeat;
     background-size: contain;
-    background-color: rgb(9, 107, 50);
+    background-color: #012e58;
     background-blend-mode: unset;
   }
 
