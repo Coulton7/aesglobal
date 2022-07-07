@@ -6247,6 +6247,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     width: 90%;
     margin: 0 auto;
   }
+
+  .find-out-more {
+    position: absolute;
+    transform: translateY(80%);
+  }
 }
 
 @media screen and (min-width: 2000px) {
