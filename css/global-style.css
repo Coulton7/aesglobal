@@ -6229,7 +6229,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .find-out-more {
     position: absolute;
-    transform: translateY(80%);
+    transform: translateY(0%);
   }
 
   .nav-help {
