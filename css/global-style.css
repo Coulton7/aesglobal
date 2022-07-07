@@ -5020,7 +5020,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(20%);
+    transform: translateY(12%);
   }
 
   .media-carousel-block .nav li a {
