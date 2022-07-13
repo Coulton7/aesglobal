@@ -5734,6 +5734,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     margin-top: 3px;
   }
 
+  #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(16%);
+  }
+
   .mobile-carousel-caption {
     bottom: 0;
     position: relative;
@@ -6073,6 +6079,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(28%);
   }
 
+  #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(18%);
+  }
+
   .front .caption-container {
     top: 21%;
   }
@@ -6239,6 +6251,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(280%);
     color: #338FBC;
   }
+}
+
+@media screen and (min-width: 1600px) {
+  #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
+    bottom: 0;
+    position: relative;
+    transform: translateY(28%);
   }
 }
 
