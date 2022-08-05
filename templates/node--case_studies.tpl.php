@@ -60,9 +60,9 @@
   </div>
 
   <div class="row">
-      <div class="col-md-12 resources-related-products">
-          <?php print render($content['field_reference']);?>
-      </div>
+    <div class="col-md-12 resources-related-products">
+      <?php print render($content['field_reference']);?>
+    </div>
   </div>
 
   <?php if (!empty($content['field_tags']) || !empty($content['links'])): ?>
