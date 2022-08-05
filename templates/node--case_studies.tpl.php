@@ -28,6 +28,7 @@
         hide($content['field_country']);
         hide($content['field_api__plan_types']);
         hide($content['field_thumbnail_sq']);
+        hide($content['field_q_a']);
         print render($content);
       ?>
     </div>
