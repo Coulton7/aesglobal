@@ -46,8 +46,10 @@
       <div class="margin-top">
         <?php print render($content['field_case_ref']);?>
         <?php print render($content['field_country']);?>
+      </div>
       <div class="margin-top">
         <?php print render($content['field_api__plan_types']); ?>
+      </div>
     </div>
   </div>
 
