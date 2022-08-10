@@ -4065,6 +4065,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     float: right;
   }
 
+  :lang(en) .front .social-id {
+    top: 4.8em;
+  }
+
   .social-media ul li {
     width: 24%;
     text-align: center;
@@ -5276,6 +5280,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .dropdown .shadow-drop-menu li.active a{
     background-color: #efefef;
     padding: 1em
+  }
+
+  :lang(en) .front .social-id {
+    top: 0;
   }
 
   #carousel-fade {
