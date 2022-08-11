@@ -72,6 +72,13 @@ function aesglobal_form_alter(&$form, &$form_state, &$form_id){
   }
 }
 
+function aesglobal_preprocess_comment(&$variables) {
+  $variables['title'] = t('Case Studies Q&A');
+  $variables['submitted'] = t('Submitted by !username', array(
+    '!username' => $variables['author']
+  ));
+}
+
 function aesglobal_preprocess_node(&$variables) {
   $node = $variables['node'];
   $date = format_date($node->created, 'custom', 'F j, Y');
