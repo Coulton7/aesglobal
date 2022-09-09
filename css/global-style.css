@@ -418,7 +418,7 @@ a .btn-social:hover, a .btn-social:focus {
   padding: 5px 15px;
   width: 100%;
   text-align: center;
-  margin-bottom: 1em;
+  margin-bottom: 3em;
 }
 
 .field-document a:before, .field-download a:before {
