@@ -4678,8 +4678,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
    background-size: 100%;
   }
 
-  .nav li.last.leaf {
-    display: none;
+  .navbar-container .nav li.last.leaf {
+    display: block;
   }
 }
 
@@ -4688,7 +4688,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     padding: 0.95em 0.95em;
   }
 
-  .nav li.last.leaf {
+  .navbar-container .nav li.last.leaf {
     display: none;
   }
 
