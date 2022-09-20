@@ -4585,12 +4585,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
+    background-image: url(https://static.aesseal.com/photo/wavehead/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
-    background-color: #4c4e4f;
+    background-color: #012e58;
     background-blend-mode: multiply;
     animation: none;
     background-position: bottom right;
@@ -5301,9 +5299,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
+    background-image: url(https://static.aesseal.com/photo/wavehead/Logo-Glass.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-color: #012e58;
@@ -5835,12 +5831,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
-    background: -moz-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: -webkit-radial-gradient(center, ellipse cover, #000000 0%, #4c4e4f 80%);
-    background: radial-gradient(ellipse at center, #000000 0%, #4c4e4f 80%);
+    background-image: url(https://static.aesseal.com/photo/wavehead/AESSEAL-in-the-BHAG.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #4c4e4f;
+    background-color: #012e58;
     background-blend-mode: unset;
     background-position: 0% 75%;
   }
