@@ -5153,11 +5153,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -13.5em;
     right: 0;
+    width: 100%;
   }
 
   .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
+    width: 100%;
   }
 
   blockquote.customer-focus-quote:before {
@@ -5691,11 +5693,13 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -13.5em;
     right: 0;
+    width: 100%;
   }
 
   .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
+    width: 100%
   }
 
   .customer-focus-quote {
@@ -6011,12 +6015,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -14em;
     right: 0;
+    width: 100%;
   }
 
   .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
     position: absolute;
     top: -15em;
     right: 0;
+    width: 100%;
   }
 
   .customer-focus-quote, .image-quote {
@@ -6198,6 +6204,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -14em;
     right: 0;
+    width: 100%;
   }
 
   .rel-logos-wave {
@@ -6208,6 +6215,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -15em;
     right: 0;
+    width: 100%;
   }
 
   .shadow-container {
@@ -6329,6 +6337,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     position: absolute;
     top: -13.5em;
     right: 0;
+    width: 80%;
   }
 
   .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
