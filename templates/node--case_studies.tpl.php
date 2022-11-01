@@ -49,6 +49,10 @@
       </div>
       <div class="margin-top">
         <?php print render($content['field_api__plan_types']); ?>
+        <?php
+					 $block = module_invoke('views', 'block_view', 'industry_icons-block_1');
+					 print render($block['content']);
+				  ?>
       </div>
     </div>
   </div>
