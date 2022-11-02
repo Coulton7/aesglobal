@@ -1048,6 +1048,7 @@ blockquote {
 .view-api-plans .views-exposed-widgets,
 .view-all-case-study-resources .views-exposed-widgets,
 .view-all-product-brochure-resources .views-exposed-widgets,
+.view-all-video-resources .views-exposed-widgets,
 .view-resources-search-nid-references .views-exposed-widgets,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
@@ -1159,6 +1160,7 @@ blockquote {
 .view-api-plans .views-exposed-widgets .btn,
 .view-all-case-study-resources .views-exposed-widgets .btn,
 .view-all-product-brochure-resources .views-exposed-widgets .btn,
+.view-all-video-resources .views-exposed-widgets .btn,
 .view-resources-search-nid-references .views-exposed-widgets .btn {
   list-style-type: none;
   display: inline-block;
