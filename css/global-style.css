@@ -1440,6 +1440,61 @@ label.resource-label {
   vertical-align: middle;
 }
 
+.block-Automotive {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Industry-Solutions-1.jpg");
+}
+
+.block-Biofuels {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Biofuels-1.jpg");
+}
+
+.block-Chemical-and-Pharmaceutical {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Chemical-1.jpg");
+}
+
+.block-Food-and-Beverage {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Food-and-beverage-1.jpg");
+}
+
+.block-Marine {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Marine-1.jpg");
+}
+
+.block-Metal-Processing {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Metal-Processing-1.jpg");
+}
+
+.block-Mining-and-Minerals {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Mining-and-Minerals-1.jpg");
+}
+
+.block-Oil-and-Gas {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Oil-and-Gas-2.jpg");
+}
+
+.block-Power-Generation {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Power-Generation-2.jpg");
+}
+
+.block-Pulp-and-Paper {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Pulp-and-Paper-3.jpg");
+}
+
+.block-Water-and-Waste-Water {
+  background-size: cover;
+  background-image: url("https://www.aesseal.com/sites/aesseal.com/files/taxonomy/industry/Water-and-Waste-Water-1.jpg");
+}
+
 .block-labtectaenquiry{
  width: 100%;
  background-repeat: no-repeat;
