@@ -5460,6 +5460,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .block-labtectaenquiry{
     background-size: 60%;
   }
+
+  #redForm .modal-dialog {
+    padding-top: 6em;
+  }
 }
 
 @media screen and (min-width: 992px) {
@@ -5934,6 +5938,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-size: contain;
     background-color: #012e58;
     background-blend-mode: unset;
+  }
+
+  #redForm .modal-dialog {
+    padding-top: 0;
   }
 }
 
