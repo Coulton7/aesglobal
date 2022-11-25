@@ -71,6 +71,7 @@ a.no-underline :hover {
 .flexslider .slides>li:first-child {
   display: block;
   -webkit-backface-visibility: visible;
+  backface-visibility: visible;
 }
 
 .flex-header {
@@ -1075,8 +1076,7 @@ blockquote {
 
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_material_value_i18n,
 .view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_composition_value_i18n,
-.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n,
-  {
+.view-packing-products-browser .views-exposed-widgets .views-widget-filter-field_suitability_value_i18n {
   width: 33%;
   display: block;
 }
@@ -3799,7 +3799,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: -23.25%;
   }
 
-  .sustainability-advert img, .sustainability-advert-home img, , .rel-logos-wave img {
+  .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img {
     max-width: 75%;
   }
 
@@ -5248,7 +5248,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .slider-timer {
     bottom: 0;
     left: 40%;
-    transform: translateY(65%;);
+    transform: translateY(65%);
   }
 
   .base-timer {
@@ -5750,7 +5750,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .sustainability-advert-img-home {
     max-width: 75%;
     right: 0;
-    margin-right: ;
     margin-left: auto;
   }
 
