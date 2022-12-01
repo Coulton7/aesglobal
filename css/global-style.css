@@ -4742,6 +4742,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .navbar-container .nav li.last.leaf {
     display: block;
   }
+
+  .tomwetlands-background {
+    background-position: left;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -5463,6 +5467,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   #resForm .modal-dialog {
     padding-top: 6em;
+  }
+
+  .tomwetlands-background {
+    background-position: center;
   }
 }
 
