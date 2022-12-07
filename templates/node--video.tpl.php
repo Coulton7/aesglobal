@@ -1,6 +1,5 @@
 <article id="node-<?php print $node->nid; ?>" class="<?php print $classes; ?> clearfix"<?php print $attributes; ?>>
-<script type="text/javascript" src="/sites/all/themes/aesbs337/js/hubspot-progressive-profile.js"></script>
-<script type="text/javascript" src="/sites/all/themes/aesbs337/js/video-form-fill.js"></script>
+
 
   <header>
     <?php print render($title_prefix); ?>
