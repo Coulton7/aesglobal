@@ -147,6 +147,9 @@ if(!empty($file_fid)) {
 								</nav>
 							</div>
 						</div>
+						<?php if($node->type == 'article'): ?>
+							<div class="progress-container"></div>
+						<? endif; ?>
 						<div class="section-shadow-menu"></div>
 					<?php endif; ?>
 
