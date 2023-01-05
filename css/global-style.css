@@ -3726,12 +3726,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     transform: translateY(-50%);
   }
 
-  .sustainability-advert, .rel-logos-wave {
-    position: absolute;
-    top: 1.5em;
-    right: -23.25%;
-  }
-
   .sustainability-advert img, .sustainability-advert-home img, .rel-logos-wave img {
     max-width: 75%;
   }
@@ -3855,12 +3849,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     min-height: 21em;
   }
 
-  .sustainability-advert, .rel-logos-wave {
-    position: absolute;
-    top: -1em;
-    right: -5em;
-  }
-
   .slider-timer {
     bottom: 5em;
   }
@@ -3966,16 +3954,6 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     right: -30%;
     top: 60%;
     transform: translateY(-50%);
-  }
-
-  .sustainability-advert img, .rel-logos-wave img {
-    max-width: 75%;
-  }
-
-  .sustainability-advert, .rel-logos-wave {
-    position: absolute;
-    top: -14.75em;
-    right: 0;
   }
 
   .slider-timer {
@@ -5119,12 +5097,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    top: -13.5em;
+    top: -14.14em;
     right: 0;
     width: 100%;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
+  .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
     width: 100%;
@@ -5636,12 +5614,12 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    top: -13.5em;
+    top: -13.14em;
     right: 0;
     width: 100%;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
+  .logged-in .rel-logos-wave {
     top: -14.5em;
     right: 0;
     width: 100%
@@ -5932,12 +5910,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    top: -14em;
+    top: -15.14em;
     right: 0;
+    max-width: 100%;
+    display: block;
     width: 100%;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
+  .logged-in .rel-logos-wave {
     position: absolute;
     top: -15em;
     right: 0;
@@ -6091,8 +6071,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    top: -14em;
+    top: -15.5em;
     right: 0;
+    max-width: 95%;
+    display: block;
     width: 100%;
   }
 
@@ -6100,7 +6082,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     top: -14.5em;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
+  .logged-in .rel-logos-wave {
     position: absolute;
     top: -15em;
     right: 0;
@@ -6194,12 +6176,14 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .sustainability-advert, .rel-logos-wave {
     position: absolute;
-    top: -13.5em;
+    top: -15.14em;
     right: 0;
-    width: 80%;
+    max-width: 75%;
+    width: 100%;
+    display: block;
   }
 
-  .logged-in .sustainability-advert, .logged-in .rel-logos-wave {
+  .logged-in .rel-logos-wave {
     position: absolute;
     top: -15.2em;
     right: 0;
