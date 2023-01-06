@@ -151,7 +151,9 @@ if(!empty($file_fid)) {
 							</div>
 						</div>
 						<?php if($node->type == 'article'): ?>
-							<div class="progress-container"></div>
+							<div class="progress-container">
+								<div id="myBar" class="progress-bar"></div>
+							</div>
 						<? endif; ?>
 						<div class="section-shadow-menu"></div>
 					<?php endif; ?>
