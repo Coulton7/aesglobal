@@ -2372,6 +2372,14 @@ a.menu-box:hover img {
   filter: invert(1%) sepia(78%) saturate(3008%) hue-rotate(205deg) brightness(83%) contrast(92%);
 }
 
+.field-api--plan-types .field-icon:hover {
+  transform: scale(1.1);
+}
+
+.field-api--plan-types .field-icon {
+  transition: transform .2s ease-in-out;
+ }
+
 .prod-related-media:focus {
   outline: none;
   border: none;
