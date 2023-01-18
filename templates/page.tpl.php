@@ -91,9 +91,6 @@ if(!empty($file_fid)) {
 <link rel="stylesheet" href="/sites/all/libraries/flexslider/flexslider.css" type="text/css">
 <script src="/sites/all/libraries/flexslider/jquery.flexslider-min.js"></script>
 <script src="/sites/all/themes/aesbs337/js/slider-options.js"></script>
-<?php if($node->type == 'article'): ?>
-	<script src="/sites/all/themes/aesglobal/js/progress-scroll.js"></script>
-<? endif; ?>
 
 <div class="container-fluid bannercontainer">
 	<div class="row bannerimage">
@@ -150,11 +147,9 @@ if(!empty($file_fid)) {
 								</nav>
 							</div>
 						</div>
-						<?php if($node->type == 'article'): ?>
-							<div class="progress-container">
-								<div id="myBar" class="progress-bar"></div>
-							</div>
-						<? endif; ?>
+						<div class="progress-container">
+							<div id="myBar" class="progress-bar"></div>
+						</div>
 						<div class="section-shadow-menu"></div>
 					<?php endif; ?>
 
