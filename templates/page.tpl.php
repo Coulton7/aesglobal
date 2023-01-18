@@ -147,7 +147,7 @@ if(!empty($file_fid)) {
 								</nav>
 							</div>
 						</div>
-						<div class="progress-container">
+						<div id="progress-cont" class="progress-container">
 							<div id="myBar" class="progress-bar"></div>
 						</div>
 						<div class="section-shadow-menu"></div>
