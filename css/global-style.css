@@ -3649,6 +3649,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   width: 0%;;
 }
 
+.page-node-3275 .container-inline {
+  display: none;
+}
+
 @keyframes bannerFadeOut {
   0% {
     opacity: 1;
