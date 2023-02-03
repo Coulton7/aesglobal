@@ -538,7 +538,7 @@ a.btn:hover {
   background: #dd1e25;
   color: #ffffff !important;
   border-radius: 30px;
-  border: 2px solid transparent !important;
+  border: 2px solid #dd1e25 !important;
   box-shadow: none;
 }
 
@@ -550,7 +550,7 @@ a.btn:hover {
   background: #ad1c1c;
   margin-bottom: 0;
   color: #ffffff !important;
-  border: 2px solid #ffffff !important;
+  border: 2px solid #ad1c1c !important;
 }
 
 .btn-primary.disabled:hover, .btn-primary.disabled:focus {
