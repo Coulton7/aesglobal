@@ -26,6 +26,7 @@
         hide($content['field_installation_guide']);
         hide($content['field_thumbnail_sq']);
         hide($cotnent['field_range_brochure']);
+        hide($content['field_hubspot_form']);
         print render($content);
         ?>
       </div>
@@ -41,6 +42,7 @@
         <?php print render($content['field_document']);?>
         <?php print render($content['field_installation_guide']);?>
       </div>
+      <?php print render($content['field_hubspot_form']);?>
     </div>
   </div>
 
