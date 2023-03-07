@@ -94,6 +94,10 @@ a.no-underline :hover {
   border-bottom: none;
 }
 
+.steam-header-text {
+  color: #002A5B;
+}
+
 .flex-caption {
   margin-top: 0.2em;
   position: relative;
