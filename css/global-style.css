@@ -4590,7 +4590,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: unset;
-    background-position: 45% 100%;
+    background-position: 35% 100%;
     animation: none;
     padding-top: 3em;
   }
@@ -5280,7 +5280,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
     background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: unset;
-    background-position: 45% 100%;
+    background-position: 35% 100%;
     animation: none;
     padding-top: 3em;
   }
