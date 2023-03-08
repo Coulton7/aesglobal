@@ -2138,7 +2138,8 @@ a.menu-box:hover img {
   background-color: #eeeeee;
   border: 1px solid #66afe9;
   border-radius: 10px;
-  padding: 0 15px
+  padding: 0 15px;
+  color: #535354;
 }
 
 .hs-form-d0bf7089-7cad-47c2-8199-b516edecdddc .hs-button {
