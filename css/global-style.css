@@ -2345,7 +2345,6 @@ a.menu-box:hover img {
 }
 
 .field-product-image .flex-control-thumbs {
-  padding-top: 1em;
   position: relative;
   bottom: 0;
   transform: translateX(25%);
@@ -2361,7 +2360,7 @@ a.menu-box:hover img {
 }
 
 .field-product-image .flex-control-thumbs {
-  width: 19% !important;
+  width: 18% !important;
   float: right;
   margin: 0 !important;
   height: 100%;
