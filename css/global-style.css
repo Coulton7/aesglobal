@@ -4701,6 +4701,10 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .tomwetlands-background {
     background-position: left;
   }
+
+  .no-float-mobile {
+    float: none;
+  }
 }
 
 @media screen and (min-width: 768px) {
