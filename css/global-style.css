@@ -441,7 +441,7 @@ a .btn-social:hover, a .btn-social:focus {
 .node-3d-models .field-document a {
   width: fit-content;
   display: block;
-  margin: 1em auto;
+  margin: 0.5em auto;
 }
 
 .field-installation-guide a {
