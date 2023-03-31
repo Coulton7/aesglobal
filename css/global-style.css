@@ -438,6 +438,10 @@ a .btn-social:hover, a .btn-social:focus {
   border: none !important;
 }
 
+.node-3d-models .field-document a {
+  width: auto;
+}
+
 .field-installation-guide a {
   list-style-type: none;
   display: inline-block;
