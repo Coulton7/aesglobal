@@ -444,7 +444,7 @@ a .btn-social:hover, a .btn-social:focus {
   margin: 0.5em auto;
 }
 
-.field-installation-guide a {
+.field-installation-guide a, .field-i18n-installation-guide a {
   list-style-type: none;
   display: inline-block;
   background: #002A5B;
@@ -457,13 +457,13 @@ a .btn-social:hover, a .btn-social:focus {
   margin-bottom: 1em;
 }
 
-.field-installation-guide a:hover {
+.field-installation-guide a:hover, .field-i18n-installation-guide a:hover {
   background: #004a8c;
   color: #ffffff !important;
   border: none !important;
 }
 
-.field-installation-guide a:before {
+.field-installation-guide a:before, .field-i18n-installation-guide a:before {
   font-family: 'Font Awesome 5 Free';
   content: " \f7d9   ";
   font-weight: 900;
