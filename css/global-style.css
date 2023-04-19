@@ -2254,6 +2254,15 @@ a.menu-box:hover img {
   color: #efefef;
 }
 
+.background-3179 .quote-placement, .background-3181 .quote-placement, .background-3183 .quote-placement, .background-3184 .quote-placement, .background-3186 .quote-placement, .background-3188 .quote-placement, .background-3190 .quote-placement  {
+  width: 50%;
+  margin-left: 41.66666667%;
+}
+
+.background-3180 .quote-placement, .background-3182 .quote-placement, .background-3185 .quote-placement, .background-3187 .quote-placement, .background-3189 .quote-placement, .background-3191 .quote-placement {
+  width: 50%;
+}
+
 .rrssb-buttons li.rrssb-linkedin a, .rrssb-buttons li.rrssb-email a, .rrssb-buttons li.rrssb-twitter a {
   background-color: #002a5b;
 }
