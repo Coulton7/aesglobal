@@ -469,7 +469,7 @@ a .btn-social:hover, a .btn-social:focus {
   font-weight: 900;
 }
 
-.field-document img.file-icon, .field-download img.file-icon, .field-installation-guide img.file-icon {
+.field-document img.file-icon, .field-download img.file-icon, .field-installation-guide img.file-icon, .field-i18n-installation-guide img.file-icon {
   display: none;
 }
 
