@@ -1890,6 +1890,11 @@ a.menu-box:hover img {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.04), 0 4px 8px 0 rgba(0, 0, 0, 0.3);
 }
 
+.optionset-quote-slider li.flex-active-slide, .optionset-quote-slider li.flex-active-slide div,  .optionset-quote-slider li.flex-active-slide span {
+  height: 100%;
+}
+
+
 .optionset-quote-slider .flex-direction-nav a {
   top: 50%;
 }
