@@ -2120,7 +2120,7 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
-.tomwetlands-background.lazy-back, .background-3179.lazy-back,  .background-3180.lazy-back, .background-3181.lazy-back, .background-3182.lazy-back, .background-3183.lazy-back, .background-3184.lazy-back, .background-3185.lazy-back, .background-3186.lazy-back, .background-3187.lazy-back, .background-3188.lazy-back, .background-3189.lazy-back, .background-3190.lazy-back, .background-3191.lazy-back {
+.tomwetlands-background.lazy-back, .background-3179.lazy-back,  .background-3180.lazy-back, .background-3181.lazy-back, .background-3182.lazy-back, .background-3183.lazy-back, .background-3184.lazy-back, .background-3185.lazy-back, .background-3186.lazy-back, .background-3187.lazy-back, .background-3188.lazy-back, .background-3189.lazy-back, .background-3190.lazy-back, .background-3191.lazy-back, .background-3201.lazy-back {
   background-image: none;
   background-color: #efefef;
 }
@@ -2255,6 +2255,16 @@ a.menu-box:hover img {
 
 .background-3191 {
   background-image: url(https://static.aesseal.com/photo/staff/quotes/WINSTON_THOMAS.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: right;
+  background-color: #010101;
+  color: #efefef;
+}
+
+.background-3201 {
+  background-image: url(https://static.aesseal.com/photo/staff/quotes/Ava-Jones.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   width: 100%;
