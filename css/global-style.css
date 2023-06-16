@@ -6565,7 +6565,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   }
 }
 
-@media (max-aspect-ratio: 4/3) {
+@media (min-aspect-ratio: 4/3) {
   .aspect-ratio-padding {
     padding-bottom: 75%;
   }
