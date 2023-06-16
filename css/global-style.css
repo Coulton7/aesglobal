@@ -3604,7 +3604,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .front-fade {
   display: none;
-  color: rgba(0, 0, 0, 0.6);
+  color: rgba(0, 0, 0);
 }
 
 .carousel-col-placement {
