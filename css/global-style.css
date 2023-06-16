@@ -4081,6 +4081,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   .lang-switch {
     width: 63%;
+    margin-left: 3.1em;
+    padding-top: 1em;
   }
 
   .front__flex-margin {
@@ -5975,7 +5977,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(16%);
+    transform: translateY(4%);
   }
 
   .mobile-carousel-caption {
@@ -6268,7 +6270,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(18%);
+    transform: translateY(2%);
   }
 
   .front .caption-container {
@@ -6417,7 +6419,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   #carousel-fade .carousel-inner .item:nth-child(1) .mobile-carousel-caption {
     bottom: 0;
     position: relative;
-    transform: translateY(28%);
+    transform: translateY(4%);
   }
 }
 
