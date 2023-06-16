@@ -3217,7 +3217,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 }
 
 .social-media ul li a {
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
   border-bottom: none;
 }
 
@@ -3604,7 +3604,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
 .front-fade {
   display: none;
-  color: #ffffff;
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .carousel-col-placement {
