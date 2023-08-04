@@ -2120,7 +2120,7 @@ a.menu-box:hover img {
   color: #ffffff;
 }
 
-.tomwetlands-background.lazy-back, .background-3179.lazy-back,  .background-3180.lazy-back, .background-3181.lazy-back, .background-3182.lazy-back, .background-3183.lazy-back, .background-3184.lazy-back, .background-3185.lazy-back, .background-3186.lazy-back, .background-3187.lazy-back, .background-3188.lazy-back, .background-3189.lazy-back, .background-3190.lazy-back, .background-3191.lazy-back, .background-3201.lazy-back {
+.tomwetlands-background.lazy-back, .background-3179.lazy-back,  .background-3180.lazy-back, .background-3181.lazy-back, .background-3182.lazy-back, .background-3183.lazy-back, .background-3184.lazy-back, .background-3185.lazy-back, .background-3186.lazy-back, .background-3187.lazy-back, .background-3188.lazy-back, .background-3189.lazy-back, .background-3190.lazy-back, .background-3191.lazy-back, .background-3192.lazy-back, .background-3201.lazy-back {
   background-image: none;
   background-color: #efefef;
 }
@@ -2263,6 +2263,16 @@ a.menu-box:hover img {
   color: #efefef;
 }
 
+.background-3192 {
+  background-image: url(https://static.aesseal.com/photo/staff/quotes/MAISIE_CAULDWELL.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  background-position: left;
+  background-color: #010101;
+  color: #efefef;
+}
+
 .background-3201 {
   background-image: url(https://static.aesseal.com/photo/staff/quotes/Ava-Jones.jpg);
   background-size: contain;
@@ -2273,7 +2283,7 @@ a.menu-box:hover img {
   color: #efefef;
 }
 
-.background-3179 .quote-placement, .background-3180 .quote-placement, .background-3181 .quote-placement, .background-3183 .quote-placement, .background-3184 .quote-placement, .background-3186 .quote-placement, .background-3188 .quote-placement, .background-3190 .quote-placement  {
+.background-3179 .quote-placement, .background-3180 .quote-placement, .background-3181 .quote-placement, .background-3183 .quote-placement, .background-3184 .quote-placement, .background-3186 .quote-placement, .background-3188 .quote-placement, .background-3190 .quote-placement, .background-3192 .quote-placement  {
   width: 50%;
   margin-left: 50%;
   text-align: right;
