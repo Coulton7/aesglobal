@@ -21,8 +21,7 @@
         hide($content['comments']);
         hide($content['links']);
         hide($content['field_document']);
-        hide($content['field_image']);
-        hide($content['field_thumbnail_sq']);
+        hide($content['field_thumbnail']);
         print render($content);
       ?>
     </div>
@@ -30,7 +29,7 @@
 
   <div class="row">
     <div class="col-sm-6">
-      <?php print render($content['field_image']);?>
+      <?php print render($content['field_thumbnail']);?>
     </div>
 
     <div class="col-sm-6">
