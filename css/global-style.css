@@ -3227,7 +3227,7 @@ a.btn-transparent-green-border:hover, a.btn-transparent-green-border:focus {
 }
 
 .social-media ul li a {
-  color: rgba(0, 0, 0, 0.6);
+  color: #ffffff;
   border-bottom: none;
 }
 
@@ -5703,6 +5703,11 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
   .view-a-day-in-the-life .view-content {
     display: flex;
     flex-wrap: wrap;
+  }
+
+  .view-resource-related-products.view-display-id-block_1 .view-content {
+    display: block;
+    flex-wrap: initial;
   }
 
   .container-inline div {
