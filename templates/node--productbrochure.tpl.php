@@ -43,7 +43,7 @@
         <?php print render($content['field_document']);?>
         <?php print render($content['field_installation_guide']);?>
         <?php print render($content['field_i18n_installation_guide']);?>
-        <?php echo views_embed_view('resource_related_products', 'block_1'); ?>
+        <?php $res_block = module_invoke('views', 'block_view', 'resource_related_products-block_1') ?>
       </div>
       <?php print render($content['field_hubspot_form']);?>
     </div>
