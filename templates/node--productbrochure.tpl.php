@@ -44,7 +44,7 @@
         <?php print render($content['field_installation_guide']);?>
         <?php print render($content['field_i18n_installation_guide']);?>
         <?php $res_block = module_invoke('views', 'block_view', 'resource_related_products-block_1');
-          print render($res_block);
+          print render($res_block['content']);
         ?>
       </div>
       <?php print render($content['field_hubspot_form']);?>
