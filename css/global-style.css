@@ -3053,6 +3053,10 @@ a.btn-transparent {
   text-overflow: ellipsis;
 }
 
+.white-space-normal {
+  white-space: normal;
+}
+
 .carousel-title {
   font-size: 3em;
   line-height: 1em;
