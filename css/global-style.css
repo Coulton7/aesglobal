@@ -4854,8 +4854,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(http://static.aesseal.com/photo/wavehead/Helipad-si-56363854-sq.jpg);
-    background-size: auto;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: unset;
     animation: none;
@@ -5547,8 +5547,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(http://static.aesseal.com/photo/wavehead/Helipad-si-56363854.jpg);
-    background-size: auto;
-    background-repeat: repeat;
+    background-size: cover;
+    background-repeat: no-repeat;
     background-color: #012e58;
     background-blend-mode: unset;
     animation: none;
@@ -6032,8 +6032,8 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 
   #carousel-fade .carousel-inner .item:nth-child(1) {
     background-image: url(http://static.aesseal.com/photo/wavehead/Helipad-si-56363854.jpg);
-    background-repeat: repeat;
-    background-size: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
     background-color: #012e58;
     background-blend-mode: unset;
     background-position: 0 10%;
