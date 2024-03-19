@@ -3654,6 +3654,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .slider-img {
   bottom: 0;
   position: absolute;
+  max-height: 100%;
 }
 
 .labtecta-table-scrollable {
