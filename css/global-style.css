@@ -3463,7 +3463,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .side-menu .nav li a {
   color: #535354;
   background-color: #e5e5e5;
-  height: 100%;
+  height: auto;
   border-bottom: 1px solid #ffffff
 }
 
@@ -3483,7 +3483,7 @@ blockquote.transparent-50:before, blockquote.transparent-50:after {
 .side-menu .nav li a:hover {
   color: #ffffff;
   background-color: #dd1e25;
-  height: 100%;
+  height: auto;
 }
 
 .base-timer {
